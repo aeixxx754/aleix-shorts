@@ -6,35 +6,15 @@ W, H, FPS = 1080, 1920, 30
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 EMOJI = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 
-TEXT = {
- "es": {
-  "hook": ("3 DATOS DE ANIMALES", "que no te vas a creer"),
-  "facts": [
-    ("🐙", "El pulpo tiene", "3 CORAZONES", "...y su sangre es azul"),
-    ("🦦", "Las nutrias marinas", "SE DAN LA MANO", "al dormir para no separarse"),
-    ("🐻", "El wombat hace", "CACA EN CUBITOS", "¡sí, con forma de cubo!"),
-  ],
-  "outro": ("¿Cuál te sorprendió más?", "Suscríbete para más datos"),
- },
- "en": {
-  "hook": ("3 ANIMAL FACTS", "you won't believe"),
-  "facts": [
-    ("🐙", "Octopuses have", "3 HEARTS", "...and their blood is blue"),
-    ("🦦", "Sea otters", "HOLD HANDS", "while sleeping so they don't drift apart"),
-    ("🐻", "Wombats make", "CUBE-SHAPED POOP", "yes, actual little cubes!"),
-  ],
-  "outro": ("Which one surprised you most?", "Subscribe for more facts"),
- },
-}
-# wombat emoji doesn't exist; use a generic brown-bear-like stand-in is misleading -> use poop emoji
-TEXT["es"]["facts"][2] = ("💩",) + TEXT["es"]["facts"][2][1:]
-TEXT["en"]["facts"][2] = ("💩",) + TEXT["en"]["facts"][2][1:]
-
-PALETTES = [((255, 94, 98), (255, 153, 102)),   # hook
-            ((72, 52, 212), (0, 168, 255)),      # octopus
-            ((0, 150, 136), (120, 220, 140)),    # otter
-            ((140, 80, 40), (240, 170, 70)),     # wombat
-            ((230, 50, 120), (130, 60, 230))]    # outro
+import json
+# Contenido: se carga desde un JSON (ver content/2026-10-30_animales.json)
+TEXT = None
+HOOK_EMOJI = "🤯"
+PALETTE_POOL = [((255, 94, 98), (255, 153, 102)), ((72, 52, 212), (0, 168, 255)),
+    ((0, 150, 136), (120, 220, 140)), ((140, 80, 40), (240, 170, 70)), ((230, 50, 120), (130, 60, 230)),
+    ((20, 120, 200), (90, 220, 230)), ((240, 120, 30), (250, 200, 60)), ((90, 40, 160), (220, 80, 160)),
+    ((30, 140, 80), (180, 220, 60)), ((200, 40, 60), (250, 120, 90))]
+PALETTES = PALETTE_POOL[:5]
 DUR = [3.0, 7.0, 7.0, 7.0, 4.0]
 
 def font(sz): return ImageFont.truetype(FONT, sz)
@@ -129,7 +109,7 @@ def render(lang, outdir):
             "-crf", "20", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
         if si == 0:
             L1 = text_layer(T["hook"][0], 120, maxw=900); L2 = text_layer(T["hook"][1], 76, color=(255, 240, 200))
-            E = emoji_img("🤯", 360)
+            E = emoji_img(HOOK_EMOJI, 360)
         elif si <= 3:
             em, a, b, c = T["facts"][si - 1]
             E = emoji_img(em, 440)
@@ -200,7 +180,15 @@ def music(path, total, pops):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(pcm.tobytes())
 
 if __name__ == "__main__":
-    lang = sys.argv[1]; outdir = sys.argv[2]; os.makedirs(outdir, exist_ok=True)
+    # uso: python3 make_short.py contenido.json idioma(es|en) carpeta_salida salida.mp4
+    cfile, lang, outdir, final = sys.argv[1:5]; os.makedirs(outdir, exist_ok=True)
+    C = json.load(open(cfile, encoding="utf-8"))
+    HOOK_EMOJI = C.get("hook_emoji", "🤯")
+    L = C[lang]
+    TEXT = {lang: {"hook": tuple(L["hook"]), "facts": [tuple(f) for f in L["facts"]], "outro": tuple(L["outro"])}}
+    seed = sum(ord(ch) for ch in os.path.basename(cfile))
+    rng = np.random.default_rng(seed); idx = rng.permutation(len(PALETTE_POOL))[:5]
+    PALETTES = C.get("palettes") or [PALETTE_POOL[i] for i in idx]
     files = render(lang, outdir)
     lst = os.path.join(outdir, f"{lang}_list.txt")
     open(lst, "w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
@@ -209,7 +197,8 @@ if __name__ == "__main__":
     wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
-    final = os.path.join(outdir, f"short_animales_{lang}.mp4")
+    tmpf = final[:-4] + ".tmp.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", final], check=True)
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", tmpf], check=True)
+    os.replace(tmpf, final)
     print(final)

@@ -1,0 +1,28 @@
+{
+  "tema": "Animales",
+  "hook_emoji": "🤯",
+  "es": {
+    "hook": ["3 DATOS DE ANIMALES", "que no te vas a creer"],
+    "facts": [
+      ["🐙", "El pulpo tiene", "3 CORAZONES", "...y su sangre es azul"],
+      ["🦦", "Las nutrias marinas", "SE DAN LA MANO", "al dormir para no separarse"],
+      ["💩", "El wombat hace", "CACA EN CUBITOS", "¡sí, con forma de cubo!"]
+    ],
+    "outro": ["¿Cuál te sorprendió más?", "Suscríbete para más datos"],
+    "titulo": "3 datos de animales que no te vas a creer 🤯",
+    "descripcion": "¿Sabías que el pulpo tiene 3 corazones? 🐙\n\n#Shorts #animales #curiosidades #sabiasque",
+    "tags": ["animales", "curiosidades", "datos curiosos", "sabías que"]
+  },
+  "en": {
+    "hook": ["3 ANIMAL FACTS", "you won't believe"],
+    "facts": [
+      ["🐙", "Octopuses have", "3 HEARTS", "...and their blood is blue"],
+      ["🦦", "Sea otters", "HOLD HANDS", "while sleeping so they don't drift apart"],
+      ["💩", "Wombats make", "CUBE-SHAPED POOP", "yes, actual little cubes!"]
+    ],
+    "outro": ["Which one surprised you most?", "Subscribe for more facts"],
+    "titulo": "3 Animal Facts You Won't Believe 🤯",
+    "descripcion": "Did you know octopuses have 3 hearts? 🐙\n\n#Shorts #animals #funfacts #didyouknow",
+    "tags": ["animals", "fun facts", "did you know"]
+  }
+}
