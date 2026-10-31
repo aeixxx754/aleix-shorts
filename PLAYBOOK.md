@@ -57,12 +57,10 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
 - Antes, `getScheduledPosts` del día (ignorar los borradores): si una hora ya tiene un Short de YouTube, no programar otro en esa hora
   (ese tema sale solo en el otro idioma).
 - Cada tema: ES a la hora HH:00 de su archivo y EN a la hora HH+1:00.
-- **YouTube y TikTok en la misma publicación**: `providers: [{"network":"youtube"},{"network":"tiktok"}]`, `autoPublish: true`,
+- **Solo YouTube** (no publicar en TikTok): `providers: [{"network":"youtube"}]`, `autoPublish: true`,
   `draft: false`, `media: [URL raw]`, `text`: descripción,
-  `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`,
-  `tiktokData`: `{privacyOption:"PUBLIC_TO_EVERYONE", title, autoAddMusic:false, isAigc:false}`.
+  `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`.
   `madeForKids:false`: el canal es para todas las edades (público general), no está dirigido principalmente a niños.
-  Si TikTok da error, programar solo YouTube y mencionarlo en el aviso.
   Categoría: PETS_ANIMALS para animales; EDUCATION o SCIENCE_TECHNOLOGY para el resto.
 - Programar primero uno y comprobar que Metricool acepta la URL; después el resto.
 
