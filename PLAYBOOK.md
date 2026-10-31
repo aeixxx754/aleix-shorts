@@ -10,6 +10,10 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 - Repo: `aeixxx754/aleix-shorts`. Rama `main` = código, contenido e historial. Rama `media` = solo los vídeos del día.
 - Clonar `main` con `git clone --depth 1`.
 - Leer `historial.md` y los nombres de `content/` para no repetir temas ni datos.
+- **Oficina de agentes** (artifact `https://claude.ai/artifact/3yJt3qS1zdcoaj58Q4N9Ev`, base de datos con la herramienta
+  ArtifactData; cargarla con ToolSearch si no está): poner al agente `aleix` en estado `ocupado` (leer el documento y
+  `update` con su `version` como if_version) y leer el plan de hoy, `planes/<AAAA-MM-DD de hoy>`. Lo deja el turno de noche
+  del equipo (Lucía, Bruno, Emma y Pau). Si la oficina no responde, seguir sin ella.
 
 ## 1b. Aprender de los días anteriores (mejora diaria)
 - Pedir a Metricool (`getAnalyticsDataByMetrics`, brandId 7763971) los Shorts publicados en los **últimos 7 días** con:
@@ -32,6 +36,9 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 - Anotar en `aprendizajes.md` las tendencias usadas, para comparar luego si rindieron más.
 
 ## 2. Elegir 6 temas y sus datos
+- **Si hay plan de la oficina para hoy, es el punto de partida**: sus 6 temas, horas, ganchos (`gancho`, `gancho_en`) y datos.
+  Volver a comprobar cada dato con WebSearch igualmente; cambiar el que no se confirme, el que repita historial o el que
+  choque con las conclusiones de hoy (paso 1b). Sin plan, elegir como siempre:
 - Un tema distinto por hora. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
@@ -94,6 +101,10 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
 - Avisar a Aleix con un resumen corto: los 6 temas con sus horas y cuántos Shorts se han programado.
+- Dejarlo también en la oficina: una entrada en `tablon` (doc_id `AAAAMMDD-HHMM-aleix`) con
+  `{fecha: ms epoch, agenteId: "aleix", nombre: "Aleix", tipo: "publicado" (o "alerta" si algo falló), turno: "manana",
+  titulo: "Shorts del <día>", texto: el mismo resumen}`; marcar el plan de hoy con `estado: "usado"` si se usó;
+  y volver a poner al agente `aleix` en `disponible`.
 - Si algo falla: no programar a medias los temas afectados; programar los que estén bien y explicar qué falló.
   Si Metricool rechaza por límite de publicaciones del plan, parar y avisar. Si en Metricool aparecen publicaciones de días
   anteriores fallidas por límite de subidas de YouTube, mencionarlo en el aviso.
