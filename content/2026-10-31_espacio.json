@@ -1,0 +1,28 @@
+{
+  "tema": "Espacio",
+  "hook_emoji": "🚀",
+  "es": {
+    "hook": ["3 DATOS DEL ESPACIO", "que te volarán la cabeza"],
+    "facts": [
+      ["⏳", "En Venus, un día dura", "MÁS QUE UN AÑO", "¡gira lentísimo sobre sí mismo!"],
+      ["👣", "Las huellas en la Luna", "PUEDEN DURAR", "millones de años: no hay viento"],
+      ["🪐", "Saturno es tan ligero", "QUE FLOTARÍA", "en una bañera gigante de agua"]
+    ],
+    "outro": ["¿Cuál te sorprendió más?", "Suscríbete para más datos"],
+    "titulo": "3 datos del espacio que te volarán la cabeza 🚀",
+    "descripcion": "¿Sabías que en Venus un día dura más que un año? 🪐\n\n#Shorts #espacio #curiosidades #sabiasque",
+    "tags": ["espacio", "planetas", "curiosidades", "datos curiosos", "sabías que"]
+  },
+  "en": {
+    "hook": ["3 SPACE FACTS", "that will blow your mind"],
+    "facts": [
+      ["⏳", "On Venus, one day lasts", "LONGER THAN A YEAR", "it spins super slowly!"],
+      ["👣", "Footprints on the Moon", "CAN LAST MILLIONS", "of years, because there's no wind"],
+      ["🪐", "Saturn is so light", "IT WOULD FLOAT", "in a giant bathtub of water"]
+    ],
+    "outro": ["Which one surprised you most?", "Subscribe for more facts"],
+    "titulo": "3 Space Facts That Will Blow Your Mind 🚀",
+    "descripcion": "Did you know a day on Venus is longer than its year? 🪐\n\n#Shorts #space #funfacts #didyouknow",
+    "tags": ["space", "planets", "fun facts", "did you know", "science for kids"]
+  }
+}
