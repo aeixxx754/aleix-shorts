@@ -38,7 +38,10 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 ## 2. Elegir 6 temas y sus datos
 - **Si hay plan de la oficina para hoy, es el punto de partida**: sus 6 temas, horas, ganchos (`gancho`, `gancho_en`) y datos.
   Volver a comprobar cada dato con WebSearch igualmente; cambiar el que no se confirme, el que repita historial o el que
-  choque con las conclusiones de hoy (paso 1b). Sin plan, elegir como siempre:
+  choque con las conclusiones de hoy (paso 1b). Si el plan trae los campos de Marco (`titulo`, `titulo_en`, `descripcion`,
+  `descripcion_en`, `tags`, `tags_en`), usarlos en el JSON (paso 3) y en Metricool, comprobando que cumplen las reglas del
+  paso 3 (longitudes, 3-5 hashtags, tendencias solo si tienen relación real). Si un tema trae `prueba_titulo`, copiarlo
+  tal cual en su JSON para que Pau pueda comparar las variantes. Sin plan, elegir como siempre:
 - Un tema distinto por hora. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
