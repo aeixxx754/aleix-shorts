@@ -11,6 +11,26 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 - Clonar `main` con `git clone --depth 1`.
 - Leer `historial.md` y los nombres de `content/` para no repetir temas ni datos.
 
+## 1b. Aprender de los días anteriores (mejora diaria)
+- Pedir a Metricool (`getAnalyticsDataByMetrics`, brandId 7763971) los Shorts publicados en los **últimos 7 días** con:
+  `YTVP02` fecha y hora, `YTVP17` título, `YTVP06` reproducciones, `YTVP08` duración media vista (s),
+  `YTVP09` likes, `YTVP11` comentarios, `YTVP12` compartidos. (Los datos llegan con 1-2 días de retraso.)
+- Calcular la **retención** = duración media vista / 21 s (o 28 s para los vídeos antiguos).
+- Comparar por tema, por idioma, por hora y por **estilo de gancho** (campo `estilo_gancho` del JSON, ver paso 3):
+  ¿qué tiene más reproducciones y más retención? ¿qué va peor?
+- Escribir en `aprendizajes.md` (al principio, con la fecha) 3-5 conclusiones cortas y **qué se cambia hoy** por ellas.
+  Si aún no hay datos suficientes (< 10 Shorts con reproducciones), decirlo y no sacar conclusiones.
+- **Aplicarlo hoy**: repetir categorías y estilos de gancho que funcionan, abandonar los que fallan varias veces,
+  y probar siempre al menos 1 idea nueva al día (tema, gancho o horario) para seguir aprendiendo.
+
+## 1c. Tendencias del día
+- Buscar con WebSearch qué es tendencia **hoy** en España y en EE. UU./mundo, sobre todo temas aptos para todas las edades:
+  fechas especiales (Halloween, Navidad, Día de la Tierra, eclipses, lanzamientos espaciales, Mundial, Juegos Olímpicos…),
+  noticias científicas o de animales, retos virales sin riesgo. Ejemplos de búsqueda: "trending today", "efemérides hoy",
+  "YouTube Shorts trending hashtags", "tendencias hoy España".
+- Si hay una tendencia apta, dedicarle **1 o 2 de los 6 temas** (con datos igual de verificados).
+- Anotar en `aprendizajes.md` las tendencias usadas, para comparar luego si rindieron más.
+
 ## 2. Elegir 6 temas y sus datos
 - Un tema distinto por hora. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
@@ -32,7 +52,14 @@ Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en e
 - `facts`: 3 × [emoji, frase inicial ≤ 24 car., REMATE EN MAYÚSCULAS ≤ 18 car., cierre ≤ 40 car.]
 - `outro`: ["¿Cuál no sabías?" o pregunta parecida, que invite a comentar], ["Míralo otra vez" / "Watch it again"]
   (el final se funde con el inicio para que el Short se repita en bucle).
-- `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + "Suscríbete para un dato nuevo cada hora" / "Subscribe for a new fact every hour" + hashtags con #Shorts), `tags` (4-6).
+- `estilo_gancho`: etiqueta del tipo de gancho usado, para medir qué funciona: `pregunta-tu` ("¿Sabías que TÚ…?"),
+  `reto` ("Seguro que no sabías…"), `comparacion` ("Más grande que…"), `numero` ("100.000 veces al día"),
+  `misterio` ("Nadie sabe por qué…"). Repartir estilos distintos entre los 6 temas del día.
+- `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + "Suscríbete para un dato nuevo cada hora" / "Subscribe for a new fact every hour" + hashtags), `tags` (4-6).
+- **Hashtags** (en la descripción, en el idioma del vídeo), **entre 3 y 5 en total**:
+  `#Shorts` + 1-2 del tema (p. ej. #dinosaurios / #dinosaurs) + 1-2 **en tendencia** solo si tienen relación real con el vídeo
+  (p. ej. #Halloween en un vídeo de murciélagos el 31 de octubre). **Nunca** hashtags de tendencia sin relación con el contenido:
+  YouTube los considera engañosos y puede quitar el vídeo. Nunca más de 15 hashtags (YouTube los ignora todos).
 - La versión EN es una traducción natural, no literal.
 
 ## 4. Crear los 12 vídeos
