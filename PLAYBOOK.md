@@ -61,13 +61,23 @@ Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en e
   (p. ej. #Halloween en un vídeo de murciélagos el 31 de octubre). **Nunca** hashtags de tendencia sin relación con el contenido:
   YouTube los considera engañosos y puede quitar el vídeo. Nunca más de 15 hashtags (YouTube los ignora todos).
 - La versión EN es una traducción natural, no literal.
+- `voz` (en `es` y en `en`): la locución, 5 frases, una por tramo del vídeo, que tienen que caber en su tiempo:
+  [gancho ≤ 5 palabras (2 s), dato 1 ≤ 13 palabras (5,5 s), dato 2 ≤ 13, dato 3 ≤ 13, final ≤ 6 palabras (2,5 s)].
+  Tono cercano de "te cuento un secreto"; el REMATE se dice tal cual sale en pantalla; números con cifras normales
+  ("300", "100.000") salvo que se lean mal; el final enlaza con el inicio (bucle). Si falta, se lee el texto de pantalla.
 
 ## 4. Crear los 12 vídeos
+Primero la voz: `bash tools/instalar_voz.sh` (instala Piper y descarga las voces ES y EN; necesita acceso a
+pypi.org, files.pythonhosted.org y huggingface.co). Si falla, **no parar**: los vídeos se generan solo con música
+y se avisa en el mensaje final de que han salido sin voz y por qué.
+
 Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4
 python3 tools/make_short.py content/<archivo>.json en <carpeta_trabajo> <media>/<archivo>_en.mp4
 ```
+El script escribe `voz: sí` o `voz: NO (motivo)`, y `voz: AVISO tramo N…` si una frase no cabe: en ese caso,
+acortar esa frase de `voz` y volver a renderizar ese vídeo.
 Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en 1.2, 5, 10.5, 16 y 19.8 s de todos los vídeos
 (miniaturas de 180 px) y mirarla. Si un texto se corta o se solapa, acortarlo y volver a renderizar ese vídeo.
 
@@ -93,7 +103,7 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
-- Avisar a Aleix con un resumen corto: los 6 temas con sus horas y cuántos Shorts se han programado.
+- Avisar a Aleix con un resumen corto: los 6 temas con sus horas, cuántos Shorts se han programado y si llevan voz.
 - Si algo falla: no programar a medias los temas afectados; programar los que estén bien y explicar qué falló.
   Si Metricool rechaza por límite de publicaciones del plan, parar y avisar. Si en Metricool aparecen publicaciones de días
   anteriores fallidas por límite de subidas de YouTube, mencionarlo en el aviso.

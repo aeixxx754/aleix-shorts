@@ -163,7 +163,8 @@ def render(lang, outdir):
         os.replace(tmp, fin); files.append(fin); gstart += dur
     return files
 
-def music(path, total, pops):
+def music(path, total, pops, voz=None, presencia=None):
+    """Música de fondo; si hay `voz`, la mezcla encima y baja la música mientras se habla."""
     sr = 44100; n = int(sr * total); t = np.arange(n) / sr
     bpm = 116; beat = 60 / bpm
     out = np.zeros(n)
@@ -192,7 +193,13 @@ def music(path, total, pops):
             out[i:i + l] += 0.25 * np.exp(-s * 30) * np.sin(2 * np.pi * (500 + 900 * s * 8) * s)
     fade = np.minimum(1, np.minimum(t / 0.3, (total - t) / 0.8))
     out = np.tanh(out * fade * 1.4) * 0.8
-    pcm = (out * 32767).astype(np.int16)
+    if voz is not None:
+        m = min(n, len(voz))
+        out[:m] *= 1 - 0.7 * presencia[:m]          # la música baja al 30 % bajo la voz
+        out[:m] += 0.95 * voz[:m]
+        out = np.tanh(out * 1.1) / np.tanh(1.1)      # limitador suave
+        out *= 0.92 / max(1e-6, float(np.max(np.abs(out))))
+    pcm = (np.clip(out, -1, 1) * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(pcm.tobytes())
 
@@ -214,7 +221,20 @@ if __name__ == "__main__":
     open(lst, "w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
     starts = np.cumsum([0] + DUR[:-1])
     pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
-    wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops)
+    # Voz en off (Piper). El JSON puede traer "voz": [gancho, dato1, dato2, dato3, final] por idioma;
+    # si no, se lee el texto de pantalla. Sin Piper instalado, el Short sale solo con música.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import voz as V
+    voz = presencia = None
+    falta = V.disponible(lang)
+    if falta:
+        print(f"voz: NO ({falta})")
+    else:
+        textos = L.get("voz") or V.textos_desde_pantalla(TEXT[lang])
+        voz, presencia, avisos = V.pista(textos, list(starts), DUR, lang, sum(DUR))
+        print("voz: sí" + ("" if L.get("voz") else " (leída del texto en pantalla)"))
+        for a in avisos: print("voz: AVISO", a)
+    wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops, voz, presencia)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
     tmpf = final[:-4] + ".tmp.mp4"
