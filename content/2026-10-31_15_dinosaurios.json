@@ -1,0 +1,81 @@
+{
+ "tema": "Dinosaurios",
+ "hook_emoji": "🦕",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": [
+   "3 DATOS DE DINOSAURIOS",
+   "alucinantes"
+  ],
+  "facts": [
+   [
+    "🦖",
+    "El T. rex vivió",
+    "MÁS CERCA DE TI",
+    "que del estegosaurio"
+   ],
+   [
+    "🐦",
+    "Los pájaros",
+    "SON DINOSAURIOS",
+    "¡los únicos que siguen vivos!"
+   ],
+   [
+    "🪶",
+    "Muchos dinosaurios",
+    "TENÍAN PLUMAS",
+    "como las aves de hoy"
+   ]
+  ],
+  "outro": [
+   "¿Cuál es tu dinosaurio favorito?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos de dinosaurios alucinantes 🦖",
+  "descripcion": "¿Sabías que los pájaros son dinosaurios? 🐦\n\n#Shorts #dinosaurios #curiosidades #sabiasque",
+  "tags": [
+   "dinosaurios",
+   "t rex",
+   "curiosidades",
+   "sabías que"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 DINOSAUR FACTS",
+   "that are mind-blowing"
+  ],
+  "facts": [
+   [
+    "🦖",
+    "T. rex lived",
+    "CLOSER TO YOU",
+    "than to Stegosaurus"
+   ],
+   [
+    "🐦",
+    "Birds",
+    "ARE DINOSAURS",
+    "the only ones still alive!"
+   ],
+   [
+    "🪶",
+    "Many dinosaurs",
+    "HAD FEATHERS",
+    "just like birds today"
+   ]
+  ],
+  "outro": [
+   "What's your favorite dinosaur?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Mind-Blowing Dinosaur Facts 🦖",
+  "descripcion": "Did you know birds are dinosaurs? 🐦\n\n#Shorts #dinosaurs #funfacts #didyouknow",
+  "tags": [
+   "dinosaurs",
+   "t rex",
+   "fun facts",
+   "did you know"
+  ]
+ }
+}

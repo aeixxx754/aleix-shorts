@@ -1,0 +1,83 @@
+{
+ "tema": "Aves",
+ "hook_emoji": "🦜",
+ "cat": "PETS_ANIMALS",
+ "es": {
+  "hook": [
+   "3 DATOS DE AVES",
+   "que te van a encantar"
+  ],
+  "facts": [
+   [
+    "🐦",
+    "El colibrí",
+    "VUELA HACIA ATRÁS",
+    "¡el único pájaro que lo hace!"
+   ],
+   [
+    "👁️",
+    "El ojo del avestruz",
+    "ES MÁS GRANDE",
+    "que su cerebro"
+   ],
+   [
+    "🦩",
+    "Los flamencos",
+    "SON ROSAS",
+    "por lo que comen"
+   ]
+  ],
+  "outro": [
+   "¿Cuál es tu pájaro favorito?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos de aves que te van a encantar 🦩",
+  "descripcion": "¿Sabías que los flamencos son rosas por lo que comen? 🦩\n\n#Shorts #aves #animales #curiosidades",
+  "tags": [
+   "aves",
+   "pájaros",
+   "colibrí",
+   "flamenco",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 BIRD FACTS",
+   "you'll love"
+  ],
+  "facts": [
+   [
+    "🐦",
+    "Hummingbirds",
+    "FLY BACKWARDS",
+    "the only birds that can!"
+   ],
+   [
+    "👁️",
+    "An ostrich's eye",
+    "IS BIGGER",
+    "than its brain"
+   ],
+   [
+    "🦩",
+    "Flamingos",
+    "ARE PINK",
+    "because of what they eat"
+   ]
+  ],
+  "outro": [
+   "What's your favorite bird?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Bird Facts You'll Love 🦩",
+  "descripcion": "Did you know flamingos are pink because of what they eat? 🦩\n\n#Shorts #birds #animals #funfacts",
+  "tags": [
+   "birds",
+   "hummingbird",
+   "flamingo",
+   "ostrich",
+   "fun facts"
+  ]
+ }
+}

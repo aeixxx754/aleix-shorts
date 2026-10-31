@@ -1,0 +1,83 @@
+{
+ "tema": "Insectos",
+ "hook_emoji": "🐞",
+ "cat": "PETS_ANIMALS",
+ "es": {
+  "hook": [
+   "3 DATOS DE INSECTOS",
+   "increíbles"
+  ],
+  "facts": [
+   [
+    "🐜",
+    "Una hormiga levanta",
+    "DECENAS DE VECES",
+    "su propio peso"
+   ],
+   [
+    "🦋",
+    "Las mariposas",
+    "SABOREAN CON LOS PIES",
+    "¡prueban la comida al posarse!"
+   ],
+   [
+    "🐝",
+    "Las abejas",
+    "BAILAN",
+    "para decir dónde hay flores"
+   ]
+  ],
+  "outro": [
+   "¿Cuál te gustó más?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos de insectos increíbles 🐜",
+  "descripcion": "¿Sabías que las mariposas saborean con los pies? 🦋\n\n#Shorts #insectos #animales #curiosidades",
+  "tags": [
+   "insectos",
+   "hormigas",
+   "mariposas",
+   "abejas",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 INSECT FACTS",
+   "that are amazing"
+  ],
+  "facts": [
+   [
+    "🐜",
+    "An ant can lift",
+    "DOZENS OF TIMES",
+    "its own body weight"
+   ],
+   [
+    "🦋",
+    "Butterflies",
+    "TASTE WITH THEIR FEET",
+    "they taste food by landing on it!"
+   ],
+   [
+    "🐝",
+    "Honeybees",
+    "DANCE",
+    "to show where flowers are"
+   ]
+  ],
+  "outro": [
+   "Which one did you like most?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Amazing Insect Facts 🐜",
+  "descripcion": "Did you know butterflies taste with their feet? 🦋\n\n#Shorts #insects #animals #funfacts",
+  "tags": [
+   "insects",
+   "ants",
+   "butterflies",
+   "bees",
+   "fun facts"
+  ]
+ }
+}

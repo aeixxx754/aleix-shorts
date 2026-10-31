@@ -1,0 +1,83 @@
+{
+ "tema": "Océano",
+ "hook_emoji": "🌊",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": [
+   "3 DATOS DEL OCÉANO",
+   "que te van a sorprender"
+  ],
+  "facts": [
+   [
+    "🔦",
+    "Más del 80% del océano",
+    "SIN EXPLORAR",
+    "aún no lo hemos visto"
+   ],
+   [
+    "🐋",
+    "La ballena azul es",
+    "EL MÁS GRANDE",
+    "animal que ha existido"
+   ],
+   [
+    "🏔️",
+    "El Everest cabría en",
+    "LA FOSA DE LAS MARIANAS",
+    "¡y sobrarían 2 km de agua!"
+   ]
+  ],
+  "outro": [
+   "¿Te bañarías ahí?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos del océano que te van a sorprender 🌊",
+  "descripcion": "¿Sabías que casi no conocemos el fondo del mar? 🐋\n\n#Shorts #oceano #mar #curiosidades",
+  "tags": [
+   "océano",
+   "mar",
+   "ballena azul",
+   "curiosidades",
+   "sabías que"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 OCEAN FACTS",
+   "that will surprise you"
+  ],
+  "facts": [
+   [
+    "🔦",
+    "Over 80% of the ocean",
+    "IS UNEXPLORED",
+    "we still haven't seen it"
+   ],
+   [
+    "🐋",
+    "The blue whale is",
+    "THE BIGGEST",
+    "animal that ever lived"
+   ],
+   [
+    "🏔️",
+    "Mount Everest fits in",
+    "THE MARIANA TRENCH",
+    "with 2 km of water to spare!"
+   ]
+  ],
+  "outro": [
+   "Would you dive there?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Ocean Facts That Will Surprise You 🌊",
+  "descripcion": "Did you know most of the ocean is still unexplored? 🐋\n\n#Shorts #ocean #sea #funfacts",
+  "tags": [
+   "ocean",
+   "sea",
+   "blue whale",
+   "fun facts",
+   "did you know"
+  ]
+ }
+}

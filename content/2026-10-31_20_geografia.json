@@ -1,0 +1,83 @@
+{
+ "tema": "Geografía",
+ "hook_emoji": "🌍",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": [
+   "3 DATOS DEL MUNDO",
+   "que no te enseñaron"
+  ],
+  "facts": [
+   [
+    "🕰️",
+    "Rusia tiene",
+    "11 HUSOS HORARIOS",
+    "¡11 horas distintas a la vez!"
+   ],
+   [
+    "🍁",
+    "Canadá tiene",
+    "LA COSTA MÁS LARGA",
+    "de todos los países"
+   ],
+   [
+    "🏜️",
+    "El Sáhara es",
+    "CASI TAN GRANDE",
+    "como todo Estados Unidos"
+   ]
+  ],
+  "outro": [
+   "¿Qué país quieres conocer?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos del mundo que no te enseñaron 🌍",
+  "descripcion": "¿Sabías que Rusia tiene 11 husos horarios? 🕰️\n\n#Shorts #geografia #mundo #curiosidades",
+  "tags": [
+   "geografía",
+   "mundo",
+   "países",
+   "curiosidades",
+   "sabías que"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 WORLD FACTS",
+   "they didn't teach you"
+  ],
+  "facts": [
+   [
+    "🕰️",
+    "Russia has",
+    "11 TIME ZONES",
+    "11 different times at once!"
+   ],
+   [
+    "🍁",
+    "Canada has",
+    "THE LONGEST COAST",
+    "of any country"
+   ],
+   [
+    "🏜️",
+    "The Sahara is",
+    "ALMOST AS BIG",
+    "as the whole United States"
+   ]
+  ],
+  "outro": [
+   "Which country would you visit?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 World Facts They Didn't Teach You 🌍",
+  "descripcion": "Did you know Russia has 11 time zones? 🕰️\n\n#Shorts #geography #world #funfacts",
+  "tags": [
+   "geography",
+   "world",
+   "countries",
+   "fun facts",
+   "did you know"
+  ]
+ }
+}

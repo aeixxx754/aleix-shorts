@@ -1,0 +1,83 @@
+{
+ "tema": "Comida",
+ "hook_emoji": "🍽️",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": [
+   "3 DATOS DE COMIDA",
+   "que te dejarán flipando"
+  ],
+  "facts": [
+   [
+    "🍯",
+    "La miel bien cerrada",
+    "PUEDE DURAR SIGLOS",
+    "¡casi no se estropea!"
+   ],
+   [
+    "🥕",
+    "Las primeras zanahorias",
+    "ERAN MORADAS",
+    "no naranjas"
+   ],
+   [
+    "🥜",
+    "El cacahuete",
+    "NO ES UN FRUTO SECO",
+    "es una legumbre, como la lenteja"
+   ]
+  ],
+  "outro": [
+   "¿Cuál te sorprendió más?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos de comida que te dejarán flipando 🍯",
+  "descripcion": "¿Sabías que las primeras zanahorias eran moradas? 🥕\n\n#Shorts #comida #curiosidades #sabiasque",
+  "tags": [
+   "comida",
+   "miel",
+   "zanahoria",
+   "cacahuete",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 FOOD FACTS",
+   "that will blow your mind"
+  ],
+  "facts": [
+   [
+    "🍯",
+    "Sealed honey",
+    "CAN LAST CENTURIES",
+    "it almost never spoils!"
+   ],
+   [
+    "🥕",
+    "The first carrots",
+    "WERE PURPLE",
+    "not orange"
+   ],
+   [
+    "🥜",
+    "Peanuts",
+    "AREN'T NUTS",
+    "they're legumes, like lentils"
+   ]
+  ],
+  "outro": [
+   "Which one surprised you most?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Food Facts That Will Blow Your Mind 🍯",
+  "descripcion": "Did you know the first carrots were purple? 🥕\n\n#Shorts #food #funfacts #didyouknow",
+  "tags": [
+   "food",
+   "honey",
+   "carrots",
+   "peanuts",
+   "fun facts"
+  ]
+ }
+}

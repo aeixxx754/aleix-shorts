@@ -1,0 +1,83 @@
+{
+ "tema": "Plantas",
+ "hook_emoji": "🌱",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": [
+   "3 DATOS DE PLANTAS",
+   "que no te esperas"
+  ],
+  "facts": [
+   [
+    "🎋",
+    "El bambú puede crecer",
+    "CASI 1 METRO",
+    "¡en un solo día!"
+   ],
+   [
+    "🍌",
+    "El plátano",
+    "ES UNA BAYA",
+    "pero la fresa no lo es"
+   ],
+   [
+    "🌻",
+    "Los girasoles jóvenes",
+    "SIGUEN AL SOL",
+    "de este a oeste cada día"
+   ]
+  ],
+  "outro": [
+   "¿Lo sabías?",
+   "Suscríbete para más datos"
+  ],
+  "titulo": "3 datos de plantas que no te esperas 🌱",
+  "descripcion": "¿Sabías que el plátano es una baya? 🍌\n\n#Shorts #plantas #naturaleza #curiosidades",
+  "tags": [
+   "plantas",
+   "naturaleza",
+   "bambú",
+   "girasol",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 PLANT FACTS",
+   "you won't expect"
+  ],
+  "facts": [
+   [
+    "🎋",
+    "Bamboo can grow",
+    "ALMOST 1 METER",
+    "in a single day!"
+   ],
+   [
+    "🍌",
+    "A banana",
+    "IS A BERRY",
+    "but a strawberry isn't"
+   ],
+   [
+    "🌻",
+    "Young sunflowers",
+    "FOLLOW THE SUN",
+    "from east to west every day"
+   ]
+  ],
+  "outro": [
+   "Did you know that?",
+   "Subscribe for more facts"
+  ],
+  "titulo": "3 Plant Facts You Won't Expect 🌱",
+  "descripcion": "Did you know a banana is a berry? 🍌\n\n#Shorts #plants #nature #funfacts",
+  "tags": [
+   "plants",
+   "nature",
+   "bamboo",
+   "sunflower",
+   "fun facts"
+  ]
+ }
+}
