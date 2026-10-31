@@ -13,3 +13,4 @@
 | 2026-10-31 19h | Comida | Miel sellada dura siglos; primeras zanahorias moradas; el cacahuete es una legumbre | ES+EN 19:00 |
 | 2026-10-31 20h | Geografía | Rusia tiene 11 husos horarios; Canadá tiene la costa más larga; el Sáhara es casi tan grande como EE. UU. | ES+EN 20:00 |
 | 2026-10-31 21h | Aves | El colibrí vuela hacia atrás; el ojo del avestruz es más grande que su cerebro; los flamencos son rosas por lo que comen | ES+EN 21:00 |
+| 2026-10-31 | Ajuste | Ritmo reducido a 12/día alternando idioma. Hoy publicados: 13 ES, 14 EN, 15 ES, 16 EN, 17 ES, 18 EN, 19 ES, 20 EN, 21 ES; el resto quedó en borrador en Metricool | — |

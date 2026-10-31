@@ -1,15 +1,17 @@
 # Playbook diario – Shorts de Aleix
 
 Canal de YouTube de datos curiosos **para todas las edades**, en **español e inglés**.
-Ritmo: **un tema por hora de 10:00 a 21:00 (12 temas al día)**, cada tema en ES y EN publicados a la misma hora
-→ **24 Shorts al día**. Una sola ejecución por la mañana lo crea y programa todo.
+Ritmo: **un Short por hora de 10:00 a 21:00, alternando idioma → 12 Shorts al día.**
+**6 temas al día**; cada tema sale en **español a una hora par y en inglés a la hora siguiente**:
+tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → ES 20:00 / EN 21:00.
+(Motivo: límite diario de subidas de YouTube en un canal nuevo.) Una sola ejecución por la mañana lo crea y programa todo.
 
 ## 1. Preparar
 - Repo: `aeixxx754/aleix-shorts`. Rama `main` = código, contenido e historial. Rama `media` = solo los vídeos del día.
 - Clonar `main` con `git clone --depth 1`.
 - Leer `historial.md` y los nombres de `content/` para no repetir temas ni datos.
 
-## 2. Elegir 12 temas y sus datos
+## 2. Elegir 6 temas y sus datos
 - Un tema distinto por hora. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
@@ -21,7 +23,7 @@ Ritmo: **un tema por hora de 10:00 a 21:00 (12 temas al día)**, cada tema en ES
 - Un emoji por dato que exista en Noto Color Emoji.
 
 ## 3. Escribir el contenido
-Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora de publicación, 10…21), con el formato de
+Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en español: 10, 12, 14, 16, 18 o 20), con el formato de
 `content/2026-10-31_13_cuerpo.json`:
 - `hook`: [título en MAYÚSCULAS, ≤ 22 caracteres], [subtítulo corto]; `hook_emoji`; `cat` (categoría de YouTube)
 - `facts`: 3 × [emoji, frase inicial ≤ 24 car., REMATE EN MAYÚSCULAS ≤ 18 car., cierre ≤ 40 car.]
@@ -29,7 +31,7 @@ Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora de publicació
 - `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + hashtags con #Shorts), `tags` (4-6).
 - La versión EN es una traducción natural, no literal.
 
-## 4. Crear los 24 vídeos
+## 4. Crear los 12 vídeos
 Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4
@@ -48,8 +50,9 @@ Tarda ~25 s por vídeo. Revisión: hoja de contactos con fotogramas en 2, 6.5, 1
 
 ## 6. Programar en Metricool
 - blogId `7763971`, zona horaria `Europe/Madrid`.
-- Antes, `getScheduledPosts` del día: si en una hora ya hay un Short de YouTube en ese idioma, no programar otro en esa hora e idioma.
-- Cada tema: ES y EN a la hora HH:00 de su archivo.
+- Antes, `getScheduledPosts` del día (ignorar los borradores): si una hora ya tiene un Short de YouTube, no programar otro en esa hora
+  (ese tema sale solo en el otro idioma).
+- Cada tema: ES a la hora HH:00 de su archivo y EN a la hora HH+1:00.
 - `providers: [{"network":"youtube"}]`, `autoPublish: true`, `draft: false`, `media: [URL raw]`,
   `text`: descripción, `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:true, isAiGeneratedContent:false}`.
   Categoría: PETS_ANIMALS para animales; EDUCATION o SCIENCE_TECHNOLOGY para el resto.
@@ -57,6 +60,7 @@ Tarda ~25 s por vídeo. Revisión: hoja de contactos con fotogramas en 2, 6.5, 1
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
-- Avisar a Aleix con un resumen corto: los 12 temas con su hora y cuántos Shorts se han programado.
+- Avisar a Aleix con un resumen corto: los 6 temas con sus horas y cuántos Shorts se han programado.
 - Si algo falla: no programar a medias los temas afectados; programar los que estén bien y explicar qué falló.
-  Si Metricool rechaza por límite de publicaciones del plan o YouTube por límite de subidas, parar y avisar.
+  Si Metricool rechaza por límite de publicaciones del plan, parar y avisar. Si en Metricool aparecen publicaciones de días
+  anteriores fallidas por límite de subidas de YouTube, mencionarlo en el aviso.
