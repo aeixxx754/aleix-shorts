@@ -25,10 +25,14 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 ## 3. Escribir el contenido
 Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en español: 10, 12, 14, 16, 18 o 20), con el formato de
 `content/2026-10-31_13_cuerpo.json`:
-- `hook`: [título en MAYÚSCULAS, ≤ 22 caracteres], [subtítulo corto]; `hook_emoji`; `cat` (categoría de YouTube)
+- `hook`: [**PREGUNTA gancho en MAYÚSCULAS, ≤ 34 caracteres**, que cree curiosidad y se entienda en 1 segundo
+  (p. ej. "¿TIENES MÁS HUESOS QUE TU MADRE?", "¿SABES QUÉ ANIMAL TIENE 3 CORAZONES?")], [subtítulo corto, p. ej.
+  "la respuesta te sorprenderá"]; `hook_emoji`; `cat` (categoría de YouTube)
+- **Sin emojis dentro de los textos en pantalla** (la fuente no los tiene); los emojis van solo en `hook_emoji` y en los facts.
 - `facts`: 3 × [emoji, frase inicial ≤ 24 car., REMATE EN MAYÚSCULAS ≤ 18 car., cierre ≤ 40 car.]
-- `outro`: [pregunta o frase final], ["Suscríbete para más datos" / "Subscribe for more facts"]
-- `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + hashtags con #Shorts), `tags` (4-6).
+- `outro`: ["¿Cuál no sabías?" o pregunta parecida, que invite a comentar], ["Míralo otra vez" / "Watch it again"]
+  (el final se funde con el inicio para que el Short se repita en bucle).
+- `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + "Suscríbete para un dato nuevo cada hora" / "Subscribe for a new fact every hour" + hashtags con #Shorts), `tags` (4-6).
 - La versión EN es una traducción natural, no literal.
 
 ## 4. Crear los 12 vídeos
@@ -37,7 +41,7 @@ Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `medi
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4
 python3 tools/make_short.py content/<archivo>.json en <carpeta_trabajo> <media>/<archivo>_en.mp4
 ```
-Tarda ~25 s por vídeo. Revisión: hoja de contactos con fotogramas en 2, 6.5, 13.5, 20.5 y 26 s de todos los vídeos
+Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en 1.2, 5, 10.5, 16 y 19.8 s de todos los vídeos
 (miniaturas de 180 px) y mirarla. Si un texto se corta o se solapa, acortarlo y volver a renderizar ese vídeo.
 
 ## 5. Subir a GitHub
@@ -53,8 +57,12 @@ Tarda ~25 s por vídeo. Revisión: hoja de contactos con fotogramas en 2, 6.5, 1
 - Antes, `getScheduledPosts` del día (ignorar los borradores): si una hora ya tiene un Short de YouTube, no programar otro en esa hora
   (ese tema sale solo en el otro idioma).
 - Cada tema: ES a la hora HH:00 de su archivo y EN a la hora HH+1:00.
-- `providers: [{"network":"youtube"}]`, `autoPublish: true`, `draft: false`, `media: [URL raw]`,
-  `text`: descripción, `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:true, isAiGeneratedContent:false}`.
+- **YouTube y TikTok en la misma publicación**: `providers: [{"network":"youtube"},{"network":"tiktok"}]`, `autoPublish: true`,
+  `draft: false`, `media: [URL raw]`, `text`: descripción,
+  `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`,
+  `tiktokData`: `{privacyOption:"PUBLIC_TO_EVERYONE", title, autoAddMusic:false, isAigc:false}`.
+  `madeForKids:false`: el canal es para todas las edades (público general), no está dirigido principalmente a niños.
+  Si TikTok da error, programar solo YouTube y mencionarlo en el aviso.
   Categoría: PETS_ANIMALS para animales; EDUCATION o SCIENCE_TECHNOLOGY para el resto.
 - Programar primero uno y comprobar que Metricool acepta la URL; después el resto.
 

@@ -15,7 +15,10 @@ PALETTE_POOL = [((255, 94, 98), (255, 153, 102)), ((72, 52, 212), (0, 168, 255))
     ((20, 120, 200), (90, 220, 230)), ((240, 120, 30), (250, 200, 60)), ((90, 40, 160), (220, 80, 160)),
     ((30, 140, 80), (180, 220, 60)), ((200, 40, 60), (250, 120, 90))]
 PALETTES = PALETTE_POOL[:5]
-DUR = [3.0, 7.0, 7.0, 7.0, 4.0]
+DUR = [2.0, 5.5, 5.5, 5.5, 2.5]  # ~21 s: corto para mejor retención
+HIGHLIGHTS = [(255, 255, 140), (140, 255, 220), (255, 200, 120), (200, 230, 255)]
+HL = HIGHLIGHTS[0]
+BUBBLE_MODE = "bubbles"
 
 def font(sz): return ImageFont.truetype(FONT, sz)
 
@@ -31,7 +34,8 @@ def emoji_img(ch, size):
     im = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
     ImageDraw.Draw(im).text((10, 10), ch, font=f, embedded_color=True)
     im = im.crop(im.getbbox())
-    return im.resize((size, int(size * im.height / im.width)), Image.LANCZOS)
+    k = size / max(im.width, im.height)  # cabe en un cuadrado size x size
+    return im.resize((max(1, int(im.width * k)), max(1, int(im.height * k))), Image.LANCZOS)
 
 def wrap(text, f, maxw):
     words, lines, cur = text.split(), [], ""
@@ -42,7 +46,13 @@ def wrap(text, f, maxw):
     lines.append(cur)
     return lines
 
+def clean(text):
+    # Poppins no tiene emojis: se quitan del texto en pantalla
+    f = font(40)
+    return " ".join("".join(ch for ch in text if ch == " " or f.getmask(ch).getbbox() is not None and ord(ch) < 0x2000 or ch in "¿¡…–—’“”€").split())
+
 def text_layer(text, size, color=(255, 255, 255), maxw=940, stroke=0, box=None):
+    text = clean(text)
     f = font(size)
     while True:
         lines = wrap(text, f, maxw)
@@ -88,7 +98,12 @@ def bubbles(frame, t, seed):
         x = rng.uniform(0, W); sp = rng.uniform(40, 120); r = rng.uniform(20, 90)
         y = (rng.uniform(0, H) - sp * t) % (H + 200) - 100
         x += 30 * math.sin(t * rng.uniform(0.5, 1.5) + rng.uniform(0, 6))
-        d.ellipse((x - r, y - r, x + r, y + r), fill=(255, 255, 255, int(rng.uniform(18, 40))))
+        a = int(rng.uniform(18, 40))
+        if BUBBLE_MODE == "bubbles": d.ellipse((x - r, y - r, x + r, y + r), fill=(255, 255, 255, a))
+        elif BUBBLE_MODE == "squares": d.rounded_rectangle((x - r * .7, y - r * .7, x + r * .7, y + r * .7), radius=int(r * .25), fill=(255, 255, 255, a))
+        else:
+            pts = [(x + r * math.cos(k * math.pi / 5 - math.pi / 2) * (1 if k % 2 == 0 else .45), y + r * math.sin(k * math.pi / 5 - math.pi / 2) * (1 if k % 2 == 0 else .45)) for k in range(10)]
+            d.polygon(pts, fill=(255, 255, 255, a))
     frame.alpha_composite(ov)
 
 def progress(frame, gt, total):
@@ -114,7 +129,7 @@ def render(lang, outdir):
             em, a, b, c = T["facts"][si - 1]
             E = emoji_img(em, 440)
             badge = text_layer(f"{si}/3", 64, color=(40, 40, 40), box=(255, 255, 255, 235))
-            La = text_layer(a, 78); Lb = text_layer(b, 128, color=(255, 255, 140), maxw=960); Lc = text_layer(c, 62, color=(255, 255, 255))
+            La = text_layer(a, 78); Lb = text_layer(b, 128, color=HL, maxw=960); Lc = text_layer(c, 62, color=(255, 255, 255))
             ya = 1010 + La.height / 2; yb = ya + La.height / 2 + Lb.height / 2 - 10; yc = yb + Lb.height / 2 + Lc.height / 2 + 10
         else:
             L1 = text_layer(T["outro"][0], 88); L2 = text_layer(T["outro"][1], 66, color=(40, 40, 40), box=(255, 255, 255, 240))
@@ -123,21 +138,23 @@ def render(lang, outdir):
             t = i / FPS; gt = gstart + t
             fr = bgs[si].copy(); bubbles(fr, gt, si)
             if si == 0:
-                place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), ease_out_back(t / 0.5))
-                place(fr, L1, W / 2, 1060, ease_out_back((t - 0.25) / 0.5), ease((t - 0.25) / 0.3))
-                place(fr, L2, W / 2, 1280 + 60 * (1 - ease((t - 0.8) / 0.4)), 1, ease((t - 0.8) / 0.4))
+                place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), ease_out_back(t / 0.3))
+                place(fr, L1, W / 2, 1060, ease_out_back((t - 0.05) / 0.4), ease((t - 0.05) / 0.2))
+                place(fr, L2, W / 2, 1060 + L1.height / 2 + L2.height / 2 + 20 + 60 * (1 - ease((t - 0.5) / 0.3)), 1, ease((t - 0.5) / 0.3))
             elif si <= 3:
                 place(fr, badge, W / 2, 300, ease_out_back(t / 0.4))
                 place(fr, E, W / 2, 680 + 20 * math.sin(t * 3), ease_out_back((t - 0.1) / 0.6) * (1 + 0.03 * math.sin(t * 5)))
-                place(fr, La, W / 2, ya + 50 * (1 - ease((t - 0.6) / 0.4)), 1, ease((t - 0.6) / 0.4))
-                place(fr, Lb, W / 2, yb, ease_out_back((t - 1.2) / 0.5), ease((t - 1.2) / 0.25))
-                place(fr, Lc, W / 2, yc + 50 * (1 - ease((t - 2.6) / 0.4)), 1, ease((t - 2.6) / 0.4))
+                place(fr, La, W / 2, ya + 50 * (1 - ease((t - 0.35) / 0.3)), 1, ease((t - 0.35) / 0.3))
+                place(fr, Lb, W / 2, yb, ease_out_back((t - 0.8) / 0.4), ease((t - 0.8) / 0.2))
+                place(fr, Lc, W / 2, yc + 50 * (1 - ease((t - 1.9) / 0.3)), 1, ease((t - 1.9) / 0.3))
             else:
                 place(fr, E, W / 2, 640, ease_out_back(t / 0.5) * (1 + 0.08 * math.sin(t * 9) * (t > 0.6)))
-                place(fr, L1, W / 2, 1040, ease_out_back((t - 0.3) / 0.5), ease((t - 0.3) / 0.3))
-                place(fr, L2, W / 2, 1260, ease_out_back((t - 0.9) / 0.5) * (1 + 0.04 * math.sin(t * 6)), ease((t - 0.9) / 0.3))
+                place(fr, L1, W / 2, 1040, ease_out_back((t - 0.15) / 0.4), ease((t - 0.15) / 0.25))
+                place(fr, L2, W / 2, 1040 + L1.height / 2 + L2.height / 2 + 30, ease_out_back((t - 0.6) / 0.4) * (1 + 0.04 * math.sin(t * 6)), ease((t - 0.6) / 0.25))
             # fade in/out between scenes
-            fade = min(1, (t / 0.2) if si > 0 else 1, (dur - t) / 0.2 if si < 4 else 1)
+            fade = min(1, (t / 0.15) if si > 0 else 1, (dur - t) / 0.15 if si < 4 else 1)
+            if si == 4 and dur - t < 0.35:  # bucle: el final se funde con el fondo del inicio
+                fr = Image.blend(fr.convert("RGB"), bgs[0].convert("RGB"), 1 - (dur - t) / 0.35).convert("RGBA")
             img = fr.convert("RGB")
             if fade < 1: img = Image.blend(Image.new("RGB", (W, H), (255, 255, 255)), img, max(fade, 0) * 0.7 + 0.3)
             progress_img = img.convert("RGBA"); progress(progress_img, gt, total)
@@ -189,11 +206,14 @@ if __name__ == "__main__":
     seed = sum(ord(ch) for ch in os.path.basename(cfile))
     rng = np.random.default_rng(seed); idx = rng.permutation(len(PALETTE_POOL))[:5]
     PALETTES = C.get("palettes") or [PALETTE_POOL[i] for i in idx]
+    PALETTES[4] = PALETTES[0]  # el final tiene el color del inicio (bucle)
+    HL = HIGHLIGHTS[seed % len(HIGHLIGHTS)]
+    BUBBLE_MODE = ["bubbles", "squares", "stars"][(seed // 7) % 3]
     files = render(lang, outdir)
     lst = os.path.join(outdir, f"{lang}_list.txt")
     open(lst, "w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
     starts = np.cumsum([0] + DUR[:-1])
-    pops = [0.0, 0.25] + [s + o for s in starts[1:4] for o in (0.1, 1.2)] + [starts[4] + 0.0, starts[4] + 0.9]
+    pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
     wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
