@@ -232,7 +232,7 @@ if __name__ == "__main__":
     else:
         textos = L.get("voz") or V.textos_desde_pantalla(TEXT[lang])
         voz, presencia, avisos = V.pista(textos, list(starts), DUR, lang, sum(DUR))
-        print("voz: sí" + ("" if L.get("voz") else " (leída del texto en pantalla)"))
+        print(f"voz: sí, {V.descripcion(lang)}" + ("" if L.get("voz") else " (leída del texto en pantalla)"))
         for a in avisos: print("voz: AVISO", a)
     wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops, voz, presencia)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")

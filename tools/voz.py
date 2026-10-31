@@ -1,13 +1,21 @@
-"""Voz en off para los Shorts, con Piper (motor de voz local y gratuito).
+"""Voz en off para los Shorts.
 
-Si Piper o las voces no están instalados, `disponible()` explica qué falta y el
-Short sale solo con música, como antes. Para instalarlo: `bash tools/instalar_voz.sh`.
+Dos motores, por orden de preferencia:
+1. Piper (voz neuronal). Necesita acceso a pypi.org y huggingface.co para instalarse.
+2. espeak-ng + MBROLA (voces de difonos grabadas). Viene ya compilado en la rama `voz`
+   de este repositorio, así que solo necesita GitHub.
+`bash tools/instalar_voz.sh` instala el que pueda. Si no hay ninguno, `disponible()`
+explica qué falta y el Short sale solo con música, como antes.
 """
-import os, wave, tempfile
+import os, wave, tempfile, subprocess
 import numpy as np
 
 VOICES_DIR = os.environ.get("ALEIX_VOICES", os.path.expanduser("~/.cache/aleix-voices"))
 VOICES = {"es": "es_ES-davefx-medium", "en": "en_US-lessac-medium"}
+# Paquete espeak-ng + MBROLA (rama `voz`): carpeta con bin/ y espeak-ng-data/
+MBROLA_DIR = os.environ.get("ALEIX_MBROLA", os.path.join(VOICES_DIR, "mbrola"))
+MBROLA_VOZ = {"es": os.environ.get("ALEIX_VOZ_ES", "mb-es2"), "en": os.environ.get("ALEIX_VOZ_EN", "mb-us1")}
+MBROLA_PPM = {"es": 150, "en": 155}  # palabras por minuto a velocidad normal
 ENTRADA = 0.15   # la voz empieza 0,15 s después del inicio de cada tramo
 MARGEN = 0.10    # y termina al menos 0,10 s antes del cambio de escena
 MIN_ESCALA = 0.78  # como mucho, un 22 % más rápida que su velocidad normal
@@ -17,20 +25,46 @@ def model_path(lang):
     return os.path.join(VOICES_DIR, VOICES[lang] + ".onnx")
 
 
+def _piper_ok(lang):
+    try:
+        import piper  # noqa: F401
+    except Exception:
+        return False
+    m = model_path(lang)
+    return os.path.exists(m) and os.path.exists(m + ".json")
+
+
+def _mbrola_ok(lang):
+    voz = MBROLA_VOZ[lang].replace("mb-", "")
+    return all(os.path.exists(os.path.join(MBROLA_DIR, p)) for p in
+               ("bin/espeak-ng", "bin/mbrola", f"espeak-ng-data/mbrola/{voz}"))
+
+
+def motor(lang):
+    """'piper', 'mbrola' o None."""
+    if os.environ.get("ALEIX_VOZ", "1") == "0" or lang not in VOICES:
+        return None
+    if os.environ.get("ALEIX_MOTOR") != "mbrola" and _piper_ok(lang):
+        return "piper"
+    if _mbrola_ok(lang):
+        return "mbrola"
+    return None
+
+
 def disponible(lang):
     """None si se puede generar voz en `lang`; si no, el motivo."""
     if os.environ.get("ALEIX_VOZ", "1") == "0":
         return "voz desactivada con ALEIX_VOZ=0"
     if lang not in VOICES:
         return f"no hay voz para el idioma {lang}"
-    try:
-        import piper  # noqa: F401
-    except Exception:
-        return "falta el paquete piper-tts (ejecuta tools/instalar_voz.sh)"
-    m = model_path(lang)
-    if not (os.path.exists(m) and os.path.exists(m + ".json")):
-        return f"falta la voz {VOICES[lang]} en {VOICES_DIR} (ejecuta tools/instalar_voz.sh)"
-    return None
+    if motor(lang):
+        return None
+    return f"no hay motor de voz instalado en {VOICES_DIR} (ejecuta tools/instalar_voz.sh)"
+
+
+def descripcion(lang):
+    m = motor(lang)
+    return {"piper": f"Piper {VOICES.get(lang)}", "mbrola": f"MBROLA {MBROLA_VOZ.get(lang)}"}.get(m, "sin voz")
 
 
 _voces = {}
@@ -44,16 +78,24 @@ def _voice(lang):
 
 
 def sintetizar(text, lang, escala=1.0):
-    """Texto -> (muestras float32 mono entre -1 y 1, frecuencia de muestreo)."""
-    v = _voice(lang)
+    """Texto -> (muestras float32 mono entre -1 y 1, frecuencia de muestreo).
+    `escala` < 1 habla más rápido (0,8 = un 20 % más corto)."""
     fd, tmp = tempfile.mkstemp(suffix=".wav"); os.close(fd)
     try:
-        with wave.open(tmp, "wb") as wf:
-            try:  # piper-tts >= 1.3
-                from piper import SynthesisConfig
-                v.synthesize_wav(text, wf, syn_config=SynthesisConfig(length_scale=escala))
-            except ImportError:  # piper-tts 1.2
-                v.synthesize(text, wf, length_scale=escala)
+        if motor(lang) == "mbrola":
+            env = dict(os.environ, PATH=os.path.join(MBROLA_DIR, "bin") + os.pathsep + os.environ.get("PATH", ""))
+            ppm = int(min(230, MBROLA_PPM[lang] / max(escala, 0.5)))
+            subprocess.run([os.path.join(MBROLA_DIR, "bin", "espeak-ng"), "--path=" + MBROLA_DIR,
+                            "-v", MBROLA_VOZ[lang], "-s", str(ppm), "-w", tmp, text],
+                           env=env, check=True, capture_output=True, timeout=60)
+        else:
+            v = _voice(lang)
+            with wave.open(tmp, "wb") as wf:
+                try:  # piper-tts >= 1.3
+                    from piper import SynthesisConfig
+                    v.synthesize_wav(text, wf, syn_config=SynthesisConfig(length_scale=escala))
+                except ImportError:  # piper-tts 1.2
+                    v.synthesize(text, wf, length_scale=escala)
         with wave.open(tmp, "rb") as wf:
             sr, ch = wf.getframerate(), wf.getnchannels()
             a = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768

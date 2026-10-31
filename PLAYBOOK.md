@@ -67,9 +67,11 @@ Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en e
   ("300", "100.000") salvo que se lean mal; el final enlaza con el inicio (bucle). Si falta, se lee el texto de pantalla.
 
 ## 4. Crear los 12 vídeos
-Primero la voz: `bash tools/instalar_voz.sh` (instala Piper y descarga las voces ES y EN; necesita acceso a
-pypi.org, files.pythonhosted.org y huggingface.co). Si falla, **no parar**: los vídeos se generan solo con música
-y se avisa en el mensaje final de que han salido sin voz y por qué.
+Primero la voz: `bash tools/instalar_voz.sh`. Intenta Piper (voz neuronal; necesita acceso a pypi.org,
+files.pythonhosted.org y huggingface.co) y, si no puede, descarga de la rama `voz` de este repositorio el motor
+espeak-ng + MBROLA ya compilado (solo necesita GitHub, tarda unos segundos). Si aun así falla, **no parar**: los
+vídeos se generan solo con música y se avisa en el mensaje final de que han salido sin voz y por qué.
+Todos los JSON nuevos deben llevar `voz` (paso 3): sin él se lee el texto de pantalla, que suele caber peor.
 
 Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
