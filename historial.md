@@ -14,3 +14,9 @@
 | 2026-10-31 20h | Geografía | Rusia tiene 11 husos horarios; Canadá tiene la costa más larga; el Sáhara es casi tan grande como EE. UU. | ES+EN 20:00 |
 | 2026-10-31 21h | Aves | El colibrí vuela hacia atrás; el ojo del avestruz es más grande que su cerebro; los flamencos son rosas por lo que comen | ES+EN 21:00 |
 | 2026-10-31 | Ajuste | Ritmo reducido a 12/día alternando idioma. Hoy publicados: 13 ES, 14 EN, 15 ES, 16 EN, 17 ES, 18 EN, 19 ES, 20 EN, 21 ES; el resto quedó en borrador en Metricool | — |
+| 2026-11-01 10h | Insectos: mariposa monarca (Día de Muertos) | Vuelan miles de km de Canadá a México; llegan a principios de noviembre; ninguna ha hecho el viaje antes y se orientan con el sol | ES 10:00 · EN 11:00 |
+| 2026-11-01 12h | El tiempo y los relojes (fin horario de verano EE. UU.) | Las agujas imitan la sombra del reloj de sol; 60 min por los babilonios; día sidéreo 23 h 56 min | ES 12:00 · EN 13:00 |
+| 2026-11-01 14h | Comida: la castaña (Castañada) | Crece dentro de un erizo; poca grasa y mucho almidón; Castaño de los Cien Caballos +2.000 años | ES 14:00 · EN 15:00 |
+| 2026-11-01 16h | Espacio: récords del sistema solar | El Sol tiene el 99,8 % de la masa; vientos de Neptuno ~2.000 km/h; la Gran Mancha Roja es mayor que la Tierra | ES no programado (16:00 ocupado) · EN 17:00 |
+| 2026-11-01 18h | Animales que se parecen a ti | Huellas dactilares del koala; la jirafa tiene 7 vértebras cervicales; elefantes asiáticos se reconocen en el espejo | ES 18:00 · EN 19:00 |
+| 2026-11-01 20h | Volcanes gigantes | Mauna Kea supera los 10.000 m desde su base; Olympus Mons ≈ 2,5 Everest; ~1.350 volcanes potencialmente activos | ES 20:00 · EN 21:00 |
