@@ -42,7 +42,9 @@ variados y con una serie propia que da una razón para suscribirse. Una sola eje
   choque con las conclusiones de hoy (paso 1b). Si el plan trae los campos de Marco (`titulo`, `titulo_en`, `descripcion`,
   `descripcion_en`, `tags`, `tags_en`), usarlos en el JSON (paso 3) y en Metricool, comprobando que cumplen las reglas del
   paso 3 (longitudes, 3-5 hashtags, tendencias solo si tienen relación real). Si un tema trae `prueba_titulo`, copiarlo
-  tal cual en su JSON para que Pau pueda comparar las variantes. Sin plan, elegir como siempre:
+  tal cual en su JSON para que Pau pueda comparar las variantes. El plan viene revisado por Irene (campo `revision`):
+  si un tema trae `revisar`, cambiar ese dato o afirmación por otro verificado antes de escribir el JSON.
+  Sin plan, elegir como siempre:
 - Tema A (vof) y tema B (datos) de categorías distintas. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
