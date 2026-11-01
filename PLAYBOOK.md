@@ -61,7 +61,11 @@ Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en e
 - **Sin emojis dentro de los textos en pantalla** (la fuente no los tiene); los emojis van solo en `hook_emoji` y en los facts.
 - `facts`: 3 × [emoji, frase inicial ≤ 24 car., REMATE EN MAYÚSCULAS ≤ 18 car., cierre ≤ 40 car.]
 - `outro`: ["¿Cuál no sabías?" o pregunta parecida, que invite a comentar], ["Míralo otra vez" / "Watch it again"]
-  (el final se funde con el inicio para que el Short se repita en bucle).
+  (el final se funde con el inicio para que el Short se repita en bucle). El script añade solo un botón rojo
+  "SUSCRÍBETE · 1 dato cada hora" / "SUBSCRIBE · 1 fact every hour" bajo el outro: no hace falta escribirlo.
+- `primer_comentario` y `primer_comentario_en`: comentario que se publica con el vídeo, ≤ 150 caracteres. Una pregunta
+  concreta sobre el tema que se pueda contestar en una palabra o un número (p. ej. "¿Cuántos huesos crees que tiene una
+  jirafa en el cuello? 👇"), y nada de pedir likes. Así hay conversación desde el primer minuto.
 - `estilo_gancho`: etiqueta del tipo de gancho usado, para medir qué funciona: `pregunta-tu` ("¿Sabías que TÚ…?"),
   `reto` ("Seguro que no sabías…"), `comparacion` ("Más grande que…"), `numero` ("100.000 veces al día"),
   `misterio` ("Nadie sabe por qué…"). Repartir estilos distintos entre los 6 temas del día.
@@ -95,11 +99,12 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
   (ese tema sale solo en el otro idioma).
 - Cada tema: ES a la hora HH:00 de su archivo y EN a la hora HH+1:00.
 - **Solo YouTube** (no publicar en TikTok): `providers: [{"network":"youtube"}]`, `autoPublish: true`,
-  `draft: false`, `media: [URL raw]`, `text`: descripción,
+  `draft: false`, `media: [URL raw]`, `text`: descripción, `firstCommentText`: `primer_comentario` (o `_en`),
   `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`.
   `madeForKids:false`: el canal es para todas las edades (público general), no está dirigido principalmente a niños.
   Categoría: PETS_ANIMALS para animales; EDUCATION o SCIENCE_TECHNOLOGY para el resto.
 - Programar primero uno y comprobar que Metricool acepta la URL; después el resto.
+  Si Metricool rechaza `firstCommentText` en YouTube, programar sin él y decirlo en el aviso final.
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.

@@ -134,6 +134,10 @@ def render(lang, outdir):
         else:
             L1 = text_layer(T["outro"][0], 88); L2 = text_layer(T["outro"][1], 66, color=(40, 40, 40), box=(255, 255, 255, 240))
             E = emoji_img("🔔", 300)
+            # botón de suscripción: un motivo concreto para suscribirse (un dato nuevo cada hora)
+            SUB = text_layer("SUSCRÍBETE · 1 dato cada hora" if lang == "es" else "SUBSCRIBE · 1 fact every hour",
+                             58, color=(255, 255, 255), box=(214, 40, 40, 245), maxw=900)
+            ysub = 1040 + L1.height / 2 + L2.height + 30 + 36 + SUB.height / 2
         for i in range(n):
             t = i / FPS; gt = gstart + t
             fr = bgs[si].copy(); bubbles(fr, gt, si)
@@ -151,6 +155,7 @@ def render(lang, outdir):
                 place(fr, E, W / 2, 640, ease_out_back(t / 0.5) * (1 + 0.08 * math.sin(t * 9) * (t > 0.6)))
                 place(fr, L1, W / 2, 1040, ease_out_back((t - 0.15) / 0.4), ease((t - 0.15) / 0.25))
                 place(fr, L2, W / 2, 1040 + L1.height / 2 + L2.height / 2 + 30, ease_out_back((t - 0.6) / 0.4) * (1 + 0.04 * math.sin(t * 6)), ease((t - 0.6) / 0.25))
+                place(fr, SUB, W / 2, ysub, ease_out_back((t - 0.9) / 0.4) * (1 + 0.035 * math.sin(t * 8) * (t > 1.3)), ease((t - 0.9) / 0.2))
             # fade in/out between scenes
             fade = min(1, (t / 0.15) if si > 0 else 1, (dur - t) / 0.15 if si < 4 else 1)
             if si == 4 and dur - t < 0.35:  # bucle: el final se funde con el fondo del inicio
