@@ -1,0 +1,84 @@
+{
+ "tema": "Volcanes gigantes",
+ "hook_emoji": "🌋",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "comparacion",
+ "es": {
+  "hook": [
+   "¿VOLCÁN MÁS ALTO QUE EL EVEREST?",
+   "existe, y no es el único"
+  ],
+  "facts": [
+   [
+    "🌋",
+    "Desde el fondo del mar",
+    "MAUNA KEA MIDE",
+    "más de 10.000 m: ¡más que el Everest!"
+   ],
+   [
+    "🔴",
+    "En Marte, Olympus Mons",
+    "ES 2,5 EVERESTS",
+    "el mayor volcán del sistema solar"
+   ],
+   [
+    "🌍",
+    "En la Tierra hay",
+    "UNOS 1.350",
+    "volcanes que podrían entrar en erupción"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Míralo otra vez"
+  ],
+  "titulo": "¿Un volcán más alto que el Everest? 🌋",
+  "descripcion": "Medido desde el fondo del océano, el Mauna Kea supera al Everest. 🌋\nSuscríbete para un dato nuevo cada hora\n\n#Shorts #volcanes #curiosidades",
+  "tags": [
+   "volcanes",
+   "Everest",
+   "Marte",
+   "Mauna Kea",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "A VOLCANO TALLER THAN EVEREST?",
+   "it exists, and it's not alone"
+  ],
+  "facts": [
+   [
+    "🌋",
+    "Measured from the seabed",
+    "MAUNA KEA IS",
+    "over 10,000 m, taller than Everest!"
+   ],
+   [
+    "🔴",
+    "On Mars, Olympus Mons",
+    "IS 2.5 EVERESTS",
+    "the biggest volcano in the solar system"
+   ],
+   [
+    "🌍",
+    "Earth has about",
+    "1,350 VOLCANOES",
+    "that could erupt again"
+   ]
+  ],
+  "outro": [
+   "Which one was new to you?",
+   "Watch it again"
+  ],
+  "titulo": "A Volcano Taller Than Everest? 🌋",
+  "descripcion": "Measured from the ocean floor, Mauna Kea is taller than Everest. 🌋\nSubscribe for a new fact every hour\n\n#Shorts #volcanoes #funfacts",
+  "tags": [
+   "volcanoes",
+   "Everest",
+   "Mars",
+   "Mauna Kea",
+   "fun facts"
+  ]
+ }
+}

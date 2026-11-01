@@ -1,0 +1,84 @@
+{
+ "tema": "Animales que se parecen a ti",
+ "hook_emoji": "🐨",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "es": {
+  "hook": [
+   "¿QUÉ TIENES EN COMÚN CON UN KOALA?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "🐨",
+    "Los koalas tienen",
+    "HUELLAS DACTILARES",
+    "casi iguales a las tuyas"
+   ],
+   [
+    "🦒",
+    "La jirafa tiene",
+    "7 VÉRTEBRAS",
+    "en el cuello, ¡igual que tú!"
+   ],
+   [
+    "🐘",
+    "Algunos elefantes",
+    "SE RECONOCEN",
+    "al mirarse en un espejo"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Míralo otra vez"
+  ],
+  "titulo": "¿Qué tienes en común con un koala? 🐨",
+  "descripcion": "Los koalas tienen huellas dactilares casi iguales a las nuestras. 🐨\nSuscríbete para un dato nuevo cada hora\n\n#Shorts #animales #koala #curiosidades",
+  "tags": [
+   "koala",
+   "jirafa",
+   "elefante",
+   "animales",
+   "curiosidades"
+  ]
+ },
+ "en": {
+  "hook": [
+   "WHAT DO YOU SHARE WITH A KOALA?",
+   "the answer will surprise you"
+  ],
+  "facts": [
+   [
+    "🐨",
+    "Koalas have",
+    "FINGERPRINTS",
+    "almost exactly like yours"
+   ],
+   [
+    "🦒",
+    "A giraffe's neck has",
+    "7 VERTEBRAE",
+    "the same number as yours!"
+   ],
+   [
+    "🐘",
+    "Some elephants",
+    "KNOW THEMSELVES",
+    "when they look in a mirror"
+   ]
+  ],
+  "outro": [
+   "Which one was new to you?",
+   "Watch it again"
+  ],
+  "titulo": "What Do You Share With a Koala? 🐨",
+  "descripcion": "Koalas have fingerprints almost exactly like ours. 🐨\nSubscribe for a new fact every hour\n\n#Shorts #animals #koala #funfacts",
+  "tags": [
+   "koala",
+   "giraffe",
+   "elephant",
+   "animals",
+   "fun facts"
+  ]
+ }
+}

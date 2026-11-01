@@ -1,0 +1,84 @@
+{
+ "tema": "Espacio: récords del sistema solar",
+ "hook_emoji": "☀️",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "numero",
+ "es": {
+  "hook": [
+   "¿QUÉ TIENE EL 99,8 % DE LA MASA?",
+   "del sistema solar"
+  ],
+  "facts": [
+   [
+    "☀️",
+    "El Sol tiene casi",
+    "TODA LA MASA",
+    "el 99,8 % del sistema solar"
+   ],
+   [
+    "💨",
+    "En Neptuno el viento",
+    "VA A 2.000 KM/H",
+    "¡el más rápido del sistema solar!"
+   ],
+   [
+    "🪐",
+    "La Gran Mancha Roja",
+    "ES UNA TORMENTA",
+    "más grande que la Tierra"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Míralo otra vez"
+  ],
+  "titulo": "¿Qué tiene el 99,8 % de la masa del sistema solar? ☀️",
+  "descripcion": "El Sol tiene casi toda la masa del sistema solar. ☀️\nSuscríbete para un dato nuevo cada hora\n\n#Shorts #espacio #sistemasolar #curiosidades",
+  "tags": [
+   "espacio",
+   "sistema solar",
+   "Sol",
+   "Neptuno",
+   "Júpiter"
+  ]
+ },
+ "en": {
+  "hook": [
+   "WHAT HAS 99.8% OF THE MASS?",
+   "of the solar system"
+  ],
+  "facts": [
+   [
+    "☀️",
+    "The Sun holds almost",
+    "ALL THE MASS",
+    "99.8% of the solar system"
+   ],
+   [
+    "💨",
+    "Winds on Neptune",
+    "HIT 2,000 KM/H",
+    "the fastest in the solar system!"
+   ],
+   [
+    "🪐",
+    "Jupiter's Red Spot",
+    "IS A STORM",
+    "bigger than the whole Earth"
+   ]
+  ],
+  "outro": [
+   "Which one was new to you?",
+   "Watch it again"
+  ],
+  "titulo": "What Has 99.8% of the Solar System's Mass? ☀️",
+  "descripcion": "The Sun holds almost all the mass of the solar system. ☀️\nSubscribe for a new fact every hour\n\n#Shorts #space #solarsystem #funfacts",
+  "tags": [
+   "space",
+   "solar system",
+   "Sun",
+   "Neptune",
+   "Jupiter"
+  ]
+ }
+}
