@@ -19,6 +19,12 @@ DUR = [2.0, 5.5, 5.5, 5.5, 2.5]  # ~21 s: corto para mejor retención
 HIGHLIGHTS = [(255, 255, 140), (140, 255, 220), (255, 200, 120), (200, 230, 255)]
 HL = HIGHLIGHTS[0]
 BUBBLE_MODE = "bubbles"
+# Formatos: "datos" (3 datos curiosos, por defecto) y "vof" (serie ¿Verdadero o falso?)
+FORMATO = "datos"
+EPISODIO = None
+DUR_VOF = [2.5, 5.5, 5.5, 5.5, 2.5]   # 21,5 s: un poco más de portada para leer el nombre de la serie
+VOF_COUNT, VOF_REVEAL = 1.2, 3.05      # cuenta atrás 3-2-1 desde 1,2 s y revelación a 3,05 s de cada afirmación
+VOF_PALETTE = ((30, 27, 75), (88, 60, 200))  # índigo fijo: identidad visual de la serie
 
 def font(sz): return ImageFont.truetype(FONT, sz)
 
@@ -51,7 +57,7 @@ def clean(text):
     f = font(40)
     return " ".join("".join(ch for ch in text if ch == " " or f.getmask(ch).getbbox() is not None and ord(ch) < 0x2000 or ch in "¿¡…–—’“”€").split())
 
-def text_layer(text, size, color=(255, 255, 255), maxw=940, stroke=0, box=None):
+def text_layer(text, size, color=(255, 255, 255), maxw=940, stroke=0, box=None, minw=0):
     text = clean(text)
     f = font(size)
     while True:
@@ -60,7 +66,7 @@ def text_layer(text, size, color=(255, 255, 255), maxw=940, stroke=0, box=None):
         size -= 6; f = font(size)
     lh = int(size * 1.18)
     pad = 40 if box else 10
-    w = int(max(f.getlength(l) for l in lines)) + pad * 2
+    w = max(minw, int(max(f.getlength(l) for l in lines)) + pad * 2)
     h = lh * len(lines) + pad * 2
     im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -125,6 +131,25 @@ def render(lang, outdir):
         if si == 0:
             L1 = text_layer(T["hook"][0], 120, maxw=900); L2 = text_layer(T["hook"][1], 76, color=(255, 240, 200))
             E = emoji_img(HOOK_EMOJI, 360)
+            SERIE = None
+            if FORMATO == "vof":  # etiqueta fija de la serie: se reconoce en el primer fotograma
+                nombre = "¿VERDADERO O FALSO?" if lang == "es" else "TRUE OR FALSE?"
+                SERIE = text_layer(nombre + (f" · #{EPISODIO}" if EPISODIO else ""), 58, color=(30, 27, 75), box=(255, 214, 0, 250))
+        elif si <= 3 and FORMATO == "vof":
+            em, a, ok, expl = T["facts"][si - 1]
+            ok = ok is True or str(ok).strip().lower() in ("true", "verdadero", "v", "1", "si", "sí")
+            E = emoji_img(em, 340)
+            badge = text_layer(f"{si}/3", 64, color=(40, 40, 40), box=(255, 255, 255, 235))
+            Ls = text_layer(a, 76, maxw=940)
+            lv, lf = ("VERDADERO", "FALSO") if lang == "es" else ("TRUE", "FALSE")
+            PW = 420  # mismo ancho para las dos opciones
+            Pv = text_layer(lv, 54, color=(40, 40, 40), box=(255, 255, 255, 235), minw=PW); Pf = text_layer(lf, 54, color=(40, 40, 40), box=(255, 255, 255, 235), minw=PW)
+            Pv2 = text_layer(lv, 54, color=(255, 255, 255), box=(36, 168, 92, 255), minw=PW); Pf2 = text_layer(lf, 54, color=(255, 255, 255), box=(222, 58, 58, 255), minw=PW)
+            NUM = [text_layer(str(k), 130, color=(255, 255, 255), box=(255, 255, 255, 60), minw=190) for k in (3, 2, 1)]
+            Le = text_layer(expl, 60, color=(255, 240, 200), maxw=960)
+            ys = 820 + Ls.height / 2; yopt = ys + Ls.height / 2 + 110; ycnt = yopt + 210
+            xv, xf = W / 2 - 245, W / 2 + 245
+            FLASH = Image.new("RGBA", (W, H), (36, 168, 92, 255) if ok else (222, 58, 58, 255))
         elif si <= 3:
             em, a, b, c = T["facts"][si - 1]
             E = emoji_img(em, 440)
@@ -134,9 +159,12 @@ def render(lang, outdir):
         else:
             L1 = text_layer(T["outro"][0], 88); L2 = text_layer(T["outro"][1], 66, color=(40, 40, 40), box=(255, 255, 255, 240))
             E = emoji_img("🔔", 300)
-            # botón de suscripción: un motivo concreto para suscribirse (un dato nuevo cada hora)
-            SUB = text_layer("SUSCRÍBETE · 1 dato cada hora" if lang == "es" else "SUBSCRIBE · 1 fact every hour",
-                             58, color=(255, 255, 255), box=(214, 40, 40, 245), maxw=900)
+            # botón de suscripción con un motivo concreto para suscribirse
+            if FORMATO == "vof":
+                cta = "SUSCRÍBETE para el próximo episodio" if lang == "es" else "SUBSCRIBE for the next episode"
+            else:
+                cta = "SUSCRÍBETE · datos nuevos cada día" if lang == "es" else "SUBSCRIBE · new facts every day"
+            SUB = text_layer(cta, 56, color=(255, 255, 255), box=(214, 40, 40, 245), maxw=940)
             ysub = 1040 + L1.height / 2 + L2.height + 30 + 36 + SUB.height / 2
         for i in range(n):
             t = i / FPS; gt = gstart + t
@@ -145,6 +173,26 @@ def render(lang, outdir):
                 place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), ease_out_back(t / 0.3))
                 place(fr, L1, W / 2, 1060, ease_out_back((t - 0.05) / 0.4), ease((t - 0.05) / 0.2))
                 place(fr, L2, W / 2, 1060 + L1.height / 2 + L2.height / 2 + 20 + 60 * (1 - ease((t - 0.5) / 0.3)), 1, ease((t - 0.5) / 0.3))
+                if SERIE is not None: place(fr, SERIE, W / 2, 330, ease_out_back(t / 0.35))
+            elif si <= 3 and FORMATO == "vof":
+                # afirmación → opciones → cuenta atrás 3-2-1 → revelación con la explicación
+                place(fr, badge, W / 2, 300, ease_out_back(t / 0.4))
+                place(fr, E, W / 2, 560 + 15 * math.sin(t * 3), ease_out_back((t - 0.1) / 0.5))
+                place(fr, Ls, W / 2, ys + 40 * (1 - ease((t - 0.25) / 0.3)), 1, ease((t - 0.25) / 0.3))
+                if t < VOF_REVEAL:
+                    pk = ease_out_back((t - 0.8) / 0.35)
+                    place(fr, Pv, xv, yopt, pk); place(fr, Pf, xf, yopt, pk)
+                    for k in range(3):
+                        s0 = VOF_COUNT + 0.6 * k
+                        if s0 <= t < s0 + 0.6:
+                            place(fr, NUM[k], W / 2, ycnt, ease_out_back((t - s0) / 0.25), 1 - max(0, (t - s0 - 0.45) / 0.15))
+                else:
+                    tr = t - VOF_REVEAL; big = ease_out_back(tr / 0.35) * 1.12
+                    if tr < 0.3:
+                        fl = FLASH.copy(); fl.putalpha(int(110 * (1 - tr / 0.3))); fr.alpha_composite(fl)
+                    if ok: place(fr, Pv2, xv, yopt, big); place(fr, Pf, xf, yopt, 1, 0.3)
+                    else: place(fr, Pv, xv, yopt, 1, 0.3); place(fr, Pf2, xf, yopt, big)
+                    place(fr, Le, W / 2, ycnt + 40 * (1 - ease((tr - 0.25) / 0.3)), 1, ease((tr - 0.25) / 0.3))
             elif si <= 3:
                 place(fr, badge, W / 2, 300, ease_out_back(t / 0.4))
                 place(fr, E, W / 2, 680 + 20 * math.sin(t * 3), ease_out_back((t - 0.1) / 0.6) * (1 + 0.03 * math.sin(t * 5)))
@@ -206,6 +254,8 @@ if __name__ == "__main__":
     cfile, lang, outdir, final = sys.argv[1:5]; os.makedirs(outdir, exist_ok=True)
     C = json.load(open(cfile, encoding="utf-8"))
     HOOK_EMOJI = C.get("hook_emoji", "🤯")
+    FORMATO = C.get("formato", "datos")
+    EPISODIO = C.get("episodio")
     L = C[lang]
     TEXT = {lang: {"hook": tuple(L["hook"]), "facts": [tuple(f) for f in L["facts"]], "outro": tuple(L["outro"])}}
     seed = sum(ord(ch) for ch in os.path.basename(cfile))
@@ -214,11 +264,17 @@ if __name__ == "__main__":
     PALETTES[4] = PALETTES[0]  # el final tiene el color del inicio (bucle)
     HL = HIGHLIGHTS[seed % len(HIGHLIGHTS)]
     BUBBLE_MODE = ["bubbles", "squares", "stars"][(seed // 7) % 3]
+    if FORMATO == "vof":
+        DUR = DUR_VOF; PALETTES = [VOF_PALETTE] * 5; BUBBLE_MODE = "stars"
     files = render(lang, outdir)
     lst = os.path.join(outdir, f"{lang}_list.txt")
     open(lst, "w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
     starts = np.cumsum([0] + DUR[:-1])
-    pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
+    if FORMATO == "vof":  # tic en cada número de la cuenta atrás y golpe en la revelación
+        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (VOF_COUNT, VOF_COUNT + 0.6, VOF_COUNT + 1.2, VOF_REVEAL)] \
+            + [starts[4] + 0.15, starts[4] + 0.6]
+    else:
+        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
     wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)

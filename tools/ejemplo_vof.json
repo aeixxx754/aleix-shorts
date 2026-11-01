@@ -1,0 +1,25 @@
+{
+ "tema": "Mitos que todos nos creímos",
+ "formato": "vof",
+ "episodio": 1,
+ "hook_emoji": "🤔",
+ "cat": "EDUCATION",
+ "es": {
+  "hook": ["3 MITOS QUE TE CREÍSTE", "¿cuántos aciertas?"],
+  "facts": [
+   ["🦇", "Los murciélagos son ciegos", false, "Ven, y muchos además se orientan con el eco"],
+   ["🧱", "La Gran Muralla China se ve desde el espacio", false, "Desde la órbita no se distingue a simple vista"],
+   ["🍯", "La miel puede durar miles de años", true, "Bien cerrada, casi no se estropea nunca"]
+  ],
+  "outro": ["¿Cuántas acertaste?", "Míralo otra vez"]
+ },
+ "en": {
+  "hook": ["3 MYTHS YOU BELIEVED", "how many can you get?"],
+  "facts": [
+   ["🦇", "Bats are blind", false, "They can see, and many also use echolocation"],
+   ["🧱", "You can see the Great Wall of China from space", false, "From orbit, it's too narrow to spot by eye"],
+   ["🍯", "Honey can last for thousands of years", true, "Sealed honey almost never goes bad"]
+  ],
+  "outro": ["How many did you get right?", "Watch it again"]
+ }
+}

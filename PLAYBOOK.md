@@ -1,10 +1,11 @@
 # Playbook diario – Shorts de Aleix
 
 Canal de YouTube de datos curiosos **para todas las edades**, en **español e inglés**.
-Ritmo: **un Short por hora de 10:00 a 21:00, alternando idioma → 12 Shorts al día.**
-**6 temas al día**; cada tema sale en **español a una hora par y en inglés a la hora siguiente**:
-tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → ES 20:00 / EN 21:00.
-(Motivo: límite diario de subidas de YouTube en un canal nuevo.) Una sola ejecución por la mañana lo crea y programa todo.
+Ritmo: **4 Shorts al día, pocos y muy cuidados.** 2 temas, cada uno en español y en inglés:
+- **Tema A · serie «¿Verdadero o falso?»** (`formato: "vof"`): ES **13:00** · EN **18:00** (mediodía en Nueva York).
+- **Tema B · «3 datos curiosos»** (`formato: "datos"`): ES **20:00** · EN **23:00** (tarde en EE. UU.).
+Motivo: YouTube penaliza el contenido «no auténtico» (plantillas casi idénticas subidas en volumen). Menos vídeos, más
+variados y con una serie propia que da una razón para suscribirse. Una sola ejecución por la mañana lo crea y programa todo.
 
 ## 1. Preparar
 - Repo: `aeixxx754/aleix-shorts`. Rama `main` = código, contenido e historial. Rama `media` = solo los vídeos del día.
@@ -19,8 +20,8 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
 - Pedir a Metricool (`getAnalyticsDataByMetrics`, brandId 7763971) los Shorts publicados en los **últimos 7 días** con:
   `YTVP02` fecha y hora, `YTVP17` título, `YTVP06` reproducciones, `YTVP08` duración media vista (s),
   `YTVP09` likes, `YTVP11` comentarios, `YTVP12` compartidos. (Los datos llegan con 1-2 días de retraso.)
-- Calcular la **retención** = duración media vista / 21 s (o 28 s para los vídeos antiguos).
-- Comparar por tema, por idioma, por hora y por **estilo de gancho** (campo `estilo_gancho` del JSON, ver paso 3):
+- Calcular la **retención** = duración media vista / duración del vídeo (21 s «datos», 21,5 s «vof», 28 s los antiguos).
+- Comparar por **formato** (vof frente a datos), tema, idioma, hora y **estilo de gancho** (campo `estilo_gancho` del JSON, ver paso 3):
   ¿qué tiene más reproducciones y más retención? ¿qué va peor?
 - Escribir en `aprendizajes.md` (al principio, con la fecha) 3-5 conclusiones cortas y **qué se cambia hoy** por ellas.
   Si aún no hay datos suficientes (< 10 Shorts con reproducciones), decirlo y no sacar conclusiones.
@@ -32,57 +33,70 @@ tema 1 → ES 10:00 / EN 11:00, tema 2 → ES 12:00 / EN 13:00, … tema 6 → E
   fechas especiales (Halloween, Navidad, Día de la Tierra, eclipses, lanzamientos espaciales, Mundial, Juegos Olímpicos…),
   noticias científicas o de animales, retos virales sin riesgo. Ejemplos de búsqueda: "trending today", "efemérides hoy",
   "YouTube Shorts trending hashtags", "tendencias hoy España".
-- Si hay una tendencia apta, dedicarle **1 o 2 de los 6 temas** (con datos igual de verificados).
+- Si hay una tendencia apta, dedicarle **uno de los 2 temas** (con datos igual de verificados).
 - Anotar en `aprendizajes.md` las tendencias usadas, para comparar luego si rindieron más.
 
-## 2. Elegir 6 temas y sus datos
-- **Si hay plan de la oficina para hoy, es el punto de partida**: sus 6 temas, horas, ganchos (`gancho`, `gancho_en`) y datos.
+## 2. Elegir los 2 temas y sus datos
+- **Si hay plan de la oficina para hoy, es el punto de partida**: sus 2 temas, horas, ganchos (`gancho`, `gancho_en`) y datos.
   Volver a comprobar cada dato con WebSearch igualmente; cambiar el que no se confirme, el que repita historial o el que
   choque con las conclusiones de hoy (paso 1b). Si el plan trae los campos de Marco (`titulo`, `titulo_en`, `descripcion`,
   `descripcion_en`, `tags`, `tags_en`), usarlos en el JSON (paso 3) y en Metricool, comprobando que cumplen las reglas del
   paso 3 (longitudes, 3-5 hashtags, tendencias solo si tienen relación real). Si un tema trae `prueba_titulo`, copiarlo
   tal cual en su JSON para que Pau pueda comparar las variantes. Sin plan, elegir como siempre:
-- Un tema distinto por hora. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
+- Tema A (vof) y tema B (datos) de categorías distintas. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
   la Antigüedad (Egipto, Roma), transportes, matemáticas divertidas, idiomas.
   Se pueden repetir categorías amplias de otros días, pero **nunca los mismos datos** (comprobar historial y content/).
-- 3 datos por tema, **comprobados** con WebSearch en fuentes fiables (enciclopedias, museos, universidades, agencias científicas).
+- **Serie «¿Verdadero o falso?»**: 3 afirmaciones sobre un mismo tema, con **al menos una verdadera y una falsa**.
+  Las falsas tienen que ser **mitos muy extendidos** que fuentes fiables desmienten («los murciélagos son ciegos», «la
+  Gran Muralla se ve desde el espacio»); las verdaderas, datos que parecen mentira («la miel puede durar miles de años»).
+  La gracia es que la gente falle: elegir afirmaciones en las que la mayoría se equivocaría.
+- 3 datos o afirmaciones por tema, **comprobados** con WebSearch en fuentes fiables (enciclopedias, museos, universidades, agencias científicas).
   Ante cualquier duda, descartar el dato. Preferir datos muy conocidos y verificables a datos dudosos pero llamativos.
 - Aptos para niños: nada violento, aterrador, sexual ni político. Sin marcas, personajes con derechos ni personas reales.
 - Un emoji por dato que exista en Noto Color Emoji.
 
 ## 3. Escribir el contenido
-Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en español: 10, 12, 14, 16, 18 o 20), con el formato de
-`content/2026-10-31_13_cuerpo.json`:
+Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short en español: 13 o 20).
+- Tema B (`"formato": "datos"`) con el formato de `content/2026-10-31_13_cuerpo.json`.
+- Tema A (`"formato": "vof"`) con el formato de `tools/ejemplo_vof.json`: `"episodio"`: nº de episodio (el número de JSON
+  con `"formato": "vof"` que ya hay en `content/` + 1); `hook`: [título ≤ 34 car. en MAYÚSCULAS, p. ej. "3 MITOS DEL
+  ESPACIO", subtítulo "¿cuántos aciertas?"]; `facts`: 3 × [emoji, afirmación ≤ 60 car., true/false, explicación ≤ 50 car.];
+  `outro`: ["¿Cuántas acertaste?", "Míralo otra vez"]. El vídeo pone solo el nombre de la serie, el nº de episodio,
+  los botones VERDADERO/FALSO, la cuenta atrás 3-2-1 y la revelación.
+Campos comunes:
 - `hook`: [**PREGUNTA gancho en MAYÚSCULAS, ≤ 34 caracteres**, que cree curiosidad y se entienda en 1 segundo
   (p. ej. "¿TIENES MÁS HUESOS QUE TU MADRE?", "¿SABES QUÉ ANIMAL TIENE 3 CORAZONES?")], [subtítulo corto, p. ej.
   "la respuesta te sorprenderá"]; `hook_emoji`; `cat` (categoría de YouTube)
 - **Sin emojis dentro de los textos en pantalla** (la fuente no los tiene); los emojis van solo en `hook_emoji` y en los facts.
 - `facts`: 3 × [emoji, frase inicial ≤ 24 car., REMATE EN MAYÚSCULAS ≤ 18 car., cierre ≤ 40 car.]
 - `outro`: ["¿Cuál no sabías?" o pregunta parecida, que invite a comentar], ["Míralo otra vez" / "Watch it again"]
-  (el final se funde con el inicio para que el Short se repita en bucle). El script añade solo un botón rojo
-  "SUSCRÍBETE · 1 dato cada hora" / "SUBSCRIBE · 1 fact every hour" bajo el outro: no hace falta escribirlo.
+  (el final se funde con el inicio para que el Short se repita en bucle). El script añade solo un botón rojo de
+  suscripción bajo el outro («datos nuevos cada día» o «para el próximo episodio»): no hace falta escribirlo.
 - `primer_comentario` y `primer_comentario_en`: comentario que se publica con el vídeo, ≤ 150 caracteres. Una pregunta
   concreta sobre el tema que se pueda contestar en una palabra o un número (p. ej. "¿Cuántos huesos crees que tiene una
   jirafa en el cuello? 👇"), y nada de pedir likes. Así hay conversación desde el primer minuto.
 - `estilo_gancho`: etiqueta del tipo de gancho usado, para medir qué funciona: `pregunta-tu` ("¿Sabías que TÚ…?"),
   `reto` ("Seguro que no sabías…"), `comparacion` ("Más grande que…"), `numero` ("100.000 veces al día"),
-  `misterio` ("Nadie sabe por qué…"). Repartir estilos distintos entre los 6 temas del día.
-- `titulo` (≤ 60 car., con emoji), `descripcion` (1 frase + "Suscríbete para un dato nuevo cada hora" / "Subscribe for a new fact every hour" + hashtags), `tags` (4-6).
+  `misterio` ("Nadie sabe por qué…"). Usar estilos distintos en los temas de días seguidos.
+- `titulo` (≤ 60 car., con emoji; en la serie empieza por "¿Verdadero o falso? #N" / "True or False? #N"),
+  `descripcion` (1 frase + "Suscríbete para datos nuevos cada día" / "Subscribe for new facts every day", o en la serie
+  "Suscríbete para no perderte el próximo episodio" / "Subscribe so you don't miss the next episode" + hashtags), `tags` (4-6).
 - **Hashtags** (en la descripción, en el idioma del vídeo), **entre 3 y 5 en total**:
   `#Shorts` + 1-2 del tema (p. ej. #dinosaurios / #dinosaurs) + 1-2 **en tendencia** solo si tienen relación real con el vídeo
   (p. ej. #Halloween en un vídeo de murciélagos el 31 de octubre). **Nunca** hashtags de tendencia sin relación con el contenido:
   YouTube los considera engañosos y puede quitar el vídeo. Nunca más de 15 hashtags (YouTube los ignora todos).
 - La versión EN es una traducción natural, no literal.
 
-## 4. Crear los 12 vídeos
+## 4. Crear los 4 vídeos
 Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4
 python3 tools/make_short.py content/<archivo>.json en <carpeta_trabajo> <media>/<archivo>_en.mp4
 ```
-Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en 1.2, 5, 10.5, 16 y 19.8 s de todos los vídeos
+Los vídeos duran 21 s («datos») o 21,5 s («vof»). Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en
+1.2, 5, 10.5, 16 y 19.8 s («datos») o en 1.3, 4.6, 6.4, 12.1 y 20.4 s («vof»: portada, cuenta atrás, revelación, outro) de todos los vídeos
 (miniaturas de 180 px) y mirarla. Si un texto se corta o se solapa, acortarlo y volver a renderizar ese vídeo.
 
 ## 5. Subir a GitHub
@@ -97,7 +111,7 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
 - blogId `7763971`, zona horaria `Europe/Madrid`.
 - Antes, `getScheduledPosts` del día (ignorar los borradores): si una hora ya tiene un Short de YouTube, no programar otro en esa hora
   (ese tema sale solo en el otro idioma).
-- Cada tema: ES a la hora HH:00 de su archivo y EN a la hora HH+1:00.
+- Tema A (vof): ES 13:00 y EN 18:00. Tema B (datos): ES 20:00 y EN 23:00.
 - **Solo YouTube** (no publicar en TikTok): `providers: [{"network":"youtube"}]`, `autoPublish: true`,
   `draft: false`, `media: [URL raw]`, `text`: descripción, `firstCommentText`: `primer_comentario` (o `_en`),
   `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`.
@@ -108,7 +122,7 @@ Los vídeos duran 21 s. Tarda ~20 s por vídeo. Revisión: hoja de contactos con
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
-- Avisar a Aleix con un resumen corto: los 6 temas con sus horas y cuántos Shorts se han programado.
+- Avisar a Aleix con un resumen corto: los 2 temas con sus horas (y el nº de episodio de la serie) y cuántos Shorts se han programado.
 - Dejarlo también en la oficina: una entrada en `tablon` (doc_id `AAAAMMDD-HHMM-aleix`) con
   `{fecha: ms epoch, agenteId: "aleix", nombre: "Aleix", tipo: "publicado" (o "alerta" si algo falló), turno: "manana",
   titulo: "Shorts del <día>", texto: el mismo resumen}`; marcar el plan de hoy con `estado: "usado"` si se usó;
