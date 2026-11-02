@@ -2,6 +2,13 @@
 
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
+## 2026-11-02
+- Métricas: Metricool devuelve los 20 Shorts del 30/10–1/11 pero todos siguen **sin reproducciones, duración vista ni interacciones** (los campos llegan vacíos). Menos de 10 Shorts con datos → sin conclusiones todavía. Si mañana siguen vacíos, revisar si la conexión de YouTube Analytics en Metricool funciona.
+- Hoy arranca el formato nuevo (4/día): primer episodio de la serie **«¿Verdadero o falso?» #1** (mitos de animales, gancho `reto`) y «3 datos» del cerebro (gancho `pregunta-tu`). Base para comparar vof frente a datos desde el 4/11.
+- Plan de la oficina usado casi tal cual; ajuste: el gancho de la serie va sin «¿O NO?» porque partía mal en pantalla («¿O / NO?»).
+- Idea nueva que se prueba: categoría PETS_ANIMALS en la serie y descripción con hashtag propio #verdaderoofalso / #trueorfalse para crear identidad de serie.
+- Tendencias: ninguna apta y clara hoy (Día de Muertos ya usado ayer; elecciones en EE. UU. = política, descartado). Sin tema de tendencia.
+
 ## 2026-11-01 (cambio de estrategia, a partir del 2/11)
 - Objetivo principal: **ganar suscriptores**. Se pasa de 12 Shorts al día a **4**: menos plantilla repetida y más cuidado
   (YouTube penaliza el contenido «no auténtico»: plantillas casi idénticas subidas en volumen).
