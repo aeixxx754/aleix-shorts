@@ -1,0 +1,90 @@
+{
+ "tema": "Animales: mitos y verdades",
+ "formato": "vof",
+ "episodio": 1,
+ "hook_emoji": "🤔",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 👇 Cuéntanos qué mito creías de verdad.",
+ "primer_comentario_en": "How many did you get right? 👇 Tell us which myth you believed!",
+ "es": {
+  "hook": [
+   "3 MITOS DE ANIMALES",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🦇",
+    "Los murciélagos son ciegos",
+    false,
+    "Todos ven; muchos usan además el eco"
+   ],
+   [
+    "🦈",
+    "Los tiburones son más antiguos que los árboles",
+    true,
+    "Unos 450 millones de años frente a unos 385"
+   ],
+   [
+    "🐪",
+    "Los camellos guardan agua en la joroba",
+    false,
+    "Guardan grasa, no agua"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Míralo otra vez"
+  ],
+  "titulo": "¿Verdadero o falso? #1 Mitos de animales 🦇",
+  "descripcion": "¿Verdadero o falso? Mitos de animales: murciélagos, tiburones y camellos. 🦇\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #datoscuriosos #verdaderoofalso",
+  "tags": [
+   "mitos de animales",
+   "verdadero o falso",
+   "murciélagos",
+   "tiburones",
+   "camellos",
+   "datos curiosos"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 ANIMAL MYTHS",
+   "how many can you get?"
+  ],
+  "facts": [
+   [
+    "🦇",
+    "Bats are blind",
+    false,
+    "All bats can see; many also use echolocation"
+   ],
+   [
+    "🦈",
+    "Sharks are older than trees",
+    true,
+    "About 450 million years vs. about 385"
+   ],
+   [
+    "🐪",
+    "Camels store water in their humps",
+    false,
+    "Their humps store fat, not water"
+   ]
+  ],
+  "outro": [
+   "How many did you get right?",
+   "Watch it again"
+  ],
+  "titulo": "True or False? #1 Animal myths 🦇",
+  "descripcion": "True or False? Animal myths about bats, sharks and camels. 🦇\nSubscribe so you don't miss the next episode\n\n#Shorts #animals #funfacts #trueorfalse",
+  "tags": [
+   "animal myths",
+   "true or false",
+   "bats",
+   "sharks",
+   "camels",
+   "fun facts"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "tema": "El cerebro humano",
+ "formato": "datos",
+ "hook_emoji": "🧠",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "primer_comentario": "¿Cuál de los 3 datos no sabías? 👇",
+ "primer_comentario_en": "Which of the 3 facts surprised you? 👇",
+ "es": {
+  "hook": [
+   "¿CUÁNTA ENERGÍA GASTA TU CEREBRO?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "🧠",
+    "Tu cerebro tiene unas",
+    "86.000 MILLONES",
+    "de neuronas conectadas entre sí"
+   ],
+   [
+    "⚡",
+    "Pesa solo un 2 % de ti",
+    "PERO GASTA EL 20 %",
+    "de la energía de tu cuerpo"
+   ],
+   [
+    "💧",
+    "Tu cerebro es",
+    "CASI 3/4 DE AGUA",
+    "alrededor del 75 % de su peso"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Míralo otra vez"
+  ],
+  "titulo": "Cerebro humano: 3 datos que no sabías 🧠",
+  "descripcion": "Neuronas, energía y agua: 3 datos curiosos de tu cerebro. 🧠\nSuscríbete para datos nuevos cada día\n\n#Shorts #cerebro #datoscuriosos #ciencia",
+  "tags": [
+   "cerebro humano",
+   "neuronas",
+   "datos curiosos",
+   "cuerpo humano",
+   "ciencia"
+  ]
+ },
+ "en": {
+  "hook": [
+   "HOW HUNGRY IS YOUR BRAIN?",
+   "the answer will surprise you"
+  ],
+  "facts": [
+   [
+    "🧠",
+    "Your brain has about",
+    "86 BILLION",
+    "neurons talking to each other"
+   ],
+   [
+    "⚡",
+    "It's just 2% of you",
+    "BUT USES 20%",
+    "of your body's energy"
+   ],
+   [
+    "💧",
+    "Your brain is about",
+    "75% WATER",
+    "roughly three-quarters of its weight"
+   ]
+  ],
+  "outro": [
+   "Which one was new to you?",
+   "Watch it again"
+  ],
+  "titulo": "Human brain: 3 facts you never knew 🧠",
+  "descripcion": "Neurons, energy and water: 3 fun facts about your brain. 🧠\nSubscribe for new facts every day\n\n#Shorts #brain #funfacts #science",
+  "tags": [
+   "human brain",
+   "neurons",
+   "fun facts",
+   "did you know",
+   "science"
+  ]
+ }
+}
