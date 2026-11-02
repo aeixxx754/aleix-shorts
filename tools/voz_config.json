@@ -1,0 +1,8 @@
+{
+  "_nota": "Voz del canal en ElevenLabs. Deja voice_id vacío para usar la primera disponible de PREFERIDAS (tools/voz.py) o pon el ID de la voz que elijas en tu biblioteca.",
+  "voice_id": "",
+  "nombre": "",
+  "stability": 0.45,
+  "similarity_boost": 0.8,
+  "style": 0.3
+}

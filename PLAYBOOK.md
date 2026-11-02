@@ -20,7 +20,7 @@ variados y con una serie propia que da una razón para suscribirse. Una sola eje
 - Pedir a Metricool (`getAnalyticsDataByMetrics`, brandId 7763971) los Shorts publicados en los **últimos 7 días** con:
   `YTVP02` fecha y hora, `YTVP17` título, `YTVP06` reproducciones, `YTVP08` duración media vista (s),
   `YTVP09` likes, `YTVP11` comentarios, `YTVP12` compartidos. (Los datos llegan con 1-2 días de retraso.)
-- Calcular la **retención** = duración media vista / duración del vídeo (21 s «datos», 21,5 s «vof», 28 s los antiguos).
+- Calcular la **retención** = duración media vista / duración del vídeo (21,5 s «datos», 22,4 s «vof»; los anteriores al 3/11: 21 s y 21,5 s; 28 s los más antiguos).
 - Comparar por **formato** (vof frente a datos), tema, idioma, hora y **estilo de gancho** (campo `estilo_gancho` del JSON, ver paso 3):
   ¿qué tiene más reproducciones y más retención? ¿qué va peor?
 - Escribir en `aprendizajes.md` (al principio, con la fecha) 3-5 conclusiones cortas y **qué se cambia hoy** por ellas.
@@ -76,6 +76,13 @@ Campos comunes:
 - `outro`: ["¿Cuál no sabías?" o pregunta parecida, que invite a comentar], ["Míralo otra vez" / "Watch it again"]
   (el final se funde con el inicio para que el Short se repita en bucle). El script añade solo un botón rojo de
   suscripción bajo el outro («datos nuevos cada día» o «para el próximo episodio»): no hace falta escribirlo.
+- `voz` (dentro de `es`) y la misma clave dentro de `en`: la **locución** que dice la voz de ElevenLabs. La escribe Nora en el plan.
+  Cada frase tiene que caber en su tramo (el script avisa si no): cuenta las palabras.
+  - «datos»: [gancho ≤ 6 palabras, dato 1 ≤ 13, dato 2 ≤ 13, dato 3 ≤ 13, final ≤ 6].
+  - «vof»: [gancho ≤ 6, [afirmación ≤ 8, revelación], [afirmación, revelación], [afirmación, revelación], final ≤ 6], donde la
+    revelación es "¡Falso!" / "¡Verdadero!" ("False!" / "True!") + como mucho 4 palabras ("¡Falso! Sí que ven.").
+  Tono cercano y con energía; frases cortas; el REMATE o la cifra se dicen tal cual salen en pantalla. Si falta `voz`,
+  se lee la pantalla (en la serie, solo el veredicto en la revelación).
 - `primer_comentario` y `primer_comentario_en`: comentario que se publica con el vídeo, ≤ 150 caracteres. Una pregunta
   concreta sobre el tema que se pueda contestar en una palabra o un número (p. ej. "¿Cuántos huesos crees que tiene una
   jirafa en el cuello? 👇"), y nada de pedir likes. Así hay conversación desde el primer minuto.
@@ -92,13 +99,19 @@ Campos comunes:
 - La versión EN es una traducción natural, no literal.
 
 ## 4. Crear los 4 vídeos
+Primero comprobar la voz: `python3 tools/voz.py --check`. Debe decir `voz: OK · ElevenLabs · …`. La clave **no** se escribe en
+ningún sitio: está guardada como secreto de red del entorno (host `api.elevenlabs.io`, cabecera `xi-api-key`) y se añade sola.
+Si dice `voz: NO (motivo)`, **no parar**: los vídeos salen solo con música y se avisa del motivo en el mensaje final.
+
 Para cada JSON y cada idioma (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4
 python3 tools/make_short.py content/<archivo>.json en <carpeta_trabajo> <media>/<archivo>_en.mp4
 ```
-Los vídeos duran 21 s («datos») o 21,5 s («vof»). Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en
-1.2, 5, 10.5, 16 y 19.8 s («datos») o en 1.3, 4.6, 6.4, 12.1 y 20.4 s («vof»: portada, cuenta atrás, revelación, outro) de todos los vídeos
+El script escribe `voz: sí · …` o `voz: NO (motivo)`, y `voz: AVISO frase N…` si una frase no cabe: en ese caso acortar esa
+frase de `voz` y volver a renderizar ese vídeo (las frases que no cambian salen de la caché y no gastan créditos).
+Los vídeos duran 21,5 s («datos») o 22,4 s («vof»). Tarda ~20 s por vídeo. Revisión: hoja de contactos con fotogramas en
+1.4, 5.5, 11, 16.5 y 20.3 s («datos») o en 1.3, 4.6, 6.4, 12.2 y 21.6 s («vof»: portada, cuenta atrás, revelación, outro) de todos los vídeos
 (miniaturas de 180 px) y mirarla. Si un texto se corta o se solapa, acortarlo y volver a renderizar ese vídeo.
 
 ## 5. Subir a GitHub
@@ -124,7 +137,7 @@ Los vídeos duran 21 s («datos») o 21,5 s («vof»). Tarda ~20 s por vídeo. R
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
-- Avisar a Aleix con un resumen corto: los 2 temas con sus horas (y el nº de episodio de la serie) y cuántos Shorts se han programado.
+- Avisar a Aleix con un resumen corto: los 2 temas con sus horas (y el nº de episodio de la serie) y cuántos Shorts se han programado, y si llevan voz (y si no, por qué).
 - Dejarlo también en la oficina: una entrada en `tablon` (doc_id `AAAAMMDD-HHMM-aleix`) con
   `{fecha: ms epoch, agenteId: "aleix", nombre: "Aleix", tipo: "publicado" (o "alerta" si algo falló), turno: "manana",
   titulo: "Shorts del <día>", texto: el mismo resumen}`; marcar el plan de hoy con `estado: "usado"` si se usó;

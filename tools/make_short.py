@@ -15,15 +15,15 @@ PALETTE_POOL = [((255, 94, 98), (255, 153, 102)), ((72, 52, 212), (0, 168, 255))
     ((20, 120, 200), (90, 220, 230)), ((240, 120, 30), (250, 200, 60)), ((90, 40, 160), (220, 80, 160)),
     ((30, 140, 80), (180, 220, 60)), ((200, 40, 60), (250, 120, 90))]
 PALETTES = PALETTE_POOL[:5]
-DUR = [2.0, 5.5, 5.5, 5.5, 2.5]  # ~21 s: corto para mejor retención
+DUR = [2.5, 5.5, 5.5, 5.5, 2.5]  # 21,5 s: portada de 2,5 s para que la voz diga el gancho entero
 HIGHLIGHTS = [(255, 255, 140), (140, 255, 220), (255, 200, 120), (200, 230, 255)]
 HL = HIGHLIGHTS[0]
 BUBBLE_MODE = "bubbles"
 # Formatos: "datos" (3 datos curiosos, por defecto) y "vof" (serie ¿Verdadero o falso?)
 FORMATO = "datos"
 EPISODIO = None
-DUR_VOF = [2.5, 5.5, 5.5, 5.5, 2.5]   # 21,5 s: un poco más de portada para leer el nombre de la serie
-VOF_COUNT, VOF_REVEAL = 1.2, 3.05      # cuenta atrás 3-2-1 desde 1,2 s y revelación a 3,05 s de cada afirmación
+DUR_VOF = [2.5, 5.8, 5.8, 5.8, 2.5]   # 22,4 s: hueco para que la voz lea la afirmación antes de la revelación
+VOF_COUNT, VOF_REVEAL = 1.4, 3.4       # cuenta atrás 3-2-1 desde 1,4 s y revelación a 3,4 s de cada afirmación
 VOF_PALETTE = ((30, 27, 75), (88, 60, 200))  # índigo fijo: identidad visual de la serie
 
 def font(sz): return ImageFont.truetype(FONT, sz)
@@ -216,7 +216,8 @@ def render(lang, outdir):
         os.replace(tmp, fin); files.append(fin); gstart += dur
     return files
 
-def music(path, total, pops):
+def music(path, total, pops, voz=None, presencia=None):
+    """Música de fondo; si hay `voz`, la mezcla encima y baja la música mientras se habla."""
     sr = 44100; n = int(sr * total); t = np.arange(n) / sr
     bpm = 116; beat = 60 / bpm
     out = np.zeros(n)
@@ -245,7 +246,13 @@ def music(path, total, pops):
             out[i:i + l] += 0.25 * np.exp(-s * 30) * np.sin(2 * np.pi * (500 + 900 * s * 8) * s)
     fade = np.minimum(1, np.minimum(t / 0.3, (total - t) / 0.8))
     out = np.tanh(out * fade * 1.4) * 0.8
-    pcm = (out * 32767).astype(np.int16)
+    if voz is not None:
+        m = min(n, len(voz))
+        out[:m] *= 1 - 0.72 * presencia[:m]          # la música baja a menos de un tercio bajo la voz
+        out[:m] += 0.95 * voz[:m]
+        out = np.tanh(out * 1.1) / np.tanh(1.1)      # limitador suave
+        out *= 0.92 / max(1e-6, float(np.max(np.abs(out))))
+    pcm = (np.clip(out, -1, 1) * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(pcm.tobytes())
 
@@ -275,7 +282,25 @@ if __name__ == "__main__":
             + [starts[4] + 0.15, starts[4] + 0.6]
     else:
         pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
-    wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops)
+    # Voz en off con ElevenLabs (ver tools/voz.py). El JSON puede traer "voz" por idioma; si no, se lee
+    # la pantalla. Si ElevenLabs no responde, el Short sale solo con música y se avisa.
+    voz = presencia = None
+    if os.environ.get("ALEIX_VOZ", "1") != "0":
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import voz as V
+        falta = V.disponible(lang)
+        if falta:
+            print(f"voz: NO ({falta})")
+        else:
+            try:
+                seg = V.segmentos(FORMATO, TEXT[lang], L.get("voz"), list(starts), DUR, lang, VOF_REVEAL)
+                voz, presencia, avisos = V.pista(seg, sum(DUR))
+                print(f"voz: sí · {V.descripcion()}" + ("" if L.get("voz") else " (leída de la pantalla)"))
+                for a in avisos: print("voz: AVISO", a)
+            except Exception as e:
+                voz = presencia = None
+                print(f"voz: NO (fallo al generar: {e})")
+    wav = os.path.join(outdir, f"{lang}_music.wav"); music(wav, sum(DUR), pops, voz, presencia)
     silent = os.path.join(outdir, f"{lang}_silent.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
     tmpf = final[:-4] + ".tmp.mp4"
