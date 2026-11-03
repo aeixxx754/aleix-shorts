@@ -2,6 +2,16 @@
 
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
+## 2026-11-03
+- Métricas: ya hay datos de los 10 Shorts del 30-31/10 (vídeos de 21 s, formato antiguo de 12/día); los del 1-2/11 siguen vacíos. Justo 10 con reproducciones → conclusiones **provisionales**.
+- Reproducciones muy concentradas: dinosaurios ES 423 y océano EN 66; el resto entre 1 y 13. Un solo vídeo hace >80 % del total → el empuje inicial del algoritmo pesa más que el tema por ahora.
+- Retención inversa a las visitas: los dos que más se vieron retienen poco (dinosaurios 4/21 s ≈ 19 %, océano 2/21 s ≈ 10 %), y los de 1-2 visitas parecen altos (comida 19/21, plantas 17/21) pero con 1 vista no significan nada. Cuando llega público nuevo, se va en los primeros 4 s → **el primer segundo es lo que más hay que cuidar**.
+- Aún no se puede comparar vof frente a datos (la serie empezó el 2/11, sin datos) ni con voz frente a sin voz (ningún Short ha salido con voz todavía; hoy tampoco).
+- Qué se cambia hoy: gancho más corto y directo en pantalla (EN de la serie sin «... OR NOT?»), remates de una sola línea (cifras sin partir: «30.000 °C»); se mantiene el gancho de comparación en «3 datos» (rayo vs Sol) para medirlo frente al `pregunta-tu` de ayer. Idea nueva: serie de historia (primera vez que sale el tema Historia).
+- Voz: NO hoy. El proxy del entorno rechaza la conexión a api.elevenlabs.io (403 en CONNECT): el dominio no está permitido para esta tarea. Hay que añadir api.elevenlabs.io a los dominios permitidos (Ajustes > Capacidades en claude.ai) y el secreto de red.
+- Incidencia: la tarea terminó a las 18:22 (hora de Madrid), con las 13:00 y 18:00 ya pasadas → la serie #2 sale hoy a las 21:00 ES y 22:00 EN.
+- Tendencias: ninguna apta (3/11 es jornada electoral en EE. UU. = política, descartado). Sin tema de tendencia.
+
 ## 2026-11-02
 - Métricas: Metricool devuelve los 20 Shorts del 30/10–1/11 pero todos siguen **sin reproducciones, duración vista ni interacciones** (los campos llegan vacíos). Menos de 10 Shorts con datos → sin conclusiones todavía. Si mañana siguen vacíos, revisar si la conexión de YouTube Analytics en Metricool funciona.
 - Hoy arranca el formato nuevo (4/día): primer episodio de la serie **«¿Verdadero o falso?» #1** (mitos de animales, gancho `reto`) y «3 datos» del cerebro (gancho `pregunta-tu`). Base para comparar vof frente a datos desde el 4/11.

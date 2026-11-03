@@ -1,0 +1,102 @@
+{
+ "tema": "Rayos y tormentas",
+ "formato": "datos",
+ "hook_emoji": "⚡",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "comparacion",
+ "prueba_titulo": "Hoy: título en forma de pregunta (el cerebro del 2/11 usó número). Siguiente prueba: número («Rayos: 3 datos…»).",
+ "primer_comentario": "¿Cuál de los 3 datos no sabías? 👇",
+ "primer_comentario_en": "Which of the 3 facts surprised you? 👇",
+ "es": {
+  "hook": [
+   "¿QUÉ ES MÁS CALIENTE: RAYO O SOL?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "⚡",
+    "Un rayo llega a unos",
+    "30.000 °C",
+    "5 veces más que la superficie del Sol"
+   ],
+   [
+    "🌍",
+    "Cada segundo hay unos",
+    "40 RELÁMPAGOS",
+    "en todo el planeta"
+   ],
+   [
+    "🔊",
+    "Si el trueno tarda 3 s,",
+    "ESTÁ A 1 KM",
+    "el sonido va más lento que la luz"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Míralo otra vez"
+  ],
+  "voz": [
+   "¿Rayo o Sol? ¿Quién gana?",
+   "Un rayo alcanza 30.000 grados, cinco veces la superficie del Sol.",
+   "Cada segundo hay unos 40 relámpagos en el planeta.",
+   "El trueno es aire que estalla. Tres segundos de retraso: un kilómetro.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Rayos: ¿son más calientes que el Sol? ⚡",
+  "descripcion": "Rayos y relámpagos: temperatura, frecuencia y trueno en 3 datos curiosos. ⚡\nSuscríbete para datos nuevos cada día\n\n#Shorts #rayos #tormentas #datoscuriosos",
+  "tags": [
+   "rayos",
+   "relámpagos",
+   "tormentas",
+   "datos curiosos",
+   "ciencia"
+  ]
+ },
+ "en": {
+  "hook": [
+   "LIGHTNING OR SUN: WHICH IS HOTTER?",
+   "the answer will surprise you"
+  ],
+  "facts": [
+   [
+    "⚡",
+    "Lightning reaches about",
+    "30,000 °C",
+    "over 50,000 °F, 5x the Sun's surface"
+   ],
+   [
+    "🌍",
+    "Every second, about",
+    "40 FLASHES",
+    "light up our planet"
+   ],
+   [
+    "🔊",
+    "Thunder 5 seconds later?",
+    "IT'S 1 MILE AWAY",
+    "sound is much slower than light"
+   ]
+  ],
+  "outro": [
+   "Which one surprised you?",
+   "Watch it again"
+  ],
+  "voz": [
+   "Lightning or Sun: which is hotter?",
+   "Lightning hits 30,000 degrees Celsius: five times hotter than the Sun's surface.",
+   "About 40 flashes of lightning light up Earth every second.",
+   "Thunder is exploding air. Five seconds between flash and boom: one mile.",
+   "Which one surprised you?"
+  ],
+  "titulo": "Lightning: hotter than the Sun? ⚡",
+  "descripcion": "Lightning: how hot it gets, how often it strikes and what thunder tells you, in 3 fun facts. ⚡\nSubscribe for new facts every day\n\n#Shorts #lightning #weather #funfacts",
+  "tags": [
+   "lightning",
+   "thunderstorm",
+   "weather facts",
+   "fun facts",
+   "science"
+  ]
+ }
+}

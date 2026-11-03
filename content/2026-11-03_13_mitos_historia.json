@@ -1,0 +1,122 @@
+{
+ "tema": "Historia: mitos y verdades",
+ "formato": "vof",
+ "episodio": 2,
+ "hook_emoji": "🤔",
+ "cat": "EDUCATION",
+ "estilo_gancho": "numero",
+ "primer_comentario": "¿Cuántas acertaste? 👇 ¿Cuál de estos mitos te habías creído?",
+ "primer_comentario_en": "How many did you get right? 👇 Which of these myths did you believe?",
+ "es": {
+  "hook": [
+   "3 MITOS DE LA HISTORIA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🧱",
+    "La Gran Muralla China se ve desde la Luna",
+    false,
+    "Es muy estrecha: ni desde la órbita se ve bien"
+   ],
+   [
+    "🎓",
+    "Oxford es más antigua que el Imperio azteca",
+    true,
+    "Oxford, hacia 1096; Tenochtitlan, hacia 1325"
+   ],
+   [
+    "🛡️",
+    "Los vikingos llevaban cascos con cuernos",
+    false,
+    "Esa imagen viene de trajes de ópera del s. XIX"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Míralo otra vez"
+  ],
+  "voz": [
+   "Tres mitos de historia. ¿Aciertas?",
+   [
+    "La Gran Muralla se ve desde la Luna.",
+    "¡Falso! Es demasiado estrecha."
+   ],
+   [
+    "Oxford es más antigua que el Imperio azteca.",
+    "¡Verdadero! Ya enseñaban en 1096."
+   ],
+   [
+    "Los vikingos llevaban cascos con cuernos.",
+    "¡Falso! Viene de la ópera."
+   ],
+   "¿Cuántas acertaste? Cuéntalo abajo."
+  ],
+  "titulo": "¿Verdadero o falso? #2 Mitos de la historia 🏺",
+  "descripcion": "¿Verdadero o falso? Mitos de la historia: la Gran Muralla, Oxford y los vikingos. 🏺\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #historia #datoscuriosos #verdaderoofalso",
+  "tags": [
+   "mitos de la historia",
+   "verdadero o falso",
+   "Gran Muralla",
+   "vikingos",
+   "Oxford",
+   "datos curiosos"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 HISTORY MYTHS",
+   "how many can you get?"
+  ],
+  "facts": [
+   [
+    "🧱",
+    "You can see the Great Wall of China from the Moon",
+    false,
+    "It's too narrow, even hard to spot from orbit"
+   ],
+   [
+    "🎓",
+    "Oxford is older than the Aztec Empire",
+    true,
+    "Oxford: around 1096. Tenochtitlan: around 1325"
+   ],
+   [
+    "🛡️",
+    "Vikings wore helmets with horns",
+    false,
+    "That image came from 1800s opera costumes"
+   ]
+  ],
+  "outro": [
+   "How many did you get right?",
+   "Watch it again"
+  ],
+  "voz": [
+   "Three history myths. Can you tell?",
+   [
+    "The Great Wall is visible from the Moon.",
+    "False! Way too narrow."
+   ],
+   [
+    "Oxford is older than the Aztec Empire.",
+    "True! Teaching began around 1096."
+   ],
+   [
+    "Vikings wore helmets with horns.",
+    "False! That came from opera."
+   ],
+   "How many did you get?"
+  ],
+  "titulo": "True or False? #2 History myths 🏺",
+  "descripcion": "True or False? History myths about the Great Wall, Oxford and the Vikings. 🏺\nSubscribe so you don't miss the next episode\n\n#Shorts #history #funfacts #trueorfalse",
+  "tags": [
+   "history myths",
+   "true or false",
+   "Great Wall of China",
+   "vikings",
+   "Oxford",
+   "fun facts"
+  ]
+ }
+}
