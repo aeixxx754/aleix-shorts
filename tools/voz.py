@@ -18,7 +18,7 @@ CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "voz_config.js
 CACHE = os.environ.get("ALEIX_VOZ_CACHE", os.path.expanduser("~/.cache/aleix-voz"))
 # Si voz_config.json no fija una voz, se elige la primera de estas que exista en la cuenta
 PREFERIDAS = ["George", "Brian", "Daniel", "Charlie", "Sarah", "Laura"]
-MAX_RAPIDEZ = 1.15   # como mucho, un 15 % más rápido para que una frase quepa en su tramo
+MAX_RAPIDEZ = 1.2    # como mucho, un 20 % más rápido (límite de ElevenLabs) para que una frase quepa en su tramo
 
 _estado = {}
 
@@ -150,7 +150,7 @@ def _frase(t):
     return t
 
 
-def segmentos(formato, T, voz_json, starts, dur, lang, VOF_REVEAL=3.4):
+def segmentos(formato, T, voz_json, starts, dur, lang, VOF_REVEAL=2.3):
     """Cuándo suena cada frase. `voz_json` es el campo "voz" del JSON (o None: se lee la pantalla).
     - datos: [gancho, dato1, dato2, dato3, final]
     - vof:   [gancho, [afirmación1, revelación1], [afirmación2, revelación2], [afirmación3, revelación3], final]"""
@@ -160,15 +160,15 @@ def segmentos(formato, T, voz_json, starts, dur, lang, VOF_REVEAL=3.4):
             def es_v(x): return x is True or str(x).strip().lower() in ("true", "verdadero", "v", "1", "si", "sí")
             # sin locución escrita: la afirmación tal cual y, en la revelación, solo el veredicto
             voz_json = [_frase(T["hook"][0])] + [[a, si if es_v(ok) else no] for _, a, ok, e in T["facts"]] + [T["outro"][0]]
-        seg = [(voz_json[0], starts[0] + 0.15, dur[0] - 0.3)]
+        seg = [(voz_json[0], starts[0] + 0.05, dur[0] - 0.15)]
         for i in range(3):
             af, rev = voz_json[1 + i]
-            seg += [(af, starts[1 + i] + 0.25, VOF_REVEAL - 0.4), (rev, starts[1 + i] + VOF_REVEAL + 0.1, dur[1 + i] - VOF_REVEAL - 0.25)]
-        seg.append((voz_json[4], starts[4] + 0.15, dur[4] - 0.45))
+            seg += [(af, starts[1 + i] + 0.1, VOF_REVEAL - 0.2), (rev, starts[1 + i] + VOF_REVEAL + 0.05, dur[1 + i] - VOF_REVEAL - 0.15)]
+        seg.append((voz_json[4], starts[4] + 0.05, dur[4] - 0.3))
         return seg
     if not voz_json:
         voz_json = [_frase(T["hook"][0])] + [f"{a} {b.lower()}, {c}" for _, a, b, c in T["facts"]] + [T["outro"][0]]
-    return [(t, starts[i] + 0.15, dur[i] - (0.45 if i == 4 else 0.3)) for i, t in enumerate(voz_json[:5])]
+    return [(t, starts[i] + (0.05 if i in (0, 4) else 0.1), dur[i] - (0.3 if i == 4 else 0.15)) for i, t in enumerate(voz_json[:5])]
 
 
 if __name__ == "__main__" and "--check" in sys.argv:

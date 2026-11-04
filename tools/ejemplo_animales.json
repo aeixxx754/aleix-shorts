@@ -1,0 +1,27 @@
+{
+ "tema": "Animales increíbles: el pulpo",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 1,
+ "hook_emoji": "🐙",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "primer_comentario": "Comenta 🐙 si sabías lo de los 3 corazones",
+ "es": {
+  "hook": ["¿3 CORAZONES Y SANGRE AZUL?", "el animal más raro del mar"],
+  "facts": [
+   ["❤️", "El pulpo tiene", "3 CORAZONES", "dos para las branquias y uno para el cuerpo"],
+   ["💙", "Su sangre es", "AZUL", "lleva cobre en vez de hierro"],
+   ["🧠", "Cada brazo", "PIENSA SOLO", "tiene neuronas propias"]
+  ],
+  "outro": ["¿Cuál no sabías?", "Comenta 🐙 si lo sabías"],
+  "voz": ["¿Tres corazones y sangre azul?",
+          "El pulpo tiene tres corazones. Sí, ¡tres!",
+          "Y su sangre es azul, porque lleva cobre.",
+          "Cada brazo tiene neuronas propias: piensa solo.",
+          "¿Cuál no sabías?"],
+  "titulo": "Animales increíbles #1: el pulpo 🐙",
+  "descripcion": "El pulpo tiene 3 corazones, sangre azul y brazos que piensan solos. 🐙\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #pulpo #datoscuriosos",
+  "tags": ["animales increíbles", "pulpo", "datos de animales", "curiosidades", "datos curiosos"]
+ }
+}

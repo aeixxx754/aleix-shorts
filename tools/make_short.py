@@ -15,15 +15,16 @@ PALETTE_POOL = [((255, 94, 98), (255, 153, 102)), ((72, 52, 212), (0, 168, 255))
     ((20, 120, 200), (90, 220, 230)), ((240, 120, 30), (250, 200, 60)), ((90, 40, 160), (220, 80, 160)),
     ((30, 140, 80), (180, 220, 60)), ((200, 40, 60), (250, 120, 90))]
 PALETTES = PALETTE_POOL[:5]
-DUR = [2.5, 5.5, 5.5, 5.5, 2.5]  # 21,5 s: portada de 2,5 s para que la voz diga el gancho entero
+DUR = [1.6, 4.0, 4.0, 4.0, 1.6]  # 15,2 s: corto para que se vea entero y se repita (bucle)
 HIGHLIGHTS = [(255, 255, 140), (140, 255, 220), (255, 200, 120), (200, 230, 255)]
 HL = HIGHLIGHTS[0]
 BUBBLE_MODE = "bubbles"
 # Formatos: "datos" (3 datos curiosos, por defecto) y "vof" (serie ¿Verdadero o falso?)
 FORMATO = "datos"
 EPISODIO = None
-DUR_VOF = [2.5, 5.8, 5.8, 5.8, 2.5]   # 22,4 s: hueco para que la voz lea la afirmación antes de la revelación
-VOF_COUNT, VOF_REVEAL = 1.4, 3.4       # cuenta atrás 3-2-1 desde 1,4 s y revelación a 3,4 s de cada afirmación
+SERIE_NOMBRE = None
+DUR_VOF = [1.6, 4.4, 4.4, 4.4, 1.6]   # 16,4 s: afirmación, cuenta atrás rápida y revelación
+VOF_COUNT, VOF_STEP, VOF_REVEAL = 0.8, 0.5, 2.3   # cuenta atrás 3-2-1 desde 0,8 s (0,5 s por número) y revelación a 2,3 s
 VOF_PALETTE = ((30, 27, 75), (88, 60, 200))  # índigo fijo: identidad visual de la serie
 
 def font(sz): return ImageFont.truetype(FONT, sz)
@@ -132,9 +133,9 @@ def render(lang, outdir):
             L1 = text_layer(T["hook"][0], 120, maxw=900); L2 = text_layer(T["hook"][1], 76, color=(255, 240, 200))
             E = emoji_img(HOOK_EMOJI, 360)
             SERIE = None
-            if FORMATO == "vof":  # etiqueta fija de la serie: se reconoce en el primer fotograma
-                nombre = "¿VERDADERO O FALSO?" if lang == "es" else "TRUE OR FALSE?"
-                SERIE = text_layer(nombre + (f" · #{EPISODIO}" if EPISODIO else ""), 58, color=(30, 27, 75), box=(255, 214, 0, 250))
+            nombre = SERIE_NOMBRE or (("¿VERDADERO O FALSO?" if lang == "es" else "TRUE OR FALSE?") if FORMATO == "vof" else None)
+            if nombre:  # etiqueta fija de la serie: se reconoce en el primer fotograma
+                SERIE = text_layer(nombre.upper() + (f" · #{EPISODIO}" if EPISODIO else ""), 58, color=(30, 27, 75), box=(255, 214, 0, 250))
         elif si <= 3 and FORMATO == "vof":
             em, a, ok, expl = T["facts"][si - 1]
             ok = ok is True or str(ok).strip().lower() in ("true", "verdadero", "v", "1", "si", "sí")
@@ -160,7 +161,7 @@ def render(lang, outdir):
             L1 = text_layer(T["outro"][0], 88); L2 = text_layer(T["outro"][1], 66, color=(40, 40, 40), box=(255, 255, 255, 240))
             E = emoji_img("🔔", 300)
             # botón de suscripción con un motivo concreto para suscribirse
-            if FORMATO == "vof":
+            if FORMATO == "vof" or SERIE_NOMBRE:
                 cta = "SUSCRÍBETE para el próximo episodio" if lang == "es" else "SUBSCRIBE for the next episode"
             else:
                 cta = "SUSCRÍBETE · datos nuevos cada día" if lang == "es" else "SUBSCRIBE · new facts every day"
@@ -170,44 +171,45 @@ def render(lang, outdir):
             t = i / FPS; gt = gstart + t
             fr = bgs[si].copy(); bubbles(fr, gt, si)
             if si == 0:
-                place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), ease_out_back(t / 0.3))
-                place(fr, L1, W / 2, 1060, ease_out_back((t - 0.05) / 0.4), ease((t - 0.05) / 0.2))
-                place(fr, L2, W / 2, 1060 + L1.height / 2 + L2.height / 2 + 20 + 60 * (1 - ease((t - 0.5) / 0.3)), 1, ease((t - 0.5) / 0.3))
-                if SERIE is not None: place(fr, SERIE, W / 2, 330, ease_out_back(t / 0.35))
+                # primer fotograma ya completo (gancho legible al instante); solo un pequeño «latido»
+                place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), 0.7 + 0.3 * ease_out_back(t / 0.25))
+                place(fr, L1, W / 2, 1060, 1 + 0.04 * math.sin(t * 7))
+                place(fr, L2, W / 2, 1060 + L1.height / 2 + L2.height / 2 + 20 + 40 * (1 - ease((t - 0.25) / 0.25)), 1, ease((t - 0.25) / 0.25))
+                if SERIE is not None: place(fr, SERIE, W / 2, 330, 1)
             elif si <= 3 and FORMATO == "vof":
                 # afirmación → opciones → cuenta atrás 3-2-1 → revelación con la explicación
-                place(fr, badge, W / 2, 300, ease_out_back(t / 0.4))
-                place(fr, E, W / 2, 560 + 15 * math.sin(t * 3), ease_out_back((t - 0.1) / 0.5))
-                place(fr, Ls, W / 2, ys + 40 * (1 - ease((t - 0.25) / 0.3)), 1, ease((t - 0.25) / 0.3))
+                place(fr, badge, W / 2, 300, ease_out_back(t / 0.3))
+                place(fr, E, W / 2, 560 + 15 * math.sin(t * 3), ease_out_back((t - 0.05) / 0.35))
+                place(fr, Ls, W / 2, ys + 40 * (1 - ease((t - 0.1) / 0.25)), 1, ease((t - 0.1) / 0.25))
                 if t < VOF_REVEAL:
-                    pk = ease_out_back((t - 0.8) / 0.35)
+                    pk = ease_out_back((t - 0.5) / 0.3)
                     place(fr, Pv, xv, yopt, pk); place(fr, Pf, xf, yopt, pk)
                     for k in range(3):
-                        s0 = VOF_COUNT + 0.6 * k
-                        if s0 <= t < s0 + 0.6:
-                            place(fr, NUM[k], W / 2, ycnt, ease_out_back((t - s0) / 0.25), 1 - max(0, (t - s0 - 0.45) / 0.15))
+                        s0 = VOF_COUNT + VOF_STEP * k
+                        if s0 <= t < s0 + VOF_STEP:
+                            place(fr, NUM[k], W / 2, ycnt, ease_out_back((t - s0) / 0.2), 1 - max(0, (t - s0 - VOF_STEP + 0.12) / 0.12))
                 else:
                     tr = t - VOF_REVEAL; big = ease_out_back(tr / 0.35) * 1.12
                     if tr < 0.3:
                         fl = FLASH.copy(); fl.putalpha(int(110 * (1 - tr / 0.3))); fr.alpha_composite(fl)
                     if ok: place(fr, Pv2, xv, yopt, big); place(fr, Pf, xf, yopt, 1, 0.3)
                     else: place(fr, Pv, xv, yopt, 1, 0.3); place(fr, Pf2, xf, yopt, big)
-                    place(fr, Le, W / 2, ycnt + 40 * (1 - ease((tr - 0.25) / 0.3)), 1, ease((tr - 0.25) / 0.3))
+                    place(fr, Le, W / 2, ycnt + 40 * (1 - ease((tr - 0.15) / 0.25)), 1, ease((tr - 0.15) / 0.25))
             elif si <= 3:
-                place(fr, badge, W / 2, 300, ease_out_back(t / 0.4))
-                place(fr, E, W / 2, 680 + 20 * math.sin(t * 3), ease_out_back((t - 0.1) / 0.6) * (1 + 0.03 * math.sin(t * 5)))
-                place(fr, La, W / 2, ya + 50 * (1 - ease((t - 0.35) / 0.3)), 1, ease((t - 0.35) / 0.3))
-                place(fr, Lb, W / 2, yb, ease_out_back((t - 0.8) / 0.4), ease((t - 0.8) / 0.2))
-                place(fr, Lc, W / 2, yc + 50 * (1 - ease((t - 1.9) / 0.3)), 1, ease((t - 1.9) / 0.3))
+                place(fr, badge, W / 2, 300, ease_out_back(t / 0.3))
+                place(fr, E, W / 2, 680 + 20 * math.sin(t * 3), ease_out_back((t - 0.05) / 0.4) * (1 + 0.03 * math.sin(t * 5)))
+                place(fr, La, W / 2, ya + 50 * (1 - ease((t - 0.1) / 0.25)), 1, ease((t - 0.1) / 0.25))
+                place(fr, Lb, W / 2, yb, ease_out_back((t - 0.5) / 0.35), ease((t - 0.5) / 0.2))
+                place(fr, Lc, W / 2, yc + 50 * (1 - ease((t - 1.3) / 0.25)), 1, ease((t - 1.3) / 0.25))
             else:
-                place(fr, E, W / 2, 640, ease_out_back(t / 0.5) * (1 + 0.08 * math.sin(t * 9) * (t > 0.6)))
-                place(fr, L1, W / 2, 1040, ease_out_back((t - 0.15) / 0.4), ease((t - 0.15) / 0.25))
-                place(fr, L2, W / 2, 1040 + L1.height / 2 + L2.height / 2 + 30, ease_out_back((t - 0.6) / 0.4) * (1 + 0.04 * math.sin(t * 6)), ease((t - 0.6) / 0.25))
-                place(fr, SUB, W / 2, ysub, ease_out_back((t - 0.9) / 0.4) * (1 + 0.035 * math.sin(t * 8) * (t > 1.3)), ease((t - 0.9) / 0.2))
+                place(fr, E, W / 2, 640, ease_out_back(t / 0.3) * (1 + 0.08 * math.sin(t * 9) * (t > 0.4)))
+                place(fr, L1, W / 2, 1040, ease_out_back((t - 0.05) / 0.3), ease((t - 0.05) / 0.2))
+                place(fr, L2, W / 2, 1040 + L1.height / 2 + L2.height / 2 + 30, ease_out_back((t - 0.25) / 0.3) * (1 + 0.04 * math.sin(t * 6)), ease((t - 0.25) / 0.2))
+                place(fr, SUB, W / 2, ysub, ease_out_back((t - 0.4) / 0.3) * (1 + 0.035 * math.sin(t * 8) * (t > 0.8)), ease((t - 0.4) / 0.2))
             # fade in/out between scenes
             fade = min(1, (t / 0.15) if si > 0 else 1, (dur - t) / 0.15 if si < 4 else 1)
-            if si == 4 and dur - t < 0.35:  # bucle: el final se funde con el fondo del inicio
-                fr = Image.blend(fr.convert("RGB"), bgs[0].convert("RGB"), 1 - (dur - t) / 0.35).convert("RGBA")
+            if si == 4 and dur - t < 0.25:  # bucle: el final se funde con el fondo del inicio
+                fr = Image.blend(fr.convert("RGB"), bgs[0].convert("RGB"), 1 - (dur - t) / 0.25).convert("RGBA")
             img = fr.convert("RGB")
             if fade < 1: img = Image.blend(Image.new("RGB", (W, H), (255, 255, 255)), img, max(fade, 0) * 0.7 + 0.3)
             progress_img = img.convert("RGBA"); progress(progress_img, gt, total)
@@ -263,6 +265,7 @@ if __name__ == "__main__":
     HOOK_EMOJI = C.get("hook_emoji", "🤯")
     FORMATO = C.get("formato", "datos")
     EPISODIO = C.get("episodio")
+    SERIE_NOMBRE = C.get("serie")  # p. ej. "Animales increíbles": etiqueta y CTA de serie también en «datos»
     L = C[lang]
     TEXT = {lang: {"hook": tuple(L["hook"]), "facts": [tuple(f) for f in L["facts"]], "outro": tuple(L["outro"])}}
     seed = sum(ord(ch) for ch in os.path.basename(cfile))
@@ -278,10 +281,10 @@ if __name__ == "__main__":
     open(lst, "w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
     starts = np.cumsum([0] + DUR[:-1])
     if FORMATO == "vof":  # tic en cada número de la cuenta atrás y golpe en la revelación
-        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (VOF_COUNT, VOF_COUNT + 0.6, VOF_COUNT + 1.2, VOF_REVEAL)] \
-            + [starts[4] + 0.15, starts[4] + 0.6]
+        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (VOF_COUNT, VOF_COUNT + VOF_STEP, VOF_COUNT + 2 * VOF_STEP, VOF_REVEAL)] \
+            + [starts[4] + 0.05, starts[4] + 0.4]
     else:
-        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.8)] + [starts[4] + 0.15, starts[4] + 0.6]
+        pops = [0.0, 0.1] + [s + o for s in starts[1:4] for o in (0.1, 0.5)] + [starts[4] + 0.05, starts[4] + 0.4]
     # Voz en off con ElevenLabs (ver tools/voz.py). El JSON puede traer "voz" por idioma; si no, se lee
     # la pantalla. Si ElevenLabs no responde, el Short sale solo con música y se avisa.
     voz = presencia = None

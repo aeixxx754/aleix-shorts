@@ -2,6 +2,14 @@
 
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
+
+## 2026-11-04 (noche) · Cambio de estrategia para ganar suscriptores (decidido con Aleix)
+- **Solo español**: se elimina el inglés (ES ~105 visitas de media frente a ~13 en EN; mezclar idiomas frena las suscripciones).
+- **3 Shorts al día**: 11:00 «Animales increíbles» (serie nueva), 14:00 «¿Verdadero o falso?», 19:00 «3 datos».
+- **Más cortos** (15,2 s y 16,4 s) para que se vean enteros y se repitan; antes la gente se iba a los ~5 s de 21 s.
+- **Gancho visible desde el primer fotograma** y final con petición facilísima de comentar («Comenta SÍ si lo sabías»).
+- A partir del 5/11, comparar la retención y los suscriptores ganados con los días anteriores para ver si funciona.
+
 ## 2026-11-04
 - Métricas: Metricool ya trae datos hasta el 1/11 (20 Shorts con reproducciones, 21 s; formato antiguo de 12/día). La serie (desde el 2/11) aún no tiene datos → todavía no se puede comparar vof frente a datos, ni con voz frente a sin voz (ningún Short ha salido con voz).
 - **El español arrastra casi todo**: ES 1/11 relojes 270, monarca 152, volcanes 16, castaña 5; los EN del mismo día entre 1 y 14. Con 30-31/10 pasa igual (dinosaurios ES 548). Se mantiene el EN, pero el esfuerzo de gancho va primero al ES.
