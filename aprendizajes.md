@@ -3,6 +3,12 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+
+## 2026-11-04 (noche, 2) · Más ritmo (decidido con Aleix)
+- **4 Shorts al día** (11:00 animales, 14:00 vof, 17:00 y 20:00 «3 datos») y **1 vídeo largo cada 2 días** a las 16:00
+  (top 10 horizontal con voz, empieza el 5/11). Los vídeos largos suman horas de visualización (otra vía al YPP).
+- Voz de ElevenLabs funcionando desde el 4/11 (narrador George).
+
 ## 2026-11-04 (noche) · Cambio de estrategia para ganar suscriptores (decidido con Aleix)
 - **Solo español**: se elimina el inglés (ES ~105 visitas de media frente a ~13 en EN; mezclar idiomas frena las suscripciones).
 - **3 Shorts al día**: 11:00 «Animales increíbles» (serie nueva), 14:00 «¿Verdadero o falso?», 19:00 «3 datos».

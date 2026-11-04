@@ -2,12 +2,15 @@
 
 Canal de YouTube de datos curiosos **para todas las edades**, **solo en español** (desde el 5/11/2026 no se hace inglés:
 mezclar idiomas en un canal confunde a YouTube y a quien se suscribe; el ES tenía ~105 visitas de media y el EN ~13).
-Ritmo: **3 Shorts al día, en español, pocos y muy cuidados**, cada uno de un tema distinto:
+Ritmo: **4 Shorts al día + 1 vídeo largo cada 2 días**, en español, cada uno de un tema distinto:
 - **11:00 · serie «Animales increíbles»** (`formato: "datos"` + `"serie": "Animales increíbles"` + `episodio`): un animal
   por episodio y sus 3 datos más sorprendentes (los animales y dinosaurios son lo que más se ve).
 - **14:00 · serie «¿Verdadero o falso?»** (`formato: "vof"`): 3 mitos o verdades de un tema.
-- **19:00 · «3 datos curiosos»** (`formato: "datos"`): ciencia cotidiana, cuerpo, espacio, inventos, preguntas con sorpresa
+- **17:00 · «3 datos curiosos»** (`formato: "datos"`): ciencia cotidiana, cuerpo, espacio, inventos, preguntas con sorpresa
   («¿por qué una hora tiene 60 minutos?»).
+- **20:00 · «3 datos curiosos»** de otra categoría distinta a la de las 17:00.
+- **16:00 · vídeo largo** (horizontal, 4-7 min, «top 10») **los días pares desde el 5/11/2026** (5, 7, 9… de noviembre: es día
+  de vídeo largo si los días transcurridos desde el 2026-11-05 son múltiplo de 2). Ver el paso 4b.
 Las dos series dan a la gente un motivo para suscribirse (ver el siguiente episodio).
 Motivo del ritmo: YouTube penaliza el contenido «no auténtico» (plantillas casi idénticas subidas en volumen). Menos vídeos,
 más variados y muy cuidados. Una sola ejecución por la mañana lo crea y programa todo.
@@ -47,12 +50,12 @@ más variados y muy cuidados. Una sola ejecución por la mañana lo crea y progr
   fechas especiales (Halloween, Navidad, Día de la Tierra, eclipses, lanzamientos espaciales, Mundial, Juegos Olímpicos…),
   noticias científicas o de animales, retos virales sin riesgo. Ejemplos de búsqueda: "trending today", "efemérides hoy",
   "YouTube Shorts trending hashtags", "tendencias hoy España".
-- Si hay una tendencia apta, dedicarle **uno de los 3 temas** (con datos igual de verificados).
+- Si hay una tendencia apta, dedicarle **uno de los temas** (con datos igual de verificados).
 - Anotar en `aprendizajes.md` las tendencias usadas, para comparar luego si rindieron más.
 
-## 2. Elegir los 3 temas y sus datos
-- **Si hay plan de la oficina para hoy, es el punto de partida**: sus 3 temas, horas, ganchos (`gancho`) y datos.
-  (Si el plan aún trae solo 2 temas, añadir tú el de «Animales increíbles».)
+## 2. Elegir los 4 temas (y el del vídeo largo) y sus datos
+- **Si hay plan de la oficina para hoy, es el punto de partida**: sus 4 temas, horas, ganchos (`gancho`) y datos, y su
+  `video_largo` si hoy toca. (Si al plan le falta algún tema, completarlo tú con las mismas reglas.)
   Volver a comprobar cada dato con WebSearch igualmente; cambiar el que no se confirme, el que repita historial o el que
   choque con las conclusiones de hoy (paso 1b). Si el plan trae los campos de Marco (`titulo`, `descripcion`, `tags`),
   usarlos en el JSON (paso 3) y en Metricool, comprobando que cumplen las reglas del
@@ -63,7 +66,7 @@ más variados y muy cuidados. Una sola ejecución por la mañana lo crea y progr
   Sin plan, elegir como siempre:
 - «Animales increíbles»: **un solo animal** por episodio (pulpo, ajolote, colibrí, tardígrado, oso polar, T. rex…), nunca
   repetido (comprobar `content/`), con sus 3 datos más sorprendentes. Mamíferos, aves, insectos, peces, dinosaurios…: variar.
-- Los otros dos (vof y datos) de categorías distintas entre sí y distintas de animales. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
+- Los otros tres (vof y los dos «datos») de categorías distintas entre sí y distintas de animales. Temas posibles (y cualquier otro apto): animales, espacio, cuerpo humano, océano,
   dinosaurios, insectos, plantas, inventos, comida, geografía, clima, récords del mundo, aves, deportes (datos generales,
   sin ligas ni marcas), música e instrumentos, colores y luz, volcanes, el tiempo y los relojes, mascotas, reptiles,
   la Antigüedad (Egipto, Roma), transportes, matemáticas divertidas, idiomas.
@@ -78,7 +81,7 @@ más variados y muy cuidados. Una sola ejecución por la mañana lo crea y progr
 - Un emoji por dato que exista en Noto Color Emoji.
 
 ## 3. Escribir el contenido
-Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora del Short: 11, 14 o 19). **Solo la clave `es`**
+Un archivo por tema: `content/AAAA-MM-DD_HH_tema.json` (HH = hora: 11, 14, 17 o 20; el vídeo largo, 16). **Solo la clave `es`**
 (no escribir `en`, `primer_comentario_en` ni nada en inglés).
 - «Animales increíbles» con el formato de `tools/ejemplo_animales.json`: `"formato": "datos"`, `"serie": "Animales increíbles"`,
   `"episodio"`: nº (el número de JSON con `"serie": "Animales increíbles"` que ya hay en `content/` + 1). El vídeo pone la
@@ -121,7 +124,7 @@ Campos comunes:
   (p. ej. #Halloween en un vídeo de murciélagos el 31 de octubre). **Nunca** hashtags de tendencia sin relación con el contenido:
   YouTube los considera engañosos y puede quitar el vídeo. Nunca más de 15 hashtags (YouTube los ignora todos).
 
-## 4. Crear los 3 vídeos
+## 4. Crear los 4 Shorts
 Primero comprobar la voz: `python3 tools/voz.py --check`. Debe decir `voz: OK · ElevenLabs · …`. La clave **no** se escribe en
 ningún sitio: está guardada como secreto de red del entorno (host `api.elevenlabs.io`, cabecera `xi-api-key`) y se añade sola.
 Si dice `voz: NO (motivo)`, **no parar**: los vídeos salen solo con música y se avisa del motivo en el mensaje final.
@@ -138,19 +141,46 @@ contactos con fotogramas en 0, 0.8, 3.6, 7.6, 11.6 y 14.7 s («datos») o en 0, 
 cuenta atrás, revelación, outro) de todos los vídeos
 (miniaturas de 180 px) y mirarla. Si un texto se corta o se solapa, acortarlo y volver a renderizar ese vídeo.
 
+## 4b. Vídeo largo (solo los días que toca)
+- Tema: un «top 10» del tipo de contenido que mejor haya funcionado en los Shorts de la última semana (paso 1b), p. ej.
+  «10 animales que parecen inventados», «10 mitos que te has creído toda la vida», «10 datos del espacio que asustan… de
+  lo increíbles que son» (nada aterrador de verdad). Si hay plan con `video_largo`, usarlo.
+- **10 puntos verificados** con WebSearch (mismas reglas que los Shorts), **sin repetir** ningún dato ya usado en
+  `content/` ni en `historial.md`. Se cuentan hacia atrás (#10 … #1): el más sorprendente es el #1.
+- JSON `content/AAAA-MM-DD_16_largo_<tema>.json` con el formato de `tools/ejemplo_largo.json` (`"tipo": "largo"`, solo `es`):
+  `intro` {emoji, texto: [TÍTULO EN MAYÚSCULAS ≤ 40 car., subtítulo], voz: 2 frases que prometan el #1},
+  `items`: 10 × {emoji, titulo ≤ 28 car., texto (pantalla) ≤ 70 car., voz: «Número N: …» 25-40 palabras con el dato y
+  por qué sorprende}, `outro` {texto: [pregunta, "Comenta su número"], voz},
+  `miniatura` (≤ 40 car. en MAYÚSCULAS, puede ser el título), `titulo` (≤ 70 car., con emoji, sin clickbait que el vídeo
+  no cumpla), `descripcion` (2-3 frases + "Suscríbete para más datos curiosos" + **los capítulos** + 3-5 hashtags, sin
+  #Shorts), `tags` (6-10), `primer_comentario`.
+- Render: `python3 tools/make_video.py content/<archivo>.json <carpeta_trabajo> <media>/<archivo>.mp4`. Crea también
+  `<archivo>.jpg` (miniatura) y `<archivo>.capitulos.txt`: pegar esos capítulos en la descripción, antes de los hashtags.
+  Tarda ~3-4 min. La duración sale de la locución (unos 4-7 min). Revisar 4 fotogramas (intro, un punto, el #1 y el final)
+  y la miniatura.
+- Créditos de ElevenLabs: un vídeo largo gasta unos 3.000-4.000 caracteres. Si `voz.py --check` dice NO, **no** hacer el
+  vídeo largo ese día (sin voz no funciona) y decirlo en el aviso.
+
 ## 5. Subir a GitHub
 - Vídeos: crear un repo nuevo vacío con solo los mp4 del día y hacer **force push a la rama `media`**
   (`git init -b media`, add, commit, `git push -f https://github.com/aeixxx754/aleix-shorts media:media`).
   Así la rama solo guarda los vídeos del día y el repositorio no crece. Metricool copia el vídeo a sus servidores
   al programarlo, así que no hace falta conservarlo.
-- URL pública: `https://raw.githubusercontent.com/aeixxx754/aleix-shorts/media/<archivo>_es.mp4`
+- URL pública: `https://raw.githubusercontent.com/aeixxx754/aleix-shorts/media/<archivo>_es.mp4` (vídeo largo:
+  `<archivo>.mp4` y su miniatura `<archivo>.jpg`, también en la rama `media`).
 - Contenido: commit de los JSON de `content/` en `main` y push. **No** subir vídeos a `main`.
 
 ## 6. Programar en Metricool
 - blogId `7763971`, zona horaria `Europe/Madrid`.
 - Antes, `getScheduledPosts` del día (ignorar los borradores): si una hora ya tiene un Short de YouTube, no programar otro en esa hora.
-- Animales increíbles 11:00 · ¿Verdadero o falso? 14:00 · 3 datos 19:00. Si la tarea termina tarde y una hora ya ha pasado,
-  moverlo a la siguiente hora libre (como mínimo 45 min después de ahora) y no más tarde de las 22:00.
+- Animales increíbles 11:00 · ¿Verdadero o falso? 14:00 · 3 datos 17:00 · 3 datos 20:00 · vídeo largo 16:00 (días que toca).
+  Si la tarea termina tarde y una hora ya ha pasado, moverlo a la siguiente hora libre (como mínimo 45 min después de ahora)
+  y no más tarde de las 22:00.
+- Vídeo largo: igual que un Short pero `youtubeData.type: "video"`, sin `#Shorts`, categoría según el tema, y
+  `videoThumbnailUrl`: URL raw de la miniatura `.jpg`. Si Metricool rechaza la miniatura (canal no verificado:
+  VIDEO_THUMBNAIL_NOT_APPLICABLE), programarlo sin `videoThumbnailUrl` y decirlo en el aviso.
+- Límite de subidas de YouTube: si Metricool o YouTube avisan de que se ha superado el límite diario, no reintentar y decirlo
+  (verificar el canal con el teléfono sube el límite).
 - **Solo YouTube** (no publicar en TikTok): `providers: [{"network":"youtube"}]`, `autoPublish: true`,
   `draft: false`, `media: [URL raw]`, `text`: descripción, `firstCommentText`: `primer_comentario`,
   `youtubeData`: `{title, type:"short", privacy:"public", tags, category: cat, madeForKids:false, isAiGeneratedContent:false}`.
@@ -161,7 +191,7 @@ cuenta atrás, revelación, outro) de todos los vídeos
 
 ## 7. Cerrar
 - Añadir a `historial.md` una línea por tema: fecha | hora | tema | los 3 datos. Commit y push a `main`.
-- Avisar a Aleix con un resumen corto: los 3 temas con sus horas (y el nº de episodio de cada serie) y cuántos Shorts se han programado, y si llevan voz (y si no, por qué).
+- Avisar a Aleix con un resumen corto: los 4 temas con sus horas (y el nº de episodio de cada serie), el vídeo largo si tocaba y cuántos Shorts se han programado, y si llevan voz (y si no, por qué).
 - Dejarlo también en la oficina: una entrada en `tablon` (doc_id `AAAAMMDD-HHMM-aleix`) con
   `{fecha: ms epoch, agenteId: "aleix", nombre: "Aleix", tipo: "publicado" (o "alerta" si algo falló), turno: "manana",
   titulo: "Shorts del <día>", texto: el mismo resumen}`; marcar el plan de hoy con `estado: "usado"` si se usó;
