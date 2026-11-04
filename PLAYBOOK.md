@@ -102,8 +102,8 @@ Campos comunes:
   suscripción bajo el outro («datos nuevos cada día» o «para el próximo episodio»): no hace falta escribirlo.
 - `voz` (dentro de `es`): la **locución** que dice la voz de ElevenLabs. La escribe Nora en el plan.
   Cada frase tiene que caber en su tramo (el script avisa si no): cuenta las palabras.
-  - «datos» y «Animales increíbles»: [gancho ≤ 5 palabras, dato 1 ≤ 10, dato 2 ≤ 10, dato 3 ≤ 10, final ≤ 4].
-  - «vof»: [gancho ≤ 5, [afirmación ≤ 6, revelación], [afirmación, revelación], [afirmación, revelación], final ≤ 4], donde la
+  - «datos» y «Animales increíbles»: [gancho ≤ 4 palabras, dato 1 ≤ 10, dato 2 ≤ 10, dato 3 ≤ 10, final ≤ 4].
+  - «vof»: [gancho ≤ 4, [afirmación ≤ 6, revelación], [afirmación, revelación], [afirmación, revelación], final ≤ 4], donde la
     revelación es "¡Falso!" / "¡Verdadero!" + como mucho 3 palabras ("¡Falso! Sí ven.").
   Tono cercano y con energía; frases cortas; el REMATE o la cifra se dicen tal cual salen en pantalla. Si falta `voz`,
   se lee la pantalla (en la serie, solo el veredicto en la revelación).
@@ -126,7 +126,7 @@ Primero comprobar la voz: `python3 tools/voz.py --check`. Debe decir `voz: OK ·
 ningún sitio: está guardada como secreto de red del entorno (host `api.elevenlabs.io`, cabecera `xi-api-key`) y se añade sola.
 Si dice `voz: NO (motivo)`, **no parar**: los vídeos salen solo con música y se avisa del motivo en el mensaje final.
 
-Dependencias: si `import numpy, PIL` falla, `python3 -m pip install --break-system-packages numpy pillow`.
+Dependencias: si `import numpy, PIL` falla (o PIL da error al importar), `python3 -m pip install --break-system-packages --force-reinstall numpy pillow`. La fuente Poppins va en `tools/fonts/`.
 Para cada JSON (salida fuera del repo, p. ej. en una carpeta `media/` temporal):
 ```
 python3 tools/make_short.py content/<archivo>.json es <carpeta_trabajo> <media>/<archivo>_es.mp4

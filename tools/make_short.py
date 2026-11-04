@@ -3,7 +3,10 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 W, H, FPS = 1080, 1920, 30
-FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+# La fuente va dentro del repo (tools/fonts) porque algunos entornos no la tienen instalada
+FONT = next((f for f in [os.path.join(_AQUI, "fonts", "Poppins-Bold.ttf"),
+             "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"] if os.path.exists(f)))
 EMOJI = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 
 import json
