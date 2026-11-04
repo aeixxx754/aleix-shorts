@@ -1,0 +1,12 @@
+curl /v1/user: HTTP 200
+curl /v1/voices: HTTP 200
+--- voz.py --check:
+voz: OK · ElevenLabs · George - Warm, Captivating Storyteller · eleven_multilingual_v2
+--- make_short animales:
+voz: sí · ElevenLabs · George - Warm, Captivating Storyteller · eleven_multilingual_v2
+voz: AVISO frase 1 («¿Tres corazones y sangre azul?…»): dura 1.6 s y caben 1.5 s; acórtala
+--- make_short vof:
+voz: sí · ElevenLabs · George - Warm, Captivating Storyteller · eleven_multilingual_v2 (leída de la pantalla)
+--- Notas del entorno: hubo que reinstalar pillow (el del sistema estaba roto) e instalar Poppins-Bold.ttf, que faltaba.
+prueba_voz_animales.mp4: 15.200000 s, audio: aac
+prueba_voz_vof.mp4: 16.400000 s, audio: aac
