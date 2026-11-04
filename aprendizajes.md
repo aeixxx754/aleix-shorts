@@ -2,6 +2,15 @@
 
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
+## 2026-11-04
+- Métricas: Metricool ya trae datos hasta el 1/11 (20 Shorts con reproducciones, 21 s; formato antiguo de 12/día). La serie (desde el 2/11) aún no tiene datos → todavía no se puede comparar vof frente a datos, ni con voz frente a sin voz (ningún Short ha salido con voz).
+- **El español arrastra casi todo**: ES 1/11 relojes 270, monarca 152, volcanes 16, castaña 5; los EN del mismo día entre 1 y 14. Con 30-31/10 pasa igual (dinosaurios ES 548). Se mantiene el EN, pero el esfuerzo de gancho va primero al ES.
+- **Las tendencias funcionaron**: 2 de los 3 temas de tendencia del 1/11 (fin del horario de verano 270 y Día de Muertos/monarca 152) son el 2.º y 3.er Short más visto del canal; ganchos tipo «¿Por qué…?» / «¿Cómo…?». La castaña (Castañada, 5) no: tendencia local y gancho de comparación.
+- Retención sigue baja en los vídeos que llegan a público nuevo (relojes 5/21 s ≈ 24 %, monarca 3/21 ≈ 14 %, dinosaurios 5/21 ≈ 24 %). El primer segundo sigue siendo lo más importante.
+- Qué se cambia hoy: gancho de «3 datos» con estilo `misterio` («¿QUÉ SE INVENTÓ SIN QUERER?», pregunta abierta tipo «¿qué/por qué?» como los que funcionaron); serie con gancho `reto` y EN sin «... OR NOT?» (se quita del plan). Idea nueva: categoría SCIENCE_TECHNOLOGY en la serie (antes EDUCATION/PETS_ANIMALS).
+- Tendencias: ninguna apta y clara hoy (lluvia de Táuridas, sin tirón y sin relación directa con los temas). Sin tema de tendencia; buscar mañana con más ganas fechas especiales, porque es lo que mejor ha rendido.
+- Voz: NO otra vez. El proxy responde 403 a CONNECT api.elevenlabs.io: el dominio sigue sin estar permitido en el entorno de la tarea.
+
 ## 2026-11-03
 - Métricas: ya hay datos de los 10 Shorts del 30-31/10 (vídeos de 21 s, formato antiguo de 12/día); los del 1-2/11 siguen vacíos. Justo 10 con reproducciones → conclusiones **provisionales**.
 - Reproducciones muy concentradas: dinosaurios ES 423 y océano EN 66; el resto entre 1 y 13. Un solo vídeo hace >80 % del total → el empuje inicial del algoritmo pesa más que el tema por ahora.
