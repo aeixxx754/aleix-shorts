@@ -1,0 +1,122 @@
+{
+ "tema": "Espacio y Tierra: mitos y verdades",
+ "formato": "vof",
+ "episodio": 3,
+ "hook_emoji": "🤔",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 👇 ¿Cuál te hizo dudar más?",
+ "primer_comentario_en": "How many did you get right? 👇 Which one made you doubt?",
+ "es": {
+  "hook": [
+   "3 MITOS DEL ESPACIO",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🌙",
+    "La Luna se aleja de la Tierra unos 4 cm al año",
+    true,
+    "Lo miden con láseres desde las misiones Apolo"
+   ],
+   [
+    "☀️",
+    "El verano llega porque la Tierra se acerca al Sol",
+    false,
+    "Es la inclinación del eje; en julio está más lejos"
+   ],
+   [
+    "🚀",
+    "Los astronautas crecen unos centímetros en el espacio",
+    true,
+    "Sin gravedad, la columna se estira"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Míralo otra vez"
+  ],
+  "voz": [
+   "Tres mitos del espacio. ¿Aciertas?",
+   [
+    "La Luna se aleja de la Tierra.",
+    "¡Verdadero! Cuatro centímetros al año."
+   ],
+   [
+    "En verano, la Tierra se acerca al Sol.",
+    "¡Falso! Es por la inclinación."
+   ],
+   [
+    "Los astronautas crecen en el espacio.",
+    "¡Verdadero! La columna se estira."
+   ],
+   "¿Cuántas acertaste? Cuéntalo abajo."
+  ],
+  "titulo": "¿Verdadero o falso? #3 Mitos del espacio 🚀",
+  "descripcion": "¿Verdadero o falso? Mitos del espacio: la Luna, las estaciones y los astronautas. 🚀\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #espacio #datoscuriosos #verdaderoofalso",
+  "tags": [
+   "mitos del espacio",
+   "verdadero o falso",
+   "la Luna",
+   "estaciones del año",
+   "astronautas",
+   "datos curiosos"
+  ]
+ },
+ "en": {
+  "hook": [
+   "3 SPACE MYTHS",
+   "how many can you get?"
+  ],
+  "facts": [
+   [
+    "🌙",
+    "The Moon drifts about 4 cm farther from Earth each year",
+    true,
+    "That's 1.5 inches, measured with lasers"
+   ],
+   [
+    "☀️",
+    "Summer happens because Earth gets closer to the Sun",
+    false,
+    "It's Earth's tilt; in July we're farthest away"
+   ],
+   [
+    "🚀",
+    "Astronauts get a few centimeters taller in space",
+    true,
+    "Without gravity, their spine stretches out"
+   ]
+  ],
+  "outro": [
+   "How many did you get right?",
+   "Watch it again"
+  ],
+  "voz": [
+   "Three space myths. Can you tell?",
+   [
+    "The Moon is drifting away from Earth.",
+    "True! About 1.5 inches yearly."
+   ],
+   [
+    "Summer is when Earth nears the Sun.",
+    "False! It's the tilt."
+   ],
+   [
+    "Astronauts get taller in space.",
+    "True! Their spine stretches."
+   ],
+   "How many did you get?"
+  ],
+  "titulo": "True or False? #3 Space myths 🚀",
+  "descripcion": "True or False? Space myths about the Moon, the seasons and astronauts. 🚀\nSubscribe so you don't miss the next episode\n\n#Shorts #space #funfacts #trueorfalse",
+  "tags": [
+   "space myths",
+   "true or false",
+   "the Moon",
+   "seasons",
+   "astronauts",
+   "fun facts"
+  ]
+ }
+}
