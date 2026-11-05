@@ -148,9 +148,10 @@ cuenta atrás, revelación, outro) de todos los vídeos
 - **10 puntos verificados** con WebSearch (mismas reglas que los Shorts), **sin repetir** ningún dato ya usado en
   `content/` ni en `historial.md`. Se cuentan hacia atrás (#10 … #1): el más sorprendente es el #1.
 - JSON `content/AAAA-MM-DD_16_largo_<tema>.json` con el formato de `tools/ejemplo_largo.json` (`"tipo": "largo"`, solo `es`):
-  `intro` {emoji, texto: [TÍTULO EN MAYÚSCULAS ≤ 40 car., subtítulo], voz: 2 frases que prometan el #1},
-  `items`: 10 × {emoji, titulo ≤ 28 car., texto (pantalla) ≤ 70 car., voz: «Número N: …» 25-40 palabras con el dato y
-  por qué sorprende}, `outro` {texto: [pregunta, "Comenta su número"], voz},
+  `intro` {emoji, texto: [TÍTULO EN MAYÚSCULAS ≤ 40 car., subtítulo], voz: 3-4 frases (40-60 palabras) que prometan el #1},
+  `items`: 10 × {emoji, titulo ≤ 28 car., texto (pantalla) ≤ 70 car., voz: «Número N: …» **50-65 palabras**: el dato, por
+  qué sorprende y un detalle extra o una comparación fácil («es como…»)}, para que el vídeo dure **4-5 min** (el del 5/11,
+  con 25-40 palabras por punto, se quedó en 2:33), `outro` {texto: [pregunta, "Comenta su número"], voz},
   `miniatura` (≤ 40 car. en MAYÚSCULAS, puede ser el título), `titulo` (≤ 70 car., con emoji, sin clickbait que el vídeo
   no cumpla), `descripcion` (2-3 frases + "Suscríbete para más datos curiosos" + **los capítulos** + 3-5 hashtags, sin
   #Shorts), `tags` (6-10), `primer_comentario`.
@@ -158,7 +159,8 @@ cuenta atrás, revelación, outro) de todos los vídeos
   `<archivo>.jpg` (miniatura) y `<archivo>.capitulos.txt`: pegar esos capítulos en la descripción, antes de los hashtags.
   Tarda ~3-4 min. La duración sale de la locución (unos 4-7 min). Revisar 4 fotogramas (intro, un punto, el #1 y el final)
   y la miniatura.
-- Créditos de ElevenLabs: un vídeo largo gasta unos 3.000-4.000 caracteres. Si `voz.py --check` dice NO, **no** hacer el
+- Antes de renderizar, contar las palabras de cada `voz`: si algún punto tiene menos de 50, ampliarlo.
+- Créditos de ElevenLabs: un vídeo largo gasta unos 4.500-5.500 caracteres. Si `voz.py --check` dice NO, **no** hacer el
   vídeo largo ese día (sin voz no funciona) y decirlo en el aviso.
 
 ## 5. Subir a GitHub
