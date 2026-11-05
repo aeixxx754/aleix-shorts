@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos del mar y sus animales",
+ "formato": "vof",
+ "episodio": 4,
+ "hook_emoji": "🌊",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #4: ¿cuántas aciertas del mar? 🌊",
+ "es": {
+  "hook": [
+   "3 MITOS DEL MAR",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🐠",
+    "Los peces de colores tienen memoria de 3 segundos",
+    false,
+    "Recuerdan cosas durante meses"
+   ],
+   [
+    "⭐",
+    "Las estrellas de mar no tienen cerebro",
+    true,
+    "Su sistema nervioso es una red"
+   ],
+   [
+    "🌊",
+    "El mar es azul porque refleja el cielo",
+    false,
+    "El agua absorbe el rojo y deja el azul"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "Mitos del mar. ¿Aciertas?",
+   [
+    "Memoria de pez: tres segundos.",
+    "¡Falso! Recuerda meses."
+   ],
+   [
+    "Estrella de mar: sin cerebro.",
+    "¡Verdadero! Piensa en red."
+   ],
+   [
+    "Mar azul: refleja el cielo.",
+    "¡Falso! Absorbe el rojo."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #4: mitos del mar 🌊",
+  "descripcion": "¿Verdadero o falso? Mitos del mar: la memoria del pez de colores, la estrella de mar y el color del agua. 🌊\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #mar #datoscuriosos",
+  "tags": [
+   "mitos del mar",
+   "verdadero o falso",
+   "pez de colores",
+   "estrella de mar",
+   "datos curiosos",
+   "curiosidades"
+  ]
+ }
+}

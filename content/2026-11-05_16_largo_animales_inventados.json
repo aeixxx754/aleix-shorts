@@ -1,0 +1,99 @@
+{
+ "tipo": "largo",
+ "tema": "10 animales que parecen inventados",
+ "hook_emoji": "🦎",
+ "cat": "PETS_ANIMALS",
+ "es": {
+  "miniatura": "10 ANIMALES QUE PARECEN INVENTADOS",
+  "intro": {
+   "emoji": "🦎",
+   "texto": [
+    "10 ANIMALES QUE PARECEN INVENTADOS",
+    "el número 1 te va a sorprender"
+   ],
+   "voz": "Estos diez animales parecen sacados de una película, pero son totalmente reales. Quédate hasta el final, porque el número uno es el más increíble."
+  },
+  "items": [
+   {
+    "emoji": "🦓",
+    "titulo": "El okapi",
+    "texto": "Rayas de cebra, pero es primo de la jirafa.",
+    "voz": "Número 10: el okapi. Tiene rayas como una cebra en las patas, pero en realidad es el pariente vivo más cercano de la jirafa. Vive escondido en las selvas de África."
+   },
+   {
+    "emoji": "🐉",
+    "titulo": "El dragón marino",
+    "texto": "Parece un alga con forma de caballito de mar.",
+    "voz": "Número 9: el dragón marino foliáceo. Vive en las costas de Australia, es pariente del caballito de mar y tiene apéndices que lo hacen parecer un alga flotando."
+   },
+   {
+    "emoji": "🐾",
+    "titulo": "El pangolín",
+    "texto": "Es el único mamífero cubierto de escamas.",
+    "voz": "Número 8: el pangolín. Es el único mamífero cubierto de escamas, y cuando se asusta se enrolla como una pelota para protegerse. Es muy tímido y sale de noche."
+   },
+   {
+    "emoji": "🐋",
+    "titulo": "El narval",
+    "texto": "Su cuerno es un diente de hasta 3 metros.",
+    "voz": "Número 7: el narval. El largo cuerno que lleva en la cabeza es en realidad un diente en espiral, que puede medir hasta tres metros. Vive en las aguas heladas del Ártico."
+   },
+   {
+    "emoji": "🐟",
+    "titulo": "El pez luna",
+    "texto": "El pez óseo más pesado: puede superar la tonelada.",
+    "voz": "Número 6: el pez luna. Es el pez óseo más pesado del mundo y puede superar la tonelada. Parece una enorme cabeza redonda nadando con aletas, y le encanta tomar el sol."
+   },
+   {
+    "emoji": "🦐",
+    "titulo": "La gamba mantis",
+    "texto": "Tiene 16 tipos de receptores de color; las personas, 3.",
+    "voz": "Número 5: la gamba mantis. Sus ojos tienen hasta 16 tipos de células para detectar colores, y nosotros solo tenemos tres. Es uno de los ojos más complejos de la naturaleza."
+   },
+   {
+    "emoji": "🦆",
+    "titulo": "El ornitorrinco",
+    "texto": "Mamífero con pico de pato que pone huevos.",
+    "voz": "Número 4: el ornitorrinco. Tiene pico de pato, cola de castor y patas con membranas, y es un mamífero que pone huevos. Cuando los científicos lo vieron por primera vez, creyeron que era una broma."
+   },
+   {
+    "emoji": "🦎",
+    "titulo": "El ajolote",
+    "texto": "Regenera patas, cola y partes del corazón.",
+    "voz": "Número 3: el ajolote. Este anfibio mexicano puede regenerar sus patas, su cola e incluso partes de su corazón. Además, se queda con aspecto de renacuajo toda la vida."
+   },
+   {
+    "emoji": "🪼",
+    "titulo": "La medusa inmortal",
+    "texto": "Puede volver a ser joven una y otra vez.",
+    "voz": "Número 2: la medusa inmortal. Cuando lo necesita, puede volver a su fase juvenil y empezar de nuevo su vida. Por eso los científicos la llaman inmortal, y es más pequeña que una uña."
+   },
+   {
+    "emoji": "🔬",
+    "titulo": "El tardígrado",
+    "texto": "Sobrevivió al vacío del espacio en un experimento.",
+    "voz": "Número 1: el tardígrado. Es diminuto y vive en el musgo, pero sobrevivió al vacío del espacio en un experimento. Aguanta frío, calor y sequía extremos. ¡Es casi indestructible!"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha gustado más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál te ha gustado más? Escribe su número en los comentarios y suscríbete para ver más datos curiosos."
+  },
+  "titulo": "10 animales que parecen inventados (pero son reales) 🦎",
+  "descripcion": "Diez animales tan raros que parecen inventados: el okapi, el narval, el ajolote, el tardígrado y muchos más. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\nCapítulos:\n0:00 Intro\n0:10 #10 El okapi\n0:23 #9 El dragón marino\n0:35 #8 El pangolín\n0:47 #7 El narval\n1:00 #6 El pez luna\n1:13 #5 La gamba mantis\n1:27 #4 El ornitorrinco\n1:42 #3 El ajolote\n1:56 #2 La medusa inmortal\n2:10 #1 El tardígrado\n2:25 Final\n\n#animales #datoscuriosos #curiosidades",
+  "tags": [
+   "animales raros",
+   "animales increíbles",
+   "10 animales",
+   "datos curiosos",
+   "curiosidades de animales",
+   "top 10",
+   "tardígrado",
+   "ajolote"
+  ],
+  "primer_comentario": "¿Cuál es tu favorito? Comenta su número 👇"
+ }
+}

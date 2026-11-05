@@ -3,6 +3,13 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-05
+- Métricas: Metricool sigue trayendo datos solo hasta el 1/11 (los mismos 20 Shorts antiguos de 21 s; nada del 2 al 4/11). Sin datos nuevos → no hay conclusiones nuevas sobre las series ni sobre la voz. Si mañana sigue igual, revisar la conexión de YouTube Analytics en Metricool.
+- Se mantiene lo aprendido: los temas de animales/dinosaurios y las preguntas «¿por qué/cómo…?» son los que más se ven; la retención cae en los primeros 3-5 s → hoy primer día con Shorts de 15,2/16,4 s, solo español y con voz en todos.
+- Qué se cambia hoy: estreno de «Animales increíbles» #1 (perezoso, gancho `comparacion`), serie vof #4 con gancho `reto` corto («3 MITOS DEL MAR»), y dos temas nuevos nunca probados (matemáticas `reto`, idiomas `numero`). Primer vídeo largo (top 10 de animales, 16:00).
+- Verificación: el plan traía «el perezoso aguanta 40 min sin respirar», que la Sloth Conservation Foundation califica de mito (el estudio de 1942 midió ~15 min con animales inmovilizados) → cambiado por las vértebras del cuello y la caca semanal. Ojo con los «récords» de animales muy repetidos en webs populares.
+- Vídeo largo: con 10 puntos de 28-35 palabras dura 2:33, lejos de los 4-7 min previstos. Para el próximo, locuciones de ~40 palabras (el máximo) y una intro algo más larga; si sigue corto, plantear subir el máximo a 60 palabras por punto.
+- Tendencias: ninguna apta y clara (Día Mundial de Concienciación sobre los Tsunamis: tema delicado, solo conecta de lejos con los mitos del mar, sin hashtag). Sin tema de tendencia.
 
 ## 2026-11-04 (noche, 2) · Más ritmo (decidido con Aleix)
 - **4 Shorts al día** (11:00 animales, 14:00 vof, 17:00 y 20:00 «3 datos») y **1 vídeo largo cada 2 días** a las 16:00

@@ -1,0 +1,56 @@
+{
+ "tema": "Animales increíbles: el perezoso",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 1,
+ "hook_emoji": "🦥",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "comparacion",
+ "primer_comentario": "Comenta 🦥 si sabías lo del cuello",
+ "es": {
+  "hook": [
+   "¿MÁS VÉRTEBRAS QUE UNA JIRAFA?",
+   "el animal más lento esconde esto"
+  ],
+  "facts": [
+   [
+    "🦒",
+    "En el cuello tiene",
+    "MÁS VÉRTEBRAS",
+    "que una jirafa: gira la cabeza 270°"
+   ],
+   [
+    "🌿",
+    "Su pelo es verdoso",
+    "¡LLEVA ALGAS!",
+    "y le camuflan entre las hojas"
+   ],
+   [
+    "💩",
+    "Baja del árbol",
+    "1 VEZ POR SEMANA",
+    "solo para ir al baño"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Más que una jirafa?",
+   "El perezoso tiene más vértebras en el cuello que la jirafa.",
+   "Su pelo es verdoso: ¡lleva algas!",
+   "Baja del árbol una vez por semana… ¡para hacer caca!",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #1: el perezoso 🦥",
+  "descripcion": "El perezoso tiene más vértebras en el cuello que una jirafa, algas en el pelo y baja del árbol una vez por semana. 🦥\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #perezoso #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "perezoso",
+   "curiosidades de animales",
+   "datos de animales",
+   "datos curiosos"
+  ]
+ }
+}
