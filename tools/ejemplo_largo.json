@@ -4,18 +4,82 @@
  "hook_emoji": "🦎",
  "cat": "PETS_ANIMALS",
  "es": {
-  "miniatura": "10 ANIMALES QUE PARECEN INVENTADOS",
-  "intro": {"emoji": "🦎", "texto": ["10 ANIMALES QUE PARECEN INVENTADOS", "el número 1 te va a sorprender"],
-            "voz": "Estos diez animales parecen sacados de una película, pero son totalmente reales. Quédate hasta el final, porque el número uno es el más increíble."},
+  "miniatura": {
+   "texto": "¿ESTO EXISTE DE VERDAD?",
+   "emoji": "🦎",
+   "colores": [
+    "#FF5E62",
+    "#8A3CE6"
+   ],
+   "composicion": "emoji-derecha",
+   "etiqueta": "TOP 10"
+  },
+  "intro": {
+   "emoji": "🦎",
+   "texto": [
+    "10 ANIMALES QUE PARECEN INVENTADOS",
+    "el número 1 te va a sorprender"
+   ],
+   "voz": "Estos diez animales parecen sacados de una película, pero son totalmente reales. Quédate hasta el final, porque el número uno es el más increíble."
+  },
   "items": [
-   {"emoji": "🦎", "titulo": "El ajolote", "texto": "Puede regenerar patas, cola y hasta partes del corazón.", "voz": "Número diez: el ajolote. Este anfibio mexicano puede regenerar sus patas, su cola e incluso partes de su corazón."},
-   {"emoji": "🐙", "titulo": "El pulpo", "texto": "Tiene tres corazones y la sangre azul.", "voz": "Número nueve: el pulpo. Tiene tres corazones y su sangre es azul, porque lleva cobre en lugar de hierro."},
-   {"emoji": "🦆", "titulo": "El ornitorrinco", "texto": "Es un mamífero que pone huevos.", "voz": "Número ocho: el ornitorrinco. Tiene pico de pato, cola de castor, y es un mamífero que pone huevos."}
+   {
+    "emoji": "🦎",
+    "titulo": "El ajolote",
+    "texto": "Puede regenerar patas, cola y hasta partes del corazón.",
+    "voz": "Número diez: el ajolote. Este anfibio mexicano puede regenerar sus patas, su cola e incluso partes de su corazón."
+   },
+   {
+    "emoji": "🐙",
+    "titulo": "El pulpo",
+    "texto": "Tiene tres corazones y la sangre azul.",
+    "voz": "Número nueve: el pulpo. Tiene tres corazones y su sangre es azul, porque lleva cobre en lugar de hierro."
+   },
+   {
+    "emoji": "🦆",
+    "titulo": "El ornitorrinco",
+    "texto": "Es un mamífero que pone huevos.",
+    "voz": "Número ocho: el ornitorrinco. Tiene pico de pato, cola de castor, y es un mamífero que pone huevos."
+   }
   ],
-  "outro": {"texto": ["¿Cuál te ha gustado más?", "Comenta su número"], "voz": "¿Cuál te ha gustado más? Escribe su número en los comentarios y suscríbete para más datos curiosos."},
+  "outro": {
+   "texto": [
+    "¿Cuál te ha gustado más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál te ha gustado más? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
   "titulo": "10 animales que parecen inventados (pero son reales) 🦎",
   "descripcion": "Diez animales tan raros que parecen inventados: el ajolote, el pulpo, el ornitorrinco y muchos más.\nSuscríbete para más datos curiosos\n\n#animales #datoscuriosos #curiosidades",
-  "tags": ["animales raros", "animales increíbles", "datos curiosos", "curiosidades de animales", "top 10"],
-  "primer_comentario": "¿Cuál es tu favorito? Comenta su número 👇"
+  "tags": [
+   "animales raros",
+   "animales increíbles",
+   "datos curiosos",
+   "curiosidades de animales",
+   "top 10"
+  ],
+  "primer_comentario": "¿Cuál es tu favorito? Comenta su número 👇",
+  "miniatura_alternativas": [
+   {
+    "texto": "EL #1 ES IMPOSIBLE",
+    "emoji": "🔬",
+    "colores": [
+     "#00B4A0",
+     "#0A3D62"
+    ],
+    "composicion": "emoji-izquierda",
+    "etiqueta": "¿REAL?"
+   },
+   {
+    "texto": "PARECEN INVENTADOS",
+    "emoji": "🐙",
+    "colores": [
+     "#FFB300",
+     "#FF3D00"
+    ],
+    "composicion": "emoji-centro",
+    "etiqueta": ""
+   }
+  ]
  }
 }

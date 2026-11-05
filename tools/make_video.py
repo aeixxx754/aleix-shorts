@@ -107,23 +107,55 @@ def render_tramo(tipo, D, dur, pal, idx, total_prev, total, outdir, n_items):
     return tmp
 
 
-def miniatura(C, path):
-    E = C["es"]; T = (E.get("miniatura") or E["intro"]["texto"][0]).upper()
+def _hex(c, defecto):
+    try:
+        c = str(c).lstrip("#"); return tuple(int(c[k:k + 2], 16) for k in (0, 2, 4))
+    except Exception:
+        return defecto
+
+
+def miniatura(C, path, M=None):
+    """Miniatura 1280x720. `M` (o es.miniatura) puede ser un texto o el diseño de Leo:
+    {texto, emoji, colores: [hex1, hex2], composicion: emoji-derecha|emoji-izquierda|emoji-centro, etiqueta}."""
+    E = C["es"]; M = M if M is not None else E.get("miniatura")
+    if not isinstance(M, dict):
+        M = {"texto": M or E["intro"]["texto"][0]}
+    T = str(M.get("texto") or E["intro"]["texto"][0]).upper()
+    cols = M.get("colores") or []
+    c1 = _hex(cols[0], (255, 94, 98)) if len(cols) > 0 else (255, 94, 98)
+    c2 = _hex(cols[1], (130, 60, 230)) if len(cols) > 1 else (130, 60, 230)
+    comp = M.get("composicion") or "emoji-derecha"
+    etq = M.get("etiqueta", f"TOP {len(E['items'])}")
     w, h = 1280, 720
     y = np.linspace(0, 1, h)[:, None]; x = np.linspace(0, 1, w)[None, :]
     t = np.clip(0.6 * x + 0.4 * y, 0, 1)[..., None]
-    c1, c2 = (255, 94, 98), (130, 60, 230)
     im = Image.fromarray((np.array(c1) * (1 - t) + np.array(c2) * t).astype(np.uint8)).convert("RGBA")
-    em = MS.emoji_img(C.get("hook_emoji", "🤯"), 460)
-    im.alpha_composite(em, (w - em.width - 40, (h - em.height) // 2 + 20))
-    f = MS.font(96); lines = MS.wrap(T, f, 720)
-    while len(lines) > 3 or any(f.getlength(l) > 720 for l in lines):
-        f = MS.font(f.size - 8); lines = MS.wrap(T, f, 720)
-    d = ImageDraw.Draw(im); yy = (h - len(lines) * f.size * 1.12) / 2
+    # halo claro detrás del emoji para que destaque sobre cualquier fondo
+    def halo(cx, cy, r):
+        g = Image.new("RGBA", (w, h), (0, 0, 0, 0)); ImageDraw.Draw(g).ellipse((cx - r, cy - r, cx + r, cy + r), fill=(255, 255, 255, 90))
+        im.alpha_composite(g.filter(ImageFilter.GaussianBlur(40)))
+    emo = M.get("emoji") or C.get("hook_emoji", "🤯")
+    if comp == "emoji-centro":
+        em = MS.emoji_img(emo, 380); halo(w // 2, 250, 220)
+        im.alpha_composite(em, ((w - em.width) // 2, 60))
+        zona = (60, 440, w - 60, h - 30); centrar = True
+    else:
+        em = MS.emoji_img(emo, 470)
+        ex = w - em.width - 40 if comp == "emoji-derecha" else 40
+        halo(ex + em.width // 2, h // 2 + 20, 250)
+        im.alpha_composite(em, (ex, (h - em.height) // 2 + 20))
+        zona = (60, 110, 780, h - 40) if comp == "emoji-derecha" else (w - 780, 110, w - 60, h - 40); centrar = False
+    zw, zh = zona[2] - zona[0], zona[3] - zona[1]
+    f = MS.font(124); lines = MS.wrap(T, f, zw)
+    while (len(lines) > 3 or any(f.getlength(l) > zw for l in lines) or len(lines) * f.size * 1.1 > zh) and f.size > 40:
+        f = MS.font(f.size - 6); lines = MS.wrap(T, f, zw)
+    d = ImageDraw.Draw(im); yy = zona[1] + (zh - len(lines) * f.size * 1.1) / 2
     for l in lines:
-        d.text((60, yy), l, font=f, fill=(255, 255, 255), stroke_width=8, stroke_fill=(20, 20, 40)); yy += f.size * 1.12
-    pill = MS.text_layer(f"TOP {len(E['items'])}", 54, color=(30, 27, 75), box=(255, 214, 0, 255))
-    im.alpha_composite(pill, (50, 30))
+        xx = zona[0] + (zw - f.getlength(l)) / 2 if centrar else zona[0]
+        d.text((xx, yy), l, font=f, fill=(255, 255, 255), stroke_width=9, stroke_fill=(20, 20, 40)); yy += f.size * 1.1
+    if etq:
+        pill = MS.text_layer(str(etq).upper(), 52, color=(30, 27, 75), box=(255, 214, 0, 255))
+        im.alpha_composite(pill, (40 if comp != "emoji-izquierda" else w - pill.width - 40, 28))
     im.convert("RGB").save(path, quality=92)
 
 
@@ -172,6 +204,8 @@ if __name__ == "__main__":
     os.replace(tmpf, final)
     # 4) miniatura y capítulos
     miniatura(C, final[:-4] + ".jpg")
+    for k, alt in enumerate(C["es"].get("miniatura_alternativas") or []):   # las otras propuestas de Leo, para comparar
+        miniatura(C, final[:-4] + f".alt{k + 1}.jpg", alt)
     caps = [f"{mmss(starts[0])} Intro"] + [f"{mmss(st)} #{D['numero']} {D['titulo']}" for (tipo, D, vz), st in zip(TR, starts) if tipo == "item"] \
         + [f"{mmss(starts[-1])} Final"]
     open(final[:-4] + ".capitulos.txt", "w", encoding="utf-8").write("\n".join(caps) + "\n")

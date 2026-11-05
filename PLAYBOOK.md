@@ -152,7 +152,9 @@ cuenta atrás, revelación, outro) de todos los vídeos
   `items`: 10 × {emoji, titulo ≤ 28 car., texto (pantalla) ≤ 70 car., voz: «Número N: …» **50-65 palabras**: el dato, por
   qué sorprende y un detalle extra o una comparación fácil («es como…»)}, para que el vídeo dure **4-5 min** (el del 5/11,
   con 25-40 palabras por punto, se quedó en 2:33), `outro` {texto: [pregunta, "Comenta su número"], voz},
-  `miniatura` (≤ 40 car. en MAYÚSCULAS, puede ser el título), `titulo` (≤ 70 car., con emoji, sin clickbait que el vídeo
+  `miniatura`: el diseño de **Leo** del plan, tal cual ({texto 2-5 palabras, emoji, colores [hex, hex], composicion
+  emoji-derecha|emoji-izquierda|emoji-centro, etiqueta}; si no hay plan, hazlo tú con sus reglas: que NO repita el título) y
+  `miniatura_alternativas` (sus otras 2 propuestas; se generan como `.alt1.jpg`/`.alt2.jpg` solo para revisarlas, no se suben), `titulo` (≤ 70 car., con emoji, sin clickbait que el vídeo
   no cumpla), `descripcion` (2-3 frases + "Suscríbete para más datos curiosos" + **los capítulos** + 3-5 hashtags, sin
   #Shorts), `tags` (6-10), `primer_comentario`.
 - Render: `python3 tools/make_video.py content/<archivo>.json <carpeta_trabajo> <media>/<archivo>.mp4`. Crea también
