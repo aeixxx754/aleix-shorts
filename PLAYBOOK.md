@@ -8,7 +8,8 @@ Ritmo: **4 Shorts al día + 1 vídeo largo cada 2 días**, en español, cada uno
 - **14:00 · serie «¿Verdadero o falso?»** (`formato: "vof"`): 3 mitos o verdades de un tema.
 - **17:00 · «3 datos curiosos»** (`formato: "datos"`): ciencia cotidiana, cuerpo, espacio, inventos, preguntas con sorpresa
   («¿por qué una hora tiene 60 minutos?»).
-- **20:00 · «3 datos curiosos»** de otra categoría distinta a la de las 17:00.
+- **20:00 · «3 datos curiosos»** de otra categoría distinta a la de las 17:00. **Los días de vídeo largo, el de las 20:00 es
+  un Short-anzuelo del vídeo largo** (ver el paso 4b), para llevar a la gente de los Shorts al vídeo.
 - **16:00 · vídeo largo** (horizontal, 4-7 min, «top 10») **los días pares desde el 5/11/2026** (5, 7, 9… de noviembre: es día
   de vídeo largo si los días transcurridos desde el 2026-11-05 son múltiplo de 2). Ver el paso 4b.
 Las dos series dan a la gente un motivo para suscribirse (ver el siguiente episodio).
@@ -30,6 +31,12 @@ más variados y muy cuidados. Una sola ejecución por la mañana lo crea y progr
   `update` con su `version` como if_version) y leer el plan de hoy, `planes/<AAAA-MM-DD de hoy>`. Lo deja el turno de noche
   del equipo (Lucía, Bruno, Emma, Marco, Nora e Irene). Si la oficina no responde, seguir sin ella. Si el plan trae campos en
   inglés (`_en`), ignorarlos.
+
+## 1a. Créditos de ElevenLabs
+- `python3 tools/voz.py --creditos`. Un día normal gasta unos 1.500 caracteres; un día de vídeo largo, unos 7.000.
+- Si quedan menos del 20 %: decirlo en el aviso final (con la fecha de renovación).
+- Si no llegan para todo el día: prioridad 1) los 4 Shorts con voz, 2) el vídeo largo (si no llega, ese día no se hace y se
+  dice). Si ni siquiera llegan para los Shorts, se publican sin voz y se avisa.
 
 ## 1b. Aprender de los días anteriores (mejora diaria)
 - Pedir a Metricool (`getAnalyticsDataByMetrics`, brandId 7763971) los Shorts publicados en los **últimos 7 días** con:
@@ -162,6 +169,12 @@ cuenta atrás, revelación, outro) de todos los vídeos
   Tarda ~3-4 min. La duración sale de la locución (unos 4-7 min). Revisar 4 fotogramas (intro, un punto, el #1 y el final)
   y la miniatura.
 - Antes de renderizar, contar las palabras de cada `voz`: si algún punto tiene menos de 50, ampliarlo.
+- **Short-anzuelo (20:00 los días de vídeo largo)**: `"formato": "datos"`, `"serie": "Top 10"` (etiqueta «TOP 10»), con
+  dos puntos del vídeo (el #3 y el #2) como datos 1 y 2 y, como dato 3, el misterio del #1 sin desvelarlo:
+  `["🤫", "Y el número 1…", "EN EL VÍDEO", "búscalo en el canal"]`. Gancho corto sobre el tema (≤ 34 car.).
+  `outro`: ["¿Te lo vas a perder?", "Míralo en el canal"]. Título: "<tema> (adelanto) <emoji>"; descripción: "Vídeo
+  completo en el canal: «<título del vídeo largo>»" + hashtags con #Shorts; primer comentario: "El vídeo completo con el
+  #1 ya está en el canal 👆". Voz como cualquier «datos» (el dato 3: "¿Y el número uno? Te lo cuento en el vídeo.").
 - Créditos de ElevenLabs: un vídeo largo gasta unos 4.500-5.500 caracteres. Si `voz.py --check` dice NO, **no** hacer el
   vídeo largo ese día (sin voz no funciona) y decirlo en el aviso.
 

@@ -171,6 +171,28 @@ def segmentos(formato, T, voz_json, starts, dur, lang, VOF_REVEAL=2.3):
     return [(t, starts[i] + (0.05 if i in (0, 4) else 0.1), dur[i] - (0.3 if i == 4 else 0.15)) for i, t in enumerate(voz_json[:5])]
 
 
+def creditos():
+    """(usados, límite, fecha de renovación 'AAAA-MM-DD') de la suscripción de ElevenLabs, o None si no se puede saber."""
+    try:
+        d = json.loads(_peticion("/user/subscription"))
+        import datetime as _dt
+        ren = d.get("next_character_count_reset_unix")
+        ren = _dt.datetime.utcfromtimestamp(ren).strftime("%Y-%m-%d") if ren else "?"
+        return int(d.get("character_count", 0)), int(d.get("character_limit", 0)), ren
+    except Exception:
+        return None
+
+
+if __name__ == "__main__" and "--creditos" in sys.argv:
+    c = creditos()
+    if not c:
+        print("creditos: ? (no se ha podido consultar)")
+    else:
+        usados, limite, ren = c; quedan = max(0, limite - usados)
+        pct = 100 * quedan / limite if limite else 0
+        print(f"creditos: quedan {quedan} de {limite} caracteres ({pct:.0f} %) · se renuevan el {ren}"
+              + (" · AVISO: quedan menos del 20 %" if pct < 20 else ""))
+
 if __name__ == "__main__" and "--check" in sys.argv:
     falta = disponible()
     print("voz: NO (" + falta + ")" if falta else "voz: OK · " + descripcion())
