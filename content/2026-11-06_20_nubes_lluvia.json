@@ -1,0 +1,54 @@
+{
+ "tema": "Lluvia y nubes",
+ "formato": "datos",
+ "hook_emoji": "☁️",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "primer_comentario": "Comenta ☁️ si adivinaste lo que pesa",
+ "es": {
+  "hook": [
+   "¿CUÁNTO PESA UNA NUBE?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "☁️",
+    "Una nube normal pesa",
+    "¡500 TONELADAS!",
+    "y aun así flota en el aire"
+   ],
+   [
+    "💧",
+    "Las gotas de lluvia",
+    "¡NO SON LÁGRIMAS!",
+    "son redondas y las grandes se aplastan"
+   ],
+   [
+    "🌱",
+    "El olor a lluvia",
+    "¡SON BACTERIAS!",
+    "del suelo: fabrican la geosmina"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Cuánto pesa una nube?",
+   "Unas quinientas toneladas. ¡Y flota!",
+   "Las gotas de lluvia no son lágrimas: son redondas.",
+   "Y el olor a lluvia lo fabrican bacterias.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cuánto pesa una nube? 3 datos de la lluvia ☁️",
+  "descripcion": "Lo que pesa una nube, la forma real de las gotas y de dónde sale el olor a lluvia: 3 datos del tiempo. ☁️\nSuscríbete para datos nuevos cada día\n\n#Shorts #lluvia #nubes #datoscuriosos",
+  "tags": [
+   "cuánto pesa una nube",
+   "lluvia",
+   "curiosidades del tiempo",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

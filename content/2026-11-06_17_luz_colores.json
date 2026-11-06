@@ -1,0 +1,54 @@
+{
+ "tema": "La luz y los colores",
+ "formato": "datos",
+ "hook_emoji": "🌈",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "numero",
+ "primer_comentario": "Comenta 🌈 si sabías lo del círculo",
+ "es": {
+  "hook": [
+   "¿VES EL SOL DE HACE 8 MINUTOS?",
+   "3 datos de la luz que alucinan"
+  ],
+  "facts": [
+   [
+    "☀️",
+    "La luz del Sol tarda",
+    "8 MIN Y 20 S",
+    "en llegar hasta la Tierra"
+   ],
+   [
+    "🔦",
+    "La luz blanca esconde",
+    "TODOS LOS COLORES",
+    "un prisma los separa como un arcoíris"
+   ],
+   [
+    "🌈",
+    "El arcoíris es",
+    "¡UN CÍRCULO!",
+    "desde el suelo solo vemos la mitad"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Luz de ocho minutos?",
+   "La luz del Sol tarda ocho minutos en llegar.",
+   "La luz blanca esconde todos los colores del arcoíris.",
+   "Y el arcoíris es un círculo completo.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "La luz del Sol: 3 datos que no sabías 🌈",
+  "descripcion": "La luz que ves del Sol salió hace 8 minutos, la luz blanca esconde todos los colores y el arcoíris es un círculo. 🌈\nSuscríbete para datos nuevos cada día\n\n#Shorts #luz #ciencia #datoscuriosos",
+  "tags": [
+   "luz del sol",
+   "arcoíris",
+   "curiosidades de ciencia",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

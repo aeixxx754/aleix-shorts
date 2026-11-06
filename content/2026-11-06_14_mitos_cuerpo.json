@@ -1,0 +1,65 @@
+{
+ "tema": "Mitos del cuerpo humano",
+ "formato": "vof",
+ "episodio": 5,
+ "hook_emoji": "👅",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "es": {
+  "hook": [
+   "3 MITOS SOBRE TU CUERPO",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "👅",
+    "La lengua tiene una zona para cada sabor",
+    false,
+    "Toda la lengua nota todos los sabores"
+   ],
+   [
+    "👆",
+    "Los gemelos idénticos tienen huellas distintas",
+    true,
+    "Se forman distintas antes de nacer"
+   ],
+   [
+    "🍬",
+    "Un chicle tragado tarda 7 años en digerirse",
+    false,
+    "Sale del cuerpo en pocos días"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "Mitos de tu cuerpo.",
+   [
+    "La lengua tiene zonas del sabor.",
+    "¡Falso! Todas saborean todo."
+   ],
+   [
+    "Gemelos idénticos: huellas distintas.",
+    "¡Verdadero! Nunca coinciden."
+   ],
+   [
+    "Tragar chicle: siete años dentro.",
+    "¡Falso! Sale en días."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #5: mitos del cuerpo 👅",
+  "descripcion": "¿Verdadero o falso? Mitos del cuerpo: el mapa de la lengua, las huellas de los gemelos y el chicle tragado. 👅\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #cuerpohumano #datoscuriosos",
+  "tags": [
+   "mitos del cuerpo humano",
+   "verdadero o falso",
+   "huellas dactilares",
+   "chicle",
+   "datos curiosos",
+   "curiosidades"
+  ]
+ }
+}

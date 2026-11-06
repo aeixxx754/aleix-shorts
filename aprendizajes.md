@@ -3,6 +3,15 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-06
+- Métricas: Metricool ya trae datos hasta el 3/11 (28 Shorts; nada todavía del 4-5/11, ni de los Shorts con voz ni de las series nuevas de 15/16 s). Las cifras antiguas han subido mucho en unos días (vof #1 animales 0 → 348, dinosaurios 554): los Shorts siguen sumando visitas varios días después.
+- **Animales manda**: vof #1 «Mitos de animales» 348 frente a vof #2 «Mitos de la historia» 19 (mismo formato, tema distinto). Historia no funciona; dinosaurios 554 sigue siendo el más visto.
+- **Las preguntas «¿…?» sobre la naturaleza funcionan**: «¿Por qué una hora tiene 60 minutos?» 319, «¿Un volcán más alto que el Everest?» 233, «¿Un árbol más viejo que el Coliseo?» 211, «Rayos: ¿más calientes que el Sol?» 209. Los títulos tipo «3 datos de X que…» sin pregunta se quedan en 5-33.
+- Retención sigue baja (2-5 s de 21-28 s ≈ 10-24 %): el primer segundo sigue siendo la prioridad; aún no se puede medir el efecto de los Shorts cortos con voz (desde el 4-5/11).
+- Qué se cambia hoy: el gancho de la luz pasa de afirmación («ESTA LUZ SALIÓ HACE 8 MINUTOS») a pregunta sobre ti («¿VES EL SOL DE HACE 8 MINUTOS?»), y el título de las nubes empieza por la pregunta («¿Cuánto pesa una nube?…»), como los que mejor van. Mitos del cuerpo en vez de historia para la serie vof. Idea nueva: primer tema de luz/colores y primer tema de lluvia/nubes (el tiempo, después de rayos 209).
+- Tendencias: ninguna apta y clara hoy (6/11 sin fecha especial infantil). Sin tema de tendencia.
+- Verificación: buceo del pingüino emperador confirmado y redondeado a la baja (récords ~564 m y ~27 min, U. de Bristol / Scripps): «más de 400 m» y «hasta unos 20 min» son seguros.
+
 ## 2026-11-05
 - Métricas: Metricool sigue trayendo datos solo hasta el 1/11 (los mismos 20 Shorts antiguos de 21 s; nada del 2 al 4/11). Sin datos nuevos → no hay conclusiones nuevas sobre las series ni sobre la voz. Si mañana sigue igual, revisar la conexión de YouTube Analytics en Metricool.
 - Se mantiene lo aprendido: los temas de animales/dinosaurios y las preguntas «¿por qué/cómo…?» son los que más se ven; la retención cae en los primeros 3-5 s → hoy primer día con Shorts de 15,2/16,4 s, solo español y con voz en todos.
