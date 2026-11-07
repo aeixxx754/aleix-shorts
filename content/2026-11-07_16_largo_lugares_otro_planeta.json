@@ -1,0 +1,129 @@
+{
+ "tipo": "largo",
+ "tema": "10 lugares de la Tierra que parecen de otro planeta",
+ "hook_emoji": "🌍",
+ "cat": "EDUCATION",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#FF7043",
+    "#6A1B9A"
+   ],
+   "composicion": "emoji-izquierda",
+   "emoji": "🌍",
+   "etiqueta": "TOP 10",
+   "texto": "¿MARTE? NO, ES AQUÍ"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#00BFA5",
+     "#1A237E"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "💎",
+    "etiqueta": "¿REAL?",
+    "texto": "CRISTALES DE 11 METROS"
+   },
+   {
+    "colores": [
+     "#FFB300",
+     "#E53935"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🏞️",
+    "etiqueta": "",
+    "texto": "¡NO PARECE REAL!"
+   }
+  ],
+  "intro": {
+   "emoji": "🌍",
+   "texto": [
+    "10 LUGARES QUE PARECEN DE OTRO PLANETA",
+    "el número 1 es increíble"
+   ],
+   "voz": "Estos diez lugares existen de verdad, pero parecen sacados de otro planeta. Hay cuevas gigantes, lagos rosas y desiertos que se vuelven espejos. Prepárate para viajar por la Tierra sin salir de casa. Quédate hasta el final, porque el número uno es el más increíble."
+  },
+  "items": [
+   {
+    "emoji": "♨️",
+    "titulo": "Pamukkale (Turquía)",
+    "texto": "Terrazas blancas de piedra y agua cálida.",
+    "voz": "Número 10: Pamukkale, en Turquía. Su nombre significa «castillo de algodón», y es fácil entender por qué. Son terrazas blancas de piedra caliza, formadas durante miles de años por el agua termal cargada de minerales. Parece nieve, pero en realidad es roca, y por ella baja agua calentita. Se pasea descalzo por sus terrazas."
+   },
+   {
+    "emoji": "🏜️",
+    "titulo": "Cañón del Antílope",
+    "texto": "Una ola de piedra naranja tallada por el agua.",
+    "voz": "Número 9: el cañón del Antílope, en Arizona, Estados Unidos. Parece una ola de piedra naranja congelada en el tiempo. La han tallado el agua de las lluvias y el viento durante miles de años, puliendo la arenisca. Cuando el sol entra desde arriba, dibuja rayos de luz dentro del cañón. Es un lugar de ensueño."
+   },
+   {
+    "emoji": "🌈",
+    "titulo": "Montañas arcoíris",
+    "texto": "Colinas de colores en Zhangye, China.",
+    "voz": "Número 8: las montañas arcoíris de Zhangye, en China. Sus colinas parecen pintadas con franjas rojas, amarillas y verdes. Pero no es pintura: son capas de arenisca con distintos minerales, que se fueron apilando durante millones de años. Después la tierra se plegó, y la lluvia y el viento las dejaron a la vista. Es como un pastel gigante de colores."
+   },
+   {
+    "emoji": "🩷",
+    "titulo": "El lago Hillier",
+    "texto": "Un lago rosa chicle, inofensivo, en Australia.",
+    "voz": "Número 7: el lago Hillier, en Australia. Es un lago de color rosa chicle, y lo es durante todo el año. Si coges su agua con un vaso, sigue siendo rosa. El color viene de unas algas diminutas y de microorganismos que viven en su agua muy salada. Además, es inofensivo: no es dañino para las personas."
+   },
+   {
+    "emoji": "🏖️",
+    "titulo": "Lençóis Maranhenses",
+    "texto": "Dunas blancas con lagunas azules, en Brasil.",
+    "voz": "Número 6: los Lençóis Maranhenses, en Brasil. Son enormes dunas de arena blanca, como sábanas, y entre ellas aparecen lagunas de agua azul y verde. Las llenan las lluvias de la primera mitad del año, y después, con la sequía, se van secando. Es un desierto lleno de piscinas naturales que cambia con las estaciones."
+   },
+   {
+    "emoji": "✨",
+    "titulo": "Cueva de Waitomo",
+    "texto": "Un cielo estrellado bajo tierra, en Nueva Zelanda.",
+    "voz": "Número 5: las cuevas de Waitomo, en Nueva Zelanda. Al entrar en la oscuridad, el techo se llena de puntitos azules brillantes, como un cielo estrellado bajo tierra. Pero no son estrellas: son gusanos luminosos, larvas de un insecto que brillan para atraer a sus presas. Se recorren en barca, en silencio, bajo toda esa luz."
+   },
+   {
+    "emoji": "🪨",
+    "titulo": "Calzada del Gigante",
+    "texto": "Unas 40.000 columnas de piedra en Irlanda.",
+    "voz": "Número 4: la Calzada del Gigante, en Irlanda del Norte. Son unas 40.000 columnas de piedra, y muchas tienen seis lados casi perfectos. Parece obra de un gigante, pero es obra de un volcán: la lava se enfrió y se agrietó hace unos 60 millones de años. Según la leyenda, la construyó un gigante para cruzar el mar."
+   },
+   {
+    "emoji": "🪞",
+    "titulo": "Salar de Uyuni",
+    "texto": "El mayor desierto de sal: se vuelve un espejo.",
+    "voz": "Número 3: el salar de Uyuni, en Bolivia. Es el mayor desierto de sal del mundo, con unos 10.000 kilómetros cuadrados. Es inmenso, más grande que muchas provincias. Cuando llueve y queda una capa finita de agua, se convierte en un espejo gigante y el cielo se refleja en el suelo. Parece que caminas sobre las nubes."
+   },
+   {
+    "emoji": "🌿",
+    "titulo": "Hang Son Doong",
+    "texto": "Una cueva con río, nubes y su propia selva.",
+    "voz": "Número 2: la cueva Hang Son Doong, en Vietnam. Es una de las cuevas más grandes del mundo: sus salas son tan enormes que cabrían edificios de 40 plantas. Dentro tiene un río, nubes y hasta su propia selva, que crece donde el techo se ha hundido y entra la luz. Se dio a conocer hace pocos años, y casi nadie la ha visitado."
+   },
+   {
+    "emoji": "💎",
+    "titulo": "Cueva de los Cristales",
+    "texto": "Cristales de yeso de hasta 11 metros, en México.",
+    "voz": "Número 1: la cueva de los Cristales de Naica, en México. Está a unos 300 metros bajo tierra, y dentro hace un calor extremo: unos 58 grados. Allí crecieron cristales de yeso gigantes, de hasta 11 metros de largo. Parecen columnas de hielo, pero son de mineral. Los encontraron unos mineros en el año 2000, y hoy no se puede visitar."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha gustado más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál es tu lugar favorito? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "10 lugares de la Tierra que parecen de otro planeta 🌍",
+  "descripcion": "Diez lugares reales de la Tierra que parecen de otro planeta: cuevas gigantes, lagos rosas, desiertos que son espejos y mucho más. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n#lugaresincreibles #datoscuriosos #curiosidades",
+  "tags": [
+   "lugares que parecen de otro planeta",
+   "lugares increíbles",
+   "maravillas naturales",
+   "curiosidades de la Tierra",
+   "datos curiosos",
+   "top 10",
+   "geografía"
+  ],
+  "primer_comentario": "¿Cuál es tu favorito? Comenta su número 👇"
+ }
+}

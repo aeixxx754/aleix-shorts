@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: el caballito de mar",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 3,
+ "hook_emoji": "🐴",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "primer_comentario": "Comenta 🐠 si sabías lo del papá",
+ "es": {
+  "hook": [
+   "HASTA 1.000 CRÍAS ¡Y LAS TIENE ÉL!",
+   "el caballito de mar"
+  ],
+  "facts": [
+   [
+    "🐣",
+    "El papá lleva los huevos",
+    "¡Y DA A LUZ!",
+    "de decenas a más de 1.000 crías"
+   ],
+   [
+    "🦐",
+    "No tiene",
+    "ESTÓMAGO",
+    "por eso come casi sin parar"
+   ],
+   [
+    "🐌",
+    "Es de los peces",
+    "MÁS LENTOS",
+    "nada de pie, casi sin avanzar"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Mil crías? ¡Y papá!",
+   "El papá lleva los huevos y da a luz.",
+   "No tiene estómago: come casi sin parar.",
+   "Es de los peces más lentos del mundo.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #3: el caballito de mar 🐠",
+  "descripcion": "El caballito de mar: el papá da a luz, no tiene estómago y es de los peces más lentos. 🐴\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #caballitodemar #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "caballito de mar",
+   "curiosidades de animales",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

@@ -3,6 +3,13 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-07
+- Métricas: tercer día seguido sin datos nuevos: Metricool solo trae Shorts hasta el 3/11 (27 con cifras). Siguen sin medirse los Shorts cortos con voz (desde el 4-5/11), las series nuevas ni el primer vídeo largo. **Revisar la conexión de YouTube Analytics en Metricool** si mañana sigue igual.
+- Las cifras antiguas siguen subiendo poco a poco (monarca 152 → 180); se mantiene lo aprendido: animales/dinosaurios y títulos en forma de pregunta («¿Por qué…?», «¿Un… más… que…?») son lo que más se ve; historia no funciona.
+- Qué se cambia hoy: el título de «3 datos» del agua empieza por la pregunta («¿Por qué flota el hielo? 3 datos del agua»), como los que mejor van. Serie vof con un tema cotidiano (comida) en vez de historia. Idea nueva: primer vídeo largo de geografía/lugares (10 lugares que parecen de otro planeta) y primer Short-anzuelo «TOP 10» a las 20:00 para llevar tráfico al vídeo largo.
+- Verificación: la velocidad del caballito de mar enano (~1,5 m/h) no cuadra con la ficha de Guinness (0,016 km/h para caballitos en general) → en pantalla y voz solo «de los peces más lentos», sin cifra. Hang Son Doong: «cabría un edificio de 40 plantas» confirmado en varias fuentes.
+- Tendencias: ninguna apta y clara hoy (7/11, sábado sin fecha especial infantil). Sin tema de tendencia.
+
 ## 2026-11-06
 - Métricas: Metricool ya trae datos hasta el 3/11 (28 Shorts; nada todavía del 4-5/11, ni de los Shorts con voz ni de las series nuevas de 15/16 s). Las cifras antiguas han subido mucho en unos días (vof #1 animales 0 → 348, dinosaurios 554): los Shorts siguen sumando visitas varios días después.
 - **Animales manda**: vof #1 «Mitos de animales» 348 frente a vof #2 «Mitos de la historia» 19 (mismo formato, tema distinto). Historia no funciona; dinosaurios 554 sigue siendo el más visto.

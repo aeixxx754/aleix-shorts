@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de la comida",
+ "formato": "vof",
+ "episodio": 6,
+ "hook_emoji": "🥕",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #6: ¿cuántas aciertas de comida? 🥕",
+ "es": {
+  "hook": [
+   "3 MITOS DE LA COMIDA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🥕",
+    "Las zanahorias te dan visión nocturna",
+    false,
+    "Solo ayudan si te falta vitamina A"
+   ],
+   [
+    "🍅",
+    "Botánicamente, el tomate es una fruta",
+    true,
+    "Nace de la flor y tiene semillas"
+   ],
+   [
+    "🍬",
+    "El azúcar vuelve hiperactivos a los niños",
+    false,
+    "Los estudios no han hallado ese efecto"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos de comida?",
+   [
+    "Zanahorias: visión nocturna.",
+    "¡Falso! Es un mito."
+   ],
+   [
+    "El tomate es una fruta.",
+    "¡Verdadero! Tiene semillas."
+   ],
+   [
+    "El azúcar te pone hiperactivo.",
+    "¡Falso! Nada lo demuestra."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #6: mitos de la comida 🍅",
+  "descripcion": "¿Verdadero o falso? Mitos de la comida: la zanahoria, el tomate y el azúcar. 🍅\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #comida #datoscuriosos",
+  "tags": [
+   "mitos de la comida",
+   "verdadero o falso",
+   "zanahoria visión nocturna",
+   "datos curiosos",
+   "curiosidades",
+   "sabías que"
+  ]
+ }
+}
