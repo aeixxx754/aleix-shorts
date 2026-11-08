@@ -3,6 +3,13 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-08
+- Métricas: **cuarto día seguido sin datos nuevos**: Metricool solo trae Shorts hasta el 3/11 (18 en los últimos 7 días, todos del formato antiguo de 21 s). Siguen sin medirse los Shorts cortos con voz, las dos series y los vídeos largos. **Hay que revisar la conexión de YouTube Analytics en Metricool** (aviso a Aleix).
+- Lo que sí se ve en lo antiguo: vof #1 «Mitos de animales» sigue siendo el Short ES más visto de la semana (348) frente a historia (19); las preguntas sobre la naturaleza («¿Por qué una hora…?» 319, «¿Un volcán más alto…?» 233) siguen arriba.
+- Qué se cambia hoy: la serie vof vuelve a **mitos de animales** (#7, lo que mejor funcionó) y el «3 datos» de las 17:00 vuelve a **dinosaurios** (554, el más visto del canal) con título en pregunta («¿Qué NO era un dinosaurio?»). Gancho de rayos X convertido en pregunta sobre ti («¿UNA LUZ QUE ATRAVIESA TU CUERPO?»). Idea nueva: tema de ciencia médica (rayos X) ligado a una efeméride.
+- Tendencias: **Día Internacional de la Radiología (8/11)** → Short de rayos X a las 20:00 con #DiaDeLaRadiologia. Comparar con los temas sin efeméride cuando haya datos.
+- Verificación: lengua del camaleón confirmada (hasta ~2 veces el cuerpo; récord 2,5 en especies pequeñas, Brown University) → «puede medir más que su cuerpo» es seguro. Los «165 millones de años» de los dinosaurios cuadran con ≈231-66 M años (no avianos); el NHM usa «unos 160»: redacción «vivieron unos 165 millones de años», no «dominaron».
+
 ## 2026-11-07
 - Métricas: tercer día seguido sin datos nuevos: Metricool solo trae Shorts hasta el 3/11 (27 con cifras). Siguen sin medirse los Shorts cortos con voz (desde el 4-5/11), las series nuevas ni el primer vídeo largo. **Revisar la conexión de YouTube Analytics en Metricool** si mañana sigue igual.
 - Las cifras antiguas siguen subiendo poco a poco (monarca 152 → 180); se mantiene lo aprendido: animales/dinosaurios y títulos en forma de pregunta («¿Por qué…?», «¿Un… más… que…?») son lo que más se ve; historia no funciona.
