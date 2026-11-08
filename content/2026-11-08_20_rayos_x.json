@@ -1,0 +1,55 @@
+{
+ "tema": "Los rayos X (Día Internacional de la Radiología)",
+ "formato": "datos",
+ "hook_emoji": "🦴",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "misterio",
+ "primer_comentario": "Comenta 🦴 si alguna vez te han hecho una radiografía",
+ "es": {
+  "hook": [
+   "¿UNA LUZ QUE ATRAVIESA TU CUERPO?",
+   "hoy es su día"
+  ],
+  "facts": [
+   [
+    "🔬",
+    "Se descubrieron en 1895",
+    "POR CASUALIDAD",
+    "probando tubos de rayos catódicos"
+   ],
+   [
+    "🦴",
+    "Los huesos salen blancos",
+    "ABSORBEN MÁS",
+    "rayos X que la piel y los músculos"
+   ],
+   [
+    "✨",
+    "Son una luz invisible",
+    "CON MÁS ENERGÍA",
+    "de la misma familia que la luz normal"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Luz que atraviesa huesos?",
+   "Se descubrieron por casualidad en 1895.",
+   "Los huesos salen blancos porque absorben más rayos.",
+   "Son luz invisible, con muchísima más energía.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cómo ven tus huesos los rayos X? 3 datos 🦴",
+  "descripcion": "Hoy es el Día Internacional de la Radiología: 3 datos curiosos de los rayos X. 🦴\nSuscríbete para datos nuevos cada día\n\n#Shorts #rayosx #ciencia #DiaDeLaRadiologia #datoscuriosos",
+  "tags": [
+   "rayos x",
+   "datos de los rayos x",
+   "día de la radiología",
+   "ciencia cotidiana",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

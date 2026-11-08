@@ -1,0 +1,29 @@
+{
+ "tema": "Animales increíbles: el camaleón",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 4,
+ "hook_emoji": "🦎",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "primer_comentario": "Comenta 🦎 si sabías lo de los ojos",
+ "es": {
+  "hook": ["¿VE EN 2 DIRECCIONES A LA VEZ?", "el camaleón"],
+  "facts": [
+   ["👀", "Mueve cada ojo", "POR SEPARADO", "y mira a dos sitios a la vez"],
+   ["👅", "Su lengua puede medir", "MÁS QUE SU CUERPO", "y sale disparada en un instante"],
+   ["🌈", "Cambia de color para", "COMUNICARSE", "y regular su calor, no solo esconderse"]
+  ],
+  "outro": ["¿Cuál no sabías?", "Comenta SÍ si lo sabías"],
+  "voz": [
+   "¿Ojos en dos direcciones?",
+   "Mueve cada ojo por separado.",
+   "Su lengua puede medir más que su cuerpo.",
+   "Cambia de color para comunicarse, no solo esconderse.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #4: el camaleón 🦎",
+  "descripcion": "El camaleón: ojos que miran en dos direcciones, una lengua gigante y colores que no son solo para esconderse. 🦎\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #camaleon #datoscuriosos",
+  "tags": ["animales increíbles", "camaleón", "curiosidades de animales", "datos de animales", "sabías que", "datos curiosos"]
+ }
+}

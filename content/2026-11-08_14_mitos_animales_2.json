@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de animales II",
+ "formato": "vof",
+ "episodio": 7,
+ "hook_emoji": "🐂",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #7: ¿cuántos aciertas? 🐂",
+ "es": {
+  "hook": [
+   "3 MITOS DE ANIMALES",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🐂",
+    "Los toros se enfurecen al ver el color rojo",
+    false,
+    "Reaccionan al movimiento de la capa"
+   ],
+   [
+    "🐬",
+    "Los delfines duermen con medio cerebro despierto",
+    true,
+    "Así pueden seguir respirando"
+   ],
+   [
+    "🪶",
+    "Los avestruces esconden la cabeza bajo la arena",
+    false,
+    "La agachan para comer o cuidar el nido"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos de animales?",
+   [
+    "Los toros embisten al rojo.",
+    "¡Falso! Embisten al movimiento."
+   ],
+   [
+    "Los delfines duermen a medias.",
+    "¡Verdadero! Así respiran."
+   ],
+   [
+    "Los avestruces entierran la cabeza.",
+    "¡Falso! La agachan."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #7: mitos de animales II 🐂",
+  "descripcion": "¿Verdadero o falso? Mitos de animales: el toro y el rojo, el delfín que duerme y el avestruz. 🐬\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #animales #datoscuriosos",
+  "tags": [
+   "mitos de animales",
+   "verdadero o falso",
+   "toros y el color rojo",
+   "datos curiosos",
+   "curiosidades de animales",
+   "sabías que"
+  ]
+ }
+}
