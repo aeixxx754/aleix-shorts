@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: el gato",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 5,
+ "hook_emoji": "🐱",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "misterio",
+ "primer_comentario": "Comenta 🐱 si sabías lo del dulce",
+ "es": {
+  "hook": [
+   "¿UN GATO QUE NO NOTA LO DULCE?",
+   "el gato"
+  ],
+  "facts": [
+   [
+    "🍬",
+    "No puede saborear",
+    "LO DULCE",
+    "le falta el receptor de ese sabor"
+   ],
+   [
+    "😴",
+    "Duerme cada día",
+    "12-16 HORAS",
+    "más de la mitad del día"
+   ],
+   [
+    "👂",
+    "Cada oreja tiene",
+    "MÁS DE 30 MÚSCULOS",
+    "y puede girar por separado"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿No notan lo dulce?",
+   "Los gatos no pueden saborear lo dulce.",
+   "Duermen entre 12 y 16 horas al día.",
+   "Cada oreja tiene más de 30 músculos y gira sola.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #5: el gato 🐱",
+  "descripcion": "El gato: no saborea lo dulce, duerme más de medio día y mueve cada oreja por separado. 🐱\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #gatos #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "gato",
+   "curiosidades de gatos",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

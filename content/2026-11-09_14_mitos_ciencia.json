@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de la ciencia",
+ "formato": "vof",
+ "episodio": 8,
+ "hook_emoji": "⚡",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #8: ¿cuántas aciertas de ciencia? 🧪",
+ "es": {
+  "hook": [
+   "3 MITOS DE LA CIENCIA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "⚡",
+    "Un rayo nunca cae dos veces en el mismo sitio",
+    false,
+    "Al Empire State le caen unos 20 al año"
+   ],
+   [
+    "🍌",
+    "Los plátanos son un poco radiactivos",
+    true,
+    "Tienen potasio-40, natural e inofensivo"
+   ],
+   [
+    "🧠",
+    "Solo usamos el 10 % de nuestro cerebro",
+    false,
+    "Usamos todo, en momentos distintos"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Crees estos mitos?",
+   [
+    "Un rayo nunca repite sitio.",
+    "¡Falso! Cae muchas veces."
+   ],
+   [
+    "Los plátanos son radiactivos.",
+    "¡Verdadero! Un poquito."
+   ],
+   [
+    "Usamos solo una décima del cerebro.",
+    "¡Falso! Usamos todo."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #8: mitos de la ciencia ⚡",
+  "descripcion": "¿Verdadero o falso? Mitos de la ciencia: los rayos, los plátanos y el cerebro. 🧠\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #ciencia #datoscuriosos",
+  "tags": [
+   "mitos de la ciencia",
+   "verdadero o falso",
+   "plátano radiactivo",
+   "10 % del cerebro",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

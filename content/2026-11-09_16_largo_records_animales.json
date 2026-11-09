@@ -1,0 +1,130 @@
+{
+ "tipo": "largo",
+ "tema": "10 récords del reino animal que parecen imposibles",
+ "hook_emoji": "🏆",
+ "cat": "PETS_ANIMALS",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#00BFA5",
+    "#0D47A1"
+   ],
+   "composicion": "emoji-derecha",
+   "emoji": "🦈",
+   "etiqueta": "TOP 10",
+   "texto": "¿400 AÑOS DE VIDA?"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#7C4DFF",
+     "#00B8D4"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🐋",
+    "etiqueta": "",
+    "texto": "3.000 M BAJO EL MAR"
+   },
+   {
+    "colores": [
+     "#FF6D00",
+     "#B71C1C"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "🐆",
+    "etiqueta": "¿REAL?",
+    "texto": "¡NO LO CREERÁS!"
+   }
+  ],
+  "intro": {
+   "emoji": "🏆",
+   "texto": [
+    "10 RÉCORDS ANIMALES IMPOSIBLES",
+    "el número 1 te dejará sin palabras"
+   ],
+   "voz": "Hay animales que baten récords que parecen imposibles. Uno bucea casi tres kilómetros bajo el mar, otro cruza el planeta entero cada año y otro es más fuerte que cualquier persona. En este vídeo vas a conocer diez récords reales del reino animal. Quédate hasta el final, porque el número uno es el más increíble."
+  },
+  "items": [
+   {
+    "emoji": "🦒",
+    "titulo": "La jirafa",
+    "texto": "El animal más alto: hasta unos 5,5 metros.",
+    "voz": "Número 10: la jirafa. Es el animal más alto del planeta: los machos más grandes llegan a unos cinco metros y medio, casi la altura de una casa de dos plantas. Solo su cuello mide cerca de dos metros. Su lengua también es enorme, de casi medio metro, y la usa para arrancar hojas entre las espinas de las acacias."
+   },
+   {
+    "emoji": "🕊️",
+    "titulo": "Albatros errante",
+    "texto": "El ave con las alas más largas: ~3,5 m.",
+    "voz": "Número 9: el albatros errante. Es el ave viva con las alas más largas: abiertas, miden hasta unos tres metros y medio, casi el doble de la altura de un adulto. Con ellas planea durante horas sobre el océano casi sin aletear, aprovechando el viento. Es como un planeador natural que puede recorrer miles de kilómetros sin apenas cansarse."
+   },
+   {
+    "emoji": "🐘",
+    "titulo": "Elefante africano",
+    "texto": "El mayor animal terrestre: unas 6 toneladas.",
+    "voz": "Número 8: el elefante africano. Es el animal terrestre más grande que existe: un macho adulto puede pesar unas seis toneladas, lo mismo que unos cuatro coches pequeños juntos. Sus enormes orejas le ayudan a refrescarse, y su trompa es tan precisa que puede agarrar una ramita o un cacahuete. Es un gigante con una delicadeza sorprendente."
+   },
+   {
+    "emoji": "🐆",
+    "titulo": "El guepardo",
+    "texto": "El más rápido en tierra: ~100 km/h.",
+    "voz": "Número 7: el guepardo. Es el animal terrestre más rápido: en carreras cortas alcanza unos cien kilómetros por hora, más que un coche circulando por la ciudad. Lo increíble es su aceleración, porque llega a esa velocidad en solo unos segundos. Eso sí, únicamente aguanta unos cientos de metros, porque se agota enseguida. Es el velocista perfecto de la naturaleza."
+   },
+   {
+    "emoji": "🦀",
+    "titulo": "Cangrejo gigante",
+    "texto": "El mayor artrópodo: ~3,7 m de pata a pata.",
+    "voz": "Número 6: el cangrejo gigante japonés. Con las patas estiradas puede medir unos tres metros y medio de punta a punta, la mayor envergadura entre los artrópodos, el grupo de los insectos, las arañas y los cangrejos. Vive en aguas profundas cerca de Japón. Sus patas son largas y finas, como pértigas. Imagina encontrarte con uno de visita en casa."
+   },
+   {
+    "emoji": "🦅",
+    "titulo": "Halcón peregrino",
+    "texto": "El más veloz del planeta: >300 km/h.",
+    "voz": "Número 5: el halcón peregrino. Es el animal más veloz del planeta: cuando se lanza en picado a por una presa, supera los trescientos kilómetros por hora. Eso es tan rápido como los trenes más veloces del mundo. Lo hace con las alas casi cerradas, como una flecha. Y a esa velocidad todavía ve con claridad a su presa, gracias a una vista agudísima."
+   },
+   {
+    "emoji": "🐦",
+    "titulo": "Charrán ártico",
+    "texto": "El viaje más largo: ~70.000 km al año.",
+    "voz": "Número 4: el charrán ártico. Este pájaro pesa como una tableta de chocolate, pero hace el viaje más largo de todos los animales: del Ártico a la Antártida y vuelta, unos setenta mil kilómetros cada año. Si vive treinta años, recorre el equivalente a ir a la Luna y volver casi tres veces. Un pequeño gran viajero que busca siempre el verano."
+   },
+   {
+    "emoji": "🐋",
+    "titulo": "Zifio de Cuvier",
+    "texto": "Bucea casi 3.000 m y más de 2 horas.",
+    "voz": "Número 3: el zifio de Cuvier, una ballena poco conocida. Es el mamífero que más profundo se ha registrado buceando: casi tres mil metros, como nueve torres Eiffel una encima de otra. Y una de sus inmersiones duró más de dos horas sin salir a respirar. Su cuerpo almacena mucho oxígeno en la sangre y en los músculos, y así aguanta tanto tiempo."
+   },
+   {
+    "emoji": "🪲",
+    "titulo": "Escarabajo pelotero",
+    "texto": "Tira de 1.000 veces su propio peso.",
+    "voz": "Número 2: el escarabajo pelotero Onthophagus taurus. Mide apenas un centímetro, pero es el animal más fuerte del mundo en relación con su tamaño: puede tirar de un peso más de mil cien veces mayor que el suyo. Sería como si una persona arrastrara unos seis autobuses llenos de gente. Un diminuto campeón de halterofilia que cabe en la yema de tu dedo."
+   },
+   {
+    "emoji": "🦈",
+    "titulo": "Tiburón de Groenlandia",
+    "texto": "El vertebrado que más vive: ~400 años.",
+    "voz": "Número 1: el tiburón de Groenlandia. Es el vertebrado más longevo que se conoce: un estudio de 2016 calculó que un ejemplar tenía unos cuatrocientos años, con un margen de error de más de cien. Pudo nacer en el siglo diecisiete, mucho antes de que existieran los trenes o la electricidad. Vive en aguas heladas y crece muy despacio, menos de un centímetro al año."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Qué récord te ha sorprendido más? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "10 récords del reino animal que parecen imposibles 🏆",
+  "descripcion": "Diez récords reales del reino animal que parecen imposibles: el más rápido, el más profundo, el más fuerte, el que más vive y mucho más. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:21 #10 La jirafa\n0:44 #9 Albatros errante\n1:09 #8 Elefante africano\n1:33 #7 El guepardo\n2:00 #6 Cangrejo gigante\n2:26 #5 Halcón peregrino\n2:50 #4 Charrán ártico\n3:14 #3 Zifio de Cuvier\n3:39 #2 Escarabajo pelotero\n4:03 #1 Tiburón de Groenlandia\n4:31 Final\n\n#animales #datoscuriosos #curiosidades",
+  "tags": [
+   "récords animales",
+   "animales increíbles",
+   "curiosidades de animales",
+   "animales más rápidos",
+   "animales más fuertes",
+   "tiburón de Groenlandia",
+   "top 10",
+   "datos curiosos"
+  ],
+  "primer_comentario": "¿Cuál es tu favorito? Comenta su número 👇"
+ }
+}

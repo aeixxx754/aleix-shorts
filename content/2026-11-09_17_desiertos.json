@@ -1,0 +1,55 @@
+{
+ "tema": "Los desiertos",
+ "formato": "datos",
+ "hook_emoji": "🏜️",
+ "cat": "EDUCATION",
+ "estilo_gancho": "comparacion",
+ "primer_comentario": "Comenta 🏜️ si sabías lo de la Antártida",
+ "es": {
+  "hook": [
+   "¿EL MAYOR DESIERTO ES DE HIELO?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "🧊",
+    "El mayor desierto es",
+    "LA ANTÁRTIDA",
+    "unos 14 millones de km²"
+   ],
+   [
+    "🌧️",
+    "Desierto significa",
+    "POCA LLUVIA",
+    "no calor: los hay helados"
+   ],
+   [
+    "🌵",
+    "En zonas de Atacama",
+    "CASI NUNCA LLUEVE",
+    "el desierto no polar más seco"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Un desierto de hielo?",
+   "El mayor desierto del mundo es la Antártida.",
+   "Desierto significa poca lluvia, no calor.",
+   "En partes de Atacama casi nunca llueve.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿El mayor desierto es de hielo? 3 datos 🏜️",
+  "descripcion": "El mayor desierto del mundo es de hielo, y un desierto no siempre es caluroso: 3 datos curiosos de los desiertos. Suscríbete para datos nuevos cada día\n\n#Shorts #desiertos #datoscuriosos #geografia",
+  "tags": [
+   "datos de desiertos",
+   "el mayor desierto del mundo",
+   "Antártida",
+   "curiosidades de geografía",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
