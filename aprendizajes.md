@@ -3,6 +3,13 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-09
+- Métricas: **quinto día seguido sin datos nuevos**: Metricool solo devuelve 8 Shorts de los últimos 7 días, todos del 2-3/11 (formato antiguo). Nada de los Shorts cortos con voz, las series ni los vídeos largos (desde el 4-5/11). **La conexión de YouTube Analytics en Metricool sigue sin traer datos: hay que revisarla** (aviso a Aleix).
+- Lo poco que hay confirma lo de siempre: vof #1 «Mitos de animales» (348 ES) y «Rayos: ¿más calientes que el Sol?» (209) frente a «Mitos de la historia» (19): naturaleza y preguntas «¿…?» arriba, historia abajo.
+- Qué se cambia hoy: serie vof con **ciencia cotidiana** (rayos, plátanos, cerebro) en vez de historia, título del «3 datos» en pregunta («¿El mayor desierto es de hielo?»). Idea nueva: primera **mascota** en «Animales increíbles» (el gato, tema de búsqueda muy amplio) y segundo vídeo largo de animales (récords), lo que más se ve.
+- Verificación: el ronroneo «25-150 Hz» y los «32 músculos» de la oreja solo aparecen en webs de mascotas → ronroneo cambiado por «duerme 12-16 horas» y la oreja a «más de 30 músculos». Vídeo largo: la jirafa decía «7 vértebras en el cuello», ya usado el 1/11 y el 5/11 → cambiado por su lengua de casi medio metro.
+- Tendencias: ninguna apta y clara hoy (9/11: caída del Muro de Berlín = política/historia; Día del Inventor ligado a una persona real). Sin tema de tendencia.
+
 ## 2026-11-08
 - Métricas: **cuarto día seguido sin datos nuevos**: Metricool solo trae Shorts hasta el 3/11 (18 en los últimos 7 días, todos del formato antiguo de 21 s). Siguen sin medirse los Shorts cortos con voz, las dos series y los vídeos largos. **Hay que revisar la conexión de YouTube Analytics en Metricool** (aviso a Aleix).
 - Lo que sí se ve en lo antiguo: vof #1 «Mitos de animales» sigue siendo el Short ES más visto de la semana (348) frente a historia (19); las preguntas sobre la naturaleza («¿Por qué una hora…?» 319, «¿Un volcán más alto…?» 233) siguen arriba.
