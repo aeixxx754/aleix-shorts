@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de la Tierra",
+ "formato": "vof",
+ "episodio": 9,
+ "hook_emoji": "🌍",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #9: ¿cuántas aciertas de la Tierra? 🌎",
+ "es": {
+  "hook": [
+   "3 MITOS DE LA TIERRA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "☀️",
+    "El Sol es amarillo",
+    false,
+    "Es blanco; el aire lo hace verse amarillo"
+   ],
+   [
+    "🌍",
+    "La Tierra está un poco achatada por los polos",
+    true,
+    "Al girar, se ensancha en el ecuador"
+   ],
+   [
+    "🏔️",
+    "El Everest es el punto más lejano del centro de la Tierra",
+    false,
+    "Lo es el Chimborazo, en Ecuador"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Cuántos mitos aciertas?",
+   [
+    "El Sol es amarillo.",
+    "¡Falso! Es blanco."
+   ],
+   [
+    "La Tierra está achatada.",
+    "¡Verdadero! En los polos."
+   ],
+   [
+    "Everest: lo más lejos del centro.",
+    "¡Falso! Es el Chimborazo."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #9: mitos de la Tierra 🌍",
+  "descripcion": "¿Verdadero o falso? Mitos de la Tierra: el color del Sol, su forma y el punto más lejano del centro. 🌍\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #Tierra #datoscuriosos",
+  "tags": [
+   "mitos de la tierra",
+   "verdadero o falso",
+   "color del sol",
+   "chimborazo",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

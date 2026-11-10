@@ -1,0 +1,55 @@
+{
+ "tema": "El sonido",
+ "formato": "datos",
+ "hook_emoji": "🔊",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "comparacion",
+ "primer_comentario": "Comenta 🔊 si sabías que en el espacio no hay sonido",
+ "es": {
+  "hook": [
+   "¿SONIDO MÁS RÁPIDO BAJO EL AGUA?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "💨",
+    "En el aire recorre",
+    "343 METROS",
+    "cada segundo: unos 1.235 km/h"
+   ],
+   [
+    "🌊",
+    "En el agua va",
+    "4 VECES MÁS RÁPIDO",
+    "unos 1.500 metros por segundo"
+   ],
+   [
+    "🚀",
+    "En el espacio",
+    "NO HAY SONIDO",
+    "sin aire, no tiene por dónde viajar"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Sonido bajo el agua?",
+   "En el aire viaja a 343 metros por segundo.",
+   "En el agua, más de cuatro veces más rápido.",
+   "En el espacio no hay sonido: no hay aire.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿El sonido va más rápido bajo el agua? 3 datos 🔊",
+  "descripcion": "La velocidad del sonido en el aire y en el agua, y por qué en el espacio no se oye nada: 3 datos curiosos del sonido. Suscríbete para datos nuevos cada día\n\n#Shorts #sonido #ciencia #DiaDeLaCiencia",
+  "tags": [
+   "velocidad del sonido",
+   "datos del sonido",
+   "curiosidades de física",
+   "sonido en el espacio",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

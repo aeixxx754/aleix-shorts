@@ -1,0 +1,55 @@
+{
+ "tema": "La piel",
+ "formato": "datos",
+ "hook_emoji": "🧍",
+ "cat": "EDUCATION",
+ "estilo_gancho": "misterio",
+ "primer_comentario": "Comenta 🧍 si no sabías que la piel es un órgano",
+ "es": {
+  "hook": [
+   "TU ÓRGANO MÁS GRANDE ES…",
+   "y lo llevas puesto"
+  ],
+  "facts": [
+   [
+    "🧍",
+    "Tu órgano más grande es",
+    "LA PIEL",
+    "te cubre de la cabeza a los pies"
+   ],
+   [
+    "🔄",
+    "Su capa de fuera",
+    "SE RENUEVA",
+    "casi entera en unas 4 semanas"
+   ],
+   [
+    "📏",
+    "Un adulto tiene",
+    "CASI 2 M²",
+    "entre 1,5 y 2 metros cuadrados"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Tu órgano más grande?",
+   "Es la piel, y te cubre entera.",
+   "Se renueva casi entera cada mes.",
+   "Tienes casi dos metros cuadrados.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cuál es tu órgano más grande? 3 datos de la piel 🧍",
+  "descripcion": "La piel es el órgano más grande del cuerpo, se renueva cada mes y cubre cerca de 2 m²: 3 datos curiosos. Suscríbete para datos nuevos cada día\n\n#Shorts #piel #cuerpohumano #datoscuriosos",
+  "tags": [
+   "datos de la piel",
+   "órgano más grande",
+   "cuerpo humano",
+   "curiosidades del cuerpo",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

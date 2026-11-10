@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: la tortuga",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 6,
+ "hook_emoji": "🐢",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "primer_comentario": "Comenta 🐢 si sabías lo de Jonathan",
+ "es": {
+  "hook": [
+   "¿UNA TORTUGA DE 190 AÑOS?",
+   "la tortuga"
+  ],
+  "facts": [
+   [
+    "🦴",
+    "Su caparazón es parte",
+    "DE SU ESQUELETO",
+    "unido a su columna y sus costillas"
+   ],
+   [
+    "🎂",
+    "Jonathan tiene más de",
+    "190 AÑOS",
+    "el animal terrestre más viejo"
+   ],
+   [
+    "🌡️",
+    "El calor del nido",
+    "DA MÁS HEMBRAS",
+    "en muchas tortugas marinas"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Tortuga de 190 años?",
+   "Su caparazón es parte de su esqueleto.",
+   "Jonathan tiene más de 190 años: récord terrestre.",
+   "En tortugas marinas, el calor da más hembras.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #6: la tortuga 🐢",
+  "descripcion": "La tortuga: su caparazón es parte del esqueleto, Jonathan tiene más de 190 años y el calor del nido decide el sexo de las crías. 🐢\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #tortugas #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "tortuga",
+   "curiosidades de tortugas",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}
