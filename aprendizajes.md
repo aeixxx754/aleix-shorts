@@ -3,6 +3,13 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-10
+- Métricas: **sexto día seguido sin datos nuevos**: Metricool solo devuelve 4 Shorts de los últimos 7 días, todos del 3/11 (formato antiguo). Ningún dato de los Shorts cortos con voz, las series ni los 3 vídeos largos (desde el 4-5/11). Menos de 10 Shorts → sin conclusiones nuevas. **La conexión de YouTube Analytics en Metricool sigue rota: hay que reconectarla** (aviso a Aleix).
+- Se mantiene lo aprendido: naturaleza/animales y títulos en pregunta («¿…?») arriba; historia abajo.
+- Qué se cambia hoy: serie vof con **ciencia de la Tierra** (Sol, forma, Chimborazo), en la línea de «rayos» (209); los dos «3 datos» con título en pregunta. Idea nueva: primer tema de **sonido/física** y primer tema de **piel** (cuerpo), y primera tortuga en «Animales increíbles» (reptil, con un «récord vivo»: Jonathan).
+- Verificación: Jonathan cumplió 194 años en junio de 2026 (Guinness ICON); las noticias de su muerte del 1/4/2026 fueron una broma del Día de los Inocentes → «más de 190 años» es seguro. Nido: NOAA confirma que la arena caliente da más hembras (dicho solo de «tortugas marinas»). Piel: fuentes divulgativas dan 1,5-2 m² y renovación de 2-6 semanas → «casi 2 m²» y «unas 4 semanas / cada mes» con redondeo honesto. Sonido: 1.500/343 ≈ 4,4 → «4 veces más rápido» en pantalla y «más de cuatro veces» en voz.
+- Tendencias: **Día Mundial de la Ciencia para la Paz y el Desarrollo (10/11, UNESCO)** → hashtag #DiaDeLaCiencia en el Short del sonido (17:00). Comparar con los temas sin efeméride cuando haya datos.
+
 ## 2026-11-09
 - Métricas: **quinto día seguido sin datos nuevos**: Metricool solo devuelve 8 Shorts de los últimos 7 días, todos del 2-3/11 (formato antiguo). Nada de los Shorts cortos con voz, las series ni los vídeos largos (desde el 4-5/11). **La conexión de YouTube Analytics en Metricool sigue sin traer datos: hay que revisarla** (aviso a Aleix).
 - Lo poco que hay confirma lo de siempre: vof #1 «Mitos de animales» (348 ES) y «Rayos: ¿más calientes que el Sol?» (209) frente a «Mitos de la historia» (19): naturaleza y preguntas «¿…?» arriba, historia abajo.
