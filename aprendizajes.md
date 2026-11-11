@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-11
+- Métricas: **por fin hay datos de los Shorts nuevos** (5-7/11; 15 Shorts ES con cifras). Reproducciones: vof #6 comida **890**, nubes 457, hielo 342, anzuelo lugares 214, vof #5 cuerpo 199, idiomas 193, matemáticas 137, pingüino 133, vof #4 mar 128, caballito 127, perezoso 82, luz 69. Los 2 vídeos largos del 5 y 7/11: solo 11 y 5 visitas (aunque se ven 43-57 s de media).
+- **La serie «¿Verdadero o falso?» es la que más tira**: media ~406 visitas y la mejor retención (4 s de 16,4 s ≈ 24 %). **«Animales increíbles» va por detrás** (82-133 visitas, 2-3 s ≈ 13-20 %), pese a que los animales eran lo más visto en el formato antiguo.
+- **Títulos en pregunta siguen ganando**: «¿Cuánto pesa una nube?» 457 y «¿Por qué flota el hielo?» 342 frente a «La luz del Sol: 3 datos…» 69 y «Matemáticas curiosas…» 137. Los títulos de «Animales increíbles» nunca han llevado pregunta.
+- Retención aún baja en todos (2-4 s ≈ 13-26 %): el gancho del primer segundo sigue siendo lo que hay que mejorar.
+- Los Shorts-anzuelo atraen (214) pero casi no llevan gente al vídeo largo (5 visitas). Hay que seguir midiendo; el vídeo largo vive de la búsqueda y la miniatura.
+- Qué se cambia hoy: «Animales increíbles» #7 estrena **título en pregunta** («Animales increíbles #7: ¿oso polar de piel negra?»), para ver si se acerca a los «3 datos» en pregunta; la vof sigue con un tema cotidiano que todos creen saber (salud), como la de comida; remates de una sola línea en pantalla («SIN COLOR», «UN ESCUDO»). Idea nueva: primer vídeo largo de **dinosaurios** (lo más visto del canal en Shorts) y primer tema del **interior de la Tierra**.
+- Verificación: osa de 687 km en 9 días confirmada (USGS, Durner et al.; Guinness) → «casi 700 km». Núcleo interno: estimaciones de ~5.000-6.000 °C → «más de 5.000 °C» es seguro. Patagotitan: los 37 m del estudio de 2017 se revisaron a ~31 m (G. S. Paul) → «más de 30 metros» en el vídeo y el anzuelo (sin comparar con la ballena azul). Cresta del Parasaurolophus: ~1 m por fuera (no «casi 2 m») → corregido. Spinosaurus «unos 14 m»; Microraptor «unos 120 millones de años».
+- Tendencias: ninguna apta y clara (11/11: Día del Soltero = compras; armisticio = guerra). Sin tema de tendencia.
+
 ## 2026-11-10
 - Métricas: **sexto día seguido sin datos nuevos**: Metricool solo devuelve 4 Shorts de los últimos 7 días, todos del 3/11 (formato antiguo). Ningún dato de los Shorts cortos con voz, las series ni los 3 vídeos largos (desde el 4-5/11). Menos de 10 Shorts → sin conclusiones nuevas. **La conexión de YouTube Analytics en Metricool sigue rota: hay que reconectarla** (aviso a Aleix).
 - Se mantiene lo aprendido: naturaleza/animales y títulos en pregunta («¿…?») arriba; historia abajo.
