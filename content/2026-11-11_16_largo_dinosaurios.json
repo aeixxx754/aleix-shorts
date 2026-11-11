@@ -1,0 +1,130 @@
+{
+ "tipo": "largo",
+ "tema": "10 dinosaurios imposibles que sí existieron",
+ "hook_emoji": "🦖",
+ "cat": "EDUCATION",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#00C853",
+    "#1A237E"
+   ],
+   "composicion": "emoji-centro",
+   "emoji": "🦖",
+   "etiqueta": "TOP 10",
+   "texto": "GARRAS DE MEDIO METRO"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#FF5252",
+     "#880E4F"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "🦕",
+    "etiqueta": "¿REAL?",
+    "texto": "37 METROS DE DINOSAURIO"
+   },
+   {
+    "colores": [
+     "#2979FF",
+     "#6200EA"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "🦖",
+    "etiqueta": "",
+    "texto": "¡NO PARECEN REALES!"
+   }
+  ],
+  "intro": {
+   "emoji": "🦖",
+   "texto": [
+    "10 DINOSAURIOS IMPOSIBLES",
+    "el número 1 es el más raro de todos"
+   ],
+   "voz": "Los dinosaurios fueron animales tan extraordinarios que a veces cuesta creer que existieran. Algunos tenían cuatro alas, otros una cresta que sonaba como una trompeta y otros eran casi tan largos como tres autobuses. En este vídeo descubrirás diez dinosaurios reales que parecen inventados. Quédate hasta el final, porque el número uno es el más raro de todos."
+  },
+  "items": [
+   {
+    "emoji": "🦏",
+    "titulo": "El Triceratops",
+    "texto": "Tres cuernos y un cráneo de casi 2 metros.",
+    "voz": "Número 10: el Triceratops. Su nombre significa «cara de tres cuernos», y su cráneo era enorme: podía medir cerca de dos metros, uno de los más grandes de cualquier animal terrestre. Los cuernos más largos llegaban casi al metro. Los usaba para defenderse y, seguramente, para impresionar a los demás. Era como un tanque vivo, pero que solo comía plantas."
+   },
+   {
+    "emoji": "🎺",
+    "titulo": "El Parasaurolophus",
+    "texto": "Una cresta hueca que sonaba como una trompeta.",
+    "voz": "Número 9: el Parasaurolophus. De su cabeza salía una cresta larga y curva, de cerca de un metro, que por dentro era hueca, con tubos. Los científicos creen que servía para hacer sonidos graves, como una trompeta, y así comunicarse con la manada desde lejos. Imagina un bosque entero lleno de dinosaurios llamándose entre ellos."
+   },
+   {
+    "emoji": "🛡️",
+    "titulo": "El Anquilosaurio",
+    "texto": "Una armadura de hueso y una cola con maza.",
+    "voz": "Número 8: el Anquilosaurio. Iba cubierto de placas de hueso, como una armadura, y su cola terminaba en una gran maza, también de hueso. Pesaba unas seis toneladas, como un elefante africano grande. Cuando alguien se acercaba demasiado, le bastaba un coletazo para mantenerlo lejos. Era un castillo con patas, aunque solo comía plantas."
+   },
+   {
+    "emoji": "🪖",
+    "titulo": "El Paquicefalosaurio",
+    "texto": "Una cabeza con cúpula de hueso muy gruesa.",
+    "voz": "Número 7: el Paquicefalosaurio. Su nombre significa «lagarto de cabeza gruesa», y no es para menos: en lo alto del cráneo tenía una cúpula de hueso de hasta unos veinte centímetros de grosor. Los científicos creen que la usaba para exhibirse y, quizá, para empujarse con otros machos, como hacen hoy algunos carneros. Una cabeza dura de verdad."
+   },
+   {
+    "emoji": "🪽",
+    "titulo": "El Microraptor",
+    "texto": "Un dinosaurio con cuatro alas que planeaba.",
+    "voz": "Número 6: el Microraptor. Medía menos de un metro y tenía plumas largas no solo en los brazos, sino también en las patas traseras. Eso le daba cuatro alas. Los científicos creen que no volaba como un pájaro, sino que planeaba de árbol en árbol. Vivió en China hace unos 120 millones de años."
+   },
+   {
+    "emoji": "🪶",
+    "titulo": "El Yutyrannus",
+    "texto": "Un pariente del T. rex cubierto de plumas.",
+    "voz": "Número 5: el Yutyrannus. Medía unos nueve metros y pesaba más de una tonelada, pero lo más raro es que estaba cubierto de plumas largas, como un enorme pollito peludo. Era un pariente lejano del Tiranosaurio rex y vivió en China hace unos 125 millones de años. Quizá las plumas le servían para mantenerse caliente."
+   },
+   {
+    "emoji": "🦆",
+    "titulo": "El Deinocheirus",
+    "texto": "Brazos de 2,4 m, una joroba y pico de pato.",
+    "voz": "Número 4: el Deinocheirus, cuyo nombre significa «mano terrible». Durante décadas solo se conocieron sus enormes brazos, de unos dos metros y medio, hasta que se encontró el resto. Resultó ser un gigante de unos once metros, con una joroba en la espalda, patas gruesas y un pico parecido al de un pato. Un dinosaurio que nadie se imaginaba."
+   },
+   {
+    "emoji": "🦕",
+    "titulo": "El Patagotitan",
+    "texto": "Más de 30 metros: casi 3 autobuses en fila.",
+    "voz": "Número 3: el Patagotitan, descubierto en Argentina. Medía más de treinta metros de largo, casi como tres autobuses puestos en fila, y es uno de los animales terrestres más grandes que se han encontrado. Pesaba decenas de toneladas, más que ocho elefantes juntos. Y lo más curioso es que este gigante solo comía plantas."
+   },
+   {
+    "emoji": "🐊",
+    "titulo": "El Spinosaurus",
+    "texto": "Una vela en la espalda y vida cerca del agua.",
+    "voz": "Número 2: el Spinosaurus. Medía unos catorce metros, más que el Tiranosaurio rex, y tenía en la espalda una gran vela formada por huesos alargados. Su cola era plana, como un remo. Por eso los científicos creen que pasaba mucho tiempo en el agua, cazando peces. Un dinosaurio casi acuático, algo que nadie esperaba."
+   },
+   {
+    "emoji": "🌿",
+    "titulo": "El Therizinosaurus",
+    "texto": "Garras de más de medio metro, ¡pero comía plantas!",
+    "voz": "Número 1: el Therizinosaurus, cuyo nombre significa «lagarto guadaña». Tenía unas garras de más de medio metro, entre las más largas de cualquier animal conocido. Pero no eran para atacar: era un animal tranquilo que comía hojas, y seguramente las usaba para alcanzar ramas altas. Medía unos diez metros y quizá tenía plumas. El dinosaurio más raro de todos."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Qué dinosaurio te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "10 dinosaurios imposibles que sí existieron 🦖",
+  "descripcion": "Diez dinosaurios reales tan raros que cuesta creerlos: cuatro alas, crestas que sonaban, gigantes de más de 30 metros y garras enormes. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:23 #10 El Triceratops\n0:50 #9 El Parasaurolophus\n1:14 #8 El Anquilosaurio\n1:38 #7 El Paquicefalosaurio\n2:02 #6 El Microraptor\n2:25 #5 El Yutyrannus\n2:49 #4 El Deinocheirus\n3:14 #3 El Patagotitan\n3:35 #2 El Spinosaurus\n3:59 #1 El Therizinosaurus\n4:25 Final\n\n#dinosaurios #datoscuriosos #curiosidades",
+  "tags": [
+   "dinosaurios",
+   "dinosaurios increíbles",
+   "dinosaurios raros",
+   "top 10",
+   "curiosidades de dinosaurios",
+   "datos curiosos",
+   "Spinosaurus",
+   "Therizinosaurus"
+  ],
+  "primer_comentario": "¿Cuál es tu dinosaurio favorito? Comenta su número 👇"
+ }
+}

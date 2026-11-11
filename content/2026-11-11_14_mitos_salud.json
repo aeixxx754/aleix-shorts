@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de la salud",
+ "formato": "vof",
+ "episodio": 10,
+ "hook_emoji": "🩺",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 👇 Cuéntanos si has bostezado leyendo esto 🥱",
+ "prueba_titulo": "¿Verdadero o falso? #10: ¿cuántas aciertas de salud? 🩺",
+ "es": {
+  "hook": [
+   "¿CAES EN ESTOS 3 MITOS DE SALUD?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🧢",
+    "Pierdes la mayor parte del calor por la cabeza",
+    false,
+    "Se escapa por cualquier zona sin abrigo"
+   ],
+   [
+    "🥱",
+    "Los bostezos se contagian",
+    true,
+    "Ver bostezar a alguien te hace bostezar"
+   ],
+   [
+    "🩸",
+    "La sangre sin oxígeno es azul",
+    false,
+    "Siempre es roja; solo se ve más oscura"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Caes en estos mitos?",
+   [
+    "Pierdes el calor por la cabeza.",
+    "¡Falso! Por todas partes."
+   ],
+   [
+    "Los bostezos se contagian.",
+    "¡Verdadero! Pruébalo ahora."
+   ],
+   [
+    "La sangre sin oxígeno es azul.",
+    "¡Falso! Siempre es roja."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #10: mitos de la salud 🩺",
+  "descripcion": "¿Verdadero o falso? Mitos de la salud: el calor de la cabeza, el bostezo contagioso y la sangre azul. 🩺\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #salud #datoscuriosos",
+  "tags": [
+   "mitos de salud",
+   "verdadero o falso",
+   "bostezo contagioso",
+   "sangre azul",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

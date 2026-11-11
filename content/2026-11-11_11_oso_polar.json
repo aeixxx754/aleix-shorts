@@ -1,0 +1,58 @@
+{
+ "tema": "Animales increíbles: el oso polar",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 7,
+ "hook_emoji": "🐻‍❄️",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "primer_comentario": "Comenta 🐻‍❄️ si sabías lo de la piel negra",
+ "prueba_titulo": "Animales increíbles #7: ¿por qué el oso polar tiene piel negra? 🐻‍❄️",
+ "es": {
+  "hook": [
+   "¿UN OSO BLANCO CON PIEL NEGRA?",
+   "el oso polar"
+  ],
+  "facts": [
+   [
+    "🖤",
+    "Debajo del pelo, su piel",
+    "ES NEGRA",
+    "así absorbe mejor el calor del Sol"
+   ],
+   [
+    "🤍",
+    "Su pelo no es blanco:",
+    "SIN COLOR",
+    "es transparente y refleja la luz"
+   ],
+   [
+    "🌊",
+    "Una osa nadó sin parar",
+    "CASI 700 KM",
+    "durante 9 días, buscando hielo"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Oso blanco, piel negra?",
+   "Su piel es negra: absorbe el calor del Sol.",
+   "Su pelo no es blanco: es transparente.",
+   "Una osa nadó casi setecientos kilómetros sin parar.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #7: ¿oso polar de piel negra? 🐻‍❄️",
+  "descripcion": "El oso polar: piel negra, pelo transparente y una osa que nadó casi 700 km seguidos. 🐻‍❄️\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #osopolar #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "oso polar",
+   "curiosidades de animales",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

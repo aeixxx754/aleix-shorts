@@ -1,0 +1,55 @@
+{
+ "tema": "El centro de la Tierra",
+ "formato": "datos",
+ "hook_emoji": "🌍",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "misterio",
+ "primer_comentario": "Comenta 🌍 si sabías lo del núcleo sólido",
+ "es": {
+  "hook": [
+   "¿QUÉ HAY EN EL CENTRO DEL PLANETA?",
+   "no te lo imaginas"
+  ],
+  "facts": [
+   [
+    "🕳️",
+    "El pozo más profundo:",
+    "UNOS 12 KM",
+    "ni el 0,2 % del camino al centro"
+   ],
+   [
+    "🔥",
+    "El centro es una bola",
+    "SÓLIDA",
+    "a más de 5.000 °C, por la presión"
+   ],
+   [
+    "🧲",
+    "El hierro líquido crea",
+    "UN ESCUDO",
+    "magnético que nos protege"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Qué hay dentro?",
+   "El pozo más profundo mide doce kilómetros. ¡Poquísimo!",
+   "El centro es sólido, a más de cinco mil grados.",
+   "El metal líquido de alrededor crea nuestro escudo magnético.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Qué hay en el centro de la Tierra? 3 datos 🌍",
+  "descripcion": "El pozo más profundo, el núcleo sólido y el escudo magnético: 3 datos curiosos del centro de la Tierra. 🌍\nSuscríbete para datos nuevos cada día\n\n#Shorts #Tierra #ciencia #datoscuriosos",
+  "tags": [
+   "centro de la Tierra",
+   "núcleo de la Tierra",
+   "curiosidades de la Tierra",
+   "datos curiosos",
+   "sabías que",
+   "ciencia"
+  ]
+ }
+}
