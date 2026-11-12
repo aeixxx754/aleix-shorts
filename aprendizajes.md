@@ -3,6 +3,17 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-12
+- Métricas: Metricool ya trae hasta el 8/11 (18 vídeos ES del 5-8/11). **El 8/11 fue el mejor día del canal**: vof #7 mitos de animales II **1.090**, dinosaurios «¿Qué NO era un dinosaurio?» **909**, vof #6 comida 903, camaleón **871**; en cambio rayos X 107 y luz 72.
+- **Mitos de animales + dinosaurios = lo que más tira**: las dos vof de animales (348 la #1 y 1.090 la #7) y los dinosaurios (554 y 909) son lo más visto de la historia del canal.
+- **«Animales increíbles» despega**: camaleón 871 frente a 83-134 de los episodios #1-#3. Con 4 s vistos (≈ 26 %), igual que las vof (4-5 s ≈ 24-30 %). La retención del 8/11 es la mejor desde el cambio (antes 2-3 s).
+- **Física/luz y efemérides científicas no rinden**: rayos X (Día de la Radiología) 107, luz 72, matemáticas 137. Las efemérides solo funcionaron cuando eran populares (Día de Muertos, cambio de hora).
+- Vídeos largos: siguen casi sin visitas (6-11), aunque quien entra ve 43-49 s.
+- Qué se cambia hoy: vof #11 vuelve a **mitos de animales** (III: perros, serpientes, lobos); «Animales increíbles» #8 repite la prueba de **título en pregunta** («¿un delfín con nombre?») y su gancho pasa de afirmación a pregunta («¿UN DELFÍN CON NOMBRE PROPIO?»). Los «3 datos» con título en pregunta (Luna y dientes) en lugar de física. Idea nueva: primer «3 datos» de **la Luna** (espacio) y primer tema de **dientes**.
+- Verificación: esponjas solo en ~5 % de los delfines de Shark Bay, aprendido de las madres (Krützen 2005, UNSW 2012) → «Algunos se ponen». Lobos: aullar a la Luna es un mito (aúllan para reunir y localizar a la manada). Luna: NASA da ~120 °C de día y −130/−170 °C de noche → «-170 A 120» grados; diámetro 3.475/12.742 ≈ 0,27 → «un cuarto, y un poco más». Esmalte: el tejido más duro, sin células vivas → no se regenera.
+- Tendencias: ninguna apta (12/11: Día Mundial contra la Neumonía, tema delicado). Sin tema de tendencia.
+- Créditos ElevenLabs: 94 % (122.524 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-11
 - Métricas: **por fin hay datos de los Shorts nuevos** (5-7/11; 15 Shorts ES con cifras). Reproducciones: vof #6 comida **890**, nubes 457, hielo 342, anzuelo lugares 214, vof #5 cuerpo 199, idiomas 193, matemáticas 137, pingüino 133, vof #4 mar 128, caballito 127, perezoso 82, luz 69. Los 2 vídeos largos del 5 y 7/11: solo 11 y 5 visitas (aunque se ven 43-57 s de media).
 - **La serie «¿Verdadero o falso?» es la que más tira**: media ~406 visitas y la mejor retención (4 s de 16,4 s ≈ 24 %). **«Animales increíbles» va por detrás** (82-133 visitas, 2-3 s ≈ 13-20 %), pese a que los animales eran lo más visto en el formato antiguo.
