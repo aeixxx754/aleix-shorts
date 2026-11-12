@@ -1,0 +1,65 @@
+{
+ "tema": "Mitos de animales III",
+ "formato": "vof",
+ "episodio": 11,
+ "hook_emoji": "🐺",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "es": {
+  "hook": [
+   "3 MITOS DE ANIMALES: ¿ACIERTAS?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🐶",
+    "Los perros ven en blanco y negro",
+    false,
+    "Ven azules y amarillos; el rojo no lo distinguen"
+   ],
+   [
+    "🐍",
+    "Las serpientes huelen con la lengua",
+    true,
+    "La lengua recoge olores y el paladar los analiza"
+   ],
+   [
+    "🐺",
+    "Los lobos aúllan a la Luna",
+    false,
+    "Aúllan para comunicarse con su manada"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Cuántos mitos aciertas?",
+   [
+    "Los perros ven en blanco y negro.",
+    "¡Falso! Ven azul y amarillo."
+   ],
+   [
+    "Las serpientes huelen con la lengua.",
+    "¡Verdadero! Recoge olores."
+   ],
+   [
+    "Los lobos aúllan a la Luna.",
+    "¡Falso! Se comunican."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #11: mitos de animales III 🐺",
+  "descripcion": "¿Verdadero o falso? Mitos de animales: cómo ven los perros, cómo huelen las serpientes y por qué aúllan los lobos. 🐺\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #animales #datoscuriosos",
+  "tags": [
+   "mitos de animales",
+   "verdadero o falso",
+   "los perros ven en blanco y negro",
+   "lobos y luna",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

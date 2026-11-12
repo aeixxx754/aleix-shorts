@@ -1,0 +1,55 @@
+{
+ "tema": "La Luna",
+ "formato": "datos",
+ "hook_emoji": "🌙",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "primer_comentario": "Comenta 🌙 si sabías por qué vemos siempre la misma cara",
+ "es": {
+  "hook": [
+   "¿POR QUÉ SOLO VES UNA CARA LUNAR?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "🌓",
+    "Siempre ves",
+    "LA MISMA CARA",
+    "gira al ritmo de su vuelta a la Tierra"
+   ],
+   [
+    "🌡️",
+    "Sin aire, pasa de",
+    "-170 A 120",
+    "grados, del frío de la noche al día"
+   ],
+   [
+    "📏",
+    "Su diámetro es",
+    "UN CUARTO",
+    "del de la Tierra, y un poco más"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Una sola cara?",
+   "Ves la misma cara: gira al compás de su órbita.",
+   "Sin aire, pasa de menos 170 a 120 grados.",
+   "Su diámetro supera un cuarto del terrestre.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Por qué solo ves una cara de la Luna? 3 datos 🌙",
+  "descripcion": "Por qué la Luna siempre enseña la misma cara, sus temperaturas extremas y su tamaño: 3 datos curiosos. 🌙\nSuscríbete para datos nuevos cada día\n\n#Shorts #Luna #espacio #datoscuriosos",
+  "tags": [
+   "datos de la luna",
+   "cara de la luna",
+   "curiosidades del espacio",
+   "la luna",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

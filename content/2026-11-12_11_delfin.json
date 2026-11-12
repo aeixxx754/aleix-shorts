@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: el delfín",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 8,
+ "hook_emoji": "🐬",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "comparacion",
+ "primer_comentario": "Comenta 🐬 si sabías que los delfines tienen nombre",
+ "es": {
+  "hook": [
+   "¿UN DELFÍN CON NOMBRE PROPIO?",
+   "igual que tú"
+  ],
+  "facts": [
+   [
+    "🔊",
+    "Cada delfín tiene",
+    "UN NOMBRE",
+    "un silbido propio con el que lo llaman"
+   ],
+   [
+    "🧽",
+    "Algunos se ponen",
+    "UNA ESPONJA",
+    "en el hocico para buscar comida"
+   ],
+   [
+    "👂",
+    "Ven con el",
+    "SONIDO",
+    "lanzan chasquidos y escuchan el eco"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Un delfín con nombre?",
+   "Cada delfín tiene un silbido propio, como un nombre.",
+   "Algunos se ponen esponjas en el hocico para protegerse.",
+   "Y ven con sonido: lanzan chasquidos y escuchan ecos.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #8: ¿un delfín con nombre? 🐬",
+  "descripcion": "El delfín: tiene un silbido que es su nombre, algunos usan esponjas y ven con el sonido. 🐬\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #delfines #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "delfín",
+   "curiosidades de delfines",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}
