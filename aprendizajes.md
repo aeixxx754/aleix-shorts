@@ -3,6 +3,15 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-13
+- Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 8/11 (13 Shorts ES del 6-8/11, los mismos que ayer). Las cifras casi no cambian salvo el anzuelo de lugares (214 → 377) y las nubes (457 → 558): los Shorts siguen sumando días después.
+- Se mantiene lo aprendido: **mitos de animales y dinosaurios** arriba (vof #7 1.090, dinosaurios 909), «Animales increíbles» despegando (camaleón 871), **títulos en pregunta** por encima de los de afirmación (nubes 558 y hielo 345 frente a luz 72 y rayos X 107). Vídeos largos: siguen con muy pocas visitas (6).
+- Los anzuelos «Top 10» rinden como un buen «3 datos» (377): se mantienen.
+- Qué se cambia hoy: «Animales increíbles» #9 con **título en pregunta** («el colibrí, ¿un ave de 2 g?») y gancho `numero` en pregunta («¿80 ALETEOS POR SEGUNDO?»); el «3 datos» del calendario con título en pregunta («¿Por qué noviembre es el mes 11?»). Idea nueva: vof #12 con **plantas** (primer tema de plantas en la serie) y primer vídeo largo de **espacio**.
+- Verificación: colibrí abeja 1,6-2 g (machos; hembras hasta ~2,6) → «unos 2 gramos»; corazón ~1.200-1.260 lpm en vuelo → «más de 1.000». Madera: ~95 % de la masa seca sale del CO2 y del agua (Van Helmont, MSU) → FALSO confirmado. Segundo = 9.192.631.770 periodos del cesio-133 → «9.192 MILLONES» en pantalla. Titán: añadido «conocido» (único otro lugar conocido con líquidos estables en la superficie); estrellas de neutrones «pueden pesar más que el Sol». Voyager 1: NASA/JPL confirma 1 día-luz el 18/11/2026. Emoji 📅 descartado porque muestra «July 17» (se usa 🗓️).
+- Tendencias: **Voyager 1 a un día-luz (18/11)** está en las noticias → punto #4 del vídeo largo y #Voyager1 en su descripción. Día Mundial de la Bondad (13/11): sin datos curiosos claros, no usado.
+- Créditos ElevenLabs: 93 % (122.222 de 131.000) antes de renderizar, 92 % después; se renuevan el 2026-12-02.
+
 ## 2026-11-12
 - Métricas: Metricool ya trae hasta el 8/11 (18 vídeos ES del 5-8/11). **El 8/11 fue el mejor día del canal**: vof #7 mitos de animales II **1.090**, dinosaurios «¿Qué NO era un dinosaurio?» **909**, vof #6 comida 903, camaleón **871**; en cambio rayos X 107 y luz 72.
 - **Mitos de animales + dinosaurios = lo que más tira**: las dos vof de animales (348 la #1 y 1.090 la #7) y los dinosaurios (554 y 909) son lo más visto de la historia del canal.
