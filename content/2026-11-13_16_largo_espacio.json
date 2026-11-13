@@ -1,0 +1,130 @@
+{
+ "tipo": "largo",
+ "tema": "10 cosas del espacio que parecen inventadas",
+ "hook_emoji": "🚀",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#6200EA",
+    "#FF6D00"
+   ],
+   "composicion": "emoji-derecha",
+   "emoji": "🪐",
+   "etiqueta": "TOP 10",
+   "texto": "¿ESTO ES REAL?"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#FF6D00",
+     "#B71C1C"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "💫",
+    "etiqueta": "#1 TE SORPRENDE",
+    "texto": "1.000 MILLONES DE TONELADAS"
+   },
+   {
+    "colores": [
+     "#00BFA5",
+     "#1A237E"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🌌",
+    "etiqueta": "",
+    "texto": "EL ESPACIO NO ES NORMAL"
+   }
+  ],
+  "intro": {
+   "emoji": "🚀",
+   "texto": [
+    "10 COSAS DEL ESPACIO",
+    "el número 1 es el más increíble"
+   ],
+   "voz": "El espacio es tan enorme y tan raro que a veces cuesta creer que sea real. Hay planetas con atardeceres azules, lluvias de gas y una nave que lleva casi cincuenta años viajando. En este vídeo descubrirás diez cosas del espacio que parecen inventadas. Quédate hasta el final, porque el número uno es el más increíble de todos."
+  },
+  "items": [
+   {
+    "emoji": "🪐",
+    "titulo": "Un día dura más que un año",
+    "texto": "En Mercurio, de amanecer a amanecer pasan 176 días.",
+    "voz": "Número 10: Mercurio. Es el planeta más cercano al Sol y da una vuelta completa a su alrededor en solo 88 días terrestres. Pero gira muy despacio sobre sí mismo. Por eso, entre un amanecer y el siguiente pasan unos 176 días: en Mercurio, un día dura el doble que un año. Un calendario que volvería loco a cualquiera."
+   },
+   {
+    "emoji": "🛰️",
+    "titulo": "16 amaneceres al día",
+    "texto": "La Estación Espacial da una vuelta a la Tierra en 90 min.",
+    "voz": "Número 9: la Estación Espacial Internacional. Viaja a unos 28.000 kilómetros por hora y da una vuelta a la Tierra cada hora y media. Por eso los astronautas ven unos 16 amaneceres y 16 atardeceres cada día. Imagina ver salir el Sol una y otra vez mientras desayunas. Y lleva más de veinte años habitada sin parar."
+   },
+   {
+    "emoji": "🔴",
+    "titulo": "Atardeceres azules",
+    "texto": "En Marte el cielo es canela, pero el Sol se pone azul.",
+    "voz": "Número 8: los atardeceres de Marte. En la Tierra, el cielo es azul de día y rojizo al atardecer. En Marte pasa justo al revés: de día el cielo es de color canela, pero al atardecer aparece un resplandor azul alrededor del Sol. Lo han fotografiado los robots que exploran su superficie. Un atardecer azul en otro planeta."
+   },
+   {
+    "emoji": "⭐",
+    "titulo": "La luz del pasado",
+    "texto": "La luz de Sirio tarda casi 9 años en llegar a ti.",
+    "voz": "Número 7: la luz del pasado. Sirio es la estrella más brillante del cielo nocturno, y está a unos ocho años luz y medio de nosotros. Eso significa que su luz tarda unos ocho años y medio en llegar hasta tus ojos. Cuando la miras, no ves la estrella de hoy, sino la de hace casi nueve años. Mirar el cielo es viajar al pasado."
+   },
+   {
+    "emoji": "🌌",
+    "titulo": "Más pesado que todos juntos",
+    "texto": "Júpiter pesa más que los demás planetas juntos.",
+    "voz": "Número 6: Júpiter. Es tan grande que dentro cabrían más de mil Tierras. Y tiene más masa que todos los demás planetas juntos: unas dos veces y media más. Si juntaras Mercurio, Venus, la Tierra, Marte, Saturno, Urano y Neptuno, Júpiter seguiría pesando más. Es un gigante de gas con decenas de lunas a su alrededor."
+   },
+   {
+    "emoji": "🌧️",
+    "titulo": "Lluvia de metano",
+    "texto": "Titán tiene ríos y lagos de gas líquido.",
+    "voz": "Número 5: Titán, la luna más grande de Saturno. Es el único lugar conocido, además de la Tierra, con lagos y ríos en su superficie. Pero no son de agua: son de metano y etano líquidos. Allí hace tanto frío, unos 180 grados bajo cero, que incluso llueve metano. Y su atmósfera es más densa que la nuestra. Un mundo muy extraño."
+   },
+   {
+    "emoji": "🚀",
+    "titulo": "La nave más lejana",
+    "texto": "Voyager 1 está a unos 25.900 millones de km.",
+    "voz": "Número 4: la nave Voyager 1. Se lanzó en 1977 y sigue viajando, ya fuera de nuestro sistema solar. Este mes de noviembre llega a unos 25.900 millones de kilómetros de la Tierra. Una distancia tan enorme que sus señales de radio tardan un día entero en llegar hasta nosotros. Es el objeto fabricado por humanos que más lejos ha llegado."
+   },
+   {
+    "emoji": "☀️",
+    "titulo": "Un millón de Tierras",
+    "texto": "Dentro del Sol cabrían unos 1,3 millones de Tierras.",
+    "voz": "Número 3: el Sol. Para nosotros es una bola de fuego en el cielo, pero es enorme. Dentro de él cabrían más de un millón de Tierras: unas 1,3 millones. Y, sin embargo, el Sol es solo una estrella normal y corriente. Hay estrellas mucho más grandes, que hacen que nuestro Sol parezca pequeño. El espacio es difícil de imaginar."
+   },
+   {
+    "emoji": "🕳️",
+    "titulo": "Ni la luz escapa",
+    "texto": "Su gravedad es tan fuerte que atrapa hasta la luz.",
+    "voz": "Número 2: los agujeros negros. Son lugares con una gravedad tan fuerte que nada puede escapar de ellos, ni siquiera la luz. Por eso son negros: no devuelven luz alguna. En 2019, los científicos lograron la primera imagen de la sombra de uno, en una galaxia lejana. En el centro de la nuestra hay otro, con la masa de unos cuatro millones de Soles."
+   },
+   {
+    "emoji": "💫",
+    "titulo": "Mil millones de toneladas",
+    "texto": "Una cucharadita de estrella de neutrones lo pesa.",
+    "voz": "Número 1: las estrellas de neutrones. Son lo que queda de una estrella gigante cuando explota. Miden unos veinte kilómetros, como una ciudad, pero pueden pesar más que el Sol. Una sola cucharadita de su materia pesaría más de mil millones de toneladas. Y algunas giran cientos de veces por segundo, como una batidora cósmica. Lo más increíble del espacio, y es real."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez cosas te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "10 cosas del espacio que parecen inventadas 🚀",
+  "descripcion": "Diez cosas reales del espacio que parecen sacadas de una película: atardeceres azules, lluvia de metano, una nave a 25.900 millones de km y una cucharadita que pesa mil millones de toneladas. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:22 #10 Un día dura más que un año\n0:47 #9 16 amaneceres al día\n1:11 #8 Atardeceres azules\n1:34 #7 La luz del pasado\n1:59 #6 Más pesado que todos juntos\n2:23 #5 Lluvia de metano\n2:49 #4 La nave más lejana\n3:15 #3 Un millón de Tierras\n3:40 #2 Ni la luz escapa\n4:06 #1 Mil millones de toneladas\n4:32 Final\n\n#espacio #Voyager1 #datoscuriosos #curiosidades",
+  "tags": [
+   "espacio",
+   "curiosidades del espacio",
+   "espacio increíble",
+   "top 10",
+   "datos curiosos",
+   "Voyager 1",
+   "agujero negro",
+   "estrella de neutrones"
+  ],
+  "primer_comentario": "¿Cuál es tu favorita del espacio? Comenta su número 👇"
+ }
+}

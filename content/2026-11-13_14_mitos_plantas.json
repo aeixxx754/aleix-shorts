@@ -1,0 +1,65 @@
+{
+ "tema": "Mitos de las plantas",
+ "formato": "vof",
+ "episodio": 12,
+ "hook_emoji": "🌱",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "es": {
+  "hook": [
+   "3 MITOS DE PLANTAS: ¿ACIERTAS?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🍄",
+    "Los champiñones son plantas",
+    false,
+    "Son hongos: otro reino, sin fotosíntesis"
+   ],
+   [
+    "🪴",
+    "Hay plantas que comen insectos",
+    true,
+    "La atrapamoscas los atrapa y los digiere"
+   ],
+   [
+    "🌳",
+    "La madera de un árbol sale de la tierra",
+    false,
+    "Sale sobre todo del aire y del agua"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Aciertas estos mitos?",
+   [
+    "Los champiñones son plantas.",
+    "¡Falso! Son hongos."
+   ],
+   [
+    "Hay plantas que comen insectos.",
+    "¡Verdadero! Los digieren."
+   ],
+   [
+    "La madera sale de la tierra.",
+    "¡Falso! Sale del aire."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #12: mitos de las plantas 🌱",
+  "descripcion": "¿Verdadero o falso? Mitos de las plantas: champiñones, plantas que comen insectos y de dónde sale la madera. 🌱\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #plantas #datoscuriosos",
+  "tags": [
+   "mitos de plantas",
+   "verdadero o falso",
+   "plantas carnívoras",
+   "champiñones",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

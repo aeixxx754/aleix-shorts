@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: el colibrí",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 9,
+ "hook_emoji": "🐦",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "primer_comentario": "Comenta 🐦 si sabías lo del corazón",
+ "es": {
+  "hook": [
+   "¿80 ALETEOS POR SEGUNDO?",
+   "el ave que parece un insecto"
+  ],
+  "facts": [
+   [
+    "🪶",
+    "Bate las alas hasta",
+    "80 VECES",
+    "por segundo, según la especie"
+   ],
+   [
+    "❤️",
+    "Su corazón late",
+    "MÁS DE 1.000",
+    "veces por minuto cuando vuela"
+   ],
+   [
+    "🐦",
+    "El colibrí abeja pesa",
+    "UNOS 2 GRAMOS",
+    "el ave más pequeña del mundo, de Cuba"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Ochenta aleteos?",
+   "Bate las alas hasta ochenta veces por segundo.",
+   "Su corazón late más de mil veces por minuto.",
+   "El colibrí abeja pesa unos dos gramos.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #9: el colibrí, ¿un ave de 2 g? 🐦",
+  "descripcion": "El colibrí: alas que baten hasta 80 veces por segundo, un corazón a más de 1.000 latidos por minuto y el ave más pequeña del mundo. 🐦\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #colibri #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "colibrí",
+   "curiosidades de animales",
+   "datos de aves",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}
