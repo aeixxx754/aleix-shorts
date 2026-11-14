@@ -1,0 +1,57 @@
+{
+ "tema": "Animales increíbles: el Velociraptor",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 10,
+ "hook_emoji": "🦖",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "comparacion",
+ "primer_comentario": "Comenta 🦖 si lo sabías",
+ "es": {
+  "hook": [
+   "¿UN DINOSAURIO COMO UN PAVO?",
+   "más pequeño de lo que crees"
+  ],
+  "facts": [
+   [
+    "🦃",
+    "Era del tamaño de",
+    "UN PAVO",
+    "unos 2 m con la cola y 15-20 kg"
+   ],
+   [
+    "🪶",
+    "Tenía los brazos con",
+    "PLUMAS",
+    "lo prueban marcas en un fósil"
+   ],
+   [
+    "🏜️",
+    "Su nombre significa",
+    "LADRÓN VELOZ",
+    "hace 75 millones de años, en Mongolia"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Pequeño como un pavo?",
+   "Era del tamaño de un pavo: unos quince kilos.",
+   "Tenía plumas: lo prueban marcas en sus huesos.",
+   "Su nombre significa ladrón veloz. Vivió en Mongolia.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #10: ¿Velociraptor con plumas? 🦖",
+  "descripcion": "El Velociraptor: del tamaño de un pavo, con plumas y de nombre «ladrón veloz». 🦖\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #dinosaurios #animales #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "velociraptor",
+   "curiosidades de dinosaurios",
+   "datos de dinosaurios",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

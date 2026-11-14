@@ -1,0 +1,65 @@
+{
+ "tema": "Mitos del cuerpo II",
+ "formato": "vof",
+ "episodio": 13,
+ "hook_emoji": "🖐️",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "es": {
+  "hook": [
+   "¿CREES ESTOS 3 MITOS DEL CUERPO?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "👊",
+    "Crujirse los nudillos da artritis",
+    false,
+    "Es solo gas: no se ha probado relación"
+   ],
+   [
+    "🖐️",
+    "Las huellas dactilares se forman antes de nacer",
+    true,
+    "Aparecen en el vientre, hacia el 4.º mes"
+   ],
+   [
+    "💧",
+    "Los dedos se arrugan porque se empapan de agua",
+    false,
+    "Lo provocan los nervios, que cierran vasos"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Cuántos mitos aciertas?",
+   [
+    "Crujir nudillos da artritis.",
+    "¡Falso! Solo es gas."
+   ],
+   [
+    "Las huellas nacen antes que tú.",
+    "¡Verdadero! En el vientre."
+   ],
+   [
+    "Los dedos se arrugan por empaparse.",
+    "¡Falso! Son los nervios."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #13: mitos del cuerpo II 🖐️",
+  "descripcion": "¿Verdadero o falso? Mitos del cuerpo: los nudillos, las huellas dactilares y los dedos arrugados. 🖐️\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #cuerpohumano #datoscuriosos",
+  "tags": [
+   "mitos del cuerpo",
+   "verdadero o falso",
+   "crujir los nudillos",
+   "huellas dactilares",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
