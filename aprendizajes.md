@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-14
+- Métricas: **llegan datos del 9/11** (14 vídeos del 7-9/11). Del 9/11: gato (Animales #5) **359**, desiertos 79, vof #8 mitos de la ciencia **57**, anzuelo récords 38, vídeo largo de récords 13. Siguen subiendo los del 8/11: vof #7 mitos de animales II **1.340**, dinosaurios 910, camaleón 878; vof #6 comida 913.
+- **«Animales increíbles» se consolida** (gato 359, camaleón 878 frente a 82-133 de los primeros episodios); retención ~4 s de 15,2 s (≈ 26 %), igual que las vof.
+- **La vof depende del tema**: animales (1.340) y comida (913) arriba; ciencia abstracta (rayos/plátanos/cerebro, 57) se hunde. Cuerpo (#5, 199) queda en medio.
+- Desiertos (79) y anzuelos (38) del 9/11 flojos; los vídeos largos siguen casi sin visitas (7-13) aunque se ven 42-57 s.
+- Qué se cambia hoy: «Animales increíbles» #10 con **dinosaurio** (Velociraptor: dinosaurios y animales son lo que más tira) y título en pregunta («¿Velociraptor con plumas?»); el gancho del «3 datos» de los ojos pasa de afirmación a **pregunta sobre ti** («¿TUS OJOS VEN TODO AL REVÉS?»). La vof #13 se queda en mitos del cuerpo cotidianos (nudillos, huellas, dedos arrugados), no en ciencia abstracta. Idea nueva: primeros temas de **ojos** y **nieve** (estacional, llega el invierno).
+- Verificación: dedos arrugados: depende del sistema nervioso simpático (Lewis y Pickering 1936: no se arrugan con el nervio mediano dañado; Wilder-Smith 2003-2004: vasoconstricción) → FALSO confirmado. Velociraptor ~2 m con la cola y 15-20 kg; nudos de plumas (Turner 2007); Mongolia ~75 M años. Voz vof frase 2 acortada («Crujir nudillos da artritis.»).
+- Tendencias: 14/11 Día Mundial de la Diabetes (tema de salud delicado para datos curiosos) → no usado. Sin tema de tendencia.
+- Créditos ElevenLabs: 92 % (120.212 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-13
 - Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 8/11 (13 Shorts ES del 6-8/11, los mismos que ayer). Las cifras casi no cambian salvo el anzuelo de lugares (214 → 377) y las nubes (457 → 558): los Shorts siguen sumando días después.
 - Se mantiene lo aprendido: **mitos de animales y dinosaurios** arriba (vof #7 1.090, dinosaurios 909), «Animales increíbles» despegando (camaleón 871), **títulos en pregunta** por encima de los de afirmación (nubes 558 y hielo 345 frente a luz 72 y rayos X 107). Vídeos largos: siguen con muy pocas visitas (6).
