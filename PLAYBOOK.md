@@ -52,13 +52,29 @@ más variados y muy cuidados. Una sola ejecución por la mañana lo crea y progr
 - **Aplicarlo hoy**: repetir categorías y estilos de gancho que funcionan, abandonar los que fallan varias veces,
   y probar siempre al menos 1 idea nueva al día (tema, gancho o horario) para seguir aprendiendo.
 
-## 1c. Tendencias del día
-- Buscar con WebSearch qué es tendencia **hoy** en España y Latinoamérica, sobre todo temas aptos para todas las edades:
-  fechas especiales (Halloween, Navidad, Día de la Tierra, eclipses, lanzamientos espaciales, Mundial, Juegos Olímpicos…),
-  noticias científicas o de animales, retos virales sin riesgo. Ejemplos de búsqueda: "trending today", "efemérides hoy",
-  "YouTube Shorts trending hashtags", "tendencias hoy España".
-- Si hay una tendencia apta, dedicarle **uno de los temas** (con datos igual de verificados).
-- Anotar en `aprendizajes.md` las tendencias usadas, para comparar luego si rindieron más.
+## 1c. Tendencias del día (DECIDEN LOS TEMAS desde el 14/11/2026)
+Decisión de Aleix: **los Shorts y el vídeo largo se hacen sobre el nicho que esté en tendencia en ese momento.**
+- Buscar con WebSearch qué es tendencia **hoy** (y en las últimas 24-48 h) en España y Latinoamérica: "tendencias hoy
+  España", "Google Trends hoy", "lo más buscado hoy", "trending YouTube España", "noticias de ciencia hoy", "noticias de
+  animales hoy", "efemérides hoy", estrenos de películas y series familiares, eventos deportivos, fenómenos del cielo,
+  descubrimientos, retos virales, fechas especiales (Halloween, Navidad, Black Friday, Día de la Tierra…).
+- Elegir **el nicho de tendencia más fuerte que se pueda contar como datos curiosos aptos para todas las edades** y, si
+  hay, un segundo. Se habla del **tema**, nunca de personas, marcas ni personajes con derechos: p. ej. si es tendencia
+  un partido de fútbol → datos curiosos del fútbol o del balón; un estreno de una película de dinosaurios → dinosaurios;
+  una tormenta → rayos y tormentas; un lanzamiento espacial → cohetes; Black Friday → inventos o récords de compras sin
+  marcas. Nada de política, sucesos, guerras, accidentes, catástrofes con víctimas, famosos ni polémicas.
+- Reparto del día:
+  - **Vídeo largo** (los días que toca): «top 10» del nicho de tendencia principal.
+  - **¿Verdadero o falso?**: mitos del nicho de tendencia.
+  - **«3 datos» 17:00**: nicho de tendencia (principal o el segundo).
+  - **Animales increíbles**: el animal relacionado con la tendencia si lo hay (p. ej. un animal que sale en noticias o
+    en un estreno); si no, el animal más llamativo posible (lo que mejor funciona).
+  - **«3 datos» 20:00** (o el anzuelo los días de vídeo largo): otro ángulo de la tendencia o, si no hay más, lo que
+    mejor funciona según los datos (animales, dinosaurios, mitos de cosas cotidianas).
+- **Si no hay ninguna tendencia apta**, usar lo que mejor funciona según los datos y decirlo en el aviso.
+- Si el plan de la oficina se hizo anoche y por la mañana ha surgido una tendencia nueva más fuerte, se puede cambiar
+  UN tema (con datos igual de verificados), nunca a costa de la veracidad.
+- Anotar en `aprendizajes.md` la tendencia usada en cada vídeo, para comparar luego si rindieron más.
 
 ## 2. Elegir los 4 temas (y el del vídeo largo) y sus datos
 - **Si hay plan de la oficina para hoy, es el punto de partida**: sus 4 temas, horas, ganchos (`gancho`) y datos, y su
