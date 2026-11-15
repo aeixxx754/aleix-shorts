@@ -1,0 +1,58 @@
+{
+ "tema": "Animales increíbles: el perro",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 11,
+ "hook_emoji": "🐶",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "tendencia": "animales (lo que mejor funciona)",
+ "primer_comentario": "Comenta 🐶 si tienes perro",
+ "es": {
+  "hook": [
+   "¿UN PERRO QUE SABE 1.022 NOMBRES?",
+   "y su nariz es aún mejor"
+  ],
+  "facts": [
+   [
+    "🧸",
+    "Una perra aprendió",
+    "1.022 NOMBRES",
+    "de juguetes, uno a uno"
+   ],
+   [
+    "👃",
+    "Su nariz tiene hasta",
+    "300 MILLONES",
+    "de receptores; tú, unos 6 millones"
+   ],
+   [
+    "🐾",
+    "Suda por las",
+    "ALMOHADILLAS",
+    "pero se refresca sobre todo jadeando"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Mil nombres de juguetes?",
+   "La perra Chaser aprendió mil veintidós nombres de juguetes.",
+   "Tiene hasta trescientos millones de receptores del olfato.",
+   "Suda por las almohadillas, pero se refresca jadeando.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #11: ¿un perro con 1.022 palabras? 🐶",
+  "descripcion": "El perro: una perra que aprendió 1.022 nombres, un olfato increíble y cómo se refresca. 🐶\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #perros #animales #datoscuriosos",
+  "tags": [
+   "animales increíbles",
+   "perro",
+   "curiosidades de perros",
+   "datos de mascotas",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

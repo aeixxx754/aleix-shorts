@@ -3,6 +3,15 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-15
+- Métricas: Metricool trae ya **hasta el 10/11**, pero los del 10/11 aún casi vacíos (2-9 visitas: piel, sonido, vof #9 Tierra, tortuga): sin conclusiones sobre ellos. Siguen subiendo: vof #7 mitos de animales II **1.438**, dinosaurios 911, camaleón 880, gato (Animales #5) **440**; desiertos 79, vof #8 ciencia 58, anzuelo récords 46, vídeo largo de récords 13 (57 s vistos de media).
+- Se confirma: **animales y mitos de animales** son lo que más tira; la ciencia abstracta, lo que menos. Los vídeos largos siguen sin despegar en visitas, aunque quien entra se queda ~1 min.
+- Tendencia frente a no tendencia: aún no hay datos de vídeos hechos sobre una tendencia (la decisión es del 14/11); hoy primera prueba clara: **Leónidas** (17:00) frente a animales sin tendencia.
+- Qué se cambia hoy: vof #14 vuelve a **mitos de animales** (koala, abeja, pajarito); «Animales increíbles» #11 con una **mascota** (el perro, como el gato que fue bien) y gancho `numero` en pregunta; el «3 datos» de las Leónidas con **título en pregunta + palabras que se buscan** («¿Qué es una estrella fugaz? Leónidas 2026»). Vídeo largo de **animales del mar** (animales = lo que mejor rinde). Idea nueva: primer Short sobre una **tendencia del cielo**.
+- Verificación: Leónidas a ~71 km/s (IMO, Star Walk), cometa 55P/Tempel-Tuttle (NASA), máximo noche del 17 al 18/11 (IGN). Chaser 1.022 nombres (Pilley y Reid 2011); perro hasta ~300 M receptores olfativos frente a ~6 M (NOVA/PBS). Pajarito: se quita «las aves huelen muy poco» (discutido: muchas aves sí huelen) y se deja «tu olor no hace que lo abandonen». Voces acortadas: perro dato 2 y gancho de las Leónidas.
+- Tendencias: Leónidas (máximo 17-18/11) en las guías de observación; por la mañana no hay otra tendencia apta más fuerte (lo demás es política). Tendencia por vídeo: 11 h perro (sin tendencia, animales), 14 h vof (sin tendencia, animales), **16 h largo mar (sin tendencia, animales)**, **17 h Leónidas (tendencia)**, 20 h anzuelo mar (sin tendencia).
+- Créditos ElevenLabs: 92 % (119.872 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-14
 - Métricas: **llegan datos del 9/11** (14 vídeos del 7-9/11). Del 9/11: gato (Animales #5) **359**, desiertos 79, vof #8 mitos de la ciencia **57**, anzuelo récords 38, vídeo largo de récords 13. Siguen subiendo los del 8/11: vof #7 mitos de animales II **1.340**, dinosaurios 910, camaleón 878; vof #6 comida 913.
 - **«Animales increíbles» se consolida** (gato 359, camaleón 878 frente a 82-133 de los primeros episodios); retención ~4 s de 15,2 s (≈ 26 %), igual que las vof.

@@ -1,0 +1,131 @@
+{
+ "tipo": "largo",
+ "tema": "10 animales del mar que parecen de otro mundo",
+ "hook_emoji": "🦑",
+ "cat": "PETS_ANIMALS",
+ "tendencia": "animales (lo que mejor funciona)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#00BFA5",
+    "#1A237E"
+   ],
+   "composicion": "emoji-izquierda",
+   "emoji": "🦑",
+   "etiqueta": "TOP 10",
+   "texto": "¿ESTO VIVE EN EL MAR?"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#FF6D00",
+     "#6A1B9A"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🐙",
+    "etiqueta": "#1 TE SORPRENDE",
+    "texto": "EL #1 PARECE UN ALIEN"
+   },
+   {
+    "colores": [
+     "#FFD600",
+     "#D50000"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "🐳",
+    "etiqueta": "¿REAL?",
+    "texto": "MÁS GRANDE QUE UN DINOSAURIO"
+   }
+  ],
+  "intro": {
+   "emoji": "🌊",
+   "texto": [
+    "10 ANIMALES DEL MAR",
+    "el número 1 es el más misterioso"
+   ],
+   "voz": "El océano esconde criaturas tan raras que parecen de otro planeta. Hay peces que cambian de sexo, pulpos que imitan a otros animales y gigantes más grandes que los dinosaurios. En este vídeo descubrirás diez animales del mar que parecen de otro mundo. Quédate hasta el final, porque el número uno es el más misterioso de todos."
+  },
+  "items": [
+   {
+    "emoji": "🐡",
+    "titulo": "Se hincha como un globo",
+    "texto": "Traga agua y casi duplica su tamaño.",
+    "voz": "Número 10: el pez globo. Es pequeño y lento, pero tiene un truco genial. Cuando se asusta, traga agua muy deprisa y se hincha como un globo, hasta casi duplicar su tamaño. Así parece una bola imposible de tragar para otros peces. Cuando el peligro pasa, vuelve a su forma normal. Es como si inflaras una pelota con la boca en solo unos segundos."
+   },
+   {
+    "emoji": "🦦",
+    "titulo": "El pelo más denso",
+    "texto": "Más de 100.000 pelos en un solo cm².",
+    "voz": "Número 9: la nutria marina. Vive en las aguas heladas del Pacífico norte y no tiene capa de grasa para abrigarse. Su secreto es el pelo más denso de todos los animales: más de cien mil pelos en un solo centímetro cuadrado. Es como llevar una manta gigante pegada al cuerpo. Y duerme flotando, a veces agarrada de la mano de otra nutria."
+   },
+   {
+    "emoji": "🐠",
+    "titulo": "Nacen todos machos",
+    "texto": "El más grande del grupo se hace hembra.",
+    "voz": "Número 8: el pez payaso. Vive entre los tentáculos de las anémonas, que pican a casi todos los peces, pero a él no le hacen nada. Y tiene una vida de película: todos nacen machos, y el más grande del grupo se convierte en hembra. Si ella falta, el macho más grande ocupa su lugar. Una familia con unas reglas muy raras."
+   },
+   {
+    "emoji": "🐙",
+    "titulo": "El maestro del disfraz",
+    "texto": "Imita a un pez león y a una serpiente marina.",
+    "voz": "Número 7: el pulpo mimético. Se descubrió en 1998, en Indonesia, y es un maestro del disfraz. Puede imitar a otros animales del mar: un pez león, una serpiente marina o un pez plano. Cambia su forma y su manera de moverse según el peligro que tenga cerca. Es como un actor con mil papeles que nunca se queda sin ideas."
+   },
+   {
+    "emoji": "🐟",
+    "titulo": "Vuela bajo el agua",
+    "texto": "Hasta unos 7 m de punta a punta de aletas.",
+    "voz": "Número 6: la manta raya gigante. Es la raya más grande del mundo: puede medir unos siete metros de punta a punta de sus aletas, más que una furgoneta. Se mueve aleteando como si volara bajo el agua. Y, a pesar de su tamaño, solo se alimenta de plancton diminuto que filtra del mar. Un gigante muy tranquilo."
+   },
+   {
+    "emoji": "🐬",
+    "titulo": "No es una ballena",
+    "texto": "Es el delfín más grande y cada familia tiene dialecto.",
+    "voz": "Número 5: la orca. Aunque parezca una ballena, en realidad es el delfín más grande del mundo. Vive en familias que suelen quedarse juntas durante muchos años. Y cada familia tiene su propio dialecto: unos sonidos que solo ellas usan para comunicarse. Es como si cada familia hablara su propio idioma secreto bajo el agua."
+   },
+   {
+    "emoji": "🦈",
+    "titulo": "Un dibujo único en la piel",
+    "texto": "Es el pez más grande: unos 12 m.",
+    "voz": "Número 4: el tiburón ballena. Es el pez más grande del mundo: puede medir unos doce metros, como un autobús. Pero no te asustes, porque se alimenta de plancton y de animalitos diminutos. Y tiene en la piel un dibujo de manchas que es único en cada individuo, como una huella dactilar. Un gigante amable que nada despacio por los mares cálidos."
+   },
+   {
+    "emoji": "🐳",
+    "titulo": "El cerebro más grande",
+    "texto": "Pesa unos 8 kg y bucea a más de 1.000 m.",
+    "voz": "Número 3: el cachalote. Tiene el cerebro más grande de todos los animales: pesa unos ocho kilos, más de cinco veces el de una persona. Bucea a más de mil metros de profundidad, en una oscuridad total. Y allí se orienta con unos clics muy potentes, de los sonidos más fuertes que produce un animal. Un buceador increíble."
+   },
+   {
+    "emoji": "🐋",
+    "titulo": "El mayor animal de siempre",
+    "texto": "Unos 30 m y unas 150 toneladas.",
+    "voz": "Número 2: la ballena azul. Es el animal más grande que ha existido jamás, incluso más que los dinosaurios: puede medir unos treinta metros y pesar unas ciento cincuenta toneladas. Su canto se oye a muchos kilómetros de distancia. Y, aun así, se alimenta de bichitos diminutos llamados krill. Un gigante que come cosas minúsculas."
+   },
+   {
+    "emoji": "🦑",
+    "titulo": "Ojos como un plato",
+    "texto": "Unos 13 m y se grabó vivo en 2012.",
+    "voz": "Número 1: el calamar gigante. Vive en lo más profundo del océano y durante siglos se creyó una leyenda. Puede medir unos trece metros y tiene de los ojos más grandes del reino animal: casi tan grandes como un plato. Nadie lo grabó vivo en su hogar hasta 2012. Parece de otro mundo, pero es totalmente real."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estos diez animales del mar te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "10 animales del mar que parecen de otro mundo 🌊",
+  "descripcion": "Diez animales del mar que parecen de otro mundo: peces que cambian de sexo, un pulpo disfrazado, el cerebro más grande del planeta y un gigante de ojos como platos. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:23 #10 Se hincha como un globo\n0:48 #9 El pelo más denso\n1:12 #8 Nacen todos machos\n1:35 #7 El maestro del disfraz\n2:00 #6 Vuela bajo el agua\n2:23 #5 No es una ballena\n2:46 #4 Un dibujo único en la piel\n3:11 #3 El cerebro más grande\n3:36 #2 El mayor animal de siempre\n4:01 #1 Ojos como un plato\n4:24 Final\n\n#mar #animales #datoscuriosos #curiosidades",
+  "tags": [
+   "animales del mar",
+   "curiosidades del océano",
+   "animales increíbles",
+   "top 10",
+   "datos curiosos",
+   "calamar gigante",
+   "ballena azul",
+   "cachalote"
+  ],
+  "primer_comentario": "¿Cuál es tu animal favorito del mar? Comenta su número 👇"
+ }
+}

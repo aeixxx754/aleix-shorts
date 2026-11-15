@@ -1,0 +1,66 @@
+{
+ "tema": "Mitos de animales IV",
+ "formato": "vof",
+ "episodio": 14,
+ "hook_emoji": "🐨",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "reto",
+ "tendencia": "animales (lo que mejor funciona)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "es": {
+  "hook": [
+   "¿ACIERTAS ESTOS 3 MITOS ANIMALES?",
+   "el último engaña a casi todos"
+  ],
+  "facts": [
+   [
+    "🐨",
+    "Los koalas son un tipo de oso",
+    false,
+    "Son marsupiales: crían en una bolsa"
+   ],
+   [
+    "🐝",
+    "La abeja de la miel muere si te pica",
+    true,
+    "Su aguijón con ganchos se queda clavado"
+   ],
+   [
+    "🐣",
+    "Si tocas un pajarito, sus padres lo abandonan",
+    false,
+    "Tu olor no hace que lo abandonen"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Aciertas estos mitos?",
+   [
+    "Los koalas son osos.",
+    "¡Falso! Son marsupiales."
+   ],
+   [
+    "La abeja muere al picarte.",
+    "¡Verdadero! Pierde el aguijón."
+   ],
+   [
+    "Si lo tocas, lo abandonan.",
+    "¡Falso! No lo abandonan."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #14: mitos de animales IV 🐨",
+  "descripcion": "¿Verdadero o falso? Mitos de animales: los koalas, las abejas y los pajaritos. 🐨\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #animales #datoscuriosos",
+  "tags": [
+   "mitos de animales",
+   "verdadero o falso",
+   "koala",
+   "abejas",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
