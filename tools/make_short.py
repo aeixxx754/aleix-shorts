@@ -26,6 +26,7 @@ BUBBLE_MODE = "bubbles"
 FORMATO = "datos"
 EPISODIO = None
 SERIE_NOMBRE = None
+CLIPS = None       # 5 búsquedas de Pexels (una por escena) para fondos de vídeo real; None = fondo de color
 DUR_VOF = [1.6, 4.4, 4.4, 4.4, 1.6]   # 16,4 s: afirmación, cuenta atrás rápida y revelación
 VOF_COUNT, VOF_STEP, VOF_REVEAL = 0.8, 0.5, 2.3   # cuenta atrás 3-2-1 desde 0,8 s (0,5 s por número) y revelación a 2,3 s
 VOF_PALETTE = ((30, 27, 75), (88, 60, 200))  # índigo fijo: identidad visual de la serie
@@ -126,8 +127,24 @@ def render(lang, outdir):
     T = TEXT[lang]; total = sum(DUR)
     bgs = [gradient(*p).convert("RGBA") for p in PALETTES]
     files = []; gstart = 0.0
+    S = None
+    if CLIPS:
+        import stock as S
+        falta = S.disponible()
+        print("clips: NO (" + falta + ")" if falta else "clips: sí · Pexels")
+        if falta: S = None
+    usados = []; primero = None
     for si, dur in enumerate(DUR):
         n = int(round(dur * FPS))
+        fondo = None   # generador de fotogramas del clip real de esta escena
+        q = CLIPS[si] if (S and si < len(CLIPS)) else None
+        if q:
+            c = S.clip(q, minimo=min(4.0, dur), evitar=usados)
+            if c:
+                usados.append(c[1]); print(f"clip escena {si + 1}: «{q}» · Pexels {c[1]} · {c[2]}")
+                fondo = S.fotogramas(c[0], dur, W, H, FPS, tinte=PALETTES[si][0])
+            else:
+                print(f"clip escena {si + 1}: «{q}» sin resultado; fondo de color")
         tmp = os.path.join(outdir, f"{lang}_s{si}.tmp.mp4"); fin = tmp.replace(".tmp", "")
         p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
             "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
@@ -172,7 +189,11 @@ def render(lang, outdir):
             ysub = 1040 + L1.height / 2 + L2.height + 30 + 36 + SUB.height / 2
         for i in range(n):
             t = i / FPS; gt = gstart + t
-            fr = bgs[si].copy(); bubbles(fr, gt, si)
+            if fondo is not None:
+                fr = next(fondo, None) or bgs[si].copy()
+                if si == 0 and i == 0: primero = fr.copy()
+            else:
+                fr = bgs[si].copy(); bubbles(fr, gt, si)
             if si == 0:
                 # primer fotograma ya completo (gancho legible al instante); solo un pequeño «latido»
                 place(fr, E, W / 2, 620 + 15 * math.sin(t * 6), 0.7 + 0.3 * ease_out_back(t / 0.25))
@@ -212,7 +233,7 @@ def render(lang, outdir):
             # fade in/out between scenes
             fade = min(1, (t / 0.15) if si > 0 else 1, (dur - t) / 0.15 if si < 4 else 1)
             if si == 4 and dur - t < 0.25:  # bucle: el final se funde con el fondo del inicio
-                fr = Image.blend(fr.convert("RGB"), bgs[0].convert("RGB"), 1 - (dur - t) / 0.25).convert("RGBA")
+                fr = Image.blend(fr.convert("RGB"), (primero or bgs[0]).convert("RGB"), 1 - (dur - t) / 0.25).convert("RGBA")
             img = fr.convert("RGB")
             if fade < 1: img = Image.blend(Image.new("RGB", (W, H), (255, 255, 255)), img, max(fade, 0) * 0.7 + 0.3)
             progress_img = img.convert("RGBA"); progress(progress_img, gt, total)
@@ -268,6 +289,7 @@ if __name__ == "__main__":
     HOOK_EMOJI = C.get("hook_emoji", "🤯")
     FORMATO = C.get("formato", "datos")
     EPISODIO = C.get("episodio")
+    CLIPS = C.get("clips")  # ["búsqueda escena 1", …, "búsqueda escena 5"] en inglés (Pexels busca mejor en inglés)
     SERIE_NOMBRE = C.get("serie")  # p. ej. "Animales increíbles": etiqueta y CTA de serie también en «datos»
     L = C[lang]
     TEXT = {lang: {"hook": tuple(L["hook"]), "facts": [tuple(f) for f in L["facts"]], "outro": tuple(L["outro"])}}

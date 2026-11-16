@@ -147,6 +147,22 @@ Campos comunes:
   (p. ej. #Halloween en un vídeo de murciélagos el 31 de octubre). **Nunca** hashtags de tendencia sin relación con el contenido:
   YouTube los considera engañosos y puede quitar el vídeo. Nunca más de 15 hashtags (YouTube los ignora todos).
 
+## 3b. Clips de vídeo reales de fondo (Pexels)
+- Desde el 17/11/2026 los Shorts y el vídeo largo llevan **vídeo real de fondo** (Pexels: gratis, licencia libre, sin
+  atribución obligatoria) en vez del fondo de color. Comprobar antes: `python3 tools/stock.py --check`. Si dice NO, todo
+  sale con el fondo de color de siempre (no se para nada) y se dice en el aviso.
+- En cada JSON de Short, `"clips"`: 5 búsquedas **en inglés** (Pexels busca mejor), una por escena: [gancho, dato 1,
+  dato 2, dato 3, final]. Concretas y visuales, del mismo tema: p. ej. pulpo → ["octopus underwater", "octopus close up",
+  "deep blue sea", "octopus tentacles", "coral reef"]. **Sin personas** (evitar «people», «man», «woman», «kids»; si el
+  tema es el cuerpo humano, usar planos de detalle: «eye macro», «hands water», «x-ray»…). Nada aterrador ni violento.
+- En el vídeo largo, `"clip"` en la intro y en cada uno de los 10 puntos (búsqueda en inglés del elemento concreto:
+  «giraffe savanna», «saturn planet»…). Si un punto no tiene un clip apto (p. ej. un dinosaurio), dejar `"clip": ""`
+  y sale con el fondo de color y el emoji.
+- El render dice qué clip ha usado en cada escena («clip escena N: … · Pexels id · autor»): revisar en la hoja de
+  contactos que el clip encaja con el dato y que no sale ninguna persona, marca ni logotipo; si no encaja, cambiar
+  la búsqueda y volver a renderizar. Al final de la descripción se puede añadir «Vídeos: Pexels».
+- Tarda más: ~45 s por Short y ~8 min el vídeo largo.
+
 ## 4. Crear los 4 Shorts
 Primero comprobar la voz: `python3 tools/voz.py --check`. Debe decir `voz: OK · ElevenLabs · …`. La clave **no** se escribe en
 ningún sitio: está guardada como secreto de red del entorno (host `api.elevenlabs.io`, cabecera `xi-api-key`) y se añade sola.

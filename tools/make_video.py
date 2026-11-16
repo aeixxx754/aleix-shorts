@@ -50,8 +50,20 @@ def tramos(C):
     return out
 
 
+USADOS = []
+
+
 def render_tramo(tipo, D, dur, pal, idx, total_prev, total, outdir, n_items):
     n = int(round(dur * FPS)); bg = gradiente(*pal)
+    fondo = None   # clip real de Pexels de este tramo (campo "clip" del punto o de la intro)
+    q = D.get("clip") if isinstance(D, dict) else None
+    if q and os.environ.get("ALEIX_STOCK", "1") != "0":
+        import stock as S
+        if not S.disponible():
+            c = S.clip(q, minimo=min(6.0, dur), vertical=False, evitar=USADOS)
+            if c:
+                USADOS.append(c[1]); print(f"clip tramo {idx + 1}: «{q}» · Pexels {c[1]} · {c[2]}")
+                fondo = S.fotogramas(c[0], dur, W, H, FPS, tinte=pal[0], oscuro=0.5)
     tmp = os.path.join(outdir, f"largo_{idx:02d}.mp4")
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
@@ -71,10 +83,10 @@ def render_tramo(tipo, D, dur, pal, idx, total_prev, total, outdir, n_items):
     estatico = None
     for i in range(n):
         t = i / FPS
-        if estatico is not None:
+        if estatico is not None and fondo is None:
             fr = estatico.copy()
         else:
-            fr = bg.copy()
+            fr = (next(fondo, None) or bg.copy()) if fondo is not None else bg.copy()
             if tipo == "intro":
                 MS.place(fr, PILL, W / 2, 90, MS.ease_out_back(t / 0.3))
                 MS.place(fr, L1, W / 2, 640, 1 + 0.02 * math.sin(t * 5))
@@ -88,13 +100,13 @@ def render_tramo(tipo, D, dur, pal, idx, total_prev, total, outdir, n_items):
                 MS.place(fr, L1, W / 2, 460, MS.ease_out_back(t / 0.3))
                 MS.place(fr, L2, W / 2, 460 + L1.height / 2 + L2.height / 2 + 24, MS.ease_out_back((t - 0.3) / 0.3))
                 MS.place(fr, SUB, W / 2, 460 + L1.height / 2 + L2.height + 90 + SUB.height / 2, MS.ease_out_back((t - 0.6) / 0.3))
-            if t > 1.6:   # a partir de aquí el texto ya no se mueve: se reutiliza
+            if t > 1.6 and fondo is None:   # a partir de aquí el texto ya no se mueve: se reutiliza
                 estatico = fr.copy()
         barra(fr, (total_prev + t) / total, n_items, idx)
         # el emoji siempre se mueve un poco
         if tipo == "intro":
             MS.place(fr, E, W / 2, 340 + 12 * math.sin(t * 2.2), 0.7 + 0.3 * MS.ease_out_back(t / 0.3))
-        elif tipo == "item":
+        elif tipo == "item" and fondo is None:   # con clip real, la imagen ya es el vídeo
             MS.place(fr, E, 480, 520 + 18 * math.sin(t * 1.8), MS.ease_out_back((t - 0.05) / 0.4) * (1 + 0.02 * math.sin(t * 3)))
         else:
             MS.place(fr, E, W / 2, 230 + 10 * math.sin(t * 6) * (t > 0.5), MS.ease_out_back(t / 0.4))
