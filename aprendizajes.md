@@ -3,6 +3,15 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-16
+- Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 10/11 (9 vídeos del 9-10/11, mismas cifras que ayer: gato **440**, desiertos 79, vof #8 ciencia 58, anzuelo 46, vídeo largo 13; los del 10/11 con 2-9 visitas). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
+- Tendencia frente a no tendencia: **aún sin datos** (el primer vídeo de tendencia, Leónidas, salió el 15/11). Hoy es el primer día entero sobre un nicho de tendencia: se podrá comparar en 2-3 días con los días de animales sin tendencia.
+- Se mantiene lo aprendido: animales y mitos arriba, ciencia abstracta abajo, títulos en pregunta mejor. Riesgo del día: todo es de cielo/espacio (que hasta ahora rendía medio); se compensa con un **animal** en el 11 h y títulos en pregunta en tres de los cuatro.
+- Qué se cambia hoy: «Animales increíbles» #12 con un **insecto** (primero de la serie) ligado a la tendencia, con **título en pregunta** («¿un bicho que usa la Vía Láctea?») en vez del de Marco («el escarabajo pelotero»); título del 20 h en pregunta con lo que se busca («¿Cuándo ver las Leónidas 2026?»). Idea nueva: Short **práctico/de servicio** (cuándo mirar) en vez de solo datos.
+- Verificación: escarabajo (Scarabaeus satyrus): Dacke et al., Current Biology 2013 (planetario de Johannesburgo; con tapas de cartón perdían la orientación) → «pierde el rumbo» en vez de «daba vueltas». Leónidas: máximo la noche del 17 al 18 hacia las 00:45 peninsular (IGN; IMO 23:45 UT); tasa normal **10-15/h** (Star Walk, El Tiempo) en vez del «10-20» del plan, no confirmado; 1833 «miles por hora» (hay fuentes con ~100.000, se deja la cifra prudente). Cola de cometa: la iónica apunta siempre lejos del Sol (va delante al alejarse) → FALSO confirmado; texto sin «siempre» en la explicación (la de polvo no es exacta). Voz vof gancho acortado («¿Mitos del cielo?»).
+- Tendencias: por la mañana ninguna apta más fuerte (noticias de especies poco conocidas y política). Tendencia por vídeo: 11 h escarabajo (tendencia, animal relacionado), 14 h vof cielo (tendencia), 17 h cometas (tendencia), 20 h Leónidas (tendencia).
+- Créditos ElevenLabs: 90 % (117.826 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-15
 - Métricas: Metricool trae ya **hasta el 10/11**, pero los del 10/11 aún casi vacíos (2-9 visitas: piel, sonido, vof #9 Tierra, tortuga): sin conclusiones sobre ellos. Siguen subiendo: vof #7 mitos de animales II **1.438**, dinosaurios 911, camaleón 880, gato (Animales #5) **440**; desiertos 79, vof #8 ciencia 58, anzuelo récords 46, vídeo largo de récords 13 (57 s vistos de media).
 - Se confirma: **animales y mitos de animales** son lo que más tira; la ciencia abstracta, lo que menos. Los vídeos largos siguen sin despegar en visitas, aunque quien entra se queda ~1 min.
