@@ -1,0 +1,67 @@
+{
+ "tema": "Mitos del cielo nocturno",
+ "formato": "vof",
+ "episodio": 15,
+ "hook_emoji": "🌌",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Leónidas y el cielo nocturno (máximo 17-18/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Cuántos mitos del cielo aciertas? 🌌 (#15)",
+ "es": {
+  "hook": [
+   "¿ACIERTAS ESTOS MITOS DEL CIELO?",
+   "el último engaña a casi todos"
+  ],
+  "facts": [
+   [
+    "⭐",
+    "La Estrella Polar es la más brillante del cielo",
+    false,
+    "La más brillante es Sirio; la Polar, mucho menos"
+   ],
+   [
+    "🔭",
+    "Al mirar una estrella, ves su luz del pasado",
+    true,
+    "Su luz tarda años en llegar hasta ti"
+   ],
+   [
+    "☄️",
+    "La cola de un cometa siempre va detrás de él",
+    false,
+    "Apunta al lado contrario al Sol"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos del cielo?",
+   [
+    "La Polar es la más brillante.",
+    "¡Falso! Es Sirio."
+   ],
+   [
+    "Ves la luz del pasado.",
+    "¡Verdadero! Tarda años."
+   ],
+   [
+    "La cola va detrás.",
+    "¡Falso! Huye del Sol."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #15: mitos del cielo nocturno 🌌",
+  "descripcion": "¿Verdadero o falso? Mitos del cielo nocturno: la Estrella Polar, la luz de las estrellas y la cola de los cometas. 🌌\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #verdaderoofalso #astronomia #estrellas #datoscuriosos",
+  "tags": [
+   "mitos del cielo",
+   "verdadero o falso",
+   "estrellas",
+   "Estrella Polar",
+   "cometas",
+   "datos curiosos"
+  ]
+ }
+}
