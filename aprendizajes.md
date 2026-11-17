@@ -3,6 +3,19 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-17
+- Métricas: **llegan datos hasta el 13/11** (23 vídeos del 9-13/11). Del 13/11: vof #12 mitos de las plantas **1.026** (5 s vistos de 16,4 ≈ 30 %), «¿Por qué noviembre es el mes 11?» **893** (4 s ≈ 26 %), anzuelo del espacio **323**, colibrí 131, vídeo largo del espacio 0 (recién publicado). Del 12/11: dientes «¿Qué es lo más duro de tu cuerpo?» 309; Luna 2, vof animales III 16 y delfín 17 (aún casi vacíos o hundidos). Del 11/11: anzuelo dinosaurios 210, centro de la Tierra 54, oso polar 44.
+- **La vof sigue siendo la serie que más tira** cuando el tema es cotidiano o sorprendente (plantas 1.026, comida 913, animales II 1.438); los mitos «de salud» y «de la Tierra» se hundieron (2-4).
+- **Títulos en pregunta sobre algo cotidiano o sobre ti** vuelven a ganar: calendario 893 y dientes 309 frente a Luna 2 y piel 9.
+- **«Animales increíbles» va floja desde el gato** (colibrí 131, oso polar 44, delfín 17, tortuga 8): solo despegan los animales muy conocidos (gato 457, camaleón 880). Hoy, un animal grande y conocidísimo (elefante) con título en pregunta y gancho de número.
+- **Los anzuelos «Top 10» rinden bien** (espacio 323, dinosaurios 210): mejor que muchos «3 datos». Los vídeos largos siguen casi sin visitas.
+- Tendencia frente a no tendencia: aún **sin datos** (los primeros vídeos de tendencia son del 15-16/11; llegarán en 2-3 días).
+- Qué se cambia hoy: el «3 datos» de las 17:00 con **título en pregunta + palabras que se buscan** («¿Qué es un día-luz? Voyager 1»); anzuelo con gancho de **comparación/número** («¿UNA SONDA A 692.000 KM/H?»); vof con mitos que casi todos creen («en la estación espacial no hay gravedad»). Idea nueva: primer día entero sobre **exploración espacial / sondas** (tendencia de noticia, no de efeméride).
+- Verificación: la Voyager 1 ya salió en el vídeo largo del 13/11 (1977, 25.900 M km, señal de un día) → el «3 datos» cambia a datos nuevos: señal de un día (la noticia), emisor de ~22 W «como la bombilla de una nevera» (pie de foto de NASA/JPL) y 2 días de ida y vuelta (NASA Ciencia). Intro del vídeo largo corregida: «hace casi cincuenta años» → «casi setenta» (Sputnik, 1957). Parker: 40.075 km / 692.000 km/h ≈ 3,5 min → «menos de cuatro minutos». Hito: 18/11 a las 10:16 UTC (NASA). Elefante: gestación ~22 meses, infrasonidos, orejas para disipar calor (muy establecidos). New Horizons en el anzuelo: «halló un corazón de hielo» (sin años, para no chocar con «casi diez» del vídeo).
+- Clips de Pexels: **NO** (falta el secreto de red de api.pexels.com en el entorno) → todo con el fondo de color de siempre.
+- Tendencias: por la mañana sigue siendo la más fuerte y apta la **Voyager 1 a un día-luz** (CNN, Xataka, Infobae, tiempo.com); no se cambia nada. Tendencia por vídeo: 11 h elefante (sin tendencia, animal muy conocido), 14 h vof #16 espacio/sondas (tendencia), 16 h largo sondas (tendencia), 17 h Voyager 1 (tendencia), 20 h anzuelo sondas (tendencia).
+- Créditos ElevenLabs: 90 % (117.506 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-16
 - Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 10/11 (9 vídeos del 9-10/11, mismas cifras que ayer: gato **440**, desiertos 79, vof #8 ciencia 58, anzuelo 46, vídeo largo 13; los del 10/11 con 2-9 visitas). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
 - Tendencia frente a no tendencia: **aún sin datos** (el primer vídeo de tendencia, Leónidas, salió el 15/11). Hoy es el primer día entero sobre un nicho de tendencia: se podrá comparar en 2-3 días con los días de animales sin tendencia.

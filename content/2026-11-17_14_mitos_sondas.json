@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos del espacio y las sondas",
+ "formato": "vof",
+ "episodio": 16,
+ "hook_emoji": "🛰️",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Voyager 1 a un día-luz y sondas espaciales (18/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #16 ¿Sabes de sondas espaciales? 🛰️",
+ "clips": [
+  "space station orbit earth",
+  "astronaut floating space",
+  "golden record vinyl",
+  "spacecraft deep space",
+  "sun surface flares"
+ ],
+ "es": {
+  "hook": [
+   "¿ACIERTAS ESTOS MITOS DEL ESPACIO?",
+   "el último engaña a casi todos"
+  ],
+  "facts": [
+   [
+    "🧑‍🚀",
+    "En la estación espacial no hay gravedad",
+    false,
+    "Hay casi el 90 %: flotan porque caen sin parar"
+   ],
+   [
+    "💿",
+    "La Voyager lleva un disco con saludos en 55 idiomas",
+    true,
+    "El Disco de Oro, a bordo desde 1977"
+   ],
+   [
+    "🚀",
+    "La Voyager 1 es la sonda más rápida de la historia",
+    false,
+    "La Parker va unas 10 veces más rápido"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Aciertas estos mitos?",
+   [
+    "En el espacio no hay gravedad.",
+    "¡Falso! Sí hay."
+   ],
+   [
+    "Voyager saluda en 55 idiomas.",
+    "¡Verdadero! En un disco."
+   ],
+   [
+    "Voyager 1 es la más rápida.",
+    "¡Falso! Gana Parker."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #16 Mitos de las sondas espaciales 🛰️",
+  "descripcion": "¿Verdadero o falso? Mitos del espacio: la gravedad en la estación espacial, el Disco de Oro de las Voyager y la sonda más rápida. 🛰️\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #espacio #Voyager1",
+  "tags": [
+   "mitos del espacio",
+   "verdadero o falso",
+   "Voyager",
+   "sondas espaciales",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

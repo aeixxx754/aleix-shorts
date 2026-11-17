@@ -1,0 +1,142 @@
+{
+ "tipo": "largo",
+ "tema": "10 hazañas de sondas espaciales que parecen imposibles",
+ "hook_emoji": "🚀",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "tendencia": "Voyager 1 a un día-luz y sondas espaciales (18/11)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#6200EA",
+    "#FF6D00"
+   ],
+   "composicion": "emoji-derecha",
+   "emoji": "🛰️",
+   "etiqueta": "TOP 10",
+   "texto": "A UN DÍA-LUZ DE CASA"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#00B8D4",
+     "#1A237E"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🛰️",
+    "etiqueta": "#1 TE SORPRENDE",
+    "texto": "A 25.900 MILLONES DE KM"
+   },
+   {
+    "colores": [
+     "#FFD600",
+     "#D50000"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "☀️",
+    "etiqueta": "¿REAL?",
+    "texto": "692.000 KM POR HORA"
+   }
+  ],
+  "intro": {
+   "texto": [
+    "10 HAZAÑAS ESPACIALES",
+    "el número 1 bate un récord mañana"
+   ],
+   "voz": "Hace casi setenta años, los humanos lanzamos el primer satélite. Desde entonces, nuestros robots han aterrizado en mundos lejanos, han tocado un cometa y casi rozan el Sol. En este vídeo verás diez hazañas de sondas espaciales que parecen imposibles. Y quédate hasta el final, porque el número uno bate un récord mañana mismo.",
+   "emoji": "🚀",
+   "clip": "rocket launch"
+  },
+  "items": [
+   {
+    "emoji": "🛰️",
+    "titulo": "El primer satélite",
+    "texto": "Sputnik 1 (1957): una bola de ~58 cm y ~84 kg.",
+    "voz": "Número 10: el Sputnik 1. En 1957 se convirtió en el primer satélite artificial de la historia. Era una bola de metal de unos 58 centímetros y pesaba unos 84 kilos, como una persona adulta. Casi no hacía nada: solo emitía unos pitidos por radio. Pero con ese sonido empezó la carrera espacial, y con ella todo lo que vino después.",
+    "clip": "satellite orbit earth"
+   },
+   {
+    "emoji": "🤖",
+    "titulo": "Pensado para 90 días",
+    "texto": "Opportunity duró ~14 años en Marte.",
+    "voz": "Número 9: el robot Opportunity. Aterrizó en Marte en 2004 y los ingenieros solo esperaban que durase unos 90 días. Pero siguió funcionando casi catorce años. En ese tiempo recorrió más de 45 kilómetros, como una maratón completa en otro planeta. Es como si una pila que prometía durar tres meses aguantara catorce años seguidos.",
+    "clip": "mars surface"
+   },
+   {
+    "emoji": "🚁",
+    "titulo": "Un helicóptero en Marte",
+    "texto": "Ingenuity: 5 vuelos previstos, hizo 72.",
+    "voz": "Número 8: Ingenuity, el helicóptero de Marte. En 2021 hizo el primer vuelo con motor en otro planeta. Allí el aire es tan fino que volar es dificilísimo. Los ingenieros planearon solo cinco vuelos de prueba, pero acabó haciendo setenta y dos. Fue un éxito tan grande que abrió el camino a futuros drones espaciales.",
+    "clip": "helicopter drone flying"
+   },
+   {
+    "emoji": "🪂",
+    "titulo": "Aterrizar en Titán",
+    "texto": "Huygens (2005) tocó una luna de Saturno.",
+    "voz": "Número 7: la sonda Huygens. El 14 de enero de 2005 aterrizó en Titán, una luna de Saturno envuelta en una atmósfera naranja. Fue el primer aterrizaje en el Sistema Solar exterior. Bajó con un paracaídas y envió fotos de un paisaje con cauces parecidos a ríos. Es como visitar otro mundo a más de mil millones de kilómetros de casa.",
+    "clip": "saturn planet"
+   },
+   {
+    "emoji": "☄️",
+    "titulo": "Aterrizar en un cometa",
+    "texto": "Philae, primer robot en posarse en un cometa.",
+    "voz": "Número 6: Rosetta y su robot Philae. Viajaron diez años por el espacio para perseguir un cometa. El 12 de noviembre de 2014, Philae fue el primer aparato en aterrizar en uno. Con tan poca gravedad, rebotó antes de quedarse quieto. Imagina intentar posarte sobre una roca de unos cuatro kilómetros que viaja a toda velocidad por el espacio.",
+    "clip": "comet space"
+   },
+   {
+    "emoji": "🪨",
+    "titulo": "Trozos de asteroides",
+    "texto": "Hayabusa2 y OSIRIS-REx trajeron muestras.",
+    "voz": "Número 5: Hayabusa2 y OSIRIS-REx. Estas dos sondas viajaron hasta asteroides, recogieron trocitos de roca y los trajeron a la Tierra. Hayabusa2 volvió con muestras de Ryugu en 2020, y OSIRIS-REx con las de Bennu en 2023. Son restos casi intactos de cuando nació el Sistema Solar, hace unos 4.500 millones de años. Son como cápsulas del tiempo.",
+    "clip": "asteroid space"
+   },
+   {
+    "emoji": "🪐",
+    "titulo": "13 años en Saturno",
+    "texto": "Cassini halló chorros de agua en Encélado.",
+    "voz": "Número 4: la sonda Cassini. Pasó trece años dando vueltas alrededor de Saturno, de 2004 a 2017. Descubrió chorros de agua que salen de la luna Encélado, señal de un océano escondido bajo el hielo. Hizo cientos de miles de fotos de los anillos. Y terminó su misión sumergiéndose en Saturno a propósito, para proteger a sus lunas.",
+    "clip": "saturn rings"
+   },
+   {
+    "emoji": "💙",
+    "titulo": "Un corazón en Plutón",
+    "texto": "New Horizons llegó a Plutón el 14/7/2015.",
+    "voz": "Número 3: New Horizons. Despegó en 2006 y, tras casi diez años de viaje, pasó junto a Plutón el 14 de julio de 2015. Hasta entonces, Plutón era solo un puntito borroso. De pronto vimos montañas de hielo y una enorme llanura con forma de corazón. Recorrió casi cinco mil millones de kilómetros, y todavía sigue viajando hacia el borde del Sistema Solar.",
+    "clip": "pluto planet"
+   },
+   {
+    "emoji": "☀️",
+    "titulo": "La más rápida",
+    "texto": "Parker: ~692.000 km/h, a 6 millones de km del Sol.",
+    "voz": "Número 2: la Parker Solar Probe. Se acerca al Sol más que ninguna otra sonda: a unos seis millones de kilómetros de su superficie. Allí hace un calor enorme, pero su escudo la protege. Y va tan deprisa que bate el récord humano de velocidad: unos 692.000 kilómetros por hora. A ese ritmo darías la vuelta a la Tierra en menos de cuatro minutos.",
+    "clip": "sun surface"
+   },
+   {
+    "emoji": "🌌",
+    "titulo": "Un día-luz de casa",
+    "texto": "Voyager 1: 1977, interestelar en 2012, 1 día-luz.",
+    "voz": "Número 1: la Voyager 1. Despegó en 1977 y en 2012 fue el primer objeto humano en llegar al espacio interestelar. En 1990 nos fotografió desde seis mil millones de kilómetros, y la Tierra era menos de un píxel. Mañana, 18 de noviembre, estará a un día-luz: su señal tardará 24 horas en llegar. Y tiene solo 69 kilobytes de memoria, menos que una foto.",
+    "clip": "milky way stars"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez hazañas te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos del espacio."
+  },
+  "titulo": "10 hazañas de sondas espaciales que parecen imposibles 🚀",
+  "descripcion": "Diez hazañas de sondas espaciales que parecen imposibles: un helicóptero en Marte, un robot que aterrizó en un cometa, la sonda más rápida de la historia y la Voyager 1, que mañana estará a un día-luz de la Tierra. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:22 #10 El primer satélite\n0:49 #9 Pensado para 90 días\n1:16 #8 Un helicóptero en Marte\n1:39 #7 Aterrizar en Titán\n2:04 #6 Aterrizar en un cometa\n2:29 #5 Trozos de asteroides\n2:58 #4 13 años en Saturno\n3:24 #3 Un corazón en Plutón\n3:50 #2 La más rápida\n4:15 #1 Un día-luz de casa\n4:44 Final\n\n#sondasespaciales #espacio #Voyager1 #datoscuriosos",
+  "tags": [
+   "sondas espaciales",
+   "Voyager 1",
+   "día-luz",
+   "curiosidades del espacio",
+   "exploración espacial",
+   "top 10",
+   "datos curiosos",
+   "Marte"
+  ],
+  "primer_comentario": "¿Cuál de las 10 hazañas te ha parecido más increíble? Comenta su número 👇"
+ }
+}
