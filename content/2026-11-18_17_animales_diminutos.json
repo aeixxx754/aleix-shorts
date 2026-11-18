@@ -1,0 +1,63 @@
+{
+ "tema": "Animales diminutos",
+ "formato": "datos",
+ "hook_emoji": "🐸",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Especies nuevas y animales raros (pez Trimma charon del Mar Rojo, noticia del 15/11)",
+ "primer_comentario": "Comenta 🐸 si sabías lo de la rana",
+ "clips": [
+  "tiny frog leaf",
+  "frog macro",
+  "shrew",
+  "small fish aquarium",
+  "red sea coral reef"
+ ],
+ "es": {
+  "hook": [
+   "¿UNA RANA MÁS PEQUEÑA QUE TU UÑA?",
+   "existe, y no es la única"
+  ],
+  "facts": [
+   [
+    "🐸",
+    "Hay ranas de",
+    "MENOS DE 1 CM",
+    "como una de Papúa Nueva Guinea"
+   ],
+   [
+    "🐭",
+    "La musaraña etrusca",
+    "PESA 2 GRAMOS",
+    "y vive en España"
+   ],
+   [
+    "🐟",
+    "Un pez del Mar Rojo",
+    "MENOS DE 2 CM",
+    "es nuevo: solo hay 2 ejemplares"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Rana de ocho milímetros?",
+   "Hay ranas que miden menos de un centímetro.",
+   "La musaraña etrusca pesa unos dos gramos.",
+   "Un pez nuevo del Mar Rojo: menos de dos centímetros.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cuál es la rana más pequeña del mundo? 3 datos 🐸",
+  "descripcion": "Animales diminutos: ranas de menos de 1 cm, una musaraña de 2 gramos y un pez nuevo del Mar Rojo de menos de 2 cm. 🐸\nSuscríbete para datos nuevos cada día\n\n#Shorts #animales #especiesnuevas #datoscuriosos",
+  "tags": [
+   "animales diminutos",
+   "rana más pequeña del mundo",
+   "especies nuevas",
+   "nueva especie de pez",
+   "curiosidades de animales",
+   "datos curiosos"
+  ]
+ }
+}

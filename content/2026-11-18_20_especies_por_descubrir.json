@@ -1,0 +1,63 @@
+{
+ "tema": "Las especies que aún no conocemos",
+ "formato": "datos",
+ "hook_emoji": "🌊",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "numero",
+ "tendencia": "Especies nuevas y animales raros (pez Trimma charon del Mar Rojo, noticia del 15/11) (segundo ángulo: lo que falta por descubrir)",
+ "primer_comentario": "Comenta 🌊 si te gustaría descubrir una especie",
+ "clips": [
+  "deep blue sea",
+  "underwater jellyfish",
+  "ocean surface sunlight",
+  "jungle river aerial",
+  "coral reef"
+ ],
+ "es": {
+  "hook": [
+   "¿17.000 ESPECIES NUEVAS AL AÑO?",
+   "y aún faltan muchísimas"
+  ],
+  "facts": [
+   [
+    "🔬",
+    "Cada año se describen",
+    "17.000 NUEVAS",
+    "de media, según un estudio de 2025"
+   ],
+   [
+    "🌍",
+    "Ya conocemos",
+    "2,5 MILLONES",
+    "de especies, pero faltan muchas"
+   ],
+   [
+    "🌊",
+    "Bajo 1.000 metros",
+    "NO LLEGA EL SOL",
+    "y ahí aún quedan muchas por ver"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Diecisiete mil al año?",
+   "Cada año se describen unas 17.000 especies nuevas.",
+   "Conocemos unos dos millones y medio, pero faltan muchas.",
+   "Bajo mil metros de mar ya no llega el sol.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cuántas especies nos faltan por descubrir? 🌊",
+  "descripcion": "Cada año se describen unas 17.000 especies nuevas y aún faltan muchísimas por descubrir. 🌊\nSuscríbete para datos nuevos cada día\n\n#Shorts #especiesnuevas #oceano #datoscuriosos",
+  "tags": [
+   "especies nuevas",
+   "cuántas especies hay",
+   "descubrimientos científicos",
+   "océano profundo",
+   "curiosidades",
+   "datos curiosos"
+  ]
+ }
+}

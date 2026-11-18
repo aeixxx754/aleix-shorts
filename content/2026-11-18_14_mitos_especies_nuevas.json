@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de las especies nuevas",
+ "formato": "vof",
+ "episodio": 17,
+ "hook_emoji": "🔬",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "reto",
+ "tendencia": "Especies nuevas y animales raros (pez Trimma charon del Mar Rojo, noticia del 15/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Cuántos mitos de animales aciertas? 🔬 (#17)",
+ "clips": [
+  "raccoon tree night",
+  "tropical rainforest",
+  "forest canopy fog",
+  "beetle macro",
+  "butterfly macro"
+ ],
+ "es": {
+  "hook": [
+   "¿ACIERTAS ESTOS 3 MITOS?",
+   "el segundo engaña a casi todos"
+  ],
+  "facts": [
+   [
+    "🦝",
+    "Todavía se descubren mamíferos nuevos",
+    true,
+    "Como el olinguito, descrito en 2013"
+   ],
+   [
+    "🌍",
+    "Ya conocemos casi todas las especies del planeta",
+    false,
+    "Cada año se describen unas 17.000 nuevas"
+   ],
+   [
+    "🪲",
+    "Hay más especies de insectos que de otros animales",
+    true,
+    "Son el grupo animal con más especies"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Aciertas estos mitos?",
+   [
+    "Aún se descubren mamíferos nuevos.",
+    "¡Verdadero! Como el olinguito."
+   ],
+   [
+    "Conocemos casi todas las especies.",
+    "¡Falso! Faltan muchísimas."
+   ],
+   [
+    "Hay más especies de insectos.",
+    "¡Verdadero! Son mayoría."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #17 Mitos de las especies nuevas 🔬",
+  "descripcion": "¿Verdadero o falso? Mitos de las especies nuevas: mamíferos por descubrir, cuántas especies conocemos y el reino de los insectos. 🔬\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #especiesnuevas #animales",
+  "tags": [
+   "especies nuevas",
+   "verdadero o falso",
+   "nuevas especies descubiertas",
+   "curiosidades de animales",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
