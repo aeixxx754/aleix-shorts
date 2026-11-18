@@ -3,6 +3,18 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-18
+- Métricas: **llegan datos hasta el 14/11**. El 14/11 fue el **mejor día del canal**: ojos «¿Ves el mundo al revés?» **1.175** (5 s ≈ 33 %), Velociraptor (Animales #10) **1.086**, vof #13 mitos del cuerpo II **1.032**, nieve 657. Siguen subiendo los del 13/11: vof plantas 1.060, calendario 1.006 (9 s vistos, ≈ 59 %: la mejor retención). En cambio el 12/11 se quedó casi vacío (Luna 2, delfín 19, vof III 16) y el colibrí sigue en 135.
+- **Los títulos en pregunta sobre TI o algo cotidiano son la fórmula ganadora** (ojos, calendario, nieve, dientes): 4 de los 5 Shorts por encima de 650 la llevan.
+- **«Animales increíbles» despega con animales llamativos + título en pregunta** (Velociraptor 1.086); con animales «normales» se queda en 19-135.
+- Los vídeos largos siguen sin visitas (2-9) y el anzuelo de espacio se queda en 325.
+- Tendencia frente a no tendencia: **aún sin datos** (los de tendencia empiezan el 15/11; llegarán mañana o pasado).
+- Qué se cambia hoy: **todos los títulos en pregunta** (también el de la serie: «¿el ajolote regenera su cerebro?» en vez de «el ajolote»); gancho del 17:00 en pregunta sobre ti («¿UNA RANA MÁS PEQUEÑA QUE TU UÑA?», `pregunta-tu`) y el del 20:00 de afirmación a pregunta. Idea nueva: primer día entero de **especies nuevas / animales raros** (tendencia de noticia de ciencia).
+- Verificación: ajolote: el vídeo largo del 5/11 ya dijo «patas, cola y corazón» → hoy se cuenta el **cerebro** (NatGeo LA: regenera partes del cerebro, médula y corazón), «monstruo de agua» en náhuatl y Xochimilco/peligro crítico. La rana de 8 mm salía en la vof y en el 17:00 → en la vof se cambia por **mamíferos nuevos (olinguito, 2013, Smithsonian/NatGeo)**. Paedocypris quitado (repetía «8 mm») → **musaraña etrusca** (1,2-2,7 g, SECEM; vive en España). Trimma charon: 2 ejemplares de 12 y 17 mm (ZooKeys/EurekAlert). 17.000/año y ~2,5 M descritas (NPR sobre Wiens, Science Advances, dic. 2025) → «2,5 MILLONES» en vez de «más de 2».
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (agenda política, bolsa, lluvias). Tendencia por vídeo: 11 h ajolote (tendencia, animal raro), 14 h vof #17 especies nuevas (tendencia), 17 h animales diminutos (tendencia, pez del Mar Rojo), 20 h especies por descubrir (tendencia). Sin vídeo largo (día impar).
+- Créditos ElevenLabs: 88 % (115.468 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-17
 - Métricas: **llegan datos hasta el 13/11** (23 vídeos del 9-13/11). Del 13/11: vof #12 mitos de las plantas **1.026** (5 s vistos de 16,4 ≈ 30 %), «¿Por qué noviembre es el mes 11?» **893** (4 s ≈ 26 %), anzuelo del espacio **323**, colibrí 131, vídeo largo del espacio 0 (recién publicado). Del 12/11: dientes «¿Qué es lo más duro de tu cuerpo?» 309; Luna 2, vof animales III 16 y delfín 17 (aún casi vacíos o hundidos). Del 11/11: anzuelo dinosaurios 210, centro de la Tierra 54, oso polar 44.
 - **La vof sigue siendo la serie que más tira** cuando el tema es cotidiano o sorprendente (plantas 1.026, comida 913, animales II 1.438); los mitos «de salud» y «de la Tierra» se hundieron (2-4).
