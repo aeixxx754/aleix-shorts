@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de la Luna",
+ "formato": "vof",
+ "episodio": 18,
+ "hook_emoji": "🌙",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Superluna del Castor (Luna llena del 24/11/2026) y la Luna",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #18 ¿Sabes de la Luna? 🌙",
+ "clips": [
+  "full moon night sky",
+  "moon close up",
+  "blue sky daytime",
+  "moon craters",
+  "night sky stars"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS SOBRE LA LUNA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🌕",
+    "La Luna brilla con luz propia",
+    false,
+    "Solo refleja la luz del Sol"
+   ],
+   [
+    "☀️",
+    "La Luna también se puede ver de día",
+    true,
+    "A menudo sale en pleno cielo azul"
+   ],
+   [
+    "🌑",
+    "La cara oculta de la Luna está siempre a oscuras",
+    false,
+    "Recibe sol igual que la cara visible"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Sabes de la Luna?",
+   [
+    "La Luna brilla con luz propia.",
+    "¡Falso! Refleja al Sol."
+   ],
+   [
+    "La Luna se ve de día.",
+    "¡Verdadero! A menudo sí."
+   ],
+   [
+    "La cara oculta siempre está oscura.",
+    "¡Falso! También recibe sol."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #18 Mitos de la Luna 🌙",
+  "descripcion": "¿Verdadero o falso? Mitos de la Luna: su luz, verla de día y su cara oculta, antes de la superluna del 24 de noviembre. 🌙\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #Luna #Superluna",
+  "tags": [
+   "mitos de la luna",
+   "verdadero o falso",
+   "superluna",
+   "la luna",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

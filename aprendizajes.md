@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-19
+- Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 14/11 (mismas cifras que ayer: ojos 1.175, Velociraptor 1.086, vof #13 1.032, calendario 1.006 con 9 s vistos ≈ 59 %, nieve 657, anzuelo del espacio 325; colibrí 135; los del 12/11 casi vacíos). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
+- Tendencia frente a no tendencia: **aún sin datos** (los vídeos de tendencia empiezan el 15/11 y Metricool va con 5 días de retraso).
+- Se mantiene lo aprendido: **títulos en pregunta** sobre algo cotidiano o sobre ti, animales llamativos en la serie y mitos sorprendentes en la vof; los vídeos largos siguen sin visitas y los anzuelos rinden como un buen «3 datos».
+- Qué se cambia hoy: el título de «Animales increíbles» #15 pasa a **pregunta** («¿un castor de dientes naranjas?», no «el castor y sus dientes naranjas» del plan). Idea nueva: primer día entero sobre una tendencia **anticipada** (la superluna es el 24/11: se publica 5 días antes, cuando la gente empieza a buscarla) y primer vídeo largo de **la Luna**.
+- Verificación: superluna del 24/11/2026 (Perfil, Starwalk, N+, Crónica; la NASA la incluye entre las superlunas de 2026 junto a la del 24/12); «hasta un 14 % más grande» se dice frente a «la Luna llena más lejana» (cifra de NASA para micro- frente a superluna). Castor: esmalte con hierro (naranja y más resistente), incisivos de crecimiento continuo, presa de ~850 m en Wood Buffalo (Canadá) visible por satélite → en pantalla «mide unos 850 m». Mitos de la Luna: distinto del Short del 12/11 (misma cara, temperaturas). Vídeo largo: lista de Lucía revisada por Irene, sin repetir lo ya publicado (se aleja 4 cm/año, misma cara, temperaturas, diámetro).
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (agenda política y bolsa); se mantiene la **Superluna del Castor** del plan. Tendencia por vídeo: 11 h castor (tendencia, animal que da nombre a la Luna del Castor), 14 h vof #18 mitos de la Luna (tendencia), 16 h largo Luna (tendencia), 17 h superluna (tendencia), 20 h anzuelo Luna (tendencia).
+- Créditos ElevenLabs: 88 % (115.121 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+
 ## 2026-11-18
 - Métricas: **llegan datos hasta el 14/11**. El 14/11 fue el **mejor día del canal**: ojos «¿Ves el mundo al revés?» **1.175** (5 s ≈ 33 %), Velociraptor (Animales #10) **1.086**, vof #13 mitos del cuerpo II **1.032**, nieve 657. Siguen subiendo los del 13/11: vof plantas 1.060, calendario 1.006 (9 s vistos, ≈ 59 %: la mejor retención). En cambio el 12/11 se quedó casi vacío (Luna 2, delfín 19, vof III 16) y el colibrí sigue en 135.
 - **Los títulos en pregunta sobre TI o algo cotidiano son la fórmula ganadora** (ojos, calendario, nieve, dientes): 4 de los 5 Shorts por encima de 650 la llevan.

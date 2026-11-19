@@ -1,0 +1,142 @@
+{
+ "tipo": "largo",
+ "tema": "10 cosas de la Luna que parecen inventadas",
+ "hook_emoji": "🌕",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "tendencia": "Superluna del Castor (Luna llena del 24/11/2026) y la Luna",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#283593",
+    "#FF4081"
+   ],
+   "composicion": "emoji-izquierda",
+   "emoji": "🌕",
+   "etiqueta": "TOP 10",
+   "texto": "SECRETOS DE LA LUNA"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#D50000",
+     "#FF6D00"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "🌙",
+    "etiqueta": "¿REAL?",
+    "texto": "¿LA LUNA TIEMBLA?"
+   },
+   {
+    "colores": [
+     "#00BFA5",
+     "#4A148C"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🌕",
+    "etiqueta": "SUPERLUNA 24/11",
+    "texto": "EL #1 TE SORPRENDE"
+   }
+  ],
+  "intro": {
+   "clip": "full moon night sky",
+   "emoji": "🌕",
+   "texto": [
+    "10 COSAS DE LA LUNA",
+    "el número 1 explica su origen"
+   ],
+   "voz": "Todas las noches la ves ahí arriba, pero la Luna guarda secretos que parecen inventados. Tiene temblores, polvo pegajoso, hielo escondido y un cielo siempre negro. Y el 24 de noviembre llega una superluna. En este vídeo verás diez cosas de la Luna que te costará creer. Y quédate hasta el final, porque el número uno explica de dónde salió."
+  },
+  "items": [
+   {
+    "emoji": "📅",
+    "titulo": "El mes lunar",
+    "texto": "Vuelta en ~27 días, pero Luna llena cada ~29,5.",
+    "voz": "Número 10: un mes lunar. La Luna da una vuelta alrededor de la Tierra en unos 27 días. Pero de una Luna llena a la siguiente pasan casi 30, unos 29 días y medio. ¿Por qué? Porque mientras la Luna gira, la Tierra también avanza alrededor del Sol, y la Luna necesita unos dos días más para volver a alinearse con él.",
+    "clip": "moon phases night sky"
+   },
+   {
+    "emoji": "🌑",
+    "titulo": "Su cara oculta",
+    "texto": "Casi sin mares oscuros y llena de cráteres.",
+    "voz": "Número 9: su cara oculta. Es muy distinta de la que vemos desde aquí. Casi no tiene esos grandes mares oscuros y está llena de cráteres. En 2019, la sonda china Chang'e 4 fue la primera en posarse allí. Es como si la Luna tuviera dos caras con personalidades totalmente diferentes: una más lisa y otra acribillada a golpes.",
+    "clip": "moon craters close up"
+   },
+   {
+    "emoji": "🌊",
+    "titulo": "Mueve los océanos",
+    "texto": "Su gravedad provoca las mareas.",
+    "voz": "Número 8: las mareas. La gravedad de la Luna tira del agua de los océanos y la hace subir y bajar, normalmente dos veces al día. Cuando estás en la playa y el mar se retira, es la Luna quien lo está moviendo. Está a casi cuatrocientos mil kilómetros, pero su fuerza es suficiente para mover océanos enteros.",
+    "clip": "ocean waves tide"
+   },
+   {
+    "emoji": "🌌",
+    "titulo": "Cielo negro de día",
+    "texto": "Sin atmósfera, el cielo siempre es negro.",
+    "voz": "Número 7: un cielo siempre negro. En la Tierra el cielo es azul porque el aire dispersa la luz del Sol. Pero la Luna no tiene atmósfera, así que no hay nada que la disperse. Por eso, aunque el Sol brille con toda su fuerza, el cielo lunar sigue negro incluso de día. Es un mediodía sin cielo azul.",
+    "clip": "black space stars"
+   },
+   {
+    "emoji": "⚖️",
+    "titulo": "Pesarías 6 veces menos",
+    "texto": "Con 60 kg en la Tierra, pesarías unos 10 kg.",
+    "voz": "Número 6: la gravedad. La Luna es mucho más pequeña que la Tierra y tira de ti con menos fuerza. Allí pesarías unas seis veces menos. Si en la Tierra pesas sesenta kilos, en la Luna tu peso sería de unos diez, como una mochila pequeña. Por eso los astronautas daban saltos enormes y lentos, como si flotaran, con trajes muy pesados.",
+    "clip": "moon surface gray"
+   },
+   {
+    "emoji": "🧲",
+    "titulo": "Polvo pegajoso",
+    "texto": "El polvo se pega a todo por la electricidad estática.",
+    "voz": "Número 5: el polvo lunar. No se parece al polvo de tu casa. Es finísimo, afilado y se queda pegado a todo, por la electricidad estática. Se metía en los trajes y las herramientas de los astronautas y era muy difícil de limpiar. Es como si llevaras un globo frotado en el pelo y todo se te quedara pegado.",
+    "clip": "dust particles close up"
+   },
+   {
+    "emoji": "🧊",
+    "titulo": "Hielo escondido",
+    "texto": "Hay hielo de agua en cráteres que nunca ven el Sol.",
+    "voz": "Número 4: hielo en la Luna. En los polos hay cráteres tan profundos que su fondo nunca recibe la luz del Sol. Allí hace un frío enorme y varias misiones han detectado hielo de agua. Es una noticia importante, porque el agua se puede beber o transformar en combustible. Quizá algún día sea clave para vivir en la Luna.",
+    "clip": "ice crystals frozen"
+   },
+   {
+    "emoji": "🌞",
+    "titulo": "Un eclipse perfecto",
+    "texto": "El Sol es ~400 veces mayor y ~400 veces más lejos.",
+    "voz": "Número 3: una coincidencia increíble. El Sol es unas cuatrocientas veces más grande que la Luna, pero también está unas cuatrocientas veces más lejos. Por eso, desde la Tierra, los dos se ven casi del mismo tamaño. Y cuando se alinean, la Luna tapa el Sol justo y tenemos un eclipse total. Es pura casualidad.",
+    "clip": "solar eclipse corona"
+   },
+   {
+    "emoji": "📳",
+    "titulo": "Lunamotos",
+    "texto": "Temblores lunares de varios minutos.",
+    "voz": "Número 2: los lunamotos. La Luna también tiembla. Los sismómetros que dejaron las misiones Apolo registraron temblores durante años, y algunos duraban varios minutos. Cuando un terremoto sacude la Tierra, enseguida se calma, pero en la Luna la roca es tan seca y rígida que las vibraciones se prolongan, como una campana que sigue sonando.",
+    "clip": "seismograph earthquake"
+   },
+   {
+    "emoji": "💥",
+    "titulo": "Nació de un choque",
+    "texto": "Probablemente, un planeta chocó con la Tierra joven.",
+    "voz": "Número 1: su origen. Según la teoría más aceptada, hace unos 4.500 millones de años un planeta del tamaño de Marte chocó contra la Tierra joven. Los restos salieron disparados, se unieron y formaron la Luna. Es probablemente el mayor choque de la historia de nuestro planeta. Así que, cuando miras la Luna, miras la hija de un choque gigante.",
+    "clip": "asteroid impact space"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez cosas de la Luna te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "¿10 cosas de la Luna que parecen inventadas? 🌕",
+  "descripcion": "Diez cosas de la Luna que parecen inventadas: lunamotos, polvo pegajoso, hielo escondido, un cielo negro de día y el choque que la creó. Y el martes 24 de noviembre llega la superluna del Castor. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:24 #10 El mes lunar\n0:49 #9 Su cara oculta\n1:13 #8 Mueve los océanos\n1:35 #7 Cielo negro de día\n1:57 #6 Pesarías 6 veces menos\n2:21 #5 Polvo pegajoso\n2:43 #4 Hielo escondido\n3:05 #3 Un eclipse perfecto\n3:27 #2 Lunamotos\n3:52 #1 Nació de un choque\n4:17 Final\n\n#Luna #Superluna #LunaDelCastor #datoscuriosos",
+  "tags": [
+   "la luna",
+   "superluna",
+   "superluna del castor",
+   "curiosidades de la luna",
+   "datos de la luna",
+   "top 10",
+   "datos curiosos",
+   "espacio"
+  ],
+  "primer_comentario": "¿Cuál de las 10 cosas de la Luna te ha parecido más increíble? Comenta su número 👇"
+ }
+}
