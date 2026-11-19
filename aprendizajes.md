@@ -12,6 +12,7 @@ Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se
 - Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
 - Tendencias: por la mañana nada apto más fuerte (agenda política y bolsa); se mantiene la **Superluna del Castor** del plan. Tendencia por vídeo: 11 h castor (tendencia, animal que da nombre a la Luna del Castor), 14 h vof #18 mitos de la Luna (tendencia), 16 h largo Luna (tendencia), 17 h superluna (tendencia), 20 h anzuelo Luna (tendencia).
 - Créditos ElevenLabs: 88 % (115.121 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 5 de 5 (4 Shorts + vídeo largo de 4:27 con miniatura aceptada por Metricool), todos con voz y primer comentario.
 
 ## 2026-11-18
 - Métricas: **llegan datos hasta el 14/11**. El 14/11 fue el **mejor día del canal**: ojos «¿Ves el mundo al revés?» **1.175** (5 s ≈ 33 %), Velociraptor (Animales #10) **1.086**, vof #13 mitos del cuerpo II **1.032**, nieve 657. Siguen subiendo los del 13/11: vof plantas 1.060, calendario 1.006 (9 s vistos, ≈ 59 %: la mejor retención). En cambio el 12/11 se quedó casi vacío (Luna 2, delfín 19, vof III 16) y el colibrí sigue en 135.
