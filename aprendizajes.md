@@ -3,6 +3,17 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-20
+- Métricas: **llegan datos hasta el 17/11**, con la primera comparación de **tendencia frente a no tendencia**. El 14/11 (sin tendencia: ojos, Velociraptor, vof cuerpo II, nieve) sigue arriba con **984-1.261**. Los días de tendencia de **cielo/espacio** van muy por debajo: 16/11 (Leónidas) escarabajo 219, vof cielo **7**, cometas 140, «¿Cuándo ver las Leónidas?» **383** (el mejor de ese día, título práctico con lo que se busca); 15/11 estrellas fugaces 211 frente a perro 639 (sin tendencia). El 17/11 (sondas) aún reciente: 40-76.
+- **Conclusión: la tendencia por sí sola no basta; cuenta más el nicho.** Las tendencias de cielo/espacio rinden como la ciencia abstracta (poco); cuando la tendencia sea de cielo, mejor un título práctico («¿cuándo ver…?») que datos sueltos.
+- Se mantiene: títulos en pregunta sobre ti o algo cotidiano, animales llamativos en la serie, mitos sorprendentes en la vof. Los anzuelos «Top 10» siguen dignos (316-330 los antiguos).
+- Qué se cambia hoy: tendencia de **naturaleza/animales** (lo que mejor funciona) y **Saturno del plan (20:00) se cambia por el cacao** («¿Tu chocolate viene de la selva?», `pregunta-tu`, algo cotidiano ligado a la Amazonía), porque el espacio viene rindiendo poco. Títulos del 11:00 y del 17:00 pasados a pregunta. Idea nueva: un Short de **comida cotidiana ligada a la tendencia**.
+- Verificación: mono aullador (Smithsonian's National Zoo: se oye a ~4,8 km en buenas condiciones, hioides hueco como caja de resonancia, cola prensil); especies nuevas Alouatta iroi y A. matogrossensis (Communications Biology; Salford, Live Science, Sci.News: ríos como barrera). Amazonía: oxígeno 6-9 % y casi todo lo consume la propia selva (Malhi/Foley, FactCheck.org, NatGeo); ~10 % de las especies conocidas en ~1 % de la superficie (WWF); 8 países + Guayana Francesa y ~40 % de Sudamérica (WWF); 200-300+ especies de árbol por hectárea (Gentry 1988, ForestGEO). Cacao: Alta Amazonía como centro de origen y uso hace ~5.300 años en Santa Ana-La Florida, Ecuador (Zarrillo et al., Nature Ecology & Evolution 2018); flores y frutos en el tronco (cauliflora), 20-60 semillas por mazorca (Jardín Botánico de Berkeley, Eden Project). Voz vof frase 2 acortada («¿Da el 20% del oxígeno?»).
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (elecciones del 29N, Black Friday, sucesos); se mantienen los **monos aulladores nuevos de la Amazonía**. Tendencia por vídeo: 11 h mono aullador (tendencia), 14 h vof #19 mitos de la Amazonía (tendencia), 17 h selva amazónica (tendencia), 20 h cacao (tendencia, otro ángulo; sustituye a Saturno). Sin vídeo largo (día impar).
+- Créditos ElevenLabs: 86 % (113.200 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 4 de 4, todos con voz y primer comentario.
+
 ## 2026-11-19
 - Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el 14/11 (mismas cifras que ayer: ojos 1.175, Velociraptor 1.086, vof #13 1.032, calendario 1.006 con 9 s vistos ≈ 59 %, nieve 657, anzuelo del espacio 325; colibrí 135; los del 12/11 casi vacíos). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
 - Tendencia frente a no tendencia: **aún sin datos** (los vídeos de tendencia empiezan el 15/11 y Metricool va con 5 días de retraso).
