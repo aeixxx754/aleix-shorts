@@ -1,0 +1,66 @@
+{
+ "tema": "Animales increíbles: el mono aullador",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 16,
+ "hook_emoji": "🐒",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "tendencia": "Monos aulladores nuevos en la Amazonía (Alouatta iroi y A. matogrossensis, 19/11/2026) y la selva amazónica · animal de la noticia",
+ "primer_comentario": "Comenta 🐒 si ya conocías al mono aullador",
+ "prueba_titulo": "¿Un mono que se oye a 5 km? Animales increíbles #16 🐒",
+ "clips": [
+  "howler monkey",
+  "howler monkey tree",
+  "amazon rainforest canopy",
+  "monkey tail branch",
+  "rainforest river"
+ ],
+ "es": {
+  "hook": [
+   "¿UN MONO QUE SE OYE A 5 KM?",
+   "y hay 2 especies nuevas"
+  ],
+  "facts": [
+   [
+    "📢",
+    "Su aullido se oye a",
+    "UNOS 5 KM",
+    "de los más ruidosos en tierra"
+   ],
+   [
+    "🦴",
+    "Un hueso de su garganta",
+    "ES HUECO",
+    "y amplifica su voz como un altavoz"
+   ],
+   [
+    "🌿",
+    "Su cola funciona como",
+    "UNA QUINTA MANO",
+    "se cuelga de ella en las ramas"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Se oye a 5 kilómetros?",
+   "Su aullido se oye a unos 5 kilómetros.",
+   "Un hueso hueco de la garganta amplifica su voz.",
+   "Y su cola funciona como una quinta mano.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #16: ¿un mono que se oye a 5 km? 🐒",
+  "descripcion": "El mono aullador: su voz se oye a unos 5 km, tiene un hueso de la garganta que la amplifica y una cola que hace de mano. Esta semana se han descubierto 2 especies nuevas en la Amazonía. 🐒\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #MonoAullador #Amazonía",
+  "tags": [
+   "mono aullador",
+   "animales increíbles",
+   "curiosidades de animales",
+   "monos de la Amazonía",
+   "nuevas especies de mono aullador",
+   "datos curiosos"
+  ]
+ }
+}

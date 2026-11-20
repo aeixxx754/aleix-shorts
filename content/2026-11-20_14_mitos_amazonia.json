@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de la Amazonía",
+ "formato": "vof",
+ "episodio": 19,
+ "hook_emoji": "🌳",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Monos aulladores nuevos en la Amazonía (Alouatta iroi y A. matogrossensis, 19/11/2026) y la selva amazónica",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Cuánto sabes de la Amazonía? Verdadero o falso #19 🌳",
+ "clips": [
+  "amazon rainforest aerial",
+  "rainforest trees mist",
+  "tropical forest river",
+  "jungle waterfall",
+  "rainforest canopy"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DE LA AMAZONÍA",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🌳",
+    "La Amazonía produce el 20 % del oxígeno del mundo",
+    false,
+    "Un 6-9 %, y casi todo lo gasta la selva"
+   ],
+   [
+    "🦜",
+    "En la Amazonía vive el 10 % de las especies conocidas",
+    true,
+    "En solo un 1 % de la superficie del planeta"
+   ],
+   [
+    "🗺️",
+    "La selva amazónica solo está en Brasil",
+    false,
+    "Abarca 8 países y la Guayana Francesa"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Sabes de la Amazonía?",
+   [
+    "¿Da el 20% del oxígeno?",
+    "¡Falso! Mucho menos."
+   ],
+   [
+    "Acoge cerca del 10% de especies.",
+    "¡Verdadero! Es enorme."
+   ],
+   [
+    "La selva solo está en Brasil.",
+    "¡Falso! Abarca 9 territorios."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #19 Mitos de la Amazonía 🌳",
+  "descripcion": "¿Verdadero o falso? Mitos de la Amazonía: su oxígeno, sus especies y los países que abarca. 🌳\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #Amazonía #DatosCuriosos",
+  "tags": [
+   "mitos de la amazonía",
+   "verdadero o falso",
+   "selva amazónica",
+   "pulmón del planeta",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
