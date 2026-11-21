@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de los planetas",
+ "formato": "vof",
+ "episodio": 20,
+ "hook_emoji": "🪐",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Desfile de planetas antes del amanecer (Mercurio, Venus, Marte y Júpiter, 13-22/11/2026)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #20 ¿Qué planeta es el más caliente? 🪐",
+ "clips": [
+  "planets solar system",
+  "venus planet",
+  "night sky stars",
+  "mars red planet",
+  "telescope night sky"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DE LOS PLANETAS",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🔥",
+    "Mercurio es el planeta más caliente",
+    false,
+    "Es Venus: llega a unos 465 °C"
+   ],
+   [
+    "🪐",
+    "Si los planetas se alinean, están pegados en el espacio",
+    false,
+    "Solo lo parece desde la Tierra"
+   ],
+   [
+    "🔴",
+    "Marte es rojo por el óxido de hierro",
+    true,
+    "Su polvo y sus rocas están oxidados"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Conoces los planetas?",
+   [
+    "Mercurio es el más caliente.",
+    "¡Falso! Es Venus."
+   ],
+   [
+    "Alineados, están pegados.",
+    "¡Falso! Solo lo parece."
+   ],
+   [
+    "Marte es rojo por óxido.",
+    "¡Verdadero! Óxido de hierro."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #20 Mitos de los planetas 🪐",
+  "descripcion": "¿Verdadero o falso? Mitos de los planetas: el más caliente, las alineaciones y el rojo de Marte. 🪐\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #planetas #desfiledeplanetas",
+  "tags": [
+   "mitos de los planetas",
+   "verdadero o falso",
+   "desfile de planetas",
+   "planetas del sistema solar",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

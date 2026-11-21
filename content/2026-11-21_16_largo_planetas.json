@@ -1,0 +1,142 @@
+{
+ "tipo": "largo",
+ "tema": "10 rarezas de los planetas que parecen inventadas",
+ "hook_emoji": "🪐",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "tendencia": "Desfile de planetas antes del amanecer (Mercurio, Venus, Marte y Júpiter, 13-22/11/2026)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#00B8D4",
+    "#6200EA"
+   ],
+   "composicion": "emoji-derecha",
+   "emoji": "🪐",
+   "etiqueta": "TOP 10",
+   "texto": "¡UNO GIRA AL REVÉS!"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#FF3D00",
+     "#FFAB00"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "🌋",
+    "etiqueta": "¿REAL?",
+    "texto": "¿ESTO EXISTE?"
+   },
+   {
+    "colores": [
+     "#00C853",
+     "#1A237E"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🪐",
+    "etiqueta": "TOP 10",
+    "texto": "EL #1 ES LOCURA"
+   }
+  ],
+  "intro": {
+   "clip": "planets night sky",
+   "emoji": "🪐",
+   "texto": [
+    "10 RAREZAS DE LOS PLANETAS",
+    "el número 1 gira al revés"
+   ],
+   "voz": "Mira al cielo antes del amanecer: ahora mismo se ven cuatro planetas a la vez. Pero lo que no se ve es lo raro que son. Hay planetas que giran al revés, uno que rueda tumbado y lunas llenas de volcanes. Quédate hasta el final, porque el número uno es el más extraño de todos."
+  },
+  "items": [
+   {
+    "emoji": "🧊",
+    "titulo": "Hielo junto al Sol",
+    "texto": "Tiene hielo en cráteres que nunca ven el Sol.",
+    "voz": "Número 10: Mercurio, el planeta más cercano al Sol, tiene hielo. Parece imposible, pero en sus polos hay cráteres tan profundos que la luz del Sol nunca llega al fondo. Allí hace muchísimo frío. Las sondas espaciales han detectado señales claras de hielo de agua. Es como tener una nevera escondida junto a una hoguera gigante.",
+    "clip": "mercury planet surface"
+   },
+   {
+    "emoji": "🌑",
+    "titulo": "Una luna veloz",
+    "texto": "Fobos da ~3 vueltas a Marte cada día.",
+    "voz": "Número 9: Fobos, una luna de Marte. Es pequeña y tiene forma de patata, pero es rapidísima. Da unas tres vueltas a Marte cada día, una cada siete horas y media. Si vivieras en Marte, la verías cruzar el cielo varias veces en un solo día. Y poco a poco se acerca al planeta, así que dentro de millones de años podría romperse.",
+    "clip": "mars red planet"
+   },
+   {
+    "emoji": "⏱️",
+    "titulo": "El día más corto",
+    "texto": "En Júpiter un día dura solo unas 10 horas.",
+    "voz": "Número 8: el día de Júpiter. Es el planeta más grande de todos y, aun así, gira muy deprisa. Un día completo dura solo unas 10 horas. Es el día más corto del sistema solar. Imagina ver salir el Sol y, menos de diez horas después, verlo salir otra vez. ¡Los días volarían!",
+    "clip": "jupiter planet"
+   },
+   {
+    "emoji": "🔭",
+    "titulo": "Descubierto con mates",
+    "texto": "Se halló con cálculos, antes de verlo.",
+    "voz": "Número 7: Neptuno. Fue el primer planeta descubierto con matemáticas. En 1846, unos científicos calcularon dónde tenía que estar, apuntaron el telescopio allí y ahí estaba. Además, su año dura unos 165 años terrestres. Desde su descubrimiento, Neptuno solo ha dado una vuelta completa al Sol, y la terminó en 2011.",
+    "clip": "neptune blue planet"
+   },
+   {
+    "emoji": "🏜️",
+    "titulo": "Un cañón gigante",
+    "texto": "Valles Marineris: ~4.000 km de largo y ~7 km de hondo.",
+    "voz": "Número 6: Valles Marineris, en Marte. Es un cañón gigante de unos 4.000 kilómetros de largo y hasta siete de profundidad. Es casi tan largo como Europa de punta a punta. El Gran Cañón de Estados Unidos, a su lado, parece una simple grieta. Y se distingue incluso en las fotos de las sondas.",
+    "clip": "mars canyon"
+   },
+   {
+    "emoji": "💍",
+    "titulo": "Anillos finísimos",
+    "texto": "Miden ~280.000 km de ancho, pero muy poco grosor.",
+    "voz": "Número 5: los anillos de Saturno. Son enormes: miden unos 280.000 kilómetros de ancho, casi tres cuartos de la distancia a la Luna. Pero en muchas zonas son finísimos, de apenas unos diez metros de grosor. Es como una hoja de papel gigante. Y están hechos sobre todo de trozos de hielo de agua, desde granitos hasta rocas enormes.",
+    "clip": "saturn rings"
+   },
+   {
+    "emoji": "🌀",
+    "titulo": "Un hexágono en el cielo",
+    "texto": "Saturno tiene un hexágono de ~30.000 km en el polo.",
+    "voz": "Número 4: el hexágono de Saturno. En su polo norte hay una nube gigante con forma de seis lados perfectos. Mide unos 30.000 kilómetros de lado a lado, más que dos Tierras juntas. Las sondas lo han visto durante años y sigue ahí. Es una forma rarísima para una nube, y los científicos siguen estudiando por qué se mantiene.",
+    "clip": "saturn planet"
+   },
+   {
+    "emoji": "🎳",
+    "titulo": "Un planeta tumbado",
+    "texto": "Urano gira inclinado unos 98°, casi de lado.",
+    "voz": "Número 3: Urano, el planeta tumbado. Casi todos los planetas giran como peonzas, más o menos derechos. Urano está inclinado unos 98 grados, así que rueda casi de lado, como una bola de bolos. El resultado es rarísimo: sus polos pasan unos 42 años seguidos con luz y otros tantos a oscuras. Imagina un día de verano de 42 años.",
+    "clip": "uranus planet"
+   },
+   {
+    "emoji": "🌋",
+    "titulo": "La luna más volcánica",
+    "texto": "Ío tiene más de 400 volcanes activos.",
+    "voz": "Número 2: Ío, una luna de Júpiter. Es el lugar con más actividad volcánica de todo el sistema solar, con más de 400 volcanes activos. Algunos lanzan columnas de gas y azufre a cientos de kilómetros de altura. ¿La causa? Júpiter y sus otras lunas la estiran y la aprietan sin parar, y eso la calienta por dentro, como si amasaras plastilina.",
+    "clip": "volcano eruption lava"
+   },
+   {
+    "emoji": "🔥",
+    "titulo": "Venus, al revés",
+    "texto": "Gira al revés y llega a ~465 °C.",
+    "voz": "Número 1: Venus. Es el planeta más raro de todos. Gira al revés que casi todos los demás, así que allí el Sol saldría por el oeste. Un solo día dura unos 243 días terrestres. Y su atmósfera atrapa tanto calor que llega a unos 465 grados, más que Mercurio, aunque esté más lejos del Sol. Es un horno con las nubes cerradas.",
+    "clip": "venus planet clouds"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez rarezas te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "¿10 rarezas de los planetas que parecen inventadas? 🪐",
+  "descripcion": "Diez rarezas de los planetas y sus lunas: hielo junto al Sol, un cañón gigante, un hexágono en Saturno, un planeta tumbado, una luna llena de volcanes y uno que gira al revés. Y estos días puedes ver cuatro planetas antes del amanecer. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:19 #10 Hielo junto al Sol\n0:43 #9 Una luna veloz\n1:07 #8 El día más corto\n1:29 #7 Descubierto con mates\n1:54 #6 Un cañón gigante\n2:16 #5 Anillos finísimos\n2:41 #4 Un hexágono en el cielo\n3:04 #3 Un planeta tumbado\n3:30 #2 La luna más volcánica\n3:56 #1 Venus, al revés\n4:23 Final\n\n#planetas #sistemasolar #desfiledeplanetas #datoscuriosos",
+  "tags": [
+   "planetas",
+   "sistema solar",
+   "desfile de planetas",
+   "curiosidades de los planetas",
+   "datos del espacio",
+   "top 10",
+   "datos curiosos",
+   "espacio"
+  ],
+  "primer_comentario": "¿Cuál de las 10 rarezas de los planetas te ha parecido más increíble? Comenta su número 👇"
+ }
+}
