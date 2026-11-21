@@ -11,6 +11,7 @@ Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se
 - Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
 - Tendencias: por la mañana nada apto más fuerte (elecciones del 29N, lotería: descartados) → se mantiene el **desfile de planetas** del plan (todos los vídeos de tendencia; el gallo, como «animal del amanecer»). Tendencia por vídeo: 11 h gallo (tendencia indirecta), 14 h vof #20 mitos de los planetas (tendencia), 16 h vídeo largo 10 rarezas de los planetas (tendencia), 17 h cómo ver el desfile (tendencia, título práctico), 20 h anzuelo del vídeo largo (tendencia).
 - Créditos ElevenLabs: 86 % (112.810 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 5 de 5 (4 Shorts + vídeo largo con miniatura), todos con voz y primer comentario.
 
 ## 2026-11-20
 - Métricas: **llegan datos hasta el 17/11**, con la primera comparación de **tendencia frente a no tendencia**. El 14/11 (sin tendencia: ojos, Velociraptor, vof cuerpo II, nieve) sigue arriba con **984-1.261**. Los días de tendencia de **cielo/espacio** van muy por debajo: 16/11 (Leónidas) escarabajo 219, vof cielo **7**, cometas 140, «¿Cuándo ver las Leónidas?» **383** (el mejor de ese día, título práctico con lo que se busca); 15/11 estrellas fugaces 211 frente a perro 639 (sin tendencia). El 17/11 (sondas) aún reciente: 40-76.
