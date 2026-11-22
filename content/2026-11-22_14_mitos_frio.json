@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos del frío",
+ "formato": "vof",
+ "episodio": 21,
+ "hook_emoji": "❄️",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Frío y cambio de tiempo · Frío y cambio de tiempo en España (viento, bajada de temperaturas) + Día de la Música (22/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Te resfrías por el frío? Verdadero o falso #21 ❄️",
+ "clips": [
+  "snow winter",
+  "frozen pond ice",
+  "frog close up",
+  "winter coat snow",
+  "cold breath winter"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DEL FRÍO",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🤧",
+    "Salir con frío te provoca un resfriado",
+    false,
+    "Lo causan virus; en invierno hay más contagio"
+   ],
+   [
+    "🐸",
+    "Hay ranas que se congelan y luego reviven",
+    true,
+    "La rana de bosque revive al deshelarse"
+   ],
+   [
+    "🧥",
+    "El abrigo te da calor",
+    false,
+    "Solo guarda el calor que produce tu cuerpo"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Conoces el frío?",
+   [
+    "El frío provoca resfriados.",
+    "¡Falso! Son virus."
+   ],
+   [
+    "Hay ranas que se congelan.",
+    "¡Verdadero! Y reviven."
+   ],
+   [
+    "El abrigo da calor.",
+    "¡Falso! Solo aísla."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #21 Mitos del frío ❄️",
+  "descripcion": "¿Verdadero o falso? Mitos del frío: resfriados, ranas congeladas y abrigos. ❄️\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #frío #datoscuriosos",
+  "tags": [
+   "mitos del frío",
+   "verdadero o falso",
+   "resfriado",
+   "frío",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

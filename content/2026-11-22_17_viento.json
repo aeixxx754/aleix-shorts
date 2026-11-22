@@ -1,0 +1,63 @@
+{
+ "tema": "El viento",
+ "formato": "datos",
+ "hook_emoji": "💨",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Viento y cambio de tiempo · Frío y cambio de tiempo en España (viento, bajada de temperaturas) + Día de la Música (22/11)",
+ "primer_comentario": "Comenta 💨 si hoy hace viento donde vives",
+ "clips": [
+  "wind blowing trees",
+  "clouds sky timelapse",
+  "windy field grass",
+  "storm clouds",
+  "wind turbine"
+ ],
+ "es": {
+  "hook": [
+   "¿POR QUÉ EL VIENTO DA MÁS FRÍO?",
+   "el termómetro no lo nota"
+  ],
+  "facts": [
+   [
+    "☀️",
+    "El viento nace porque",
+    "EL SOL CALIENTA",
+    "unas zonas más que otras"
+   ],
+   [
+    "🌡️",
+    "Con viento el termómetro",
+    "MARCA LO MISMO",
+    "pero se lleva el calor de tu piel"
+   ],
+   [
+    "🌪️",
+    "Récord de racha:",
+    "408 KM/H",
+    "en una isla de Australia, en 1996"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Por qué da frío?",
+   "Hay viento porque el Sol calienta la Tierra desigual.",
+   "Con viento sientes frío, pero el termómetro marca igual.",
+   "El récord: 408 kilómetros por hora, en Australia.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Por qué el viento da más frío? 3 datos del viento 💨",
+  "descripcion": "El viento: por qué sopla, por qué sientes más frío aunque el termómetro no cambie y cuál es su récord. 💨\nSuscríbete para datos nuevos cada día\n\n#Shorts #viento #frío #datoscuriosos",
+  "tags": [
+   "viento",
+   "sensación térmica",
+   "por qué el viento da frío",
+   "cambio de tiempo",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
