@@ -1,0 +1,63 @@
+{
+ "tema": "El pavo",
+ "formato": "datos",
+ "hook_emoji": "🦃",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Acción de Gracias (tendencia) · Aves y semana de Acción de Gracias (26/11)",
+ "primer_comentario": "Comenta 🦃 si sabías lo de su cabeza de colores",
+ "clips": [
+  "turkey bird close up",
+  "wild turkey walking",
+  "turkey head close up",
+  "mexico landscape",
+  "turkeys farm"
+ ],
+ "es": {
+  "hook": [
+   "¿UN PAVO QUE CAMBIA DE COLOR?",
+   "y corre como un velocista"
+  ],
+  "facts": [
+   [
+    "🎨",
+    "Su cabeza cambia",
+    "DE ROJO A AZUL",
+    "y a blanco, según cómo se sienta"
+   ],
+   [
+    "💨",
+    "El pavo salvaje corre",
+    "A 40 KM/H",
+    "tan rápido como un atleta de élite"
+   ],
+   [
+    "🌽",
+    "Se domesticó en México",
+    "HACE 2.000 AÑOS",
+    "mucho antes de llegar a Europa"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Pavos de colores?",
+   "Su cabeza cambia de rojo a azul y blanco.",
+   "El pavo salvaje corre a 40 kilómetros por hora.",
+   "Se domesticó en México hace unos 2.000 años.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Por qué el pavo cambia de color? 3 datos 🦃",
+  "descripcion": "Tres datos curiosos del pavo: su cabeza de colores, su velocidad y su origen. 🦃\nSuscríbete para datos nuevos cada día\n\n#Shorts #pavo #aves #AcciónDeGracias",
+  "tags": [
+   "datos del pavo",
+   "curiosidades del pavo",
+   "curiosidades de aves",
+   "acción de gracias",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

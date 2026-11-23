@@ -1,0 +1,65 @@
+{
+ "tema": "Animales increíbles: el pájaro carpintero",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 19,
+ "hook_emoji": "🐦",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "numero",
+ "tendencia": "Aves (animal relacionado) · Aves y semana de Acción de Gracias (26/11)",
+ "primer_comentario": "Comenta 🐦 si sabías lo de su lengua",
+ "clips": [
+  "woodpecker pecking tree",
+  "woodpecker close up",
+  "tree trunk forest",
+  "woodpecker bird",
+  "forest birds"
+ ],
+ "es": {
+  "hook": [
+   "¿GOLPEA 20 VECES POR SEGUNDO?",
+   "el tambor del bosque"
+  ],
+  "facts": [
+   [
+    "🥁",
+    "Tamborilea hasta",
+    "20 GOLPES",
+    "por segundo, según la especie"
+   ],
+   [
+    "👅",
+    "Su lengua es tan larga",
+    "RODEA SU CRÁNEO",
+    "se guarda enrollada por detrás"
+   ],
+   [
+    "🐾",
+    "Dos dedos delante",
+    "Y DOS DETRÁS",
+    "para agarrarse bien al tronco"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿20 golpes por segundo?",
+   "Tamborilea el tronco hasta 20 veces por segundo.",
+   "Su lengua es tan larga que rodea su cráneo.",
+   "Dos dedos delante y dos detrás: agarre perfecto.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #19: ¿20 golpes por segundo? 🐦",
+  "descripcion": "El pájaro carpintero: tamborilea hasta 20 veces por segundo y su lengua rodea su cráneo. 🐦\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #aves #pajarocarpintero",
+  "tags": [
+   "pájaro carpintero",
+   "animales increíbles",
+   "curiosidades de aves",
+   "datos de animales",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

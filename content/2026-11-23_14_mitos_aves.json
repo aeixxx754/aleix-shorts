@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de las aves",
+ "formato": "vof",
+ "episodio": 22,
+ "hook_emoji": "🦃",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Acción de Gracias (tendencia) · Aves y semana de Acción de Gracias (26/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #22 ¿El pavo da sueño? 🦃",
+ "clips": [
+  "turkey bird farm",
+  "geese flying v formation",
+  "wild turkey forest",
+  "thanksgiving table food",
+  "bird flying sky"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DE LAS AVES",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🦃",
+    "Comer pavo da sueño por el triptófano",
+    false,
+    "Da sueño el banquete, no el pavo"
+   ],
+   [
+    "🦆",
+    "Los gansos vuelan en V para ahorrar energía",
+    true,
+    "Aprovechan el aire que levanta el de delante"
+   ],
+   [
+    "🌳",
+    "Los pavos salvajes no pueden volar",
+    false,
+    "Vuelan rápido en tramos cortos"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos de las aves?",
+   [
+    "El pavo da sueño.",
+    "¡Falso! Es el banquete."
+   ],
+   [
+    "Los gansos vuelan en V.",
+    "¡Verdadero! Ahorran energía."
+   ],
+   [
+    "Pavos salvajes: no vuelan.",
+    "¡Falso! Sí vuelan."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #22 Mitos de las aves 🦃",
+  "descripcion": "¿Verdadero o falso? Mitos de las aves: el pavo y el sueño, los gansos en V y el vuelo de los pavos. 🦃\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #aves #AcciónDeGracias",
+  "tags": [
+   "mitos de las aves",
+   "verdadero o falso",
+   "pavo",
+   "gansos",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

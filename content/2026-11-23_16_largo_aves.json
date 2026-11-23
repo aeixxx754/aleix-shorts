@@ -1,0 +1,142 @@
+{
+ "tipo": "largo",
+ "tema": "10 aves que parecen inventadas",
+ "hook_emoji": "🦜",
+ "cat": "PETS_ANIMALS",
+ "tendencia": "Aves (tendencia) · Aves y semana de Acción de Gracias (26/11)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#FF6D00",
+    "#C51162"
+   ],
+   "composicion": "emoji-izquierda",
+   "emoji": "🦜",
+   "etiqueta": "TOP 10",
+   "texto": "¿ESTO ES UN AVE?"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#00BFA5",
+     "#1A237E"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "🐦",
+    "etiqueta": "#1 TE SORPRENDE",
+    "texto": "¡NO SE POSA EN MESES!"
+   },
+   {
+    "colores": [
+     "#AA00FF",
+     "#FFD600"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "🦚",
+    "etiqueta": "¿REAL?",
+    "texto": "¿REALES O INVENTADAS?"
+   }
+  ],
+  "intro": {
+   "clip": "colorful parrot",
+   "emoji": "🦜",
+   "texto": [
+    "10 AVES QUE PARECEN INVENTADAS",
+    "el número 1 vuela sin parar"
+   ],
+   "voz": "Algunas aves parecen sacadas de un cuento: una que fabrica herramientas, otra que imita el sonido de una sierra y otra que cruza el océano sin parar. En este vídeo vas a conocer diez aves reales que parecen inventadas. Quédate hasta el final, porque el número uno es el más increíble de todos."
+  },
+  "items": [
+   {
+    "emoji": "🦜",
+    "titulo": "El loro que no vuela",
+    "texto": "El kakapo pesa hasta 4 kg y sale de noche.",
+    "voz": "Número 10: el kakapo, un loro de Nueva Zelanda que no sabe volar. Es nocturno, vive en el suelo y es el loro más pesado del mundo, con hasta cuatro kilos. Trepa a los árboles y baja planeando con sus alas cortas. En 1995 solo quedaban cincuenta y uno, pero gracias a sus cuidadores ya hay unos trescientos veinticinco.",
+    "clip": "parrot green"
+   },
+   {
+    "emoji": "🏠",
+    "titulo": "El edificio de pájaros",
+    "texto": "Cientos de aves comparten un nido gigante.",
+    "voz": "Número 9: el tejedor social, un pajarillo del desierto del Kalahari, en África. Cientos de aves construyen entre todas un solo nido gigante, hecho de paja, como un bloque de pisos con muchas habitaciones. Puede pesar hasta una tonelada y durar décadas: algunos tienen más de cien años. Dentro hace menos calor que fuera, así que viven allí todo el año.",
+    "clip": "weaver bird nest"
+   },
+   {
+    "emoji": "🌈",
+    "titulo": "El pico radiador",
+    "texto": "Su pico enorme le ayuda a controlar el calor.",
+    "voz": "Número 8: el tucán y su enorme pico de colores. Mide casi un tercio de su cuerpo, pero pesa muy poco, porque por dentro es ligero como una esponja. Y no sirve solo para comer: los científicos descubrieron que le ayuda a controlar su temperatura. Cuando hace calor, la sangre circula por el pico y suelta calor. Es un radiador con plumas.",
+    "clip": "toucan close up"
+   },
+   {
+    "emoji": "🏔️",
+    "titulo": "El gigante de los Andes",
+    "texto": "Sus alas abiertas miden cerca de 3 metros.",
+    "voz": "Número 7: el cóndor andino, una de las aves voladoras más grandes del mundo. Con las alas abiertas mide cerca de tres metros, casi el doble que una persona con los brazos extendidos. Pesa hasta quince kilos y apenas bate las alas: se deja llevar por el aire caliente que sube de las montañas, y así puede planear durante horas sin cansarse.",
+    "clip": "condor flying mountains"
+   },
+   {
+    "emoji": "🎶",
+    "titulo": "El imitador del bosque",
+    "texto": "Imita aves, cámaras de fotos y hasta sierras.",
+    "voz": "Número 6: el pájaro lira, de Australia. Su cola tiene forma de lira, un instrumento musical, y por eso se llama así. Pero lo más increíble es su voz: puede imitar a otras aves, y se han grabado ejemplares copiando el clic de una cámara de fotos o una sierra. Canta durante horas para conquistar a las hembras. Es el mejor imitador del bosque.",
+    "clip": "lyrebird forest"
+   },
+   {
+    "emoji": "🦚",
+    "titulo": "Plumas más negras que negro",
+    "texto": "Algunas absorben el 99,95 % de la luz.",
+    "voz": "Número 5: las aves del paraíso, de Nueva Guinea. Los machos hacen bailes increíbles para conquistar a las hembras: abren las plumas, saltan y se transforman en formas extrañas. Y algunos tienen plumas tan negras que absorben hasta el 99,95 por ciento de la luz. Son tan oscuras que parecen un agujero, y así hacen brillar mucho más sus colores.",
+    "clip": "bird of paradise feathers"
+   },
+   {
+    "emoji": "🥝",
+    "titulo": "El ave de nariz en el pico",
+    "texto": "Huele las lombrices bajo tierra y pone un huevo enorme.",
+    "voz": "Número 4: el kiwi, el ave símbolo de Nueva Zelanda. No vuela, y sus plumas parecen pelo. Tiene los orificios de la nariz en la punta del pico, y con ellos huele las lombrices bajo la tierra. Además, su huevo es enorme: pesa entre el quince y el veinte por ciento de la madre. Sería como si una persona tuviera un bebé de diez kilos.",
+    "clip": "kiwi bird forest"
+   },
+   {
+    "emoji": "🛠️",
+    "titulo": "El cuervo ingeniero",
+    "texto": "Fabrica herramientas con ramas y hojas.",
+    "voz": "Número 3: el cuervo de Nueva Caledonia, un pájaro que fabrica herramientas. Dobla ramitas para hacer ganchos y corta hojas con forma de sierra para sacar insectos de los troncos. Los científicos lo estudian porque resuelve rompecabezas de varios pasos, algo muy raro entre los animales. Es un pequeño ingeniero con plumas, y vive en una isla del Pacífico.",
+    "clip": "crow bird close up"
+   },
+   {
+    "emoji": "✈️",
+    "titulo": "El viaje sin escalas",
+    "texto": "Cruza el Pacífico: 11.000 km sin parar.",
+    "voz": "Número 2: la aguja colipinta, un ave playera con un récord increíble. Cada otoño vuela desde Alaska hasta Nueva Zelanda, más de once mil kilómetros, sin parar a comer, a beber ni a descansar. Tarda entre ocho y once días. Es como volar de Madrid a Nueva York dos veces seguidas, sin aterrizar ni una sola vez, y con alas de pájaro.",
+    "clip": "bird flying ocean"
+   },
+   {
+    "emoji": "🐦",
+    "titulo": "Vuela diez meses seguidos",
+    "texto": "Hasta 10 meses en el aire sin posarse.",
+    "voz": "Número 1: el vencejo común. Parece un pájaro normal, pero tiene un récord que parece imposible: puede pasar hasta diez meses seguidos en el aire, y algunos no se posaron ni una sola vez. Come insectos al vuelo, bebe al vuelo y los científicos creen que incluso echa pequeñas siestas volando. Solo baja para criar. Es el ave que casi vive en el cielo.",
+    "clip": "swift bird flying sky"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez aves te ha parecido más increíble? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "¿10 aves que parecen inventadas? 🦜",
+  "descripcion": "Diez aves reales que parecen inventadas: un loro que no vuela, un nido gigante, un pico radiador, un imitador de sierras, plumas más negras que negro y un récord de vuelo difícil de creer. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\n0:00 Intro\n0:19 #10 El loro que no vuela\n0:45 #9 El edificio de pájaros\n1:10 #8 El pico radiador\n1:34 #7 El gigante de los Andes\n1:58 #6 El imitador del bosque\n2:23 #5 Plumas más negras que negro\n2:50 #4 El ave de nariz en el pico\n3:14 #3 El cuervo ingeniero\n3:39 #2 El viaje sin escalas\n4:04 #1 Vuela diez meses seguidos\n4:30 Final\n\n#aves #animales #datoscuriosos #AccióndeGracias",
+  "tags": [
+   "aves",
+   "aves increíbles",
+   "curiosidades de aves",
+   "animales increíbles",
+   "top 10",
+   "datos curiosos",
+   "pavo",
+   "datos de animales"
+  ],
+  "primer_comentario": "¿Cuál de las 10 aves te ha parecido más increíble? Comenta su número 👇"
+ }
+}
