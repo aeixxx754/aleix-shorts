@@ -1,0 +1,63 @@
+{
+ "tema": "¿Seguimos evolucionando?",
+ "formato": "datos",
+ "hook_emoji": "🧬",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Evolución (tendencia: aniversario de «El origen de las especies», 24/11)",
+ "primer_comentario": "Comenta 🧬 si no sabías lo de la leche",
+ "clips": [
+  "galapagos finch bird",
+  "bacteria microscope",
+  "milk glass pour",
+  "dry landscape drought",
+  "evolution fossil"
+ ],
+ "es": {
+  "hook": [
+   "¿SIGUES EVOLUCIONANDO TÚ?",
+   "la respuesta te sorprenderá"
+  ],
+  "facts": [
+   [
+    "🥛",
+    "Digerir leche de adulto",
+    "ES ALGO RECIENTE",
+    "se extendió en los últimos 10.000 años"
+   ],
+   [
+    "🦠",
+    "Las bacterias se vuelven",
+    "RESISTENTES",
+    "a los antibióticos: evolución en directo"
+   ],
+   [
+    "🐦",
+    "Tras una gran sequía",
+    "PICOS MÁS GRANDES",
+    "en los pinzones de Galápagos"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Sigues evolucionando?",
+   "Digerir leche de adulto es algo reciente.",
+   "Las bacterias se vuelven resistentes a los antibióticos.",
+   "Tras una sequía, los pinzones nacieron con picos más grandes.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Sigues evolucionando? 3 datos curiosos 🧬",
+  "descripcion": "¿Seguimos evolucionando? La leche, las bacterias y los pinzones de Galápagos. 🧬\nSuscríbete para datos nuevos cada día\n\n#Shorts #evolución #DatosCuriosos #ciencia",
+  "tags": [
+   "evolución",
+   "seguimos evolucionando",
+   "curiosidades de ciencia",
+   "origen de las especies",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

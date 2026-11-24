@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de la evolución",
+ "formato": "vof",
+ "episodio": 23,
+ "hook_emoji": "🧬",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Evolución (tendencia: aniversario de «El origen de las especies», 24/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #23 Mitos de la evolución 🧬",
+ "clips": [
+  "fossil skeleton museum",
+  "whale underwater",
+  "giraffe savanna",
+  "chimpanzee forest",
+  "forest sunlight"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DE LA EVOLUCIÓN",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🐒",
+    "Los humanos venimos de los chimpancés",
+    false,
+    "Tenemos un antepasado común: 6-7 M de años"
+   ],
+   [
+    "🐋",
+    "Las ballenas descienden de animales con patas",
+    true,
+    "Sus antepasados andaban en tierra hace 50 M años"
+   ],
+   [
+    "🦒",
+    "La jirafa alargó el cuello de tanto estirarlo",
+    false,
+    "Sobrevivían las de cuello largo"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Sabes de evolución?",
+   [
+    "Venimos de los chimpancés.",
+    "¡Falso! Antepasado común."
+   ],
+   [
+    "Las ballenas tuvieron patas.",
+    "¡Verdadero! Tenían patas."
+   ],
+   [
+    "Estirarse alarga el cuello.",
+    "¡Falso! No se hereda."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Venimos de los chimpancés? Verdadero o falso #23 🐒",
+  "descripcion": "¿Verdadero o falso? Mitos de la evolución: chimpancés, ballenas y jirafas. 🧬\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #evolución #DatosCuriosos",
+  "tags": [
+   "mitos de la evolución",
+   "verdadero o falso",
+   "evolución",
+   "venimos del mono",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

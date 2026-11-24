@@ -1,0 +1,63 @@
+{
+ "tema": "Cómo ver la superluna de hoy",
+ "formato": "datos",
+ "hook_emoji": "🌕",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Superluna del Castor (tendencia, hoy 24/11; título práctico)",
+ "primer_comentario": "Comenta 🌕 si vas a mirar la superluna esta noche",
+ "clips": [
+  "full moon rising",
+  "full moon night",
+  "moon close up",
+  "night sky moon sea",
+  "moon over ocean"
+ ],
+ "es": {
+  "hook": [
+   "¿CUÁNDO VER LA SUPERLUNA HOY?",
+   "la primera desde enero"
+  ],
+  "facts": [
+   [
+    "🌅",
+    "Mírala al anochecer",
+    "SALE POR EL ESTE",
+    "justo cuando se pone el Sol"
+   ],
+   [
+    "✨",
+    "Se verá más brillante",
+    "UN 13 % MÁS",
+    "que una luna llena normal"
+   ],
+   [
+    "🔭",
+    "La próxima, el 24/12",
+    "AÚN MÁS CERCA",
+    "la superluna más cercana del año"
+   ]
+  ],
+  "outro": [
+   "¿La vas a mirar?",
+   "Comenta SÍ si la ves"
+  ],
+  "voz": [
+   "¡Hoy hay superluna!",
+   "Mírala al anochecer, saliendo por el este.",
+   "Brillará un 13 por ciento más que lo normal.",
+   "Y el 24 de diciembre, otra aún más cerca.",
+   "¿La vas a ver?"
+  ],
+  "titulo": "¿Cuándo ver la superluna hoy? 3 datos 🌕",
+  "descripcion": "Superluna del Castor, hoy 24 de noviembre: cuándo mirarla, cuánto brilla y cuándo es la próxima. 🌕\nSuscríbete para datos nuevos cada día\n\n#Shorts #Superluna #LunaDelCastor #Luna",
+  "tags": [
+   "superluna",
+   "superluna hoy",
+   "luna del castor",
+   "luna llena noviembre",
+   "cuándo ver la superluna",
+   "datos curiosos"
+  ]
+ }
+}
