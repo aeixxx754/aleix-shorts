@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-24
+- Métricas: llegan datos del **20/11** (tendencia de naturaleza: Amazonía): mono aullador **494**, cacao **369**, selva 283: el mejor día de tendencia desde el 14/11. Pero la **vof #19 sacó 0** reproducciones (y la #18 del 19/11, 1): dos vof seguidas sin distribución; las #16-#17 sí tuvieron 40-172. Los vídeos largos siguen en 0.
+- **Conclusión**: cuarta confirmación: naturaleza/animales y comida cotidiana ligada a la tendencia > cielo/espacio (superluna del 19/11: 30). Preocupa la vof: con el título «¿Verdadero o falso? #N Mitos de…» las dos últimas se quedaron en 0.
+- Qué se cambia hoy: (1) **prueba de título en la vof**: se publica con el título en pregunta de Marco («¿Venimos de los chimpancés? Verdadero o falso #23»), y el clásico queda en `prueba_titulo`; si mejora, la serie pasa a título en pregunta con el nº al final. (2) El «3 datos» de las 17:00 del plan (mareas y Luna, datos sueltos de espacio) pasa a **guía práctica** de la superluna de hoy («¿Cuándo ver la superluna hoy?»), el único formato de cielo que ha funcionado (Leónidas 415). (3) Título de la serie de animales en pregunta («¿un lagarto que estornuda sal?»). Idea nueva: tendencia de **efeméride científica** (aniversario de «El origen de las especies», 24/11/1859) contada sin personas.
+- Verificación: iguana marina (Fundación Charles Darwin / Britannica: único lagarto marino, glándulas de sal nasales; Wikelski y Thom, Nature 2000: encoge hasta ~20 % de longitud con El Niño y vuelve a crecer). Vof: Smithsonian Human Origins (antepasado común con chimpancés hace ~6-7 M años), Pakicetus ~50 M años, selección natural frente a Lamarck. Superluna: Star Walk (24/11/2026, 14:53 UTC = 15:53 en la península; ~6,5 % más grande y ~13,5 % más brillante que la luna llena media; la del 24/12 es la más cercana del año, ~356.700 km); la luna llena sale por el este al ponerse el Sol. Evolución: persistencia de la lactasa (Nature Education), resistencia a antibióticos (OMS), pinzones de Daphne Major (Grant y Grant, sequía de 1977).
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (elecciones del 29N, lotería, sucesos, economía: descartados). Tendencia por vídeo: 11 h iguana marina #20 (tendencia indirecta: evolución/Galápagos), 14 h vof #23 mitos de la evolución (tendencia: efeméride), 17 h cómo ver la superluna (tendencia: superluna, título práctico; sustituye a «mareas»), 20 h seguimos evolucionando (tendencia: evolución). Sin vídeo largo (día impar).
+- Créditos ElevenLabs: 80 % (105.098 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 4 de 4, todos con voz y primer comentario.
+
 ## 2026-11-23
 - Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el **19/11** (mismas cifras que ayer: anzuelo Luna 125, castor 58, superluna 8, vof #18 y vídeo largo de la Luna 0; del 18/11, especies por descubrir 270, vof #17 172, rana 152). Menos de 10 Shorts nuevos → sin conclusiones nuevas. El retraso de Metricool ya es de 4 días.
 - Se mantiene lo aprendido: tendencias de **naturaleza/animales y cotidianas** mejor que las de cielo/espacio; **títulos en pregunta**; los anzuelos «Top 10» rinden y los vídeos largos casi no.
