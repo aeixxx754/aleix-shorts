@@ -1,0 +1,142 @@
+{
+ "tipo": "largo",
+ "tema": "10 cosas de los agujeros negros que parecen inventadas",
+ "hook_emoji": "⚫",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "tendencia": "Agujeros negros y universo lejano (tendencia: cuásares de Euclid en la prensa del 24/11)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#2962FF",
+    "#D500F9"
+   ],
+   "composicion": "emoji-centro",
+   "emoji": "⚫",
+   "etiqueta": "TOP 10",
+   "texto": "NI LA LUZ ESCAPA"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#FF6D00",
+     "#6200EA"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "🕳️",
+    "etiqueta": "¿REAL?",
+    "texto": "¿ESTO ES REAL?"
+   },
+   {
+    "colores": [
+     "#FFAB00",
+     "#D50000"
+    ],
+    "composicion": "emoji-izquierda",
+    "emoji": "🌌",
+    "etiqueta": "#1 TE SORPRENDE",
+    "texto": "NO ES UN AGUJERO"
+   }
+  ],
+  "intro": {
+   "clip": "black hole space",
+   "emoji": "⚫",
+   "texto": [
+    "10 COSAS DE LOS AGUJEROS NEGROS",
+    "que parecen inventadas"
+   ],
+   "voz": "Los agujeros negros parecen sacados de una película, pero existen de verdad. En este vídeo vas a conocer diez cosas de los agujeros negros que parecen inventadas, desde un telescopio que ha encontrado los más antiguos hasta un reloj que corre más despacio. Quédate hasta el final, porque el número uno es el más increíble."
+  },
+  "items": [
+   {
+    "emoji": "📸",
+    "titulo": "La primera foto",
+    "texto": "Un anillo de luz a 55 millones de años luz.",
+    "voz": "Número 10: la primera foto de un agujero negro. Se publicó en 2019 y muestra un anillo de luz con un círculo oscuro en el centro. Está en la galaxia M87, a unos 55 millones de años luz. No la hizo un solo telescopio: ocho radiotelescopios de todo el planeta trabajaron juntos, como si la Tierra entera fuera una cámara gigante.",
+    "clip": "galaxy night sky telescope"
+   },
+   {
+    "emoji": "⚫",
+    "titulo": "No es un agujero",
+    "texto": "Es un objeto muy denso, no un hueco.",
+    "voz": "Número 9: un agujero negro no es un agujero. Es un objeto muy denso, con tanta masa en tan poco espacio que su gravedad lo atrapa todo. Lo negro es la región de la que ni la luz puede escapar, y su borde se llama horizonte de sucesos. Es como una puerta de un solo sentido: se puede entrar, pero no salir.",
+    "clip": "dark space nebula"
+   },
+   {
+    "emoji": "🔭",
+    "titulo": "El vecino más cercano",
+    "texto": "Gaia BH1, a unos 1.600 años luz.",
+    "voz": "Número 8: Gaia BH1, uno de los agujeros negros más cercanos que se conocen. Se descubrió en 2022 y está a unos 1.600 años luz de la Tierra. Parece lejísimo, pero en el universo es casi un vecino. Lo detectó el telescopio espacial Gaia, al ver cómo una estrella cercana se movía en círculos alrededor de algo invisible.",
+    "clip": "telescope observatory night"
+   },
+   {
+    "emoji": "🌌",
+    "titulo": "El gigante de la galaxia",
+    "texto": "Sagitario A*: unos 4 millones de soles.",
+    "voz": "Número 7: Sagitario A asterisco, el agujero negro del centro de nuestra galaxia. Está a unos 26.000 años luz y tiene una masa de unos cuatro millones de soles. Aun así, no se lo traga todo: las estrellas cercanas giran a su alrededor a toda velocidad, y el Sol lleva miles de millones de años dando vueltas a la galaxia sin peligro.",
+    "clip": "milky way galaxy stars"
+   },
+   {
+    "emoji": "🔊",
+    "titulo": "Los agujeros negros suenan",
+    "texto": "Ondas convertidas en sonido, 57 octavas más graves.",
+    "voz": "Número 6: los agujeros negros suenan. Un telescopio de la NASA registró ondas de presión en el gas que rodea a un agujero negro del cúmulo de Perseo. Los científicos las convirtieron en sonido, pero el tono original está unas 57 octavas por debajo del do central, tan grave que ningún oído lo oye. Hubo que subirlo para poder escucharlo.",
+    "clip": "sound waves abstract"
+   },
+   {
+    "emoji": "☀️",
+    "titulo": "Cambia el Sol por uno",
+    "texto": "La Tierra seguiría girando igual.",
+    "voz": "Número 5: si el Sol se convirtiera en un agujero negro, la Tierra seguiría girando igual. Su gravedad no cambiaría, porque la masa sería la misma. Lo que sí cambiaría es su tamaño: el Sol se reduciría a una bola de unos seis kilómetros de ancho. Eso sí, nos quedaríamos a oscuras. Los agujeros negros no son aspiradoras.",
+    "clip": "sun solar flare"
+   },
+   {
+    "emoji": "🌊",
+    "titulo": "El choque que se oyó",
+    "texto": "Ondas gravitacionales: el espacio tembló.",
+    "voz": "Número 4: en 2015 se detectó el choque de dos agujeros negros. Ocurrió a unos 1.300 millones de años luz y llegó a la Tierra como ondas gravitacionales, pequeñas arrugas del espacio. El detector LIGO notó un temblor más de mil veces más pequeño que un protón. Fue la primera vez que captamos el universo sin usar luz.",
+    "clip": "ripple water waves abstract"
+   },
+   {
+    "emoji": "💡",
+    "titulo": "Brillan más que su galaxia",
+    "texto": "Cuásares: brillan como un billón de soles.",
+    "voz": "Número 3: los cuásares. Son agujeros negros enormes que devoran gas y lo calientan tanto que brillan más que toda su galaxia. El telescopio Euclid ha encontrado en 2026 los más antiguos que se conocen, y algunos brillan como un billón de soles. Su luz salió hace muchísimo tiempo, cuando el universo era todavía un bebé.",
+    "clip": "bright stars galaxy core"
+   },
+   {
+    "emoji": "⏳",
+    "titulo": "El tiempo se frena",
+    "texto": "Cerca de uno, el tiempo pasa más despacio.",
+    "voz": "Número 2: cerca de un agujero negro, el tiempo pasa más despacio. Es cosa de la gravedad: cuanto más fuerte es, más lento corre un reloj. Ya pasa un poquito en la Tierra: los relojes de los satélites GPS se corrigen por ese efecto. Cerca de un agujero negro sería enorme: para ti pasarían minutos y fuera, años.",
+    "clip": "clock time lapse"
+   },
+   {
+    "emoji": "🔮",
+    "titulo": "La Tierra en una canica",
+    "texto": "Con radio de unos 9 mm, pesaría igual.",
+    "voz": "Número 1: la Tierra entera, apretada hasta caber en una canica. Para convertir nuestro planeta en un agujero negro habría que comprimirlo hasta un radio de unos nueve milímetros. Seguiría pesando lo mismo, pero sería diminuto. Eso es lo más increíble de un agujero negro: tanta materia en tan poco espacio.",
+    "clip": "earth from space planet"
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez cosas te ha sorprendido más? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "titulo": "¿10 cosas de los agujeros negros que parecen inventadas? ⚫",
+  "descripcion": "Diez cosas reales de los agujeros negros que parecen inventadas: la primera foto, el tiempo que se frena, cuásares que brillan como un billón de soles y una Tierra del tamaño de una canica. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\nCapítulos:\n0:00 Intro\n0:21 #10 La primera foto\n0:47 #9 No es un agujero\n1:09 #8 El vecino más cercano\n1:34 #7 El gigante de la galaxia\n2:00 #6 Los agujeros negros suenan\n2:25 #5 Cambia el Sol por uno\n2:49 #4 El choque que se oyó\n3:13 #3 Brillan más que su galaxia\n3:38 #2 El tiempo se frena\n4:01 #1 La Tierra en una canica\n4:23 Final\n\n#agujerosnegros #espacio #datoscuriosos #Euclid",
+  "tags": [
+   "agujeros negros",
+   "curiosidades del espacio",
+   "telescopio Euclid",
+   "cuásares",
+   "universo",
+   "top 10",
+   "datos curiosos",
+   "sabías que"
+  ],
+  "primer_comentario": "¿Cuál de las 10 cosas te ha sorprendido más? Comenta su número 👇"
+ }
+}

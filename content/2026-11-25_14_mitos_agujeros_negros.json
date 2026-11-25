@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de los agujeros negros",
+ "formato": "vof",
+ "episodio": 24,
+ "hook_emoji": "⚫",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Agujeros negros y universo lejano (tendencia: cuásares de Euclid en la prensa del 24/11)",
+ "primer_comentario": "¿Cuántas acertaste? 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #24 ¿Qué es un agujero negro? ⚫",
+ "clips": [
+  "black hole space",
+  "dark space stars",
+  "galaxy spiral",
+  "bright light dark",
+  "universe nebula"
+ ],
+ "es": {
+  "hook": [
+   "¿SABES QUÉ ES UN AGUJERO NEGRO?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🕳️",
+    "Un agujero negro es un agujero en el espacio",
+    false,
+    "Es un objeto muy denso, de gravedad enorme"
+   ],
+   [
+    "🌀",
+    "Un agujero negro aspira todo lo que tiene cerca",
+    false,
+    "De lejos atrae como cualquier astro"
+   ],
+   [
+    "🔦",
+    "Ni la luz puede escapar de un agujero negro",
+    true,
+    "Dentro del horizonte, nada sale"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos de agujeros negros?",
+   [
+    "Es un agujero en el espacio.",
+    "¡Falso! Es muy denso."
+   ],
+   [
+    "Aspira todo lo cercano.",
+    "¡Falso! Atrae, no aspira."
+   ],
+   [
+    "Ni la luz escapa.",
+    "¡Verdadero! Dentro, nada sale."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #24 Mitos de los agujeros negros ⚫",
+  "descripcion": "¿Verdadero o falso? Mitos de los agujeros negros: ¿son un agujero, lo aspiran todo, atrapan la luz? ⚫\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #agujerosnegros #espacio",
+  "tags": [
+   "agujeros negros",
+   "mitos del espacio",
+   "verdadero o falso",
+   "curiosidades del universo",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}
