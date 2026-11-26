@@ -1,0 +1,66 @@
+{
+ "tema": "Animales increíbles: el zorro ártico",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 22,
+ "hook_emoji": "🦊",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "misterio",
+ "tendencia": "Animal relacionado con la tendencia: Nieve y frío (temporal de nieve y frío de esta semana en España)",
+ "primer_comentario": "Comenta 🦊 si sabías que cambia de color",
+ "prueba_titulo": "Animales increíbles #22: ¿cómo abriga el zorro ártico? 🦊",
+ "clips": [
+  "arctic fox snow",
+  "white fox winter",
+  "fox walking snow",
+  "fox sleeping snow",
+  "snowy tundra landscape"
+ ],
+ "es": {
+  "hook": [
+   "¿UN ZORRO QUE CAMBIA DE COLOR?",
+   "vive en la nieve"
+  ],
+  "facts": [
+   [
+    "🦊",
+    "En invierno es blanco",
+    "Y EN VERANO PARDO",
+    "la mayoría cambia de pelaje"
+   ],
+   [
+    "🐾",
+    "Tiene pelo hasta",
+    "BAJO LAS PATAS",
+    "son sus botas de nieve"
+   ],
+   [
+    "🧣",
+    "Para dormir se tapa",
+    "CON SU COLA",
+    "como si fuera una manta"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Zorro de dos colores?",
+   "En invierno suele ser blanco; en verano, pardo.",
+   "Tiene pelo hasta bajo las patas: botas naturales.",
+   "Y duerme tapado con su cola, como manta.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #22: ¿un zorro que cambia de color? 🦊",
+  "descripcion": "Zorro ártico: cambia de color, lleva botas de pelo y usa su cola como manta en la nieve. 🦊\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #ZorroÁrtico #nieve",
+  "tags": [
+   "zorro ártico",
+   "animales increíbles",
+   "curiosidades de animales",
+   "animales de la nieve",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

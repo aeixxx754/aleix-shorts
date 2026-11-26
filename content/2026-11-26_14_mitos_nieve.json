@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos de la nieve",
+ "formato": "vof",
+ "episodio": 25,
+ "hook_emoji": "❄️",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "reto",
+ "tendencia": "Nieve y frío (temporal de nieve y frío de esta semana en España)",
+ "primer_comentario": "¿Cuántas acertaste: 0, 1, 2 o 3? ❄️",
+ "prueba_titulo": "¿Nieva en el Sáhara? Verdadero o falso #25 ❄️",
+ "clips": [
+  "snowflakes falling",
+  "sahara sand dunes",
+  "snowy mountain glacier",
+  "snow crystals macro",
+  "snow forest winter"
+ ],
+ "es": {
+  "hook": [
+   "¿SABES LA VERDAD DE LA NIEVE?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "🏜️",
+    "En el desierto del Sáhara nunca nieva",
+    false,
+    "Se han visto dunas nevadas en Argelia"
+   ],
+   [
+    "🌸",
+    "Existe la nieve de color rosa",
+    true,
+    "La tiñe un alga diminuta que vive en ella"
+   ],
+   [
+    "❄️",
+    "La nieve son gotas de lluvia congeladas",
+    false,
+    "Son cristales de hielo formados en nubes"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Sabes de nieve?",
+   [
+    "En el Sáhara nunca nieva.",
+    "¡Falso! Sí nieva."
+   ],
+   [
+    "Existe la nieve rosa.",
+    "¡Verdadero! Por algas."
+   ],
+   [
+    "La nieve es lluvia congelada.",
+    "¡Falso! Son cristales."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #25 Mitos de la nieve ❄️",
+  "descripcion": "Mitos de la nieve: ¿nieva en el Sáhara?, ¿hay nieve rosa?, ¿es lluvia congelada? ❄️\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #nieve #invierno",
+  "tags": [
+   "mitos de la nieve",
+   "verdadero o falso",
+   "nieve",
+   "curiosidades del invierno",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}
