@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-26
+- Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el **22/11** (retraso de 4 días; mismas cifras: vof #21 frío 956, reno 858, mono aullador 569, cacao 391; planetas y Luna en 0-11). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
+- Se mantiene lo aprendido: **frío/invierno, naturaleza y animales** > espacio; títulos en pregunta; la vof funciona con temas cotidianos.
+- Qué se cambia hoy: el plan (nieve y frío + Día del Olivo) encaja con lo que mejor rinde (frío de temporada) y se mantiene. Cambios: (1) título del animal en pregunta sobre el gancho («¿un zorro que cambia de color?») en vez de «¿cómo abriga…?» (va en `prueba_titulo`); (2) aceitunas con título en pregunta («¿Verdes y negras son la misma aceituna? Día del Olivo») en vez de «Día del Olivo: 3 secretos…», porque el Short de fecha con título de fecha (Día de la Música, 22/11) sacó 2. Idea nueva: la vof vuelve a un tema cotidiano de temporada (nieve) con el título clásico, para confirmar que el 0 de las #19-#20 era por el tema y no por el título.
+- Verificación: zorro ártico (National Geographic Kids, Discover Wildlife, Cool Antarctica: pelaje blanco en invierno y más oscuro en verano, único cánido con pelo en las almohadillas, cola como manta al dormir). Nieve en el Sáhara: NASA Earth Observatory (Aïn Séfra, dic. 2016 y ene. 2018); nieve rosa: NSIDC (alga Chlamydomonas nivalis); copos = cristales de hielo (NOAA NSSL). Crujido: NSIDC citado por WTTW («cuanto más fría, más fuerte cruje»), absorción del sonido y albedo 80-90 % (NSIDC). Aceitunas: misma fruta según maduración (MAPA, National Geographic), amargor por oleuropeína, 4-5 kg por litro (Coosur, Agrosevilla).
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (elecciones del 29N, Black Friday con marcas, lotería: descartados) → se mantiene el plan. Tendencia por vídeo: 11 h zorro ártico #22 (relacionado: nieve), 14 h vof #25 mitos de la nieve (tendencia), 17 h por qué cruje la nieve (tendencia), 20 h aceitunas (segunda tendencia: Día Mundial del Olivo). Sin vídeo largo (día impar).
+- Créditos ElevenLabs: 77 % (101.069 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 4 de 4, todos con voz y primer comentario.
+
 ## 2026-11-25
 - Métricas: llegan datos del **21-22/11**. El día del **frío** (22/11, tendencia cotidiana) es el mejor desde el 14/11: vof #21 mitos del frío **956** y reno #18 **858** (10 likes cada uno); la vof vuelve a tener distribución tras dos días en 0-1. El día de los **planetas** (21/11) vuelve a hundirse: gallo 11, vof #20 1, vídeo largo 0; solo aguantan el anzuelo (177) y el práctico (137). Piano 2 (rareza), viento 115.
 - **Conclusión**: quinta confirmación: espacio/cielo en datos sueltos o mitos rinde poquísimo; naturaleza, animales y lo cotidiano de temporada (frío) muchísimo más. La vof no está «rota»: con un tema cotidiano vuelve a ser de lo mejor del canal. Los vídeos largos siguen en 0.
