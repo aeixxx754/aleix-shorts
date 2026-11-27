@@ -1,0 +1,63 @@
+{
+ "tema": "La escarcha",
+ "formato": "datos",
+ "hook_emoji": "❄️",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "misterio",
+ "tendencia": "Segunda tendencia: heladas previstas en España el 27/11",
+ "primer_comentario": "¿Cuál no sabías: la 1, la 2 o la 3? ❄️",
+ "clips": [
+  "frost leaves macro",
+  "ice crystals macro",
+  "clear night sky winter",
+  "frozen grass morning",
+  "frosty field sunrise"
+ ],
+ "es": {
+  "hook": [
+   "¿LA ESCARCHA ES ROCÍO HELADO?",
+   "pues no exactamente"
+  ],
+  "facts": [
+   [
+    "❄️",
+    "No es rocío helado:",
+    "VAPOR A HIELO",
+    "sin pasar por agua líquida"
+   ],
+   [
+    "🌌",
+    "Sale en noches",
+    "DESPEJADAS",
+    "y sin viento: el suelo se enfría"
+   ],
+   [
+    "🌡️",
+    "Puede salir con",
+    "MÁS DE 0 °C",
+    "si el suelo está más frío que el aire"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta 1, 2 o 3"
+  ],
+  "voz": [
+   "¿La escarcha es rocío?",
+   "¡No! El vapor pasa directo a hielo.",
+   "Le gustan las noches despejadas y sin viento.",
+   "Puede salir con algo más de 0 grados.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Cómo se forma la escarcha? 3 datos del frío ❄️",
+  "descripcion": "La escarcha no es rocío helado: así se forma en las noches frías. ❄️\nSuscríbete para datos nuevos cada día\n\n#Shorts #escarcha #frío #ciencia",
+  "tags": [
+   "escarcha",
+   "cómo se forma la escarcha",
+   "heladas",
+   "curiosidades del frío",
+   "datos curiosos",
+   "sabías que"
+  ]
+ }
+}

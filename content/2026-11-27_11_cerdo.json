@@ -1,0 +1,65 @@
+{
+ "tema": "Animales increíbles: el cerdo",
+ "formato": "datos",
+ "serie": "Animales increíbles",
+ "episodio": 23,
+ "hook_emoji": "🐷",
+ "cat": "PETS_ANIMALS",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Animal relacionado con la tendencia: Viernes Negro contado como curiosidades del dinero (27/11/2026) (la hucha de cerdito)",
+ "primer_comentario": "Comenta 🐷 si creías que los cerdos sudaban",
+ "clips": [
+  "pig close up",
+  "pig mud",
+  "piglets farm",
+  "pig snout sniffing",
+  "pig field grass"
+ ],
+ "es": {
+  "hook": [
+   "¿SUDAS COMO UN CERDO?",
+   "pues ellos casi no sudan"
+  ],
+  "facts": [
+   [
+    "🐷",
+    "Los cerdos casi",
+    "NO SUDAN",
+    "se refrescan con barro y agua"
+   ],
+   [
+    "🍼",
+    "La mamá gruñe",
+    "PARA DAR DE MAMAR",
+    "así avisa a sus crías"
+   ],
+   [
+    "🍄",
+    "Su olfato encuentra",
+    "TRUFAS",
+    "escondidas bajo tierra"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Sudas como un cerdo?",
+   "¡Casi no sudan! Se refrescan con barro.",
+   "La mamá gruñe para llamar a mamar.",
+   "Y su olfato encuentra trufas bajo tierra.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "Animales increíbles #23: ¿de verdad suda el cerdo? 🐷",
+  "descripcion": "El cerdo casi no suda, llama a sus crías con gruñidos y tiene un olfato increíble. 🐷\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #animales #cerdos #granja",
+  "tags": [
+   "cerdos",
+   "curiosidades del cerdo",
+   "animales increíbles",
+   "animales de granja",
+   "curiosidades de animales",
+   "sabías que"
+  ]
+ }
+}

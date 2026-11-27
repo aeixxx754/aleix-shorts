@@ -1,0 +1,74 @@
+{
+ "tema": "Mitos del dinero",
+ "formato": "vof",
+ "episodio": 26,
+ "hook_emoji": "💶",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Viernes Negro contado como curiosidades del dinero (27/11/2026)",
+ "primer_comentario": "¿Cuántas acertaste? Comenta 0, 1, 2 o 3 👇",
+ "prueba_titulo": "¿Verdadero o falso? #26 ¿Sabes de qué es un billete? 💶",
+ "clips": [
+  "banknotes close up",
+  "cotton plant field",
+  "colorful banknotes macro",
+  "shopping bags store",
+  "coins falling"
+ ],
+ "es": {
+  "hook": [
+   "3 MITOS DEL DINERO: ¿CAERÁS?",
+   "¿cuántos aciertas?"
+  ],
+  "facts": [
+   [
+    "💶",
+    "Los billetes de euro se hacen con madera de árbol",
+    false,
+    "Su papel es de fibra de algodón"
+   ],
+   [
+    "💵",
+    "Existen billetes hechos de plástico",
+    true,
+    "Australia estrenó el primero en 1988"
+   ],
+   [
+    "🛍️",
+    "El Viernes Negro se llamó así por las ganancias",
+    false,
+    "La policía de Filadelfia lo usó por el caos"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Mitos del dinero?",
+   [
+    "Los euros salen de árboles.",
+    "¡Falso! Son de algodón."
+   ],
+   [
+    "Hay billetes de plástico.",
+    "¡Verdadero! Hay muchos."
+   ],
+   [
+    "Viernes Negro viene de ganancias.",
+    "¡Falso! Por el caos."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #26 Mitos del dinero 💶",
+  "descripcion": "Mitos del dinero y las compras: de qué se hacen los billetes y por qué se dice Viernes Negro.\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #dinero #ViernesNegro",
+  "tags": [
+   "mitos del dinero",
+   "billetes",
+   "viernes negro",
+   "verdadero o falso",
+   "curiosidades del dinero",
+   "sabías que"
+  ]
+ }
+}

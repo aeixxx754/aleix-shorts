@@ -1,0 +1,152 @@
+{
+ "tipo": "largo",
+ "tema": "10 cosas del dinero que parecen inventadas",
+ "hook_emoji": "💰",
+ "cat": "EDUCATION",
+ "tendencia": "Viernes Negro contado como curiosidades del dinero (27/11/2026)",
+ "es": {
+  "miniatura": {
+   "colores": [
+    "#00BFA5",
+    "#FF6D00"
+   ],
+   "composicion": "emoji-izquierda",
+   "emoji": "💰",
+   "etiqueta": "TOP 10",
+   "texto": "¿MONEDA DE 1 TONELADA?"
+  },
+  "miniatura_alternativas": [
+   {
+    "colores": [
+     "#7B1FA2",
+     "#FF4081"
+    ],
+    "composicion": "emoji-derecha",
+    "emoji": "❓",
+    "etiqueta": "¿REAL?",
+    "texto": "¿ESTO ERA DINERO?"
+   },
+   {
+    "colores": [
+     "#00C853",
+     "#2962FF"
+    ],
+    "composicion": "emoji-centro",
+    "emoji": "💵",
+    "etiqueta": "¿LO SABÍAS?",
+    "texto": "¿100 TRILLONES?"
+   }
+  ],
+  "intro": {
+   "clip": "coins banknotes close up",
+   "emoji": "💰",
+   "texto": [
+    "10 COSAS DEL DINERO",
+    "que parecen inventadas"
+   ],
+   "voz": "¿Te imaginas una moneda que pese más de una tonelada? En este vídeo vas a descubrir diez cosas del dinero que parecen inventadas, pero son reales: monedas gigantes, billetes con cifras imposibles y un cajero sin tarjeta. Quédate hasta el final, porque el número uno es el más sorprendente."
+  },
+  "items": [
+   {
+    "clip": "barcode scanner supermarket",
+    "emoji": "🍬",
+    "numero": 10,
+    "texto": "En 1974, el primer código leído en una caja fue de unos chicles.",
+    "titulo": "Chicles con código",
+    "voz": "Número 10: en 1974, en un supermercado de Estados Unidos, se cobró por primera vez un producto leyendo su código de barras. Y no fue pan, ni leche, ni fruta: fue un paquete de chicles. Hoy esas rayas blancas y negras están en casi todo lo que compramos, y permiten saber el precio en un instante, sin teclear nada."
+   },
+   {
+    "clip": "shopping cart aisle",
+    "emoji": "🛒",
+    "numero": 9,
+    "texto": "En 1937 nadie lo quería: pagaron a gente para pasearlo.",
+    "titulo": "El carrito rechazado",
+    "voz": "Número 9: el carrito de la compra no gustó nada al principio. Se estrenó en 1937 en una tienda de Oklahoma, en Estados Unidos, y los clientes preferían seguir cargando sus cestas. ¿Qué hizo su inventor? Contrató a personas para que pasearan por la tienda empujando carritos. Poco a poco, los demás las imitaron. Hoy cuesta imaginar un supermercado sin ellos."
+   },
+   {
+    "clip": "atm machine keypad",
+    "emoji": "🏧",
+    "numero": 8,
+    "texto": "En 1967 funcionaba sin tarjeta: usaba un vale de papel.",
+    "titulo": "El primer cajero",
+    "voz": "Número 8: el primer cajero automático empezó a funcionar en 1967, en las afueras de Londres, y no usaba tarjetas de plástico. Había que meter un vale de papel especial que se pedía antes en el banco. Después se marcaba un código secreto y la máquina entregaba un billete de 10 libras. Era como una máquina expendedora, pero de dinero."
+   },
+   {
+    "clip": "ancient coins museum",
+    "emoji": "🦁",
+    "numero": 7,
+    "texto": "En Lidia, hace unos 2.600 años, ya se acuñaban monedas.",
+    "titulo": "Las primeras monedas",
+    "voz": "Número 7: según muchos historiadores, algunas de las primeras monedas oficiales nacieron en Lidia, en la actual Turquía, hacia el año 600 antes de Cristo. Estaban hechas de electro, una mezcla de oro y plata, y muchas llevaban grabada la cabeza de un león. Ese sello garantizaba su valor. Hace unos 2.600 años, y la idea sigue en tu bolsillo."
+   },
+   {
+    "clip": "chinese calligraphy paper",
+    "emoji": "📜",
+    "numero": 6,
+    "texto": "Hacia 1023, China ya tenía billetes oficiales de papel.",
+    "titulo": "Papel moneda en China",
+    "voz": "Número 6: mucho antes de que existieran en Europa, China ya usaba dinero de papel. Hacia el año 1023, durante la dinastía Song, el gobierno empezó a emitir sus propios billetes. Tenía sentido: cargar montones de monedas de metal era pesadísimo. En Europa, los primeros billetes de banco llegaron en Suecia en 1661, más de 600 años después."
+   },
+   {
+    "clip": "silver coins old",
+    "emoji": "✂️",
+    "numero": 5,
+    "texto": "El real de a ocho español se usó en EE. UU. hasta 1857.",
+    "titulo": "Monedas en porciones",
+    "voz": "Número 5: una moneda española fue dinero oficial en Estados Unidos hasta 1857. Era el real de a ocho, una moneda de plata que viajaba por medio mundo. Y cuando hacía falta cambio, la gente podía cortarla en trozos, como si fuera una pizza: cada porción valía una parte del total. Fue una de las monedas más famosas de la historia."
+   },
+   {
+    "clip": "copper metal texture",
+    "emoji": "🧱",
+    "numero": 4,
+    "texto": "Suecia hizo en 1644 una moneda de cobre de 19,7 kilos.",
+    "titulo": "Moneda de casi 20 kilos",
+    "voz": "Número 4: en 1644, Suecia fabricó una de las monedas más raras que existen: una gran placa de cobre de 19,7 kilos. Pesaba casi como un niño de cinco años. Era tan grande porque su valor dependía del metal que llevaba, y el cobre valía menos que la plata. Pagar con ellas era un ejercicio: ¡imagina llevar varias a la compra!"
+   },
+   {
+    "clip": "gold coin close up",
+    "emoji": "🥇",
+    "numero": 3,
+    "texto": "Es de oro, pesa 1.012 kilos y mide unos 80 cm de ancho.",
+    "titulo": "Moneda de una tonelada",
+    "voz": "Número 3: existe una moneda que pesa 1.012 kilos, más de una tonelada. Se fabricó en Australia en 2011, es de oro y mide unos 80 centímetros de ancho. Su valor oficial es de un millón de dólares australianos, aunque el oro que contiene vale muchísimo más. Olvídate de guardarla en una hucha: pesa como un coche pequeño."
+   },
+   {
+    "clip": "old banknotes pile",
+    "emoji": "💵",
+    "numero": 2,
+    "texto": "Hungría, 1946: el billete de mayor valor que ha circulado.",
+    "titulo": "100 trillones en un billete",
+    "voz": "Número 2: en 1946, Hungría puso en circulación un billete de 100 trillones de pengő. Es un 1 seguido de 20 ceros, el billete de mayor valor que se ha usado jamás. Pero no hacía rico a nadie: los precios subían tan deprisa que se duplicaban en cuestión de horas. Poco después, el país estrenó una moneda nueva."
+   },
+   {
+    "clip": "pacific island beach",
+    "emoji": "🪨",
+    "numero": 1,
+    "texto": "En Yap, las piedras cambian de dueño sin moverse del sitio.",
+    "titulo": "Dinero de piedra gigante",
+    "voz": "Número 1: en la isla de Yap, en el océano Pacífico, hay dinero hecho de piedra. Son discos enormes, de hasta 3,6 metros y unas 4 toneladas, traídos en barca desde otras islas. Como moverlos es dificilísimo, cambian de dueño sin moverse: basta con que todos lo sepan. Se cuenta que una piedra hundida en el mar seguía valiendo."
+   }
+  ],
+  "outro": {
+   "texto": [
+    "¿Cuál te ha sorprendido más?",
+    "Comenta su número"
+   ],
+   "voz": "¿Cuál de estas diez cosas te ha sorprendido más? Escribe su número en los comentarios y suscríbete para más datos curiosos."
+  },
+  "tags": [
+   "curiosidades del dinero",
+   "historia del dinero",
+   "monedas raras",
+   "billetes",
+   "viernes negro",
+   "top 10",
+   "datos curiosos",
+   "sabías que"
+  ],
+  "primer_comentario": "¿Cuál de las 10 cosas te ha sorprendido más? Comenta su número 👇",
+  "descripcion": "Curiosidades del dinero que parecen inventadas: un billete de 100 trillones, una moneda de más de una tonelada, el primer cajero automático y un número uno que no te esperas. ¿Con cuál te quedas?\nSuscríbete para más datos curiosos\n\nCapítulos:\n0:00 Intro\n0:20 #10 Chicles con código\n0:44 #9 El carrito rechazado\n1:11 #8 El primer cajero\n1:36 #7 Las primeras monedas\n2:02 #6 Papel moneda en China\n2:28 #5 Monedas en porciones\n2:52 #4 Moneda de casi 20 kilos\n3:18 #3 Moneda de una tonelada\n3:42 #2 100 trillones en un billete\n4:05 #1 Dinero de piedra gigante\n4:31 Final\n\n#dinero #monedas #datoscuriosos #ViernesNegro",
+  "titulo": "¿10 cosas del dinero que parecen inventadas? 💰"
+ }
+}
