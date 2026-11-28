@@ -3,6 +3,16 @@
 Cada mañana se añade arriba una entrada: qué ha funcionado, qué no y qué se cambia ese día.
 
 
+## 2026-11-28
+- Métricas: **sin datos nuevos**: Metricool sigue trayendo solo hasta el **24/11** (mismas cifras que ayer: pavo 917, superluna 848, iguana marina 736, anzuelo de aves 601; vof #22-#23 en 4-7; vídeo largo de aves 9). Menos de 10 Shorts nuevos → sin conclusiones nuevas.
+- Se mantiene lo aprendido: lo cotidiano y práctico manda; la vof solo rinde con temas cotidianos; títulos en pregunta en los «3 datos»; anzuelos sí, vídeos largos no.
+- Qué se cambia hoy: el plan (final de fútbol + luces de Navidad) es cotidiano y se mantiene. La vof #27 va con un tema muy cotidiano (reglas del fútbol) y el título clásico (la variante en pregunta en `prueba_titulo`). Ajustes: final del armadillo «¿Lo conocías? / Comenta SÍ o NO» (como pedía el `outro2`), y frase 4 de la voz de las luces acortada («Primer árbol eléctrico: 1882, 80 bombillas.») porque no cabía. Idea nueva: primer nicho de **deporte** (reglas y césped, sin equipos ni marcas) y primer Short de **Navidad** de la temporada.
+- Verificación: la del plan (revisión de Irene, nota 9): armadillo (Smithsonian National Zoo, Zoo de Beauval, Louisville Zoo), Reglas 11, 12 y 15 (The FA / IFAB: regla de los 8 segundos con córner), Regla 1 (90-120 m), franjas del césped (Universidad de Minnesota), guirnaldas en serie y LED ~70 % menos (Departamento de Energía de EE. UU.), árbol de 1882 con 80 bombillas (Biblioteca del Congreso, Smithsonian).
+- Clips de Pexels: **NO** (sigue faltando el secreto de red de api.pexels.com) → fondo de color.
+- Tendencias: por la mañana nada apto más fuerte (elecciones del 29N, Black Friday con marcas: descartados; búsquedas sin titulares de hoy) → se mantiene el plan. Tendencia por vídeo: 11 h armadillo #24 (relacionado: fútbol, el animal-balón), 14 h vof #27 reglas del fútbol (tendencia), 17 h césped del campo (tendencia), 20 h luces de Navidad (segunda tendencia). Sin vídeo largo (día impar).
+- Créditos ElevenLabs: 75 % (98.843 de 131.000) antes de renderizar; se renuevan el 2026-12-02.
+- Programados 4 de 4, todos con voz y primer comentario.
+
 ## 2026-11-27
 - Métricas: llegan datos del **23-24/11**. Lo práctico y cotidiano manda: «¿Por qué el pavo cambia de color?» **917**, «¿Cuándo ver la superluna hoy?» **848** (título práctico), iguana marina #20 **736**, anzuelo de las aves **601** (el mejor anzuelo hasta ahora). Abajo: evolución 151, pájaro carpintero 67, y otra vez las **vof** (#22 aves 4, #23 evolución con título en pregunta 7) y el vídeo largo de aves (9). Duración media vista 2-7 s de 15,2 s (13-46 %).
 - **Conclusión**: (1) la vof solo funciona con temas cotidianos (frío 1.036); con temas «de libro» (aves, evolución, planetas, Amazonía) se queda en 0-7, **con cualquier título**: el título en pregunta (#23) no la salvó → el problema es el tema, no el título. (2) Títulos prácticos o de pregunta concreta en los «3 datos» siguen siendo lo mejor. (3) Los anzuelos «Top 10» rinden (193-601); los vídeos largos, no (0-9).
