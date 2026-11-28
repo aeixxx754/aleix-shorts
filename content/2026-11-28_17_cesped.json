@@ -1,0 +1,63 @@
+{
+ "tema": "El césped del campo de fútbol",
+ "formato": "datos",
+ "hook_emoji": "⚽",
+ "cat": "SCIENCE_TECHNOLOGY",
+ "estilo_gancho": "pregunta-tu",
+ "tendencia": "Final de fútbol continental del 28/11/2026 contada como reglas y césped",
+ "primer_comentario": "¿Te habías fijado en las rayas? Comenta SÍ o NO ⚽",
+ "clips": [
+  "soccer field aerial empty",
+  "soccer grass stripes",
+  "grass blades macro",
+  "mowing lawn stripes",
+  "stadium grass close up"
+ ],
+ "es": {
+  "hook": [
+   "¿HAS VISTO RAYAS EN EL CÉSPED?",
+   "no son dos tipos de hierba"
+  ],
+  "facts": [
+   [
+    "🌱",
+    "No es otro césped:",
+    "HIERBA TUMBADA",
+    "en sentidos distintos"
+   ],
+   [
+    "👀",
+    "Si se aleja de ti,",
+    "SE VE MÁS CLARA",
+    "y si viene hacia ti, más oscura"
+   ],
+   [
+    "📏",
+    "Los campos miden",
+    "DE 90 A 120 M",
+    "de largo: no todos son iguales"
+   ]
+  ],
+  "outro": [
+   "¿Cuál no sabías?",
+   "Comenta SÍ si lo sabías"
+  ],
+  "voz": [
+   "¿Rayas en el césped?",
+   "No es otro césped: la hierba se tumba distinto.",
+   "Si se inclina alejándose de ti, se ve más clara.",
+   "El campo varía: de 90 a 120 metros de largo.",
+   "¿Cuál no sabías?"
+  ],
+  "titulo": "¿Por qué el campo de fútbol tiene franjas? ⚽",
+  "descripcion": "Césped de fútbol: por qué se ven franjas claras y oscuras y cuánto mide un campo. ⚽\nSuscríbete para datos nuevos cada día\n\n#Shorts #fútbol #césped #DatosCuriosos",
+  "tags": [
+   "rayas del césped",
+   "césped de fútbol",
+   "campo de fútbol",
+   "curiosidades del fútbol",
+   "sabías que",
+   "datos curiosos"
+  ]
+ }
+}

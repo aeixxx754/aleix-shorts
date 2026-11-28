@@ -1,0 +1,74 @@
+{
+ "tema": "Reglas del fútbol",
+ "formato": "vof",
+ "episodio": 27,
+ "hook_emoji": "⚽",
+ "cat": "EDUCATION",
+ "estilo_gancho": "reto",
+ "tendencia": "Final de fútbol continental del 28/11/2026 contada como reglas y césped",
+ "primer_comentario": "¿Cuántas acertaste: 0, 1, 2 o 3? ⚽",
+ "prueba_titulo": "¿Gol de saque de banda? Verdadero o falso #27 ⚽",
+ "clips": [
+  "soccer ball grass",
+  "soccer field sideline",
+  "soccer pitch lines",
+  "soccer goal net",
+  "empty soccer stadium"
+ ],
+ "es": {
+  "hook": [
+   "¿TE SABES ESTAS 3 REGLAS?",
+   "¿cuántas aciertas?"
+  ],
+  "facts": [
+   [
+    "⚽",
+    "De saque de banda se puede marcar gol directo",
+    false,
+    "Si entra directo en la portería, no es gol"
+   ],
+   [
+    "🚩",
+    "En un saque de banda no hay fuera de juego",
+    true,
+    "Si te llega directo del saque, no se pita"
+   ],
+   [
+    "🧤",
+    "El portero puede retener el balón cuanto quiera",
+    false,
+    "Con las manos, más de 8 segundos es córner"
+   ]
+  ],
+  "outro": [
+   "¿Cuántas acertaste?",
+   "Comenta cuántas"
+  ],
+  "voz": [
+   "¿Sabes estas reglas?",
+   [
+    "Vale gol de saque de banda.",
+    "¡Falso! No vale."
+   ],
+   [
+    "De banda: sin fuera de juego.",
+    "¡Verdadero! No se pita."
+   ],
+   [
+    "El portero la retiene sin límite.",
+    "¡Falso! 8 segundos."
+   ],
+   "¿Cuántas acertaste?"
+  ],
+  "titulo": "¿Verdadero o falso? #27 Reglas del fútbol ⚽",
+  "descripcion": "Reglas del fútbol antes de la final de hoy: saque de banda, fuera de juego y el portero. ¿Aciertas las 3? ⚽\nSuscríbete para no perderte el próximo episodio\n\n#Shorts #VerdaderoOFalso #fútbol #ReglasDelFútbol",
+  "tags": [
+   "reglas del fútbol",
+   "saque de banda",
+   "fuera de juego",
+   "verdadero o falso",
+   "curiosidades del fútbol",
+   "sabías que"
+  ]
+ }
+}
